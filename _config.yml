@@ -45,7 +45,7 @@ footer_icons:
 header_pages:
   - process.md
   - project.md
-  - team.md
+  - partners.md
   - get-involved.md
 
 exclude:

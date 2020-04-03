@@ -5,7 +5,7 @@ permalink: /process/
 ---
 
 The [CODECHECK principles](/) can be implemented in different ways.
-On this page [we]({{ '/team' | absolute_url }}) describe a few _abstract alternatives_ developed during conversations with our [partners](/team#partners) to elaborate on the options and opportunities the principles provide.
+On this page [we]({{ '/partners#team' | absolute_url }}) describe a few _abstract alternatives_ developed during conversations with our [collaborators](/partners#collaborators) to elaborate on the options and opportunities the principles provide.
 
 **Take a look at the [CODECHECK community process guide]({{ '/guide/community-process' | absolute_url }}) for a _concrete implementation_ of a CODECHECK principles.**
 

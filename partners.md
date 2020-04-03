@@ -1,12 +1,17 @@
 ---
 layout: page
-title: Team and Partners
-permalink: /team/
+title: Partners
+permalink: /partners/
+redirect_from:
+  - /team/
+  - /team
 ---
 
-CODECHECK is a collaboration project lead by Stephen Eglen and Daniel Nüst together with [a community of codecheckers](/get-involved) and external partners in the scientific, publishing, and scholarly infrastructure communities.
+CODECHECK is a collaboration project lead by Stephen Eglen and Daniel Nüst together with [a community of codecheckers](/get-involved), collaborators in the scientific, publishing and scholarly infrastructure communities, and a [codecheckers team](https://github.com/orgs/codecheckers/teams/codecheckers).
 
-## Stephen Eglen (PI)
+## Team
+
+### Stephen Eglen (PI)
 
 Stephen Eglen is a reader in Computational Neuroscience at the [University of Cambridge](https://www.cam.ac.uk/).
 He has over 20 years experience as a researcher in Computational Neuroscience, and has worked on several projects encouraging more code and data sharing in Neuroscience.
@@ -15,7 +20,7 @@ Stephen is also a fellow of the Alan Turing Institute ([ATI](https://www.turing.
 
 Stephen will contribute his domain-specific expertise in computational neuroscience.
 
-## Daniel Nüst (Co-PI)
+### Daniel Nüst (Co-PI)
 
 Daniel Nüst is researcher and open source software developer at the Institute for Geoinformatics ([ifgi](https://www.uni-muenster.de/Geoinformatics/en/)), University of Münster.
 In the project _Opening Reproducible Research_ ([o2r](https://o2r.info)) he develops new specifications and tools to support scientists in working more reproducible using containers.
@@ -23,18 +28,29 @@ He is also engaged in the Open Source and Open Science communities and has held 
 
 Daniel will contribute his technical expertise in reproducible research infrastructure.
 
-## Partners
+### Codecheckers
+
+The [codecheckers team](https://github.com/orgs/codecheckers/teams/codecheckers) does the hard work of conducting CODECHECKs.
+_[Become a codechecker](/get-involved)!_
+
+## Collaborators
 
 - [Dr. Ben Marwick](https://faculty.washington.edu/bmarwick/) (University of Washington)
 - Dr. Misha Kapuchesy, CEO of [Genestack](https://genestack.com/) (Cambridge)
 - [eLife innovation](https://elifesciences.org/about/innovation) team, eLife Science Publications Ltd (Cambridge)
 - [Dr. Nicolas Rougier](https://www.labri.fr/perso/nrougier/) (INRIA, Bordeaux)
 - [Dr. Konrad Kording](http://koerding.com/) (UPenn)
-- Dr. Scott Edmunds, Executive Editor at [Gigascience](https://academic.oup.com/gigascience)
-- <img src="https://o2r.info/public/images/logo-transparent.png" title="o2r logo" height="10px" style="margin: 0; padding: 0; position: relative; top: -1px;" /> [Opening Reproducible Research](https://o2r.info)
+- Dr. Scott Edmunds, Executive Editor at [GigaScience](https://academic.oup.com/gigascience)
+- Project [Opening Reproducible Research](https://o2r.info) <img src="https://o2r.info/public/images/logo-transparent.png" title="o2r logo" height="10px" style="margin: 0; padding: 0; position: relative; top: -1px;" />
+
+## Journals
+
+The following journals have [completed](https://github.com/codecheckers/register) at least one CODECHECK.
+
+- [![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience)
 
 ## Funding
 
 The project is supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
 
-[![]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)
+[![Mozilla logo]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)
