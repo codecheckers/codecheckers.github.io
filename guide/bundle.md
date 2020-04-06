@@ -23,3 +23,11 @@ This may include a copy of the author's files, and any additional files that the
 - package `renv` (R)
 - Dockerfile and Docker image
 - ...
+
+## Codecheck report with R Markdown
+
+R Markdown has some nice features that are helpful for writing a report.
+
+- Literate programming and code chunks (hidden, visible) with nice looking and mostly hastle free PDF output (using [tinytex](https://yihui.name/tinytex/))
+- You can configure document metadata, e.g. the title or subtitle, anywhere in the document, so you can choose to configure them only in the `codecheck.yml`, see [this example](https://github.com/codecheckers/Piccolo-2020/blob/master/codecheck/piccolo2020-codecheck.Rmd)
+- The CODECHECK [assistant](https://github.com/codecheckers/assistant/) is an R package that streamlines report writing with R
