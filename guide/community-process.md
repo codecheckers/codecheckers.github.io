@@ -61,8 +61,7 @@ In any case, the overall goal is to _leave the workflow repository in the same o
 - **Add a CODECHECK report** as a PDF file named **`codecheck.pdf`** in the check directory.
   The report should cover at least _WHO_ checked _WHAT_, and _HOW_.
   Imagine the report as a reminder for future you to be able to re-check the workflow in two years time - what help would you need to do that?
-
-  You can check the exampe CODECHECKs below for some templates for reports.
+  You can check the [example CODECHECKs](#examples) for some templates for reports.
 - **Optional report sections** depending on interest, time, and skills:
   - Do the generated outputs match the ones in the original manuscript? Are the differences relevant or not?
   - Are there any parts of the workflow where the author could improve the code?
