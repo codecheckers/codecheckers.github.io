@@ -14,11 +14,11 @@ permalink: /faq/
 - Nudging works.
 - Better get a certificate for small parts of the workflow than not doing any codechecking - not everything needs to be checked.
 
-## Why use `make` in the CODECHEK community process?
+## Why use `make` in the CODECHECK community process?
 
 <!-- make on Windows? -->
 - It's old, works, and is available everywhere.
-- Use the caching mechanism.
+- Useful caching mechanism.
 
 ## How should I best package my code and data?
 

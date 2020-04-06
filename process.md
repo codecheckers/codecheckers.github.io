@@ -11,7 +11,7 @@ On this page [we]({{ '/partners#team' | absolute_url }}) describe a few _abstrac
 
 ## Implementing the CODECHECK process
 
-In our discussions with editors and publishers, we found that the _point in time_ during the review process when a CODECHECK happens, the person who takes the role of codechecker, and the openness of the codechek, can vary.
+In our discussions with editors and publishers, we found that the _point in time_ during the review process when a CODECHECK happens, the person who takes the role of codechecker, and the openness of the CODECHECK, can vary.
 For example, the CODECHECK may happen before peer review or after, the codechecker can be staff, a regular reviewer, or a member of a special reproducibility committee, the CODECHECK may be open or blind, either matching or differing from the scientific review, and the results may be published or confidential.
 Furthermore, different stakeholders make take on specific tasks, such as depositing the CODECHECK report, which can be done by a codechecker or by a publishers.
 
@@ -54,7 +54,7 @@ Furthermore, different stakeholders make take on specific tasks, such as deposit
 #### Regular reviewer
 
 The review process is conducted as usual, but the editor does not only match the domain expertise but also technical skills.
-The reviewer conducts the CODECHECK and submits the resulting certificate as part of their CODECHEK report.
+The reviewer conducts the CODECHECK and submits the resulting certificate as part of their review.
 This variant requires an open peer review and a broad pool of reviewers.
 
 #### Independent community pre-review

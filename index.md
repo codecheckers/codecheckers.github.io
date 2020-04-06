@@ -66,7 +66,7 @@ Check out our [FAQ page](/faq) for more information about the limitations of a C
 
 The principles can be implemented in different ways.
 See the [process page](/process) for details about the stakeholders and dimensions of variations in CODECHECKs within a scholarly peer review.
-The [CODECHEK community process](/guide/community-process) describes a concrete realisation, including practical requirements and steps.
+The [CODECHECK community process](/guide/community-process) describes a concrete realisation, including practical requirements and steps.
 
 **If you want to get involved as a codechecker in the community or want to apply the CODECHECK principles in your journal or conference, see the [Get Involved](/get-involved) page.**
 
@@ -74,7 +74,7 @@ The [CODECHEK community process](/guide/community-process) describes a concrete 
 
 # News
 
-Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Publishing 2019](http://site.uit.no/muninconf/).
+Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Publishing 2019](https://site.uit.no/muninconf/).
 You can take a look at the [poster](https://septentrio.uit.no/index.php/SCS/article/view/4910/4893) and the [slides](https://septentrio.uit.no/index.php/SCS/article/view/4910/4900), or watch the [video recording](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000).
 
 [![](/img/munin-2019.jpg)](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000)

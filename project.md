@@ -31,10 +31,10 @@ We will not guarantee that the code can be run forever, as this is simply infeas
 ## Goals
 
 We plan to integrate CODECHECK with the popular open notebook infrastructure behind https://mybinder.org, an instance of a [BinderHub](https://binderhub.readthedocs.io/en/latest/).
-Based on a hand-coded demonstrator for checking computations (http://sje30.github.io/codecheck) and an existing API for executing research compendia (https://o2r.info/api/), we will prototype a system that awards CODECHECK badges to specific executions of open notebooks on a Binder instance.
+Based on a hand-coded demonstrator for checking computations (https://sje30.github.io/codecheck) and an existing API for executing research compendia (https://o2r.info/api/), we will prototype a system that awards CODECHECK badges to specific executions of open notebooks on a Binder instance.
 Researchers can create a snapshot of a workflow executed as a Binder after comparing the results with the ones recorded in their scientific article.
 The snapshot comprises the used data, code (including configuration, parameters), and runtime environment.
-It will be saved to a public research data repository (i.e. [Zenodo](http://zenodo.org/)), allowing long-term access and scrutiny of open research by reviewers and readers.
+It will be saved to a public research data repository (i.e. [Zenodo](https://zenodo.org/)), allowing long-term access and scrutiny of open research by reviewers and readers.
 While the infrastructure behind BinderHub is generic, supporting many programming languages and domains, our examples will come from computational neuroscience. 
 This is simply to ensure we have the ability to understand the scientific approaches in papers and support common workflows from the domain.
 However, CODECHECK system should be widely applicable.
