@@ -15,7 +15,7 @@
    viewBox="0 0 86.145851 43.891624"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (unknown)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="codecheck_logo_with-font-text.svg">
   <defs
      id="defs2" />
@@ -27,14 +27,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4467452"
-     inkscape:cx="13.60973"
-     inkscape:cy="36.294368"
+     inkscape:cx="77.603754"
+     inkscape:cy="11.226779"
      inkscape:document-units="mm"
      inkscape:current-layer="g1460"
      showgrid="false"
      inkscape:window-width="1509"
      inkscape:window-height="872"
-     inkscape:window-x="2218"
+     inkscape:window-x="2045"
      inkscape:window-y="78"
      inkscape:window-maximized="0"
      showguides="true"
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -407,7 +407,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:MetaNormalLF-Roman;-inkscape-font-specification:'MetaNormalLF-Roman, Normal';text-align:justify;letter-spacing:-42.88007736px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.33382496px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="M 79.396873,34.826136 88.05642,12.507653 H 94.17821 L 81.583231,40.846999 H 77.023116 L 71.107519,26.485811 76.337716,24.321298 Z" />
         <flowRoot
-           transform="matrix(0.13272429,0,0,0.13272429,59.540558,-25.087978)"
+           transform="matrix(0.13272429,0,0,0.13272429,56.894205,-25.087978)"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.40054893px;line-height:125%;font-family:MetaNormalLF-Roman;-inkscape-font-specification:'MetaNormalLF-Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            id="flowRoot1395-4"
            xml:space="preserve"><flowRegion
@@ -420,7 +420,7 @@
                width="629.15875"
                id="rect1399-9" /></flowRegion><flowPara
              id="flowPara1443"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.84354019px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#e6e6e6">http://codecheck.org.uk/</flowPara></flowRoot>      </g>
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:47.84354019px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#e6e6e6">https://codecheck.org.uk/</flowPara></flowRoot>      </g>
     </g>
   </g>
   <g
