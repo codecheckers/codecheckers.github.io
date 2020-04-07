@@ -45,7 +45,7 @@ In any case, the overall goal is to _leave the workflow repository in the same o
 
 **CODECHECK steps:**
 
-- [Open an issue on the CODECHECK register](https://github.com/codecheckers/register/issues) to notify other codecheckers about the CODECHECK you're starting.
+- [Open an issue on the CODECHECK register](https://github.com/codecheckers/register/issues/new?assignees=nuest&labels=community%2C+needs+codechecker&template=new-community-codecheck.md&title=%5BAuthor+1%2C+Author+2%2C+...%5D) to notify other codecheckers about the CODECHECK you're starting.
 - Fork the author's repository to the codecheckers GitHub organisation, or create a new repository with the naming scheme `Lastname-YYYY` using the family name of the corresponding author. Please take care to follow the terms and conditions of the workspace licenses; stop your CODECHECK if the licensing is unclear and contact the author to fix the documentation.
 - Create a directory `codecheck` to not interfere with original files.
   This is the _check directory_.
