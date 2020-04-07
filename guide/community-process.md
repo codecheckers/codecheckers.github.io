@@ -107,7 +107,7 @@ Codechecker: [@sje30](https://github.com/sje30)
 
 Report: [http://doi.org/10.5281/zenodo.3674056](http://doi.org/10.5281/zenodo.3674056)
 
-Journal: GigaScience
+Journal: GigaScience, see also [related blog post](http://gigasciencejournal.com/blog/codecheck-certificate/) reporting on this first CODECHECK for the journal
 
 ### [Hopfield, 1982](https://github.com/codecheckers/Hopfield-1982)
 
