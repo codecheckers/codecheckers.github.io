@@ -71,25 +71,24 @@ In any case, the overall goal is to _leave the workflow repository in the same o
   - Is the data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
 - Add **mandatory codechecker-contributed information** to the **`codecheck.yml`** file, see [spec](/spec/config/latest)
 - **Deposit the CODECHECK report on _Zenodo_** using your own Zenodo account
-  - Files
+  - _Files_
     - `codecheck.pdf` (mandatory)
     - Optional: You can add any material to this record that you see fit, especially things that helped you with your reproduction, i.e., the [CODECHECK bundle](/guide/bundle)
-  - Communities: Search for "codecheck"
-  - Authors: Add all codecheckers as authors
-  - Title: `"CODECHECK Certificate YYYY-NNN"` (certificate number issued via the register ticket above)
-  - License: Use `Creative Commons Attribution 4.0 International` if you only upload the CODECHECK report, otherwise use `Other (Open)` or `Other (Attribution)` and document the licensing in the "Additional notes" field.
-  - Reserve a DOI
+  - _Communities_: Search for "codecheck" to add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck)
+  - _Authors_: Add all codecheckers as authors
+  - _Title_: `"CODECHECK Certificate YYYY-NNN"` (certificate number issued via the register ticket above)
+  - _License_: Use `Creative Commons Attribution 4.0 International` if you only upload the CODECHECK report, otherwise use `Other (Open)` or `Other (Attribution)` and document the licensing in the "Additional notes" field.
+  - _Reserve a DOI_
     - Add the DOI to the `codecheck.yml` file
     - Mention the DOI to the `codecheck.pdf` CODECHECK report, e.g. as a subtitle
-  - Use other fields as you see fit, i.e. Description, Version, Language, Keywords
-  - Add the original authors as contributors (see Zendo Metadata form section "Contributors (optional)")
-  - Optional: add extra metadata
+  - Use _other fields_ as you see fit (Description, Version, Language, Keywords)
+  - _Contributors_: Add the original authors as contributors (see Zendo Metadata form section "Contributors (optional)") with a suitable role (e.g., "Researcher")
+  - _Optionally_, add extra metadata
     - connect the Zenodo record to the GitHub repository with a "Relate/alternate identifier"
     - connect the Zenodo record to the article/preprint with a "Relate/alternate identifier"
-  - Add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck)
-- Add the CODECHECK to the register. If the check was conducted for the first time for a piece of software or resulted in important lessons learned, consider adding it to the list of examples below.
-- Add the [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) to the article or the original software repository. The badge should link directly to the Zenodo record <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" />
-- Update the register issue with all important information, then close it.
+- If the check was conducted for a piece of software for the first time or resulted in important lessons learned, consider adding it to the list of examples below.
+- If possible, add the [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to the article or the original software repository, e.g., by sending a pull request. The badge should link directly to the Zenodo record.
+- **Update the CODECHECK register** with all important information, then close the issue.
 
 Every CODECHECK is unique, just as the associated research article.
 The codechecker can thereby rely on the examples below and future published CODECHECKs for good practices and approaches for codechecking.
