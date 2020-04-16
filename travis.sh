@@ -2,7 +2,7 @@
 set -o errexit -o nounset
 set -e
 
-DEPLOY_REPO="https://${PAT}@github.com/codecheckers/website.git"
+DEPLOY_REPO="https://${PAT}@github.com/codecheckers/codecheckers.github.io.git"
 
 function main {
 	clean
