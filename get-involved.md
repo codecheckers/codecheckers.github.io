@@ -15,7 +15,7 @@ Please open an issue on the [codecheckers](https://github.com/codecheckers/codec
 
 You want to share the code underlying your research paper? **Congratulations** for the decision to practice Open Science and reproducible research!
 
-There are two ways for you to get involved: (i) submit a manuscript to a journal conducting CODECHECKs, or (ii) submit your workflow to the [community review process](guide/community-process).
+There are two ways for you to get involved: (i) submit a manuscript to a journal conducting CODECHECKs, or (ii) submit your workflow to the [community review process](/guide/community-process).
 
 ## As a journal, publisher, or conference
 
@@ -30,5 +30,5 @@ The badge should link directly to the CODECHECK report.
 
 The badge graphic and all documentation on this website are available under open licenses, see [this README](https://github.com/codecheckers/website/blob/master/README.md).
 
-The [CODECHECK team](/team) would be glad to help you set up a process, if you have any questions.
+The [CODECHECK team](/partners) would be glad to help you set up a process, if you have any questions.
 We would be happy to list your journal of conference on our website after we have gotten to know your implementation of a CODECHECK process and you have completed your first CODECHECK.
