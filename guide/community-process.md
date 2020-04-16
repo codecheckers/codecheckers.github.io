@@ -99,7 +99,7 @@ The codechecker can thereby rely on the examples below and future published CODE
 
 ## Examples
 
-See the [CODECHECK register on GitHub](https://github.com/codecheckers/register/) for a full list of codechecks.
+See the [CODECHECK register](codecheck.org.uk/register/) for a full list of codechecks.
 
 ### [Piccolo, 2020](https://github.com/codecheckers/Piccolo-2020)
 
