@@ -7,7 +7,7 @@ redirect_from:
   - /team
 ---
 
-CODECHECK is a collaboration project lead by Stephen Eglen and Daniel Nüst together with [a community of codecheckers](/get-involved), collaborators in the scientific, publishing and scholarly infrastructure communities, and a [codecheckers team](https://github.com/orgs/codecheckers/teams/codecheckers/members).
+CODECHECK is a collaboration project lead by Stephen Eglen and Daniel Nüst together with [a community of codecheckers](/get-involved), collaborators in the scientific, publishing and scholarly infrastructure communities, and a [codecheckers team](https://github.com/codecheckers/codecheckers/).
 
 ## Team
 
@@ -30,7 +30,7 @@ Daniel will contribute his technical expertise in reproducible research infrastr
 
 ### Codecheckers
 
-The [codecheckers team](https://github.com/orgs/codecheckers/teams/codecheckers/members) does the hard work of conducting CODECHECKs.
+The [codecheckers team](https://github.com/codecheckers/codecheckers) does the hard work of conducting CODECHECKs.
 _[Become a codechecker](/get-involved)!_
 
 ## Collaborators

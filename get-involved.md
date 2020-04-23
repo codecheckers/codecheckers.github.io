@@ -9,7 +9,7 @@ permalink: /get-involved/
 You are a scientist and want to help codechecking submissions?
 
 **Awesome!**
-Please open an issue on the [codecheckers](https://github.com/codecheckers/codecheckers) repository to be added to the [Codecheckers Team](https://github.com/orgs/codecheckers/teams/codecheckers) **[using this link](https://github.com/codecheckers/codecheckers/issues/new?assignees=nuest&labels=registration&template=codechecker-registration.md&title=Register+as+codechecker)**.
+Please open an issue on the [codecheckers](https://github.com/codecheckers/codecheckers) repository to be added to the [codecheckers team](https://github.com/codecheckers/codecheckers) **[using this link](https://github.com/codecheckers/codecheckers/issues/new?assignees=nuest&labels=registration&template=codechecker-registration.md&title=Register+as+codechecker)**.
 
 ## As an author
 
