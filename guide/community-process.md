@@ -10,16 +10,18 @@ redirect_from:
 The CODECHECK community process described here is the steps that codecheckers follow when using GitHub, in particular the [GitHub organisation codecheckers](https://github.com/codecheckers/), and Zenodo for codechecking software from scientific articles.
 These codechecks may be part of a journal review or not and are a concrete implementation of the abstract [CODECHECK process](/process) following the _[CODECHECK principles](/)_.
 
-## Author responsibilities
+## Author tasks
 
 The author must provide a _[preproducible](doi.org/10.1038/d41586-018-05256-0) workflow_: all data and code files necessary to reproduce the results are provided in a way that allows fellow researchers to follow and execute the steps.
 Often this workflow includes the generation of key figures from the article based on data.
 
-A typical measure for documentation is to provide at least so much information as the author would themselves need after a long period of time, e.g. 1 year, to run the analysis again.
+A typical measure for documentation is to provide at least so much information as the author would themselves need after a long period of time, e.g., 1 year, to run the analysis again.
 Any researcher, even if not familiar with the software stack, should be able to run the workflow and find out if the code works.
 
 Common sense shall be applied to decide about the suitable amount of data and to handle big datasets and privacy concerns.
 For example, data may be deposited depending on community practices in remote repositories, synthetic data may be used, subsets or preprocessed data may be included, or protected access to information may be provided (e.g. cloud-based data enclaves).
+
+### Requirements
 
 The minimal set of files, besides all required data and code, to implement a CODECHECK process are the following (`/` is the project root directory, which could be for example, `/home/username/research-project/2020/great-paper`):
 
@@ -27,23 +29,53 @@ The minimal set of files, besides all required data and code, to implement a COD
 1. **`/codecheck.yml` file** with a list of output files created by the workflow, the so called manifest; these files must be created by the workflow and are the basis for validating a successful CODECHECK; see the [latest CODECHECK configuration file specification]({{ 'spec/config/latest' | absolute_url }}) for the required and optional contents
 1. **`/LICENSE` file** with information about licenses for all submitted material, e.g. code license for scripts and data licenses for used datasets
 
-These files and the worklow are published in a dedicated self-contained repository in the [codecheckers organisation on GitHub](https://github.com/codecheckers/).
+### Publication
+
+The required files and the workflow code and data are published in a dedicated self-contained repository in the [codecheckers organisation on GitHub](https://github.com/codecheckers/).
+This happens by [forking](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the authors repository, if one already exist.
+If the repository is on GitLab(.com), the [cdchck organisation on GitLab](https://gitlab.com/cdchck) can be used.
 After the CODECHECK, authors may transfer the improvements and certificate back to their own repository.
 
-Beyond that, any additional configuration and information is extremely helpful, of course.
-Some hints as to what this can entail are given by the codechecker's tasks below and the concept of a [research compendium](https://research-compendium.science/).
+### Extras
+
+Beyond the minimally required files to run a workflow, any additional configuration and information is extremely helpful, of course, and can greatly improve the smoothness of the CODECHECK process.
+Some hints as to what this can entail are given by the codechecker's tasks below - it is worth taking the checker's perspective to improve your submission.
+
+Furthermore, the concept of a _research compendium_ to package all building blocks of a research project together is very useful.
+You can find examples and best practices for using research compendia on [https://research-compendium.science/](https://research-compendium.science/).
+
+Ideally, you make your repository "Binder-ready", which means that you define all the software your workflow needs in [common file formats for specifying dependencies and projects](https://mybinder.readthedocs.io/en/latest/howto/languages.html) so that you and others can open your repository on [MyBinder.org](https://mybinder.org/).
+Note that there are resource limitations to this free instance of [BinderHub](https://mybinder.readthedocs.io/en/latest/).
+Feel free to inquire in the [CODECHECK discussion forum](https://github.com/codecheckers/discussion/issues) how you can best handle your specific case of sensitive or big data.
+
+### Submission
+
+When your workflow is ready to be CODECHECK, open an issue on the [CODECHECK register](https://github.com/codecheckers/register/issues/new/choose).
+
+------
 
 ## Codechecker tasks
 
-The codechecker in general is not there to fix things, but to document how far they go and give feedback to the author until a CODECHECK could be completed or is found impossible (see _[principle 1](/)_).
+### Prerequisites
+
+The codechecker in general is not there to fix things, but to document how far they got.
+The result is either is a completed CODECHECK, or a documentation why the check was found impossible to complete (see _[principle 1](/)_).
+Codecheckers should give feedback to the author and definetely allow workflows to be fixed.
+It is very hard to put a precise number on the amount of work you should put into a CODECHECK.
+You're not expected to spend more time on a CODECHECK than you would on peer-reviewing a manuscript.
+You should take advantage of the fact that you can _talk to the author_ and feel free to reach out early and often, when you think that issues can be resolved quickly.
+Depending on your familiarity with the used programming language and specific tools at hand, a very rough experience value could be 30 minutes of reading documentation, downloading and installing software, and another 30 minutes to write up the CODECHECK report.
+The time in between for running the actual workflow will vary greatly, from minutes to hours, and hopefully can be run in the background.
+In case the computations run longer than your regular working day, consider asking the author to prepare a subset of the workflow.
+
 However, a codechecker may, for example out of personal interest in the research at hand, invest additional efforts.
 In any case, the overall goal is to _leave the workflow repository in the same or better condition_.
 
-**Prerequisites:**
+Some further tips:
 
-- Familiarity with `make`, see [https://the-turing-way.netlify.com/make/make.html](https://the-turing-way.netlify.com/make/make.html) and [https://swcarpentry.github.io/make-novice/reference](https://swcarpentry.github.io/make-novice/reference)
+- A familiarity with `make` is helpful to provide an easy entrypoint and build up useful code snippets for your CODECHECKs, see [https://the-turing-way.netlify.com/make/make.html](https://the-turing-way.netlify.com/make/make.html) and [https://swcarpentry.github.io/make-novice/reference](https://swcarpentry.github.io/make-novice/reference)
 
-**CODECHECK steps:**
+## CODECHECK steps
 
 - [Open an issue on the CODECHECK register](https://github.com/codecheckers/register/issues/new?assignees=nuest&labels=community%2C+needs+codechecker&template=new-community-codecheck.md&title=%5BAuthor+1%2C+Author+2%2C+...%5D) to notify other codecheckers about the CODECHECK you're starting.
 - Fork the author's repository to the codecheckers GitHub organisation, or create a new repository with the naming scheme `Lastname-YYYY` using the family name of the corresponding author. Please take care to follow the terms and conditions of the workspace licenses; stop your CODECHECK if the licensing is unclear and contact the author to fix the documentation.
@@ -58,11 +90,12 @@ In any case, the overall goal is to _leave the workflow repository in the same o
   - Document the used computing environment, see [CODECHECK bundle guide](/guide/bundle).
   - Create a notebook as the basis for the report (see below), e.g. `codecheck.Rmd`.
   - Make the repository [Binder-ready](https://mybinder.readthedocs.io/); put all Binder-related files into `.binder/` directory to separate them from the author's content.
-- **Add a CODECHECK report** as a PDF file named **`codecheck.pdf`** in the check directory.
+- **Write the CODECHECK report** and save it as a PDF file named **`codecheck.pdf`** in the check directory.
   The report should cover at least _WHO_ checked _WHAT_, and _HOW_.
-  Imagine the report as a reminder for future you to be able to re-check the workflow in two years time - what help would you need to do that?
-  You can check the [example CODECHECKs](#examples) for some templates for reports.
+  Imagine the report as a reminder for future you so you will be to re-check the workflow in two years time - what help would you need to do that?
+  Take a look at the [example CODECHECKs](#examples) for existing reports to serve as templates.
 - **Optional report sections** depending on interest, time, and skills:
+  - _How to cite the report?_ Your CODECHECK is a valuable contribution to science, and you should add a short note on how to cite your report (see below for reserving the DOI).
   - Do the generated outputs match the ones in the original manuscript? Are the differences relevant or not?
   - Are there any parts of the workflow where the author could improve the code?
   - How long did it take you to conduct the CHECK, and where did you struggle?
@@ -92,57 +125,40 @@ In any case, the overall goal is to _leave the workflow repository in the same o
 
 Every CODECHECK is unique, just as the associated research article.
 The codechecker can thereby rely on the examples below and future published CODECHECKs for good practices and approaches for codechecking.
+Reach out to fellow codecheckers in the [CODECHECK discussion forum](https://github.com/codecheckers/discussion/issues) if you face any problems.
 
-## Start a CODECHECK
-
-[Open a new issue](https://github.com/codecheckers/register/issues/new/choose) on the CODECHECK register with information about your workflow.
+------
 
 ## Examples
 
-See the [CODECHECK register](codecheck.org.uk/register/) for a full list of codechecks.
+**See the [CODECHECK register](/register) for a full list of codechecks, including direct links to the reports and register issues with background information.**
 
-### [Piccolo, 2020](https://github.com/codecheckers/Piccolo-2020)
+### Neuroscience
+
+#### [Piccolo, 2020](https://github.com/codecheckers/Piccolo-2020)
 
 Codechecker: [@sje30](https://github.com/sje30)
 
 Report: [http://doi.org/10.5281/zenodo.3674056](http://doi.org/10.5281/zenodo.3674056)
 
-Journal: GigaScience, see also [related blog post](http://gigasciencejournal.com/blog/codecheck-certificate/) reporting on this first CODECHECK for the journal
+Journal: GigaScience, see also [related blog post](http://gigasciencejournal.com/blog/codecheck-certificate/) reporting on this first CODECHECK for the journal.
 
-### [Hopfield, 1982](https://github.com/codecheckers/Hopfield-1982)
+#### [Hopfield, 1982](https://github.com/codecheckers/Hopfield-1982)
 
 A landmark paper from neuroscience, reproduced by [@sebwyh](https://github.com/sebwyh) with edits by [@nuest](https://github.com/nuest).
 
 Codechecker: [@nuest](https://github.com/nuest)
 
-Comments:
+Report: [https://doi.org/10.5281/zenodo.3741797](https://doi.org/10.5281/zenodo.3741797)
 
-- seed not set, but human can judge the code works
-- codechecker added `requirements.txt` using `pip freeze` after workflow could be executed
-- codechecker added text to README about the computing environment
+#### [Hancock, 1991](https://github.com/codecheckers/Reproduction-Hancock)
 
-### Eglen, 2015 (work in progress)
+A classical neuroscience paper.
 
-https://github.com/codecheckers/eglen2015/
+Codechecker: [@sje30](https://github.com/sje30) and [@nuest](https://github.com/nuest)
 
-Draft CODECHECK report: https://github.com/sje30/codecheck/blob/master/cert/eglen2016/eglen2016-crc.Rmd
+Report: [http://doi.org/10.5281/zenodo.3750741](http://doi.org/10.5281/zenodo.3750741)
 
-### Hancock, 1991 (work in progress)
+### _Your scientific dispipline here..._
 
-https://github.com/codecheckers/Reproduction-Hancock
-
-### Hathway Goodman, 2018 (work in progress)
-
-https://github.com/codecheckers/Hathway-Goodman-2018
-
-### Detorakis, 2017 (work in progress)
-
-https://github.com/codecheckers/Detorakis-reproduction
-
-### Larisch, 2019 (work in progress)
-
-https://github.com/codecheckers/Larisch-reproduction
-
-### Barto Sutten Anderson, 1983 (work in progress)
-
-https://github.com/codecheckers/Barto-Sutton-Anderson-1983
+**[Get involved!](/get-involved)**
