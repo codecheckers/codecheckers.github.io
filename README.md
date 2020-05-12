@@ -2,7 +2,9 @@
 
 CODECHECK is a process for independent reproduction of computations and awarding of time-stamped certificates for successful reproductions of scholarly articles.
 This repository contains the sources for the project website at `codecheck.org.uk` and graphic files of the project.
-**Note:** this repository cannot be named `codecheckers.github.io` because then pages can only by built by GitHub using the `master` branch.
+
+**Note:** the website currently must be built by GitHub pages, and therefore is named `codecheckers.github.io`, because only then can project repositories easily be built as subpages, e.g., https://codecheck.org.uk/register.
+Pages _cannot_ be built with Travis CI from `master` branch into a `gh-pages` branch.
 
 ## Logo and badge
 
@@ -35,24 +37,13 @@ If you want to override a file from the `minima-reboot` template, run `bundle in
 - `ruby` and `ruby-dev`
 - gem `bundler`
 
-## Preview and build
+## Preview and build locally
+
+Use one of
 
 ```
 make preview
 make build
-```
-
-## Deploy
-
-We build the site using Travis CI, so we are not limited to the Jekyll features/plugins etc. supported by GitHub.
-
-See https://tonyzhangnd.github.io/2018/06/Integrating-Jekyll-and-Travis-CI.html
-The PAT is [encrypted for Travis CI](https://docs.travis-ci.com/user/encryption-keys/).
-
-You can run the build locally with
-
-```bash
-TRAVIS_PULL_REQUEST=false TRAVIS_BRANCH=master TRAVIS_BUILD_NUMBER=local PAT="..." ./travis.sh
 ```
 
 ## License
