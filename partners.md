@@ -45,7 +45,7 @@ _[Become a codechecker](/get-involved)!_
 
 ## Journals
 
-The following journals have [completed](https://github.com/codecheckers/register) at least one CODECHECK.
+The following journals have [completed](/register) at least one CODECHECK.
 
 - [![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience)
 
