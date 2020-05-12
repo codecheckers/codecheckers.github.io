@@ -12,7 +12,7 @@ These codechecks may be part of a journal review or not and are a concrete imple
 
 ## Author tasks
 
-The author must provide a _[preproducible](doi.org/10.1038/d41586-018-05256-0) workflow_: all data and code files necessary to reproduce the results are provided in a way that allows fellow researchers to follow and execute the steps.
+The author must provide a _[preproducible](https://doi.org/10.1038/d41586-018-05256-0) workflow_: all data and code files necessary to reproduce the results are provided in a way that allows fellow researchers to follow and execute the steps.
 Often this workflow includes the generation of key figures from the article based on data.
 
 A typical measure for documentation is to provide at least so much information as the author would themselves need after a long period of time, e.g., 1 year, to run the analysis again.
