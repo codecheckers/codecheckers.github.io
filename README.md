@@ -1,6 +1,8 @@
-# [codecheck.org.uk](https://codecheck.org.uk)
+# [CODECHECK](https://codecheck.org.uk)
 
 CODECHECK is a process for independent reproduction of computations and awarding of time-stamped certificates for successful reproductions of scholarly articles.
+This repository contains the sources for the project website at `codecheck.org.uk` and graphic files of the project.
+**Note:** this repository cannot be named `codecheckers.github.io` because then pages can only by built by GitHub using the `master` branch.
 
 ## Logo and badge
 
