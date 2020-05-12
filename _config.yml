@@ -20,9 +20,12 @@ license:
 
 # https://github.com/aterenin/minima-reboot/#adding-new-links-to-footer
 footer_icons:
-  - username: codecheckers
+  - username: github.com/codecheckers
     url: https://github.com/codecheckers/
     icon: icon-github.svg
+  - username: gitlab.com/cdchck
+    url: https://gitlab.com/cdchck
+    icon: icon-gitlab.svg
   #- username: sje30
   #  url: https://github.com/sje30/
   #  icon: icon-github.svg
