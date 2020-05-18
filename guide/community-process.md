@@ -120,7 +120,11 @@ Some further tips:
     - connect the Zenodo record to the GitHub repository with a "Relate/alternate identifier"
     - connect the Zenodo record to the article/preprint with a "Relate/alternate identifier"
 - If the check was conducted for a piece of software for the first time or resulted in important lessons learned, consider adding it to the list of examples below.
-- If possible, add the [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to the article or the original software repository, e.g., by sending a pull request. The badge should link directly to the Zenodo record.
+- If possible, add the [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to the article or the original software repository, e.g., by sending a pull request. The badge should link directly to the Zenodo record _via the DOI_.
+  The following snippet should work in Markdown:
+  ```
+  [![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/<DOI HERE>)
+  ```
 - **Update the CODECHECK register** with all important information, then close the issue.
 
 Every CODECHECK is unique, just as the associated research article.
