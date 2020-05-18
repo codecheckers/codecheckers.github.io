@@ -7,18 +7,28 @@ redirect_from:
   - techexample
 ---
 
-The CODECHECK community process described here is the steps that codecheckers follow when using GitHub, in particular the [GitHub organisation codecheckers](https://github.com/codecheckers/), and Zenodo for codechecking software from scientific articles.
+The CODECHECK community process described here is the steps that codecheckers follow when using open platforms for codechecking software from scientific articles, in particular the [GitHub organisation codecheckers](https://github.com/codecheckers/) and [Zenodo]() for depositing check reports.
 These codechecks may be part of a journal review or not and are a concrete implementation of the abstract [CODECHECK process](/process) following the _[CODECHECK principles](/)_.
+Be aware that community CODECHECKs may fall short of Rule 3 as the CODECHECKs might not be properly registered as peer reviews in the respective public databases.
 
 ## Author tasks
 
-The author must provide a _[preproducible](https://doi.org/10.1038/d41586-018-05256-0) workflow_: all data and code files necessary to reproduce the results are provided in a way that allows fellow researchers to follow and execute the steps.
+### tl;dr
+
+**Have a `README`: all else is details.** <span style="color: grey;">*</span>
+
+<span style="font-size: 60%; color: grey;">Inspired by Greg Wilson's first rule of <a href="http://teachtogether.tech/" title="Teaching Tech Together">Teaching Tech Together</a>.</span>
+
+### Background
+
+The author must provide a _[preproducible](https://doi.org/10.1038/d41586-018-05256-0) workflow_:
+all data and code files necessary to reproduce the results are provided in a way that allows fellow researchers to follow and execute the steps.
 Often this workflow includes the generation of key figures from the article based on data.
 
-A typical measure for documentation is to provide at least so much information as the author would themselves need after a long period of time, e.g., 1 year, to run the analysis again.
+A typical measure for a good level of documentation is to provide at least so much information as the author would themselves need after a longer period of time, e.g., 1 year, to run the analysis again.
 Any researcher, even if not familiar with the software stack, should be able to run the workflow and find out if the code works.
 
-Common sense shall be applied to decide about the suitable amount of data and to handle big datasets and privacy concerns.
+Common sense shall be applied to decide about the suitable amount of data and to handle big datasets, sensitive datasets with privacy concerns, and long execution times.
 For example, data may be deposited depending on community practices in remote repositories, synthetic data may be used, subsets or preprocessed data may be included, or protected access to information may be provided (e.g. cloud-based data enclaves).
 
 ### Requirements
