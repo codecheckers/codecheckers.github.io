@@ -33,7 +33,8 @@ For example, data may be deposited depending on community practices in remote re
 
 ### Requirements
 
-The minimal set of files, besides all required data and code, to implement a CODECHECK process are the following (`/` is the project root directory, which could be for example, `/home/username/research-project/2020/great-paper`):
+The minimal set of files, besides all required data and code, to implement a CODECHECK process are the following (`/` is the project root directory, which could be for example, `/home/username/research-project/2020/great-paper`).
+Ideally, the author supplies these three files, though they might also be created in collaboration with the codechecker.
 
 1. **`/README` file** with instructions how to execute the workflow (must be plain text, may have suitable extension, e.g., `.txt`, `.md`, `.markdown`)
 1. **`/codecheck.yml` file** with a list of output files created by the workflow, the so called manifest; these files must be created by the workflow and are the basis for validating a successful CODECHECK; see the [latest CODECHECK configuration file specification]({{ 'spec/config/latest' | absolute_url }}) for the required and optional contents
@@ -57,6 +58,8 @@ You can find examples and best practices for using research compendia on [https:
 Ideally, you make your repository "Binder-ready", which means that you define all the software your workflow needs in [common file formats for specifying dependencies and projects](https://mybinder.readthedocs.io/en/latest/howto/languages.html) so that you and others can open your repository on [MyBinder.org](https://mybinder.org/).
 Note that there are resource limitations to this free instance of [BinderHub](https://mybinder.readthedocs.io/en/latest/).
 Feel free to inquire in the [CODECHECK discussion forum](https://github.com/codecheckers/discussion/issues) how you can best handle your specific case of sensitive or big data.
+
+A great way to learn what a good way to meaningfully package your research for others to inspect, understand, and reproduce is to participate in a [ReproHack](https://reprohack.github.io/reprohack-hq/) and take on the reader/codechecker perspective.
 
 ### Submission
 
