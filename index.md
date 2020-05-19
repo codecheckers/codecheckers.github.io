@@ -15,22 +15,24 @@ See the [project](/project/) page for a full description of problems, solutions,
 1. <span class="principle">Codecheckers record but don't investigate or fix.</span>
    <details>
    <summary>More about this principle...</summary>
-   A codechecker is _not_ required to fix workflows, but to document the given state of documentation and executability.
-   Of course, given a level of interested and skills, a codechecker may go beyond simple small fixes and actively collaborate with an author to create a better research output.
+   A codechecker is not required to fix workflows or conduct a code review, but to document the given state of documentation and executability.
+   The codechecker is not making a scientific judgement.
+   Of course, given a level of interested and skills, a codechecker may go beyond these minimal requirements.
+   They can provide simple or small fixes and even actively collaborate with an author to create a better research output.
    The codechecker's report provides helpful input to the scientific review, e.g., to help the reviewer's understanding.
-   But a CODECHECK does not evaluate scientific merit!
+   However, a CODECHECK does not evaluate scientific merit, nor the correctness of code!
    A failed CODECHECK does not imply the rejection of a submission.
-   <em>Codechecker take the pictures at a crime scene, they do not hunt the murderer.</em>
+   <em>Codecheckers take the pictures at a crime scene, they do not hunt the criminal.</em>
    </details>
 1. <span class="principle">Communication between humans is key.</span>
    <details>
    <summary>More about this principle...</summary>
    The priority in all documentation and metadata is that a human codechecker can understand them.
-   The codechecker is _not_ making a scientific judgement.
-   It is also close to impossible to make a CODECHECK blind.
-   Therefore a CODECHECK must not be anonymised must provide a two-way means of communication between author and codechecker.
-   Codecheckers are supported by formal metadata, automation, and reproducibility infrastructure, yet the CODECHECK shall not rely on them.
-   Codechecks may be conducted by existing stakeholders in the submission process (e.g., a reviewer), but may also be handled with new roles and by people underrepresented in classic peer-review, such as early career researchers (ECRs) or research software engineers (RSEs).
+   It is also close to impossible to effectively conduct a CODECHECK and to keep it "blind" at the same time.
+   Therefore, a CODECHECK must not be anonymised must provide a two-way means of communication between author and codechecker.
+   Codecheckers should be supported by formal metadata, automation, and reproducibility infrastructure, yet the CODECHECK shall not rely on them.
+   Codechecks may be conducted by existing participants in the submission process (e.g., a reviewer or editor), but may also be handled with new roles.
+   These new participants are a chance to involve people currently underrepresented in classic peer-review, such as early career researchers (ECRs) or research software engineers (RSEs).
    </details>
 1. <span class="principle">Credit is given to codecheckers.</span>
    <details>
@@ -46,13 +48,14 @@ See the [project](/project/) page for a full description of problems, solutions,
    <details>
    <summary>More about this principle...</summary>
    Common sense and a collaborative process are the main drivers behind the <em>level of documentation</em>, the degree of openness, and the amount of data that is checked.
-   But the minimal requirement is that the codechecker has enough material to validate the workflow submitted by the authors.
-   This means the <em>code could be executed once by following the provided instructions and selected outputs, e.g. figures or data files, are created</em>.
+   However, the minimal requirement is that the codechecker has enough material to validate the workflow outputs submitted by the authors.
+   This means that the <em>code could be executed at least once without critical errors or warnings using the provided instructions.
+   This execution must create selected outputs, e.g. figures or data files.
    Ideally, the execution is fully scripted, and the execution can be triggered by a running a single command.
-   Being executed once means that a detailed investigation may occur at a later time.
-   Being auditable includes that authors provide data and code for relevant analysis steps and visualisations to the codecheckers, but does not imply that all of the code associated with an article must be checked.
+   Being executed once means that the material is complete and therfore a detailed investigation may occur at a later time.
+   Being auditable includes that authors provide data and code for relevant analysis steps and visualisations to the codecheckers, but it does not imply that all of the code associated with an article is reviewed (see Principle&nbsp;1).
 
-   The CODECHECK is <em>not automated</em> on purpose: automation may lead to people gaming the system, and may hide details that eventually decrease level of certainty that a codechecker has in their assessment.
+   The CODECHECK is <em>not automated</em> on purpose: automation may (a) lead to people gaming the system, (b) hide details that eventually decrease level of certainty that a codechecker has in their assessment, and (c) reduce the understandability of instructions in the long term, which is more important than short term ease of use (see Principle&nbsp;2).
    </details>
 
 These basic principles ensure they are feasible to add in a scholarly communication process but still have a huge positive impact on the transparency and usefulness of the published material.
@@ -62,7 +65,7 @@ While the CODECHECK initiators strongly support of Open Science, a CODECHECK doe
 
 Check out our [FAQ page](/faq) for more information about the limitations of a CODECHECK.
 
-**In the future** we hope to update these principles and to work together with researchers, educators, editors, and publishers to raise the bar towards very high reproducibility and openness across all domains and communities of research.
+**In the future** we hope to update these principles and to work together with researchers, educators, editors, and publishers to raise the bar towards higher degrees of reproducibility and openness across all domains and communities of research.
 
 The principles can be implemented in different ways.
 See the [process page](/process) for details about the stakeholders and dimensions of variations in CODECHECKs within a scholarly peer review.
