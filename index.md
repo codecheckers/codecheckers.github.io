@@ -1,13 +1,30 @@
 ---
 layout: page
+head_inline: |
+   <script type="text/javascript" src="/assets/js/jquery.min.js"></script><!-- https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js -->
+   <script type="text/javascript" src="/assets/js/mustache.min.js"></script><!-- https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js -->
+   <script type="text/javascript" src="/assets/js/jquery-dateformat.min.js"></script><!-- https://raw.githubusercontent.com/phstc/jquery-dateFormat/master/dist/jquery-dateformat.min.js -->
+   <script type="text/javascript" src="/assets/codecheck.js"></script>
 ---
 
-<img src="img/codecheck_logo.svg" alt="CODECHECK logo" />
+<div class="row banner">
+   <div class="col-6 col-lg">
+      <img src="img/codecheck_logo.svg" width="100%" alt="CODECHECK logo" />
+      <p class="text-secondary text-justify"><em>Independent execution of computations underlying research articles.</em></p>
+   </div>
 
-_A process for independent reproduction of computations underlying research_
+   <div class="col-12 col-lg">
+      <div id="latest_checks">
+         <h4>Latest CODECHECKs</h4>
+         <ul id="check_list">
+         </ul>
+      </div>
+      <p>See the <a href="/register"><strong>CODECHECK register</strong></a> for the full list of <span id="check_count"></span> completed checks.</p>
+   </div>
+</div>
 
 CODECHECK tackles one of the main challenges of computational research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
-The independent time-stamped runs conducted by codecheckers will award a _"certificate of reproducible computation"_ and increase availability, discovery and reproducibility of crucial artefacts for computational sciences.
+The independent time-stamped runs conducted by codecheckers will award a _"certificate of executable computation"_ and increase availability, discovery and reproducibility of crucial artefacts for computational sciences.
 See the [project](/project/) page for a full description of problems, solutions, and goals and take a look at the [GitHub organisation](https://github.com/codecheckers) for examples of CODECHECKs and tools.
 
 ### The CODECHECK principles
@@ -71,7 +88,7 @@ The principles can be implemented in different ways.
 See the [process page](/process) for details about the stakeholders and dimensions of variations in CODECHECKs within a scholarly peer review.
 The [CODECHECK community process](/guide/community-process) describes a concrete realisation, including practical requirements and steps.
 
-**If you want to get involved as a codechecker in the community or want to apply the CODECHECK principles in your journal or conference, see the [Get Involved](/get-involved) page.**
+**If you want to get involved as a codechecker in the community, or if you want to apply the CODECHECK principles in your journal or conference, please take a look at the [Get Involved](/get-involved) page.**
 
 ------
 
@@ -94,3 +111,37 @@ To give a quick overview of the project, feel free to use or extend the [existin
 To cite CODECHECK in scientific publications, please use the following citation/reference:
 
 > _Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). [https://doi.org/10.7557/5.4910](https://doi.org/10.7557/5.4910)_
+
+<script id="templateCheck" type="x-tmpl-mustache">
+{% raw %}
+<li>
+    <em>"{{title}}"</em><br/>
+    <strong><a href="{{link}}" title="CODECHECK report for paper {{title}}">{{link}}</a></strong>
+    <br />
+    <span class="text-secondary"> Certificate #{{certificate}} | Type: {{type}} | {{datestring}}</span>
+</li>
+{% endraw %}
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    var checks = [];
+    
+    $.when(
+        $.ajax({
+            type: "get",
+            url: "https://codecheck.org.uk/register/register.json",
+            dataType: "JSON",
+            success: function(data) {
+                checks = parseChecks(data);
+            },
+            error: function(xhr, status) {
+                $("#latest_checks").html("<p>Error fetching publications.</p>");
+            }
+        }),
+    ).then( function(){
+       updateList(checks, 4, "#check_list", "#templateCheck");
+       updateCount(checks, "#check_count");
+    });
+});
+</script>

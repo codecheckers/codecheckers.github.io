@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5 {
   margin-top: 3rem;
 }
 
+.banner {
+  margin-bottom: 3rem;
+}
+
 footer {
   font-size: 90%;
 }
@@ -92,6 +96,25 @@ blockquote p:first-of-type {
   color: #008033;
   font-variant-caps: small-caps;
   font-weight: bolder;
+}
+
+#latest_checks {
+  font-size: 80%;
+  line-height: 1.2;
+}
+
+#latest_checks h4 {
+  margin-top: 0;
+}
+
+#latest_checks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#latest_checks ul li {
+  margin: 0 0 0.8em 0;
 }
 
 @media screen and (min-width: 400px) {
