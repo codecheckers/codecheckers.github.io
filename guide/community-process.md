@@ -140,6 +140,7 @@ Some further tips:
   ```
   [![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/<DOI HERE>)
   ```
+- If the check material is published on `github.com/codecheckers`, add the [`codecheck` topic](https://github.com/search?q=topic%3Acodecheck+fork%3Atrue+org%3Acodecheckers&type=Repositories) to the project.
 - **Update the CODECHECK register** with all important information, then close the issue.
 
 Every CODECHECK is unique, just as the associated research article.
