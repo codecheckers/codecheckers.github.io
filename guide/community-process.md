@@ -57,6 +57,8 @@ You can find examples and best practices for using research compendia on [https:
 
 Ideally, you make your repository "Binder-ready", which means that you define all the software your workflow needs in [common file formats for specifying dependencies and projects](https://mybinder.readthedocs.io/en/latest/howto/languages.html) so that you and others can open your repository on [MyBinder.org](https://mybinder.org/).
 Note that there are resource limitations to this free instance of [BinderHub](https://mybinder.readthedocs.io/en/latest/).
+Alternatively, you may create an [Executable Research Compendium](https://doi.org/10.1045/january2017-nuest) using the [o2r online demo for publishing executable research](https://o2r.info/results/).
+
 Feel free to inquire in the [CODECHECK discussion forum](https://github.com/codecheckers/discussion/issues) how you can best handle your specific case of sensitive or big data.
 
 A great way to learn what a good way to meaningfully package your research for others to inspect, understand, and reproduce is to participate in a [ReproHack](https://reprohack.github.io/reprohack-hq/) and take on the reader/codechecker perspective.
