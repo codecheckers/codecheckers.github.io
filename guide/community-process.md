@@ -54,8 +54,11 @@ Some hints as to what this can entail are given by the codechecker's tasks below
 
 Furthermore, the concept of a _research compendium_ to package all building blocks of a research project together is very useful.
 You can find examples and best practices for using research compendia on [https://research-compendium.science/](https://research-compendium.science/).
+You can make the codechecker's task a lot easier if you provide some kind of dependency management or environment specification file.
+These are too many to mention here, and different tools exist for different programming languages.
+Check the documentation of your language of choice how to best to "pin" the versions of used packages.
 
-Ideally, you make your repository "Binder-ready", which means that you define all the software your workflow needs in [common file formats for specifying dependencies and projects](https://mybinder.readthedocs.io/en/latest/howto/languages.html) so that you and others can open your repository on [MyBinder.org](https://mybinder.org/).
+Ideally, you make your repository "Binder-ready", which means that you define all the software your workflow needs in [common file formats for specifying dependencies and projects](https://mybinder.readthedocs.io/en/latest/howto/languages.html) (i.e., the dependency/environment configurations mentioned above) so that you and others can open your repository on [MyBinder.org](https://mybinder.org/).
 Note that there are resource limitations to this free instance of [BinderHub](https://mybinder.readthedocs.io/en/latest/).
 Alternatively, you may create an [Executable Research Compendium](https://doi.org/10.1045/january2017-nuest) using the [o2r online demo for publishing executable research](https://o2r.info/results/).
 
