@@ -66,11 +66,13 @@ See the [project](/project/) page for a full description of problems, solutions,
    <summary>More about this principle...</summary>
    Common sense and a collaborative process are the main drivers behind the <em>level of documentation</em>, the degree of openness, and the amount of data that is checked.
    However, the minimal requirement is that the codechecker has enough material to validate the workflow outputs submitted by the authors.
-   This means that the <em>code could be executed at least once without critical errors or warnings using the provided instructions.
-   This execution must create selected outputs, e.g. figures or data files.
-   Ideally, the execution is fully scripted, and the execution can be triggered by a running a single command.
-   Being executed once means that the material is complete and therfore a detailed investigation may occur at a later time.
-   Being auditable includes that authors provide data and code for relevant analysis steps and visualisations to the codecheckers, but it does not imply that all of the code associated with an article is reviewed (see Principle&nbsp;1).
+   This means that the <em>code could be executed at least once without critical errors or warnings using the provided instructions</em>.
+   This execution must create selected outputs, e.g., figures or data files, documented in a manifest.
+   Ideally, the execution is fully scripted, creates all outputs, and can be triggered by a running a single command.
+   Being executed once means that the material is complete and therefore a detailed investigation may occur at a later time.
+   Only in exceptional cases should a CODECHECK use data or code that is not publicly available for reuse under an open license, e.g., in case of sensitive personal data.
+   
+   Being auditable includes that authors provide data and code for relevant analysis steps and visualisations to the codecheckers, but it does not imply that the code associated with an article is reviewed (see Principle&nbsp;1).
 
    The CODECHECK is <em>not automated</em> on purpose: automation may (a) lead to people gaming the system, (b) hide details that eventually decrease level of certainty that a codechecker has in their assessment, and (c) reduce the understandability of instructions in the long term, which is more important than short term ease of use (see Principle&nbsp;2).
    </details>

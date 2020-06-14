@@ -15,7 +15,7 @@ Given that code and data are rich digital artefacts that can be shared relativel
 We wish to build a computational platform, called **CODECHECK**, to enhance the availability, discovery and reproducibility of published computational research.
 Researchers that provide code and data will have their code independently run to ensure their work can be reproduced.
 The results from our independent run will then be shared freely post-publication.
-Our independent runs will act as a _"certificate of reproducible computation"_ to document that the research outputs could be replicated outside of the researcher's lab.
+Our independent runs will act as a _"certificate of reproducible computation"_ to document that core research outputs could be recreated outside of the authors's lab.
 These time-stamped certificates will include key outputs, including figures and tables, and valuable information such as the environment used to evaluate the code.
 Such certificates will help in the peer review process by showing reviewers that the code is available and works.
 We will work with several journals to design the system so that it can be used a pilot service by those journals.
