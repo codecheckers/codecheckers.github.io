@@ -32,12 +32,12 @@ If you want to override a file from the `minima-reboot` template, run `bundle in
 - Jekyll GitHub pages: https://jekyllrb.com/docs/github-pages/
 - `minima-reboot` theme: https://github.com/aterenin/minima-reboot
 
-## Prerequisites
+**Prerequisites**
 
 - `ruby` and `ruby-dev`
 - gem `bundler`
 
-## Preview and build locally
+### Preview and build locally
 
 Use one of
 
@@ -45,6 +45,16 @@ Use one of
 make preview
 make build
 ```
+
+### Build with Docker
+
+See `jekyll/jekyll` image documentation for details: https://github.com/envygeeks/jekyll-docker/blob/master/README.md 
+
+```
+make preview_container
+```
+
+Then open the website at http://localhost.
 
 ## License
 
