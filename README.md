@@ -19,6 +19,8 @@ Find the source files for the CODECHECK logo and badge in the following director
 
 All graphics unless noted otherwise are published under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
 
+The "CODECHECK green" is `#008033`, or CMYB(100%, 0%, 60%, 50%), HSL(144, 100%, 25%), RGBA(0, 128, 51, 1), `\rgb{0, 0.5, 0.2}`.
+
 ## Figures
 
 The figures used on the website are at https://drive.google.com/drive/folders/1XUsfF9ZlZ_dwLTJxu_PIcq-3hEldI3d-?usp=sharing
