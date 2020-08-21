@@ -82,7 +82,7 @@ They strike a **balance** between the ideals of auditable high-quality research 
 Of course, numerous requirements on openness/transparency (e.g. depositing the CODECHECK report publicly with a DOI), about software quality (tests, releases, documentation), on copyright/licensing, and regarding best practices for computer-based analyses (e.g. workflow management, data/software citation) are thinkable, but intentionally remain to be defined by implementations of the principles in each community of practice.
 While the CODECHECK initiators strongly support of Open Science, a CODECHECK does not exclude research not falling into your definition of Open Science.
 
-Check out our [FAQ page](/faq) for more information about the limitations of a CODECHECK.
+Check out our [**FAQ**](/faq) page for more information about the limitations of a CODECHECK.
 
 **In the future** we hope to update these principles and to work together with researchers, educators, editors, and publishers to raise the bar towards higher degrees of reproducibility and openness across all domains and communities of research.
 
