@@ -25,6 +25,13 @@ permalink: /faq/
 So that the codechecker can make sense of it.
 Beyond that, follow community practices or create a [research compendium](https://research-compendium.science/).
 
+## Is it not better to write a software paper and get make a software review?
+
+Software papers, such as published in [JOSS](https://joss.theoj.org/), and software peer reviews, such as conducted by [ROpenSci](https://ropensci.org/) or [PyOpenSci](https://www.pyopensci.org/), are a great way to increase visibility and quality of research software.
+CODECHECK does not intend to replace these, but focusses on scripts and workflows that are specific to a manuscript at hand.
+If you write a large article about a specific tool or software, e.g., as published in [JORS](https://openresearchsoftware.metajnl.com/), it is debatable if an additional CODECHECK makes sense.
+A software review greatly increases the quality of the tools used in research, and thereby make CODECHECKs much easier.
+
 ## What if I used proprietary software _X_?
 
 The codechecker must be able to conduct the CODECHECK.
@@ -48,9 +55,9 @@ In this first implementation of the CODECHECK principles, we imagine an open pro
 
 ## Why don't you require use of reproducibility technology _X_?
 
-The codechecker put's their name under the CODECHECK.
+The codechecker puts their name under the CODECHECK.
 That is more important than technical details, which will vary on a case by case basis.
-Codecheckers are encouraged to use containerisation technologies et cetera, but not required to do so.
+Codecheckers are encouraged to apply commonly used tools to assisst reproducibility, such as notebooks or containerisation, but are not required to do so.
 
 ## What if Docker/`make`/_software X_ is not available anymore?
 
