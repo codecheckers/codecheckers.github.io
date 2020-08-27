@@ -37,7 +37,7 @@ The minimal set of files, besides all required data and code, to implement a COD
 Ideally, the author supplies these three files, though they might also be created in collaboration with the codechecker.
 
 1. **`/README` file** with instructions how to execute the workflow (must be plain text, may have suitable extension, e.g., `.txt`, `.md`, `.markdown`)
-1. **`/codecheck.yml` file** with a list of output files created by the workflow, the so called manifest; these files must be created by the workflow and are the basis for validating a successful CODECHECK; see the [latest CODECHECK configuration file specification]({{ 'spec/config/latest' | absolute_url }}) for the required and optional contents
+1. **`/codecheck.yml` file** with a list of output files created by the workflow, the so called manifest; these files must be created by the workflow and are the basis for validating a successful CODECHECK; see the [latest CODECHECK configuration file specification]({{ 'spec/config/latest' | absolute_url }}) for the required and optional contents and start with the [_minimal example for authors_]({{ 'spec/config/1.0/#tldr-for-authors' | absolute_url }})
 1. **`/LICENSE` file** with information about licenses for all submitted material, e.g. code license for scripts and data licenses for used datasets
 
 ### Publication
@@ -156,7 +156,7 @@ Reach out to fellow codecheckers in the [CODECHECK discussion forum](https://git
 
 **See the [CODECHECK register](/register) for a full list of codechecks, including direct links to the reports and register issues with background information.**
 
-### Neuroscience
+### Neuroscience 🧠
 
 #### [Piccolo, 2020](https://github.com/codecheckers/Piccolo-2020)
 
@@ -181,6 +181,16 @@ A classical neuroscience paper.
 Codechecker: [@sje30](https://github.com/sje30) and [@nuest](https://github.com/nuest)
 
 Report: [http://doi.org/10.5281/zenodo.3750741](http://doi.org/10.5281/zenodo.3750741)
+
+### GIScience/Geography/Geoinformatics 🌏🌎🌍 
+
+#### [Brunsden & Comber, 2020](https://github.com/codecheckers/OpeningPractice)
+
+Paper on reproducibility in spatial data science.
+
+Codechecker: [@nuest](https://github.com/nuest)
+
+Report: [https://doi.org/10.5281/zenodo.3873153](https://doi.org/10.5281/zenodo.3873153)
 
 ### _Your scientific dispipline here..._
 
