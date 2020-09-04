@@ -25,6 +25,11 @@ The author must provide a _[preproducible](https://doi.org/10.1038/d41586-018-05
 all data and code files necessary to reproduce the results are provided in a way that allows fellow researchers to follow and execute the steps.
 Often this workflow includes the generation of key figures from the article based on data.
 
+Making current code reproducible with the awareness of the challenges is possible.
+See [this interesting article](https://www.nature.com/articles/d41586-020-02462-7) for challenges of reproducing old code, measures taken, and lessons learned.
+The article also includes a [_reproducibility checklist_](https://doi.org/10.1038/d41586-020-02462-7) that can help you to prepare your work for a CODECHECK.
+
+From our experience, documentation is the key.
 A typical measure for a good level of documentation is to provide at least so much information as the author would themselves need after a longer period of time, e.g., 1 year, to run the analysis again.
 Any researcher, even if not familiar with the software stack, should be able to run the workflow and find out if the code works.
 
