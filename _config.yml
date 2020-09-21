@@ -1,7 +1,7 @@
 title: CODECHECK
 #email: your-email@example.com
 description: >-
-  CODECHECK is a process for independent reproduction of computations and awarding of time-stamped certificates for successful reproductions of scholarly articles.
+  CODECHECK is a process for independent execution of computations underlying scholarly research articles.
 baseurl: ""
 url: "https://codecheck.org.uk"
 author: "Stephen Eglen & Daniel Nüst"
