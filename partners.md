@@ -46,11 +46,19 @@ _[Become a codechecker](/get-involved)!_
 
 ## Journals
 
-The following journals have [completed](/register) at least one CODECHECK as part of a peer review process.
+The following journals have [completed](/register) at least one CODECHECK as part of a peer review process and reference the CODECHECK certificate from the paper.
 
 [![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience)
 
 [![Journal of Geographical Systems]({{ 'img/JGSY-logo.jpg' | relative_url }}){:width="200"}](https://www.springer.com/journal/10109)
+
+## Conferences
+
+[![Reproducible AGILE Logo](https://reproducible-agile.github.io/public/images/reproducible-AGILE-logo-square.svg){:width="200"}](https://reproducible-agile.github.io/)
+
+The [Reproducible AGILE initiative](https://reproducible-agile.github.io/) conducts reproducibility reviews [as part of full paper peer review](https://www.agile-giscience-series.net/review_process.html) for the Association of Geographic Information Laboratories in Europe's ([AGILE](https://agile-online.org/)) [annual conference series]().
+The reproducibility reviews fulfil the CODECHECK principles and therefore they are listed in the CODECHECK register.
+Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.org/10.17605/OSF.IO/CB7Z8).
 
 ## Funding
 
