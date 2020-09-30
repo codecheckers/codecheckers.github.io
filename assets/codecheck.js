@@ -3,9 +3,6 @@ parseChecks = function(checksData) {
 
     $(checksData).each(function (index, value) {
         if (value["Check date"]) {
-            title = "test"
-            link = "https://codecheck.org/test"
-            date = "2020"
             var view = {
                 date: new Date(value["Check date"]),
                 title: value["Title"],

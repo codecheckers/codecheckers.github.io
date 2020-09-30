@@ -145,7 +145,7 @@ $(document).ready(function(){
     $.when(
         $.ajax({
             type: "get",
-            url: "https://codecheck.org.uk/register/register.json",
+            url: "https://codecheck.org.uk/register/featured.json",
             dataType: "JSON",
             success: function(data) {
                 checks = parseChecks(data);
