@@ -19,7 +19,7 @@ head_inline: |
          <ul id="check_list">
          </ul>
       </div>
-      <p>See the <a href="/register"><strong>CODECHECK register</strong></a> for the full list of <span id="check_count"></span> completed checks.</p>
+      <p>See the <a href="/register"><strong>CODECHECK register</strong></a> for all <span id="check_count"></span> completed certificates.</p>
    </div>
 </div>
 
@@ -141,6 +141,7 @@ To cite CODECHECK in scientific publications, please use the following citation/
 <script type="text/javascript">
 $(document).ready(function(){
     var checks = [];
+    var stats = {};
     
     $.when(
         $.ajax({
@@ -151,12 +152,27 @@ $(document).ready(function(){
                 checks = parseChecks(data);
             },
             error: function(xhr, status) {
-                $("#latest_checks").html("<p>Error fetching publications.</p>");
+                $("#latest_checks").html("<p>Error fetching latest checks.</p>");
             }
         }),
     ).then( function(){
        updateList(checks, 4, "#check_list", "#templateCheck");
-       updateCount(checks, "#check_count");
+    });
+
+    $.when(
+        $.ajax({
+            type: "get",
+            url: "https://codecheck.org.uk/register/stats.json",
+            dataType: "JSON",
+            success: function(data) {
+                stats = data;
+            },
+            error: function(xhr, status) {
+                $("#latest_checks").html("<p>Error fetching latest checks.</p>");
+            }
+        }),
+    ).then( function(){
+       updateCount(stats["cert_count"], "#check_count");
     });
 });
 </script>

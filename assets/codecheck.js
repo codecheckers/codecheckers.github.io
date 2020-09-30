@@ -45,5 +45,5 @@ updateList = function(checks, count, listId, templateId) {
 
 updateCount = function(checks, countId) {
     var count_element = $(countId);
-    count_element.html(checks.length);
+    count_element.html(checks);
 }
