@@ -25,13 +25,15 @@ The author must provide a _[preproducible](https://doi.org/10.1038/d41586-018-05
 all data and code files necessary to reproduce the results are provided in a way that allows fellow researchers to follow and execute the steps.
 Often this workflow includes the generation of key figures from the article based on data.
 
-Making current code reproducible with the awareness of the challenges is possible.
+Making current code reproducible with the **awareness** of the challenges is possible.
 See [this interesting article](https://www.nature.com/articles/d41586-020-02462-7) for challenges of reproducing old code, measures taken, and lessons learned.
 The article also includes a [_reproducibility checklist_](https://doi.org/10.1038/d41586-020-02462-7) that can help you to prepare your work for a CODECHECK.
+It is worth taking a look around for such checklists for your discipline or method, e.g., [Papers with Code](https://paperswithcode.com/)'s [Machine Learning Code Completeness Checklist](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501).
 
-From our experience, documentation is the key.
+From our experience, **documentation** is the key.
 A typical measure for a good level of documentation is to provide at least so much information as the author would themselves need after a longer period of time, e.g., 1 year, to run the analysis again.
 Any researcher, even if not familiar with the software stack, should be able to run the workflow and find out if the code works.
+Structured information about the computing environment, such as a [_colophon_](https://github.com/benmarwick/rrtools/blob/master/inst/templates/paper.Rmd#L105) or _"reproducibility receipt"_ in computational notebooks (see [this discussion on Twitter](https://twitter.com/MilesMcBain/status/1263272935197782016?s=09)) are very helpful.
 
 Common sense shall be applied to decide about the suitable amount of data and to handle big datasets, sensitive datasets with privacy concerns, and long execution times.
 For example, data may be deposited depending on community practices in remote repositories, synthetic data may be used, subsets or preprocessed data may be included, or protected access to information may be provided (e.g. cloud-based data enclaves).
