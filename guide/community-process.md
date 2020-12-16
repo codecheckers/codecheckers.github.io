@@ -199,6 +199,14 @@ Codechecker: [@nuest](https://github.com/nuest)
 
 Report: [https://doi.org/10.5281/zenodo.3873153](https://doi.org/10.5281/zenodo.3873153)
 
+### Archaeology ⛏️
+
+Paper on spatial dependence in archaeological spaces.
+
+Codechecker: [@nuest](https://github.com/nuest)
+
+Report: [https://doi.org/10.5281/zenodo.4279275](https://doi.org/10.5281/zenodo.4279275)
+
 ### _Your scientific dispipline here..._
 
 **[Get involved!](/get-involved)**
