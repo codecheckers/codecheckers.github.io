@@ -102,8 +102,8 @@ Some further tips:
 
 ## CODECHECK steps
 
-- [Open an issue on the CODECHECK register](https://github.com/codecheckers/register/issues/new?assignees=nuest&labels=community%2C+needs+codechecker&template=new-community-codecheck.md&title=%5BAuthor+1%2C+Author+2%2C+...%5D) to notify other codecheckers about the CODECHECK you're starting.
-- Fork the author's repository to the codecheckers GitHub organisation, or create a new repository with the naming scheme `Lastname-YYYY` using the family name of the corresponding author. Please take care to follow the terms and conditions of the workspace licenses; stop your CODECHECK if the licensing is unclear and contact the author to fix the documentation.
+- Comment on the issue in the CODECHECK register repository to notify author and editor that you're accepting (and starting) the CODECHECK.
+- Fork the author's repository to the codecheckers GitHub.com or GitLab.com organisation, or, if the code is not on GitHub/GitLab, create a new repository with the naming scheme `Lastname-YYYY` using the family name of the corresponding author. Please take care to follow the terms and conditions of the workspace's licenses; stop your CODECHECK if the licensing is unclear and contact the author to fix the documentation.
 - Create a directory `codecheck` to not interfere with original files.
   This is the _check directory_.
   You can use `.codecheck` if `codecheck` exists in submission for some reason.
@@ -128,6 +128,7 @@ Some further tips:
   - Are open formats (text-based etc.) used for input and output data?
   - Is the data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
 - Add **mandatory codechecker-contributed information** to the **`codecheck.yml`** file, see [spec](/spec/config/latest)
+- Wait for the article DOI.
 - **Deposit the CODECHECK report on _Zenodo_** using your own Zenodo account
   - _Files_
     - `codecheck.pdf` (mandatory)
@@ -151,11 +152,33 @@ Some further tips:
   [![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/<DOI HERE>)
   ```
 - If the check material is published on `github.com/codecheckers`, add the [`codecheck` topic](https://github.com/search?q=topic%3Acodecheck+fork%3Atrue+org%3Acodecheckers&type=Repositories) to the project.
-- **Update the CODECHECK register** with all important information, then close the issue.
 
 Every CODECHECK is unique, just as the associated research article.
 The codechecker can thereby rely on the examples below and future published CODECHECKs for good practices and approaches for codechecking.
 Reach out to fellow codecheckers in the [CODECHECK discussion forum](https://github.com/codecheckers/discussion/issues) if you face any problems.
+
+------
+
+## Codecheck editor tasks
+
+When a new issue is assigned to a codecheck editor in the register, here are a few things you need to do.
+
+- **First checks**
+  - Briefly check the submitted repository - does the workflow look at all codecheckable?
+  - Ensure that a preprint is linked or a real manuscript is published within the repository, or that a reference to a journal submission is provided to which you have contacts.
+  - Make sure the author has completed the [required author tasks](#requirements).
+- **CODECHECK process**
+  - Edit the first comment of the issue and add the next available _Certificate identifier_ in `YYYY-NNN` format by checking existing open issues with [`id assigned`](https://github.com/codecheckers/register/labels/id%20assigned) for the next available number; add the badge `id assigned` to the issue.
+  - [Find a codechecker](https://github.com/codecheckers/codecheckers/) and invite them by @-mentioning in the register issue. Remove the [`needs codechecker`](https://github.com/codecheckers/register/labels/needs%20codechecker) badge when you found one. Good job so far!
+  - Use the following labels to document the current state of the check: [`work in progress`](https://github.com/codecheckers/register/labels/work%20in%20progress), [`metadata pending`](https://github.com/codecheckers/register/labels/metadata%20pending)
+  - Support the codechecker as needed (sent reminders, technical support, mediate between author and codechecker, et cetera); _all communication should happen within the GitHub issue on the register!_
+  - Ensure that a reference to the certificate is/will be added to the manuscript.
+- **Certificate publication and register**
+  - Wait until the article is published (unless it's a preprint).
+  - Ask the codechecker to add/update all required metadata in the `codecheck.yml` and updated the certificate report (especially the final DOI!), double-check the information in the metadata and the actual certificate; wait until the certificate is published with its own DOI.
+  - Trigger a rebuild of the register by adding the CODECHECK to the `register.csv` file; you may add a `closes #N` statement in the commit message to close the isue.
+  - Clear up the labels of the register issue - all labels except the [`community`](https://github.com/codecheckers/register/labels/community)/[`journal`](https://github.com/codecheckers/register/labels/journal)/[`conference/workshop`](https://github.com/codecheckers/register/labels/conference%2Fworkshop) should be removed.
+  - Close the issue on the register.
 
 ------
 
