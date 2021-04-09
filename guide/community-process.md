@@ -169,7 +169,7 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
   - Make sure the author has completed the [required author tasks](#requirements).
 - **CODECHECK process**
   - Edit the first comment of the issue and add the next available _Certificate identifier_ in `YYYY-NNN` format by checking existing open issues with [`id assigned`](https://github.com/codecheckers/register/labels/id%20assigned) for the next available number; add the badge `id assigned` to the issue.
-  - [Find a codechecker](https://github.com/codecheckers/codecheckers/) and invite them by @-mentioning in the register issue. Remove the [`needs codechecker`](https://github.com/codecheckers/register/labels/needs%20codechecker) badge when you found one. Good job so far!
+  - [Find a codechecker](https://github.com/codecheckers/codecheckers/) and invite them by @-mentioning in the register issue. Remove the [`needs codechecker`](https://github.com/codecheckers/register/labels/needs%20codechecker) label when you found one. Good job so far!
   - Use the following labels to document the current state of the check: [`work in progress`](https://github.com/codecheckers/register/labels/work%20in%20progress), [`metadata pending`](https://github.com/codecheckers/register/labels/metadata%20pending)
   - Support the codechecker as needed (sent reminders, technical support, mediate between author and codechecker, et cetera); _all communication should happen within the GitHub issue on the register!_
   - Ensure that a reference to the certificate is/will be added to the manuscript.
