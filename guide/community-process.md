@@ -7,7 +7,7 @@ redirect_from:
   - techexample
 ---
 
-The CODECHECK community process described here is the steps that codecheckers follow when using open platforms for codechecking software from scientific articles, in particular the [GitHub organisation codecheckers](https://github.com/codecheckers/) and [Zenodo]() for depositing check reports.
+The CODECHECK community process described here is the steps that codecheckers follow when using open platforms for codechecking software from scientific articles, in particular the [GitHub organisation codecheckers](https://github.com/codecheckers/) and [Zenodo](https://zenodo.org/communities/codecheck/) for depositing check reports.
 These codechecks may be part of a journal review or not and are a concrete implementation of the abstract [CODECHECK process](/process) following the _[CODECHECK principles](/)_.
 Be aware that community CODECHECKs may fall short of Rule 3 as the CODECHECKs might not be properly registered as peer reviews in the respective public databases.
 
@@ -155,7 +155,7 @@ Some further tips:
 
 Every CODECHECK is unique, just as the associated research article.
 The codechecker can thereby rely on the examples below and future published CODECHECKs for good practices and approaches for codechecking.
-Reach out to fellow codecheckers in the [CODECHECK discussion forum](https://github.com/codecheckers/discussion/issues) if you face any problems.
+Reach out to fellow codecheckers in the [public CODECHECK discussion forum](https://github.com/codecheckers/discussion/issues) if you face any problems, or use the [internal team discussion](https://github.com/orgs/codecheckers/teams/codecheckers) if you need to consult in private.
 
 ------
 
