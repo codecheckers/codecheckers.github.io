@@ -68,7 +68,7 @@ Check out [**the CODECHECK paper**](#2021-03--f1000research-preprint) and the [F
 
 The principles can be implemented in different ways.
 See the [process page](/process) for details about the stakeholders and dimensions of variations in CODECHECKs within a scholarly peer review.
-The [CODECHECK community process](/guide/community-process) describes a concrete realisation, including practical requirements and steps.
+The [CODECHECK community workflow](/guide/community-workflow) describes a concrete realisation, including practical requirements and steps.
 
 **If you want to get involved as a codechecker in the community, or if you want to apply the CODECHECK principles in your journal or conference, please take a look at the [Get Involved](/get-involved) page.**
 

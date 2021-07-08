@@ -1,13 +1,15 @@
 ---
 layout: page
-title: CODECHECK community process guide
-permalink: guide/community-process
+title: CODECHECK community workflow guide
+permalink: guide/community-workflow
 redirect_from:
   - /techexample/
-  - techexample
+  - /techexample
+  - /guide/community-process/
+  - /guide/community-process
 ---
 
-The CODECHECK community process described here is the steps that codecheckers follow when using open platforms for codechecking software from scientific articles, in particular the [GitHub organisation codecheckers](https://github.com/codecheckers/) and [Zenodo](https://zenodo.org/communities/codecheck/) for depositing check reports.
+The CODECHECK community workflow described here is the steps that codecheckers follow when using open platforms for codechecking software from scientific articles, in particular the [GitHub organisation codecheckers](https://github.com/codecheckers/) and [Zenodo](https://zenodo.org/communities/codecheck/) for depositing check reports.
 These codechecks may be part of a journal review or not and are a concrete implementation of the abstract [CODECHECK process](/process) following the _[CODECHECK principles](/)_.
 Be aware that community CODECHECKs may fall short of Rule 3 as the CODECHECKs might not be properly registered as peer reviews in the respective public databases.
 
@@ -76,6 +78,12 @@ A great way to learn what a good way to meaningfully package your research for o
 ### Submission
 
 When your workflow is ready to be CODECHECK, open an issue on the [CODECHECK register](https://github.com/codecheckers/register/issues/new/choose).
+
+### During submission/preprint stage
+
+After the publication of the CODECHECK certificate, add a reference to the certificate in your paper, e.g., in a section describing your workflow or in the acknowledgements:
+
+> _A CODECHECK certificate is available confirming that [all of the, a (significant) part of the, the] computations underlying this article could be independently executed: https://doi.org/[certificate DOI]._
 
 ------
 
@@ -167,8 +175,14 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
   - Briefly check the submitted repository - does the workflow look at all codecheckable?
   - Ensure that a preprint is linked or a real manuscript is published within the repository, or that a reference to a journal submission is provided to which you have contacts.
   - Make sure the author has completed the [required author tasks](#requirements).
-- **CODECHECK process**
+- **CODECHECK workflow**
   - Edit the first comment of the issue and add the next available _Certificate identifier_ in `YYYY-NNN` format by checking existing open issues with [`id assigned`](https://github.com/codecheckers/register/labels/id%20assigned) for the next available number; add the badge `id assigned` to the issue.
+  
+UPDATE AS DISCUSSED IN https://github.com/codecheckers/discussion/issues/21
+
+update Zenodo metadata to include a link to the published paper
+
+
   - [Find a codechecker](https://github.com/codecheckers/codecheckers/) and invite them by @-mentioning in the register issue. Remove the [`needs codechecker`](https://github.com/codecheckers/register/labels/needs%20codechecker) label when you found one. Good job so far!
   - Use the following labels to document the current state of the check: [`work in progress`](https://github.com/codecheckers/register/labels/work%20in%20progress), [`metadata pending`](https://github.com/codecheckers/register/labels/metadata%20pending)
   - Support the codechecker as needed (sent reminders, technical support, mediate between author and codechecker, et cetera); _all communication should happen within the GitHub issue on the register!_
@@ -178,6 +192,7 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
   - Ask the codechecker to add/update all required metadata in the `codecheck.yml` and updated the certificate report (especially the final DOI!), double-check the information in the metadata and the actual certificate; wait until the certificate is published with its own DOI.
   - Trigger a rebuild of the register by adding the CODECHECK to the `register.csv` file; you may add a `closes #N` statement in the commit message to close the isue.
   - Clear up the labels of the register issue - all labels except the [`community`](https://github.com/codecheckers/register/labels/community)/[`journal`](https://github.com/codecheckers/register/labels/journal)/[`conference/workshop`](https://github.com/codecheckers/register/labels/conference%2Fworkshop) should be removed.
+  - "Archive" the repository clone in the codecheckers organisation on GitHub/the cdchk organisation on GitLab ([instructions for GitHub](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories), [instructions for GitLab](https://docs.gitlab.com/ee/user/project/settings/#archiving-a-project))
   - Close the issue on the register.
 
 ------

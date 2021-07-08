@@ -15,12 +15,12 @@ Please open an issue on the [codecheckers](https://github.com/codecheckers/codec
 
 You want to share the code underlying your research paper? **Congratulations** for the decision to practice Open Science and reproducible research!
 
-There are different ways for you to get involved, for example (a) submit a manuscript to a journal conducting CODECHECKs, (b) suggest a CODECHECK as part of your cover letter, or (c) submit your workflow to the [community review process](/guide/community-process) right away if you have published a preprint or submit to a journal with an open review.
+There are different ways for you to get involved, for example (a) submit a manuscript to a journal conducting CODECHECKs, (b) suggest a CODECHECK as part of your cover letter, or (c) submit your workflow to the [community review process](/guide/community-workflow) right away if you have published a preprint or submit to a journal with an open review.
 
 ## As a reviewer or editor
 
 If you are contributing to science as a reviewer of academic manuscripts or as a journal editor, you can initiate a CODECHECK for submitted articles if the author provides suitable information.
-The [CODECHECK team](/partners) would be excited to help you start a conversation with your (fellow) journal editors on how you to best achieve that, i.e., if you conduct a [community CODECHECK](/guide/community-process), or if you want to set up a proper process at the journal (see below).
+The [CODECHECK team](/partners) would be excited to help you start a conversation with your (fellow) journal editors on how you to best achieve that, i.e., if you conduct a [community CODECHECK](/guide/community-workflow), or if you want to set up a proper process at the journal (see below).
 
 ## As a journal, publisher, or conference
 
