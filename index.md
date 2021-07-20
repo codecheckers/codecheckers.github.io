@@ -76,20 +76,27 @@ The [CODECHECK community workflow](/guide/community-workflow) describes a concre
 
 # News
 
+## 2021-07 | F1000Research paper on CODECHECK published after reviews
+
+The [F1000Research](https://f1000research.com/) preprint presented below has passed peer review and is now published in version 2.
+We are grateful for the two reviewers, [Nicolas P. Rougier](https://orcid.org/0000-0002-6972-589X) and [Sarah Gibson](https://orcid.org/0000-0003-0356-2765), who gave helpful feedback and asked good questions that helped to improve the paper.
+
+> Nüst D and Eglen SJ. **CODECHECK: an Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility** [version 2; peer review: 2 approved]. F1000Research 2021, 10:253 (<https://doi.org/10.12688/f1000research.51738.2>)
+>
+> [![screenshot title page of F1000Research paper after peer review](/img/f1000research-paper-2021.jpg)](https://doi.org/10.12688/f1000research.51738.2)
+
 ## 2021-03 | F1000Research preprint
 
 A preprint about CODECHECK was published at [F1000Research](https://f1000research.com/) and is now subject to open peer review. It presents the codechecking workflow, describes involved roles and stakeholders, presents the _25_ codechecks conducted up to today, and details the experiences and tools that underpin the CODECHECK initiative. We welcome your comments!
 
 > Nüst D and Eglen SJ. **CODECHECK: an Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility** [version 1; peer review: awaiting peer review]. F1000Research 2021, 10:253 ([https://doi.org/10.12688/f1000research.51738.1](https://doi.org/10.12688/f1000research.51738.1))
-> 
-> [![screenshot title page of F1000Research preprint](/img/f1000research-preprint-2021.jpg)](https://doi.org/10.12688/f1000research.51738.1)
 
 ## 2020-06 | Nature News article
 
 A [Nature News article](https://doi.org/10.1038/d41586-020-01685-y) by [Dalmeet Singh Chawla](https://www.dalmeets.com/) discussed [the recent CODECHECK `#2020-010`](https://doi.org/10.5281/zenodo.3865491) of a simulation study, including some quotes by CODECHECK Co-PI Stephen J. Eglen and fellow Open Science and Open Software experts [Neil Chue Hong](https://twitter.com/npch) ([Software Sustainability Institute](https://www.software.ac.uk), UK) and [Konrad Hinsen](https://khinsen.net/) (CNRS, France).
 
 > Singh Chawla, D. (2020). **Critiqued coronavirus simulation gets thumbs up from code-checking efforts**. Nature. [https://doi.org/10.1038/d41586-020-01685-y](https://doi.org/10.1038/d41586-020-01685-y)
-> 
+>
 > [![screenshot of Nature News article headline](/img/nature-news-2020.jpg)](https://doi.org/10.1038/d41586-020-01685-y)
 
 ## 2019-11 | MUNIN conference presentation
@@ -97,7 +104,7 @@ A [Nature News article](https://doi.org/10.1038/d41586-020-01685-y) by [Dalmeet 
 Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Publishing 2019](https://site.uit.no/muninconf/).
 
 > Take a look at the [poster](https://septentrio.uit.no/index.php/SCS/article/view/4910/4893) and the [slides](https://septentrio.uit.no/index.php/SCS/article/view/4910/4900), or watch the [video recording](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000).
-> 
+>
 > [![](/img/munin-2019.jpg)](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000)
 
 ------
