@@ -85,6 +85,9 @@ We are grateful for the two reviewers, [Nicolas P. Rougier](https://orcid.org/00
 >
 > [![screenshot title page of F1000Research paper after peer review](/img/f1000research-paper-2021.jpg)](https://doi.org/10.12688/f1000research.51738.2)
 
+The F1000 blog also features the article with a little Q&A: [https://blog.f1000.com/2021/09/27/codecheck](https://blog.f1000.com/2021/09/27/codecheck).
+Thanks [Jessica](https://blog.f1000.com/author/jessicatruschel/) for making that happen!
+
 ## 2021-03 | F1000Research preprint
 
 A preprint about CODECHECK was published at [F1000Research](https://f1000research.com/) and is now subject to open peer review. It presents the codechecking workflow, describes involved roles and stakeholders, presents the _25_ codechecks conducted up to today, and details the experiences and tools that underpin the CODECHECK initiative. We welcome your comments!
