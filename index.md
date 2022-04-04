@@ -76,6 +76,14 @@ The [CODECHECK community workflow](/guide/community-workflow) describes a concre
 
 # News
 
+## 2022-04 | CODECHECK talks
+
+The CODECHECK team is grateful about the continued interest from the research community on the topic of evaluating code and workflows as part of scholarly communication and peer review.
+
+Stephen presented **CODECHECK: An Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility** ([slides](https://bit.ly/codecheck21)) in May 2021 at the [Reproducibility Tea Southhampton](https://reproducibilitea.org/journal-clubs/#Southampton).
+
+Daniel gave the keynote at the [Collaborations Workshop 2022](https://software.ac.uk/cw22) (CW22) on April 4, 2022, organised by the Software Sustainability Institute ([SSI](https://software.ac.uk/)), UK entitled **Code execution during peer review** ([slides](https://bit.ly/cw22-keynote-daniel), [PDF](https://doi.org/10.6084/m9.figshare.19487573)) and presented CODECHECK as well as the partnering initiative [Reproducible AGILE](https://reproducible-agile.github.io/).
+
 ## 2021-07 | F1000Research paper on CODECHECK published after reviews
 
 The [F1000Research](https://f1000research.com/) preprint presented below has passed peer review and is now published in version 2.
@@ -87,6 +95,16 @@ We are grateful for the two reviewers, [Nicolas P. Rougier](https://orcid.org/00
 
 The F1000 blog also features the article with a little Q&A: [https://blog.f1000.com/2021/09/27/codecheck](https://blog.f1000.com/2021/09/27/codecheck).
 Thanks [Jessica](https://blog.f1000.com/author/jessicatruschel/) for making that happen!
+
+## 2021-04 | CODECHECK @ ITC
+
+CODECHECK supporter [Markus Konkol](https://twitter.com/MarkusKonkol) has built a CODECHECK process for all researchers at the University of Twente's Faculty of Geo-Information Science and Earth Observation ([ITC](https://www.itc.nl)).
+He offers his expertise to codecheck manuscripts and underlying source code and data before submission or preprint publication, so even if the information is still not publicly shared.
+His reports will then go public on Zenodo when the paper comes out, just like a regular CODECHECK, and can support the article's claims.
+If timed right, authors can even link to the certificate before submission.
+_This is a great service for ITC researchers and their reviewers and readers!_
+
+Learn more at **<https://www.itc.nl/research/open-science/codecheck/>** and see an example at <https://doi.org/10.5281/zenodo.5106408>.
 
 ## 2021-03 | F1000Research preprint
 
