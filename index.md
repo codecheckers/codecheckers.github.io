@@ -76,6 +76,18 @@ The [CODECHECK community workflow](/guide/community-workflow) describes a concre
 
 # News
 
+## 2022-06 | AGILE Reproducibility Review 2022
+
+The collaboration between CODECHECK and the AGILE conference series continues!
+In 2022, the AGILE conference's [reproducibility committee]() conducted 16 reproductions of conference full papers.
+Take a look at the slides presented at the final conference day [here](https://doi.org/10.5281/zenodo.6625206).
+The reproducibility review took place after the scientific review.
+The reproducibility reports, the AGILE conference's  are published on OSF at <https://osf.io/r5w79/> and listed in the [CODECHECK register](https://codecheck.org.uk/register/).
+
+Learn more about the Reproducible AGILE initiative at <https://reproducible-agile.github.io/>.
+
+[![Reproducible AGILE logo](https://github.com/reproducible-agile/reproducible-agile.github.io/blob/master/public/images/badge/AGILE-reproducible-badge.png?raw=true)](https://reproducible-agile.github.io/)
+
 ## 2022-04 | CODECHECK talks
 
 The CODECHECK team is grateful about the continued interest from the research community on the topic of evaluating code and workflows as part of scholarly communication and peer review.
