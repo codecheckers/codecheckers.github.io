@@ -50,13 +50,15 @@ make build
 
 ### Build with Docker
 
-See `jekyll/jekyll` image documentation for details: https://github.com/envygeeks/jekyll-docker/blob/master/README.md 
+Run
 
 ```
-make preview_container
+docker compose up
 ```
 
-Then open the website at http://localhost.
+and open the website at http://localhost.
+
+More details at [`jekyll/jekyll` image documentation](https://github.com/envygeeks/jekyll-docker/blob/master/README.md).
 
 ## License
 
