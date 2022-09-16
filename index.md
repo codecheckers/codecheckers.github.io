@@ -76,6 +76,15 @@ The [CODECHECK community workflow](/guide/community-workflow) describes a concre
 
 # News
 
+## 2022-09 | CODECHECK Hackathon @ OpenGeoHub Summer School
+
+Markus Konkol, research software engineer at [52°North](https://52north.org/) and codechecker, organised a **CODECHECK hackathon** as part of the [OpenGeoHub summer school](https://opengeohub.org/summer-school/siegburg-2022/).
+He reports on his experiences in a blog post in the 52°North blog at <https://blog.52north.org/2022/09/16/opengeohub-summer-school-facilitating-reproducibility-using-codecheck/>.
+It's great to see that codechecking is a suitable evening pastime activity and that participants took some nice learnigns away from the experience of codechecking.
+Check out the quotes in the blog post!
+
+Thanks, Markus, for spreading the word about CODECHECK and for introducing more developers and software-developing researchers of the need for their expertise during peer review.
+
 ## 2022-06 | AGILE Reproducibility Review 2022
 
 The collaboration between CODECHECK and the AGILE conference series continues!
