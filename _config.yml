@@ -32,11 +32,14 @@ footer_icons:
   #- username: nuest
   #  url: https://github.com/nuest/
   #  icon: icon-github.svg
-  - username: StephenEglen
-    url: https://twitter.com/StephenEglen
-    icon: icon-twitter.svg
-  - username: nordholmen
-    url: https://twitter.com/nordholmen
+  #- username: StephenEglen
+  #  url: https://twitter.com/StephenEglen
+  #  icon: icon-twitter.svg
+  #- username: nordholmen
+  #  url: https://twitter.com/nordholmen
+  #  icon: icon-twitter.svg
+  - username: cdchck
+    url: https://twitter.com/cdchck
     icon: icon-twitter.svg
   - username: S. Eglen
     url: mailto:sje30@cam.ac.uk
