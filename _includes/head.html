@@ -18,4 +18,11 @@
   {% seo %}
 
   {% include head-includes.html %}
+
+  {% if page.style %}
+  <style>
+    {% include {{ page.style }}.css %}
+  </style>
+  {% endif %}
+
 </head>

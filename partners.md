@@ -60,8 +60,12 @@ The [Reproducible AGILE initiative](https://reproducible-agile.github.io/) condu
 The reproducibility reviews fulfil the CODECHECK principles and therefore they are listed in the CODECHECK register.
 Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.org/10.17605/OSF.IO/CB7Z8).
 
+## Projects
+
+[![ReproHack logo](https://www.reprohack.org/static/images/reprohack_logo_sm.png)](https://www.reprohack.org/)
+
 ## Funding
 
-The project is supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
+The project was supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
 
 [![Mozilla logo]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)

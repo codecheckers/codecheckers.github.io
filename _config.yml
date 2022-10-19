@@ -49,8 +49,8 @@ footer_icons:
     icon: icon-email.svg
 
 header_pages:
-  - process.md
   - project.md
+  - process.md
   - partners.md
   - get-involved.md
 
