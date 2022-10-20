@@ -57,10 +57,10 @@ Check out [**the CODECHECK paper**](https://doi.org/10.12688/f1000research.51738
 ## Next steps
 
 In the future, we hope to update these principles and to work together with researchers, educators, editors, and publishers to raise the bar towards higher degrees of reproducibility and openness across all domains and communities of research.
-One core goal is to increase the number of communities and publication platforms that include codechecking in their review processes: preprint servers, journals, or conferences, for example.
+Our main objective is to increase the number of communities and publication platforms that include codechecking in their review processes: preprint servers, journals, or conferences, for example.
 We especially target the future of scholarly communication: independent scholar-led diamond Open Access journals.
-To make codechecking work for these journals and others, we are looking for funding for _CODECHECK editors_, for developing _training material and mentoring programmes_ together with [friendly projects from the Open Science community](/partners/#projects), and for building and providing _supporting open and free infrastructure_ for conducting checks.
-With these steps we will scale CODECHECK beyond the [existing list of awesome volunteer codecheckers](https://github.com/codecheckers/codecheckers/blob/master/codecheckers.csv) and [partner journals and conferences](/partners).
+To make codechecking feasible for these journals and others, we are looking for funding for _CODECHECK editors_, for developing _training material and mentoring programmes_ together with [friendly projects from the Open Science community](/partners/#projects), and for building and providing _open and free supporting infrastructure_ for conducting checks.
+With these steps we will scale CODECHECK beyond the [existing list of awesome volunteer codecheckers](https://github.com/codecheckers/codecheckers/blob/master/codecheckers.csv) and [current partner journals and conferences](/partners).
 
 ## Project history
 
