@@ -64,6 +64,10 @@ Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.or
 
 [![ReproHack logo](https://www.reprohack.org/static/images/reprohack_logo_sm.png)](https://www.reprohack.org/)
 
+[Open Science @ ITC](https://www.itc.nl/research/open-science/codecheck/)
+
+[![ITC Logo](https://1348661504.rsc.cdn77.org/.publisher/sd/utwente_base/ws2016/img/itc/itc-logo@2x.png)](https://www.itc.nl/research/open-science/codecheck/)
+
 ## Funding
 
 The project was supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
