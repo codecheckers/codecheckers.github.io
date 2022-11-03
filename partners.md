@@ -52,6 +52,8 @@ The following journals have [completed](/register) at least one CODECHECK as par
 
 [![Journal of Geographical Systems]({{ 'img/JGSY-logo.jpg' | relative_url }}){:width="200"}](https://www.springer.com/journal/10109)
 
+[![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="200"}](https://gigabytejournal.com/)
+
 ## Conferences
 
 [![Reproducible AGILE Logo]({{ 'img/reproducible-AGILE-logo-square.svg' | relative_url }}){:width="200"}](https://reproducible-agile.github.io/)
