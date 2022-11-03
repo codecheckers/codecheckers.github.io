@@ -66,7 +66,11 @@ Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.or
 
 [Open Science @ ITC](https://www.itc.nl/research/open-science/codecheck/)
 
-[![ITC Logo](https://1348661504.rsc.cdn77.org/.publisher/sd/utwente_base/ws2016/img/itc/itc-logo@2x.png)](https://www.itc.nl/research/open-science/codecheck/)
+[![ITC logo](https://1348661504.rsc.cdn77.org/.publisher/sd/utwente_base/ws2016/img/itc/itc-logo@2x.png)](https://www.itc.nl/research/open-science/codecheck/)
+
+CODECHECK is a member in the [German Reproducibility Network](https://reproducibilitynetwork.de/).
+
+[![GRN logo]({{ 'img/RN_German_kurz.png' | relative_url }}){:width="200"}](https://reproducibilitynetwork.de/)
 
 ## Funding
 
