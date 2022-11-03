@@ -3,14 +3,14 @@
 CODECHECK is a process for independent execution of computations underlying scholarly research articles.
 This repository contains the sources for the project website at `codecheck.org.uk` and graphic files of the project.
 
-**Note:** the website currently must be built by GitHub pages, and therefore is named `codecheckers.github.io`, because only then can project repositories easily be built as subpages, e.g., https://codecheck.org.uk/register.
+**Note:** the website currently must be built by GitHub pages, and therefore is named `codecheckers.github.io`, because only then can project repositories easily be built as subpages, e.g., <https://codecheck.org.uk/register>.
 Pages _cannot_ be built with Travis CI from `master` branch into a `gh-pages` branch.
 
 ## Logo and badge
 
-![](https://raw.githubusercontent.com/codecheckers/website/master/badges/codeworks-badge.png)
+![badge](https://raw.githubusercontent.com/codecheckers/website/master/badges/codeworks-badge.png)
 
-![](https://codecheck.org.uk/img/codecheck_logo.svg)
+![logo](https://codecheck.org.uk/img/codecheck_logo.svg)
 
 Find the source files for the CODECHECK logo and badge in the following directories in this repository:
 
