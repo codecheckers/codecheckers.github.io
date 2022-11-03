@@ -58,6 +58,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - docker-compose.yml
   - travis.sh
   - .travis.yml
   - Makefile
