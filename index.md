@@ -25,56 +25,30 @@ head_inline: |
 
 CODECHECK tackles one of the main challenges of computational research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
 The independent time-stamped runs conducted by codecheckers will award a _"certificate of executable computation"_ and increase availability, discovery and reproducibility of crucial artefacts for computational sciences.
-See [**the CODECHECK paper**](#2021-03--f1000research-preprint) for a full description of problems, solutions, and goals and take a look at the [GitHub organisation](https://github.com/codecheckers) for examples of codechecks and the CODECHECK infrastructure and tools.
+See [**the CODECHECK paper**](#2021-07--f1000research-paper-on-codecheck-published-after-reviews) for a full description of problems, solutions, and goals and take a look at the [GitHub organisation](https://github.com/codecheckers) for examples of codechecks and the CODECHECK infrastructure and tools.
 
-# The CODECHECK principles
+CODECHECK is based on **five principles** which are described in detail in the [project description](/project) and [the paper](#2021-07--f1000research-paper-on-codecheck-published-after-reviews).
 
-1. <span class="principle">Codecheckers record but don’t investigate or fix.</span>
-   <details>
-   <summary>More about this principle...</summary>
-   The codechecker follows the author’s instructions to run the code. If instructions are unclear, or if code does not run, the codechecker tells the author. We believe that the job of the codechecker is not to fix these problems but simply to report them to the author and await a fix. The level of documentation required for third parties to reproduce a workflow is hard to get right, and too often this uncertainty leads researchers to give up and not document it at all. The conversation with a codechecker fixes this problem.
-   <em>Codecheckers take the pictures at a crime scene, they do not hunt the criminal.</em>
-   </details>
-1. <span class="principle">Communication between humans is key.</span>
-   <details>
-   <summary>More about this principle...</summary>
-   Some code may work without any interaction but often there are hidden dependencies that need adjusting for a particular system. Allowing the codechecker to communicate directly and openly with the author make this process as constructive as possible; routing this conversation (possibly anonymously) through a publisher would introduce delays and inhibit community building.
-   </details>
-1. <span class="principle">Credit is given to codecheckers.</span>
-   <details>
-   <summary>More about this principle...</summary>
-   The value of performing a CODECHECK is comparable to that of a peer review, and it may require a similar amount of time. Therefore, the codechecker’s activity should be recorded, ideally in the published paper. The public record can be realised by publishing the certificate in a citable form (i.e., with a DOI), by listing codecheckers on the journal’s website or, ideally, by publishing the checks alongside peer review activities in public databases.
-   <em>Codechecks are an excellen opportunity to involve early career researchers (ECRs) or research software engineers (RSEs) in peer review.</em>
-   </details>
-1. <span class="principle">Workflows must be auditable.</span>
-   <details>
-   <summary>More about this principle...</summary>
-   The codechecker should have sufficient material to validate the workflow outputs submitted by the authors. <a href="https://doi.org/10.1038/d41586-018-05256-0" title="Stark PB: Before reproducibility must come preproducibility. Nature. 2018; 557(7707): 613.">Stark</a> calls this "preproducibility" and the <a href="https://icerm.brown.edu/topical_workshops/tw12-5-rcem/icerm_report.pdf" title="Stodden V, Bailey DH, Borwein J, et al.: Setting the Default to Reproducible: Reproducibility in Computational and Experimental Mathematics. Technical report, The Institute for Computational and Experimental Research in Mathematics, 2013.">ICERM report</a> defines the level "Auditable Research" similarly. Communities can establish their own good practices or adapt generic concepts and practical tools, such as publishing all building blocks of science in a research compendium (cf. <a href="https://research-compendium.science/">https://research-compendium.science/</a>) or <a href="https://doi.org/10.22541/au.153922477.77361922" title="Barba LA: Praxis of Reproducible Computational Science. 2018.">repro-pack</a>. A completed check means that code could be executed at least once using the provided instructions, and, therefore, all code and data was given and could be investigated more deeply or extended in the future. Ideally, this is a “one click” step, but achieving this requires particular skills and a sufficient level of documentation for third parties. Furthermore, automation may lead to people gaming the system or reliance on technology, which can often hide important details. All such aspects can reduce the understandability of the material, so we estimate our approach to codechecking, done without automation and with open human communication, to be a simple way to ensure long-term transparency and usefulness. We acknowledge that <a href="https://twitter.com/khinsen/status/1242842759733665799" title="Konrad Hinsen (@khinsen) on Twitter: 'My crystal ball tells me that in the long run, bit-for-bit reproducibility will become the norm. Not because people realize it matters, but because it can be automatized. ´Good-enough´ reproducibility requires scientific judgment, so it's more expensive to ensure/check.'">others have argued</a> in favour of bitwise reproducibility because, in the long run, it can be automated, but until then we need CODECHECK’s approach.
-   </details>
-1. <span class="principle">Open by default and transitional by disposition.</span>
-   <details>
-   <summary>More about this principle...</summary>
-   Unless there are strong reasons to the contrary (e.g., sensitive data on human subjects), all code and data, both from author and codechecker, will be made freely available when the certificate is published. Openness is not required for the paper itself, to accommodate journals in their transition to Open Access models. The code and data publication should follow community good practices. Ultimately we may find that CODECHECK activities are subsumed within peer review.
-   </details>
-
-These basic principles ensure they are feasible to add in a scholarly communication process but still have a huge positive impact on the transparency and usefulness of the published material.
-They strike a **balance** between the ideals of auditable high-quality research software and the reality of publication pressure and only slowly changing academic evaluation practices.
-Of course, numerous requirements on openness/transparency (e.g. depositing the CODECHECK report publicly with a DOI), about software quality (tests, releases, documentation), on copyright/licensing, and regarding best practices for computer-based analyses (e.g. workflow management, data/software citation) are thinkable, but intentionally remain to be defined by implementations of the principles in each community of practice.
-While the CODECHECK initiators strongly support of Open Science, a CODECHECK does not exclude research not falling into your definition of Open Science.
-
-Check out [**the CODECHECK paper**](#2021-03--f1000research-preprint) and the [FAQ](/faq) page for more information about the limitations of a CODECHECK.
-
-**In the future** we hope to update these principles and to work together with researchers, educators, editors, and publishers to raise the bar towards higher degrees of reproducibility and openness across all domains and communities of research.
-
-The principles can be implemented in different ways.
-See the [process page](/process) for details about the stakeholders and dimensions of variations in CODECHECKs within a scholarly peer review.
-The [CODECHECK community workflow](/guide/community-workflow) describes a concrete realisation, including practical requirements and steps.
+1. Codecheckers record but don’t investigate or fix.
+1. Communication between humans is key.
+1. Credit is given to codecheckers.
+1. Workflows must be auditable.
+1. Open by default and transitional by disposition.
 
 **If you want to get involved as a codechecker in the community, or if you want to apply the CODECHECK principles in your journal or conference, please take a look at the [Get Involved](/get-involved) page.**
 
 ------
 
 # News
+
+## 2022-09 | CODECHECK Hackathon @ OpenGeoHub Summer School
+
+[Markus](https://www.linkedin.com/in/markus-konkol-a3b244140) [Konkol](https://orcid.org/0000-0001-6651-0976) (<https://github.com/MarkusKonk>, <https://twitter.com/MarkusKonkol>), research software engineer at [52°North](https://52north.org/) and codechecker, organised a **CODECHECK hackathon** as part of the [OpenGeoHub summer school](https://opengeohub.org/summer-school/siegburg-2022/).
+He reports on his experiences in a blog post in the 52°North blog at <https://blog.52north.org/2022/09/16/opengeohub-summer-school-facilitating-reproducibility-using-codecheck/>.
+It's great to see that codechecking is a suitable evening pastime activity and that participants took some nice learnigns away from the experience of codechecking.
+Check out the quotes in the blog post!
+
+Thanks, Markus, for spreading the word about CODECHECK and for introducing more developers and software-developing researchers of the need for their expertise during peer review.
 
 ## 2022-06 | AGILE Reproducibility Review 2022
 

@@ -23,7 +23,7 @@ The "CODECHECK green" is `#008033`, or CMYB(100%, 0%, 60%, 50%), HSL(144, 100%, 
 
 ## Figures
 
-The figures used on the website are at https://drive.google.com/drive/folders/1XUsfF9ZlZ_dwLTJxu_PIcq-3hEldI3d-?usp=sharing
+The figures used on the website are at <https://drive.google.com/drive/folders/1XUsfF9ZlZ_dwLTJxu_PIcq-3hEldI3d-?usp=sharing>
 
 ## Website
 
@@ -31,10 +31,10 @@ See `Makefile` for commands to build and view the site locally with [Jekyll](htt
 
 If you want to override a file from the `minima-reboot` template, run `bundle info minima-reboot` to see where the bundle files are and copy it into this project.
 
-- Jekyll GitHub pages: https://jekyllrb.com/docs/github-pages/
-- `minima-reboot` theme: https://github.com/aterenin/minima-reboot
+- Jekyll GitHub pages: <https://jekyllrb.com/docs/github-pages>
+- `minima-reboot` theme: <https://github.com/aterenin/minima-reboot>
 
-**Prerequisites**
+Prerequisites:
 
 - `ruby` and `ruby-dev`
 - gem `bundler`
@@ -43,7 +43,7 @@ If you want to override a file from the `minima-reboot` template, run `bundle in
 
 Use one of
 
-```
+```bash
 make preview
 make build
 ```
@@ -52,11 +52,11 @@ make build
 
 Run
 
-```
+```bash
 docker compose up
 ```
 
-and open the website at http://localhost.
+and open the website at <http://localhost>.
 
 More details at [`jekyll/jekyll` image documentation](https://github.com/envygeeks/jekyll-docker/blob/master/README.md).
 

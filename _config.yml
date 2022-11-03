@@ -16,7 +16,7 @@ plugins:
 license:
   text: CC BY-SA 4.0
   link: https://creativecommons.org/licenses/by-sa/4.0/
-  logo: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg
+  logo: /img/by-sa.svg
 
 # https://github.com/aterenin/minima-reboot/#adding-new-links-to-footer
 footer_icons:
@@ -32,11 +32,14 @@ footer_icons:
   #- username: nuest
   #  url: https://github.com/nuest/
   #  icon: icon-github.svg
-  - username: StephenEglen
-    url: https://twitter.com/StephenEglen
-    icon: icon-twitter.svg
-  - username: nordholmen
-    url: https://twitter.com/nordholmen
+  #- username: StephenEglen
+  #  url: https://twitter.com/StephenEglen
+  #  icon: icon-twitter.svg
+  #- username: nordholmen
+  #  url: https://twitter.com/nordholmen
+  #  icon: icon-twitter.svg
+  - username: cdchck
+    url: https://twitter.com/cdchck
     icon: icon-twitter.svg
   - username: S. Eglen
     url: mailto:sje30@cam.ac.uk
@@ -46,8 +49,8 @@ footer_icons:
     icon: icon-email.svg
 
 header_pages:
-  - process.md
   - project.md
+  - process.md
   - partners.md
   - get-involved.md
 
