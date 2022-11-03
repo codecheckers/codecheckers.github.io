@@ -41,7 +41,7 @@ _[Become a codechecker](/get-involved)!_
 - [Dr. Nicolas Rougier](https://www.labri.fr/perso/nrougier/) (INRIA, Bordeaux)
 - [Dr. Konrad Kording](http://koerding.com/) (UPenn)
 - Dr. Scott Edmunds, Executive Editor at [GigaScience](https://academic.oup.com/gigascience)
-- Project [Opening Reproducible Research](https://o2r.info) <img src="https://o2r.info/public/images/logo-transparent.png" title="o2r logo" height="10px" style="margin: 0; padding: 0; position: relative; top: -1px;" /> (University of Münster)
+- Project [Opening Reproducible Research](https://o2r.info) (University of Münster)
 - [Dr. Antonio Páez](https://www.science.mcmaster.ca/ees/component/comprofiler/userprofile/paezha.html), Editor-in-Chief at [Journal of Geographical Systems](https://www.springer.com/journal/10109) (McMaster University, Hamilton, Canada)
 
 ## Journals
@@ -54,7 +54,7 @@ The following journals have [completed](/register) at least one CODECHECK as par
 
 ## Conferences
 
-[![Reproducible AGILE Logo](https://reproducible-agile.github.io/public/images/reproducible-AGILE-logo-square.svg){:width="200"}](https://reproducible-agile.github.io/)
+[![Reproducible AGILE Logo]({{ 'img/reproducible-AGILE-logo-square.svg' | relative_url }}){:width="200"}](https://reproducible-agile.github.io/)
 
 The [Reproducible AGILE initiative](https://reproducible-agile.github.io/) conducts reproducibility reviews [as part of full paper peer review](https://www.agile-giscience-series.net/review_process.html) for the Association of Geographic Information Laboratories in Europe's ([AGILE](https://agile-online.org/)) [annual conference series](https://agile-online.org/conference/).
 The reproducibility reviews fulfil the CODECHECK principles and therefore they are listed in the CODECHECK register.
@@ -62,11 +62,13 @@ Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.or
 
 ## Projects
 
-[![ReproHack logo](https://www.reprohack.org/static/images/reprohack_logo_sm.png)](https://www.reprohack.org/)
+[ReproHack](https://www.reprohack.org/) is our collaboration partner for events and education.
 
-[Open Science @ ITC](https://www.itc.nl/research/open-science/codecheck/)
+[![ReproHack logo]({{ 'img/reprohack_logo.png' | relative_url }}){:width="200"}](https://www.reprohack.org/)
 
-[![ITC logo](https://1348661504.rsc.cdn77.org/.publisher/sd/utwente_base/ws2016/img/itc/itc-logo@2x.png)](https://www.itc.nl/research/open-science/codecheck/)
+[Open Science @ ITC](https://www.itc.nl/research/open-science/codecheck/) provides CODECHECKs for their members.
+
+[![ITC logo]({{ 'img/itc-logo@2x.png' | relative_url }}){:width="200"}](https://www.itc.nl/research/open-science/codecheck/)
 
 CODECHECK is a member in the [German Reproducibility Network](https://reproducibilitynetwork.de/).
 
