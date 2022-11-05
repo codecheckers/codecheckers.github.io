@@ -41,6 +41,12 @@ CODECHECK is based on **five principles** which are described in detail in the [
 
 # News
 
+## 2022-11 | Introduction to CODECHECK Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_nMzFhYro_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Follow us on YouTube: <https://www.youtube.com/@cdchck>
+
 ## 2022-09 | CODECHECK Hackathon @ OpenGeoHub Summer School
 
 [Markus](https://www.linkedin.com/in/markus-konkol-a3b244140) [Konkol](https://orcid.org/0000-0001-6651-0976) (<https://github.com/MarkusKonk>, <https://twitter.com/MarkusKonkol>), research software engineer at [52°North](https://52north.org/) and codechecker, organised a **CODECHECK hackathon** as part of the [OpenGeoHub summer school](https://opengeohub.org/summer-school/siegburg-2022/).

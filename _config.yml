@@ -41,6 +41,9 @@ footer_icons:
   - username: cdchck
     url: https://twitter.com/cdchck
     icon: icon-twitter.svg
+  - username: youtube.com/@cdchck
+    url: https://www.youtube.com/@cdchck
+    icon: icon-youtube.svg
   - username: S. Eglen
     url: mailto:sje30@cam.ac.uk
     icon: icon-email.svg
