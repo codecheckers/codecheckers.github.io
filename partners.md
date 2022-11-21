@@ -41,8 +41,9 @@ _[Become a codechecker](/get-involved)!_
 - [Dr. Nicolas Rougier](https://www.labri.fr/perso/nrougier/) (INRIA, Bordeaux)
 - [Dr. Konrad Kording](http://koerding.com/) (UPenn)
 - Dr. Scott Edmunds, Executive Editor at [GigaScience](https://academic.oup.com/gigascience)
-- Project [Opening Reproducible Research](https://o2r.info) (University of Münster)
+- [Opening Reproducible Research](https://o2r.info) project (University of Münster)
 - [Dr. Antonio Páez](https://www.science.mcmaster.ca/ees/component/comprofiler/userprofile/paezha.html), Editor-in-Chief at [Journal of Geographical Systems](https://www.springer.com/journal/10109) (McMaster University, Hamilton, Canada)
+- [Dr. Jeremy Cohen](https://www.imperial.ac.uk/people/jeremy.cohen) (Imperial College London)
 
 ## Journals
 
