@@ -22,11 +22,11 @@ Stephen contributes his domain-specific expertise in computational neuroscience 
 
 ### Daniel Nüst (Co-PI)
 
-Daniel Nüst is researcher and open source software developer at the Institute for Geoinformatics ([ifgi](https://www.uni-muenster.de/Geoinformatics/en/)), University of Münster.
-In the project _Opening Reproducible Research_ ([o2r](https://o2r.info)) he develops new specifications and tools to support scientists in working more reproducible using containers.
+Daniel Nüst is a postdoctoral researcher and research software engineer ith the [Chair of Geoinformatics](https://tu-dresden.de/bu/umwelt/geo/geoinformatik/die-professur?set_language=en), TU Dresden, and at the Institute for Geoinformatics ([ifgi](https://www.uni-muenster.de/Geoinformatics/en/)), University of Münster.
+He develops tools for open and reproducible geoscientific research and is a proponent for open scholarship and reproducibility in the projects [NFDI4Earth](https://nfdi4earth.de/), _Opening Reproducible Research_ ([o2r](https://o2r.info)), and [OPTIMETA](https://projects.tib.eu/optimeta).
 He is also engaged in the Open Source and Open Science communities and has held workshops on Reproducible Research in [geosciences](https://vickysteeves.gitlab.io/repro-papers/), [GIScience](https://o2r.info/reproducible-agile/), and [digital humanities](https://zenodo.org/record/1299031).
 
-Daniel contributes his technical expertise in reproducible research infrastructure and geospatial data science.
+Daniel contributes his technical expertise in reproducible research & scholarly communication infrastructures and geospatial data science.
 
 ### Codecheckers
 
