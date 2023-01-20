@@ -50,10 +50,12 @@ _[Become a codechecker](/get-involved)!_
 The following journals have [completed](/register) at least one CODECHECK as part of a peer review process and reference the CODECHECK certificate from the paper.
 
 [![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience)
-
-[![Journal of Geographical Systems]({{ 'img/JGSY-logo.jpg' | relative_url }}){:width="200"}](https://www.springer.com/journal/10109)
+<br />See blog articles at <http://gigasciencejournal.com/blog/codecheck-certificate/> and <http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/>.
 
 [![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="200"}](https://gigabytejournal.com/)
+
+[![Journal of Geographical Systems]({{ 'img/JGSY-logo.jpg' | relative_url }}){:width="200"}](https://www.springer.com/journal/10109)
+<br />See editorial at <https://link.springer.com/article/10.1007/s10109-021-00364-4>.
 
 ## Conferences
 
