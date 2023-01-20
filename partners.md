@@ -11,7 +11,7 @@ CODECHECK is a collaboration project lead by Stephen Eglen and Daniel Nüst toge
 
 ## Team
 
-### Stephen Eglen (PI)
+### Stephen Eglen (Co-PI)
 
 Stephen Eglen is a professor in Computational Neuroscience at the [University of Cambridge](https://www.cam.ac.uk/).
 He has over 20 years experience as a researcher in Computational Neuroscience, and has worked on several projects encouraging more code and data sharing in Neuroscience.
@@ -49,10 +49,8 @@ _[Become a codechecker](/get-involved)!_
 
 The following journals have [completed](/register) at least one CODECHECK as part of a peer review process and reference the CODECHECK certificate from the paper.
 
-[![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience)
+[![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience) [![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="200"}](https://gigabytejournal.com/)
 <br />See blog articles at <http://gigasciencejournal.com/blog/codecheck-certificate/> and <http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/>.
-
-[![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="200"}](https://gigabytejournal.com/)
 
 [![Journal of Geographical Systems]({{ 'img/JGSY-logo.jpg' | relative_url }}){:width="200"}](https://www.springer.com/journal/10109)
 <br />See editorial at <https://link.springer.com/article/10.1007/s10109-021-00364-4>.
