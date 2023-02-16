@@ -17,7 +17,7 @@ Be aware that community CODECHECKs may fall short of Rule 3 as the CODECHECKs mi
 
 ### tl;dr
 
-**Have a `README`: all else is details.** <span style="color: grey;">*</span>
+**Have a `README`: everything else is details.** <span style="color: grey;">*</span>
 
 <span style="font-size: 60%; color: grey;">Inspired by Greg Wilson's first rule of <a href="http://teachtogether.tech/" title="Teaching Tech Together">Teaching Tech Together</a>.</span>
 
