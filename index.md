@@ -41,6 +41,18 @@ CODECHECK is based on **five principles** which are described in detail in the [
 
 # News
 
+## 2023-09 | CODECHECK and TU Delft Hackathon
+
+TU Delft and CODECHECK run a hackathon on 18th September 2023.
+It is a hybrid event jointly organised by [TU Delft Open Science](https://www.tudelft.nl/en/open-science), [TU Delft OPEN Publishing](https://openpublishing.tudl.tudelft.nl/), the CODECHECK team, and friends.
+The workshop features live codechecking of workflows by researchers from TU Delft and is both suitable for hands-on participation, observing, and discussing.
+The goal is to explore building a local CODECHECK community whose members may check each others code, e.g., before a preprint is published or a manuscript is submitted.
+
+![TU Delft logo](/img/TUDelft_logo_rgb.png)
+
+See the [call for participation](https://openpublishing.tudl.tudelft.nl/codecheck-and-tu-delft-hackathon/) and the [event announcement](https://www.tudelft.nl/en/events/2023/library/codecheck-and-tu-delft-hackathon) including a registration.
+Links to the agenda and minutes are provided in this news item at a later point in time.
+
 ## 2022-11 | Introduction to CODECHECK Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_nMzFhYro_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -127,10 +139,10 @@ Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Pub
 
 # Follow, share, cite
 
-To stay in touch with the project, follow the [project team](team) members on Twitter:
+To stay in touch with the project, follow the [project PIs](team) on social media:
 
-- [@StephenEglen](https://twitter.com/StephenEglen)
-- [@nordholmen](https://twitter.com/nordholmen)
+- <https://fosstodon.org/@sje>
+- <https://mstdn.social/@nuest>
 
 To give a quick overview of the project, feel free to use or extend the [existing slide decks](https://github.com/codecheckers/slides).
 
