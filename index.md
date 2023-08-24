@@ -37,6 +37,11 @@ CODECHECK is based on **five principles** which are described in detail in the [
 
 **If you want to get involved as a codechecker in the community, or if you want to apply the CODECHECK principles in your journal or conference, please take a look at the [Get Involved](/get-involved) page.**
 
+To **stay in touch** with the project, follow the [project PIs](team) on social media:
+
+- <https://fosstodon.org/@sje>
+- <https://mstdn.social/@nuest>
+
 ------
 
 # News
@@ -137,18 +142,13 @@ Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Pub
 
 ------
 
-# Follow, share, cite
-
-To stay in touch with the project, follow the [project PIs](team) on social media:
-
-- <https://fosstodon.org/@sje>
-- <https://mstdn.social/@nuest>
-
-To give a quick overview of the project, feel free to use or extend the [existing slide decks](https://github.com/codecheckers/slides).
+# Citation and sharing
 
 To cite CODECHECK in scientific publications, please use the following citation/reference:
 
 > _Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). [https://doi.org/10.7557/5.4910](https://doi.org/10.7557/5.4910)_
+
+To get or give a quick overview of the project, feel free to use or extend the [existing slide decks](https://github.com/codecheckers/slides).
 
 <script id="templateCheck" type="x-tmpl-mustache">
 {% raw %}
