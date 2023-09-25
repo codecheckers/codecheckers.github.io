@@ -38,9 +38,9 @@ footer_icons:
   #- username: nordholmen
   #  url: https://twitter.com/nordholmen
   #  icon: icon-twitter.svg
-  - username: cdchck
-    url: https://twitter.com/cdchck
-    icon: icon-twitter.svg
+  - username: codecheck@fediscience.org
+    url: https://fediscience.org/@codecheck
+    icon: icon-mastodon.svg
   - username: youtube.com/@cdchck
     url: https://www.youtube.com/@cdchck
     icon: icon-youtube.svg

@@ -11,7 +11,7 @@ CODECHECK is a collaboration project lead by Stephen Eglen and Daniel Nüst toge
 
 ## Team
 
-### Stephen Eglen (PI)
+### Stephen Eglen (Co-PI)
 
 Stephen Eglen is a professor in Computational Neuroscience at the [University of Cambridge](https://www.cam.ac.uk/).
 He has over 20 years experience as a researcher in Computational Neuroscience, and has worked on several projects encouraging more code and data sharing in Neuroscience.
@@ -22,11 +22,11 @@ Stephen contributes his domain-specific expertise in computational neuroscience 
 
 ### Daniel Nüst (Co-PI)
 
-Daniel Nüst is researcher and open source software developer at the Institute for Geoinformatics ([ifgi](https://www.uni-muenster.de/Geoinformatics/en/)), University of Münster.
-In the project _Opening Reproducible Research_ ([o2r](https://o2r.info)) he develops new specifications and tools to support scientists in working more reproducible using containers.
+Daniel Nüst is a postdoctoral researcher and research software engineer ith the [Chair of Geoinformatics](https://tu-dresden.de/bu/umwelt/geo/geoinformatik/die-professur?set_language=en), TU Dresden, and at the Institute for Geoinformatics ([ifgi](https://www.uni-muenster.de/Geoinformatics/en/)), University of Münster.
+He develops tools for open and reproducible geoscientific research and is a proponent for open scholarship and reproducibility in the projects [NFDI4Earth](https://nfdi4earth.de/), _Opening Reproducible Research_ ([o2r](https://o2r.info)), and [OPTIMETA](https://projects.tib.eu/optimeta).
 He is also engaged in the Open Source and Open Science communities and has held workshops on Reproducible Research in [geosciences](https://vickysteeves.gitlab.io/repro-papers/), [GIScience](https://o2r.info/reproducible-agile/), and [digital humanities](https://zenodo.org/record/1299031).
 
-Daniel contributes his technical expertise in reproducible research infrastructure and geospatial data science.
+Daniel contributes his technical expertise in reproducible research & scholarly communication infrastructures and geospatial data science.
 
 ### Codecheckers
 
@@ -41,18 +41,19 @@ _[Become a codechecker](/get-involved)!_
 - [Dr. Nicolas Rougier](https://www.labri.fr/perso/nrougier/) (INRIA, Bordeaux)
 - [Dr. Konrad Kording](http://koerding.com/) (UPenn)
 - Dr. Scott Edmunds, Executive Editor at [GigaScience](https://academic.oup.com/gigascience)
-- Project [Opening Reproducible Research](https://o2r.info) (University of Münster)
+- [Opening Reproducible Research](https://o2r.info) project (University of Münster)
 - [Dr. Antonio Páez](https://www.science.mcmaster.ca/ees/component/comprofiler/userprofile/paezha.html), Editor-in-Chief at [Journal of Geographical Systems](https://www.springer.com/journal/10109) (McMaster University, Hamilton, Canada)
+- [Dr. Jeremy Cohen](https://www.imperial.ac.uk/people/jeremy.cohen) (Imperial College London)
 
 ## Journals
 
 The following journals have [completed](/register) at least one CODECHECK as part of a peer review process and reference the CODECHECK certificate from the paper.
 
-[![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience)
+[![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience) [![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="200"}](https://gigabytejournal.com/)
+<br />See blog articles at <http://gigasciencejournal.com/blog/codecheck-certificate/> and <http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/>.
 
 [![Journal of Geographical Systems]({{ 'img/JGSY-logo.jpg' | relative_url }}){:width="200"}](https://www.springer.com/journal/10109)
-
-[![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="200"}](https://gigabytejournal.com/)
+<br />See editorial at <https://link.springer.com/article/10.1007/s10109-021-00364-4>.
 
 ## Conferences
 
