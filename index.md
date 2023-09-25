@@ -49,14 +49,16 @@ To **stay in touch** with the project, follow the [project PIs](team) on social 
 ## 2023-09 | CODECHECK and TU Delft Hackathon
 
 TU Delft and CODECHECK run a hackathon on 18th September 2023.
-It is a hybrid event jointly organised by [TU Delft Open Science](https://www.tudelft.nl/en/open-science), [TU Delft OPEN Publishing](https://openpublishing.tudl.tudelft.nl/), the CODECHECK team, and friends.
+
+👉 **Read the report** in the TU Delft Open Publishing Blog: <https://openpublishing.tudl.tudelft.nl/tu-delft-codecheck-hackathon-some-perspectives/> 👈
+
+📓 The shared notes are available on the following pad: <https://hackmd.io/77AIvx0qRRWGvo1D2k_t8A>
+
+The hybrid event is jointly organised by [TU Delft Open Science](https://www.tudelft.nl/en/open-science), [TU Delft OPEN Publishing](https://openpublishing.tudl.tudelft.nl/), the CODECHECK team, and friends.
 The workshop features live codechecking of workflows by researchers from TU Delft and is both suitable for hands-on participation, observing, and discussing.
 The goal is to explore building a local CODECHECK community whose members may check each others code, e.g., before a preprint is published or a manuscript is submitted.
 
 ![TU Delft logo](/img/TUDelft_logo_rgb.png)
-
-See the [call for participation](https://openpublishing.tudl.tudelft.nl/codecheck-and-tu-delft-hackathon/) and the [event announcement](https://www.tudelft.nl/en/events/2023/library/codecheck-and-tu-delft-hackathon) including a registration.
-Links to the agenda and minutes are provided in this news item at a later point in time.
 
 ## 2022-11 | Introduction to CODECHECK Video
 
