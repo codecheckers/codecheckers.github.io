@@ -22,18 +22,18 @@ Frank Ostermann (University of Twente, lead)
 
 Angelina Momin (University of Twente)
 
-Daniela Gawehns (UMCG Groningen, Dutch Reproducibility Network)
+Daniela Gawehns (UMCG Groningen, Dutch Reproducibility Network)  
 [Home page](https://danielagawehns.github.io/)
 
 Saba Sharma (TU Delft)
 
-Junzi Sun (TU Delft)
+Junzi Sun (TU Delft)  
 [Home page](https://junzis.com/)
 
 Frederique Belliard (TU Delft)
 
-Stephen Eglen (University of Cambridge, Codecheck.org.uk)
+Stephen Eglen (University of Cambridge, Codecheck.org.uk)  
 [Home page](https://sje30.github.io)
 
-Daniel Nüst (TU Dresden, Codecheck.org.uk)
+Daniel Nüst (TU Dresden, Codecheck.org.uk)  
 [Home page](https://nordholmen.net/)
