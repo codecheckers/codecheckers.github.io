@@ -31,5 +31,6 @@ Junzi Sun (TU Delft)
 Frederique Belliard (TU Delft)
 
 Stephen Eglen (University of Cambridge, Codecheck.org.uk)
+[Home page](https://sje30.github.io)
 
 Daniel Nüst (TU Dresden, Codecheck.org.uk)
