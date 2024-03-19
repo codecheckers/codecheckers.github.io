@@ -17,8 +17,8 @@ Many research outputs rely on computational methods. Open Science principles ask
 *Meet the project team:*
 
 Frank Ostermann (University of Twente, lead)  
-Mastodon: https://mstdn.social/@f_ostermann  
-LinkedIn: https://www.linkedin.com/in/foost/
+[Mastodon](https://mstdn.social/@f_ostermann)
+[LinkedIn](https://www.linkedin.com/in/foost/)
 
 Angelina Momin (University of Twente)
 
