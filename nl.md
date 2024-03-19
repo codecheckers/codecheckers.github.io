@@ -30,7 +30,8 @@ Saba Sharma (TU Delft)
 Junzi Sun (TU Delft)  
 [Home page](https://junzis.com/)
 
-Frederique Belliard (TU Delft)
+Frederique Belliard (TU Delft)  
+[LinkedIn](https://www.linkedin.com/in/fredbelliard/)
 
 Stephen Eglen (University of Cambridge, Codecheck.org.uk)  
 [Home page](https://sje30.github.io)
