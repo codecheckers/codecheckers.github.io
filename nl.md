@@ -4,7 +4,7 @@ title: CODECHECK NL
 permalink: /nl/
 ---
 
-*This page is under construction. It will soon contain information on the NWO-funded project "CodeCHECKing goes NL" (https://www.nwo.nl/projecten/osf232063)*
+*This page is under construction. It will soon contain information on the NWO-funded project "CodeCHECKing goes NL" <https://www.nwo.nl/projecten/osf232063>*
 
 **Interested? Reserve 30 May in your agenda, when the first event is going to happen at the TU Delft. More info including how to register coming soon here and on the channels listed below!**
 
