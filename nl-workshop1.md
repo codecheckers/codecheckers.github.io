@@ -17,8 +17,7 @@ institution or university who would like their papers or projects to
 be “codechecked” during a live, one-day code-checking workshop on 30th
 May 2024.  A codecheck is a light-touch independent peer review to
 check that your code and data can generate the computational results
-in your paper or project (see more details at
-https://codecheck.org.uk/process/). 
+in your paper or project (see more details at [here](https://codecheck.org.uk/process/)). 
 
 You can participate as a codechecker (i.e., a person reviewing code),
 or by submitting your own work to be checked (or both if you are up
