@@ -7,7 +7,7 @@ permalink: /nl-workshop1/
 
 ### Are you a researcher in engineering interested in reproducible code and Open Science? We have the perfect opportunity for you! 
  
-As part of our newly launched NWO project CHECK-NL, **we are looking for
+As part of our newly launched NWO project [CHECK-NL](https://codecheck.org.uk/nl/), **we are looking for
 researchers from the field of engineering at a Dutch knowledge
 institution or university who would like their papers or projects to
 be “codechecked” during a live, one-day code-checking workshop on 30th
@@ -70,5 +70,7 @@ published.
 
 
 Would you instead like to participate in the workshop and learn how to codecheck? All participants are invited to register on the [event page](https://www.eventbrite.com/e/codecheck-workshop-for-engineering-sciences-tickets-867503124197) and join the workshop.
+
+For questions related to the NWO project CHECK-NL, please contact Frank Ostermann (f.o.ostermann@utwente.nl)
 
 
