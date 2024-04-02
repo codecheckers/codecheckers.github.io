@@ -20,7 +20,8 @@ Frank Ostermann (University of Twente, lead)
 [Mastodon](https://mstdn.social/@f_ostermann)
 [LinkedIn](https://www.linkedin.com/in/foost/)
 
-Angelina Momin (University of Twente)
+Angelina Momin (University of Twente)  
+[LinkedIn](https://www.linkedin.com/in/angelina-momin)
 
 Daniela Gawehns (UMCG Groningen, Dutch Reproducibility Network)  
 [Home page](https://danielagawehns.github.io/)
