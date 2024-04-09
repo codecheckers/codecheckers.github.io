@@ -4,21 +4,18 @@ title: CODECHECK NL
 permalink: /nl/
 ---
 
-*This page is under construction. It will soon contain information on the NWO-funded project "CodeCHECKing goes NL" <https://www.nwo.nl/projecten/osf232063>*
-
-**Interested? Reserve 30 May in your agenda, when the first event is going to happen at the TU Delft. More info including how to register coming soon here and on the channels listed below!**
-
 
 **CODECHECKing goes NL - strengthening open science through reproducible publications in the Netherlands (CHECK-NL)**
-Many research outputs rely on computational methods. Open Science principles ask for those to be shared and to be reproducible. However, in traditional scientific publishing, computational methods are rarely re-run during review. We aim to check the computational workflows of at least 50 scientific articles for reproducibility, and we aim to reach an agreement with journal editors to establish such a check routinely in their review process. To kickstart both, we will organise roadshows at four locations to bring experienced and new code reviewers, authors, and editors together to implement codechecking in a sustainable way.
+* Dutch research organization NWO funds the project "CodeCHECKing goes NL" <https://www.nwo.nl/projecten/osf232063>: Many research outputs rely on computational methods. Open Science principles ask for those to be shared and to be reproducible. However, in traditional scientific publishing, computational methods are rarely re-run during review. We aim to check the computational workflows of at least 50 scientific articles for reproducibility, and we aim to reach an agreement with journal editors to establish such a check routinely in their review process. To kickstart both, we will organise roadshows at four locations to bring experienced and new code reviewers, authors, and editors together to implement codechecking in a sustainable way.
 
+**Interested? Reserve 30 May in your agenda, when the first event is going to happen at the TU Delft. More info including how to register found at <https://codecheck.org.uk/nl-workshop1/>. For all questions on the events, send an e-mail to codechecknl@gmail.com . For questions on the project, please contact Frank Ostermann (f.o.ostermann@utwente.nl). For updates, watch this space or follow us on the channels listed below!**
 
 
 *Meet the project team:*
 
 Frank Ostermann (University of Twente, lead)  
 [Mastodon](https://mstdn.social/@f_ostermann)
-[LinkedIn](https://www.linkedin.com/in/foost/)
+[Home page](https://research.utwente.nl/en/persons/frank-ostermann)
 
 Angelina Momin (University of Twente)  
 [LinkedIn](https://www.linkedin.com/in/angelina-momin)
