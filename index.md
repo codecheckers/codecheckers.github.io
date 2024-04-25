@@ -46,7 +46,11 @@ To **stay in touch** with the project, follow the [project PIs](team) on social 
 
 # News
 
-## 2024-03 Dutch Research Council (NWO) supports CODECHECK
+## 2024-04 | CODECHECK wins Team Credibility Prize
+
+The British Neuroscience Association (BNA) have awarded the 2024 Team Credibility Prize to CODECHECK for our work on reproducibility.  [Further details](https://www.bna.org.uk/mediacentre/news/credibility-prize-2024/).
+
+## 2024-03 | Dutch Research Council (NWO) supports CODECHECK
 
 We are happy to announce a one-year grant from the Dutch Research
 Council (NWO) to support Codecheck activities in the Netherlands.  The
