@@ -46,6 +46,13 @@ To **stay in touch** with the project, follow the [project PIs](team) on social 
 
 # News
 
+## 2024-03 Dutch Research Council (NWO) supports CODECHECK
+
+We are happy to announce a one-year grant from the Dutch Research
+Council (NWO) to support Codecheck activities in the Netherlands.  The
+project is led by Frank Ostermann (University of Twente) with colleagues
+from Delft and Groningen.  [Further details](https://codecheck.org.uk/nl).
+
 ## 2023-09 | CODECHECK and TU Delft Hackathon
 
 TU Delft and CODECHECK run a hackathon on 18th September 2023.
