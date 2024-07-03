@@ -6,8 +6,9 @@ permalink: /nl-workshop1/
 
 ## UPDATE: We have successfully completed our first workshop! Read on...
 
-![Image of participants from CODECHECK Delft event](https://github.com/codecheckers/codecheckers.github.io/assets/150461262/f91ed93a-2624-457d-bc2a-a01353891f51)
-
+<p align="center">
+<img src="https://github.com/codecheckers/codecheckers.github.io/assets/150461262/f91ed93a-2624-457d-bc2a-a01353891f51" alt = "Delft workshop participants" width="50%" height = "50%">
+</p>
 
 On the 30th of May 2024, the CODECHECK-NL team organised its first roadshow event in Delft. The event marks the beginning of a series of four workshops to be conducted across the Netherlands, where we carry out live codechecks with authors and reviewers, while also training a new batch of codecheckers across universities in the Netherlands. 
 
