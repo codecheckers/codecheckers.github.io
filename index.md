@@ -42,22 +42,24 @@ To **stay in touch** with the project, follow the [project PIs](team) on social 
 - <https://fosstodon.org/@sje>
 - <https://mstdn.social/@nuest>
 
-------
+## News
 
-# News
+### 2024-04 | CODECHECK wins Team Credibility Prize 🏆
 
-## 2024-04 | CODECHECK wins Team Credibility Prize
+The British Neuroscience Association (BNA) have awarded the 2024 Team Credibility Prize to CODECHECK for our work on reproducibility.
+[Further details](https://www.bna.org.uk/mediacentre/news/credibility-prize-2024/).
 
-The British Neuroscience Association (BNA) have awarded the 2024 Team Credibility Prize to CODECHECK for our work on reproducibility.  [Further details](https://www.bna.org.uk/mediacentre/news/credibility-prize-2024/).
+![BNA Team Credibility Prize](/img/bna-team-credibility-prize.png)
 
-## 2024-03 | Dutch Research Council (NWO) supports CODECHECK
+### 2024-03 | Dutch Research Council (NWO) supports CODECHECK 🇳🇱
 
-We are happy to announce a one-year grant from the Dutch Research
-Council (NWO) to support Codecheck activities in the Netherlands.  The
-project is led by Frank Ostermann (University of Twente) with colleagues
-from Delft and Groningen.  [Further details](https://codecheck.org.uk/nl).
+We are happy to announce a one-year grant from the Dutch Research Council (NWO) to support Codecheck activities in the Netherlands.
+The project is led by Frank Ostermann (University of Twente) with colleagues from Delft and Groningen.
+[Further details](https://codecheck.org.uk/nl).
 
-## 2023-09 | CODECHECK and TU Delft Hackathon
+![NWO Logo](https://www.nwo.nl/themes/custom/nwo/assets/images/logo.svg?v=24)
+
+### 2023-09 | CODECHECK and TU Delft Hackathon 💻
 
 TU Delft and CODECHECK run a hackathon on 18th September 2023.
 
@@ -71,13 +73,13 @@ The goal is to explore building a local CODECHECK community whose members may ch
 
 ![TU Delft logo](/img/TUDelft_logo_rgb.png)
 
-## 2022-11 | Introduction to CODECHECK Video
+### 2022-11 | Introduction to CODECHECK Video 📺
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_nMzFhYro_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Follow us on YouTube: <https://www.youtube.com/@cdchck>
 
-## 2022-09 | CODECHECK Hackathon @ OpenGeoHub Summer School
+### 2022-09 | CODECHECK Hackathon @ OpenGeoHub Summer School 🏫
 
 [Markus](https://www.linkedin.com/in/markus-konkol-a3b244140) [Konkol](https://orcid.org/0000-0001-6651-0976) (<https://github.com/MarkusKonk>, <https://twitter.com/MarkusKonkol>), research software engineer at [52°North](https://52north.org/) and codechecker, organised a **CODECHECK hackathon** as part of the [OpenGeoHub summer school](https://opengeohub.org/summer-school/siegburg-2022/).
 He reports on his experiences in a blog post in the 52°North blog at <https://blog.52north.org/2022/09/16/opengeohub-summer-school-facilitating-reproducibility-using-codecheck/>.
@@ -86,7 +88,7 @@ Check out the quotes in the blog post!
 
 Thanks, Markus, for spreading the word about CODECHECK and for introducing more developers and software-developing researchers of the need for their expertise during peer review.
 
-## 2022-06 | AGILE Reproducibility Review 2022
+### 2022-06 | AGILE Reproducibility Review 2022
 
 The collaboration between CODECHECK and the AGILE conference series continues!
 In 2022, the AGILE conference's [reproducibility committee]() conducted 16 reproductions of conference full papers.
@@ -98,7 +100,7 @@ Learn more about the Reproducible AGILE initiative at <https://reproducible-agil
 
 [![Reproducible AGILE logo](https://github.com/reproducible-agile/reproducible-agile.github.io/blob/master/public/images/badge/AGILE-reproducible-badge.png?raw=true)](https://reproducible-agile.github.io/)
 
-## 2022-04 | CODECHECK talks
+### 2022-04 | CODECHECK talks 💬
 
 The CODECHECK team is grateful about the continued interest from the research community on the topic of evaluating code and workflows as part of scholarly communication and peer review.
 
@@ -109,7 +111,7 @@ Stephen presented **CODECHECK: An Open Science initiative for the independent ex
 
 Daniel gave the keynote at the [Collaborations Workshop 2022](https://software.ac.uk/cw22) (CW22) on April 4, 2022, organised by the Software Sustainability Institute ([SSI](https://software.ac.uk/)), UK entitled **Code execution during peer review** ([slides](https://bit.ly/cw22-keynote-daniel), [PDF](https://doi.org/10.6084/m9.figshare.19487573), [video](https://youtu.be/EHyEsZCDR1U?t=172)) and presented CODECHECK as well as the partnering initiative [Reproducible AGILE](https://reproducible-agile.github.io/).
 
-## 2021-07 | F1000Research paper on CODECHECK published after reviews
+### 2021-07 | F1000Research paper on CODECHECK published after reviews 📃
 
 The [F1000Research](https://f1000research.com/) preprint presented below has passed peer review and is now published in version 2.
 We are grateful for the two reviewers, [Nicolas P. Rougier](https://orcid.org/0000-0002-6972-589X) and [Sarah Gibson](https://orcid.org/0000-0003-0356-2765), who gave helpful feedback and asked good questions that helped to improve the paper.
@@ -121,7 +123,7 @@ We are grateful for the two reviewers, [Nicolas P. Rougier](https://orcid.org/00
 The F1000 blog also features the article with a little Q&A: [https://blog.f1000.com/2021/09/27/codecheck](https://blog.f1000.com/2021/09/27/codecheck).
 Thanks [Jessica](https://blog.f1000.com/author/jessicatruschel/) for making that happen!
 
-## 2021-04 | CODECHECK @ ITC
+### 2021-04 | CODECHECK @ ITC
 
 CODECHECK supporter [Markus Konkol](https://twitter.com/MarkusKonkol) has built a CODECHECK process for all researchers at the University of Twente's Faculty of Geo-Information Science and Earth Observation ([ITC](https://www.itc.nl)).
 He offers his expertise to codecheck manuscripts and underlying source code and data before submission or preprint publication, so even if the information is still not publicly shared.
@@ -131,13 +133,13 @@ _This is a great service for ITC researchers and their reviewers and readers!_
 
 Learn more at **<https://www.itc.nl/research/open-science/codecheck/>** and see an example at <https://doi.org/10.5281/zenodo.5106408>.
 
-## 2021-03 | F1000Research preprint
+### 2021-03 | F1000Research preprint
 
 A preprint about CODECHECK was published at [F1000Research](https://f1000research.com/) and is now subject to open peer review. It presents the codechecking workflow, describes involved roles and stakeholders, presents the _25_ codechecks conducted up to today, and details the experiences and tools that underpin the CODECHECK initiative. We welcome your comments!
 
 > Nüst D and Eglen SJ. **CODECHECK: an Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility** [version 1; peer review: awaiting peer review]. F1000Research 2021, 10:253 ([https://doi.org/10.12688/f1000research.51738.1](https://doi.org/10.12688/f1000research.51738.1))
 
-## 2020-06 | Nature News article
+### 2020-06 | Nature News article
 
 A [Nature News article](https://doi.org/10.1038/d41586-020-01685-y) by [Dalmeet Singh Chawla](https://www.dalmeets.com/) discussed [the recent CODECHECK `#2020-010`](https://doi.org/10.5281/zenodo.3865491) of a simulation study, including some quotes by CODECHECK Co-PI Stephen J. Eglen and fellow Open Science and Open Software experts [Neil Chue Hong](https://twitter.com/npch) ([Software Sustainability Institute](https://www.software.ac.uk), UK) and [Konrad Hinsen](https://khinsen.net/) (CNRS, France).
 
@@ -145,7 +147,7 @@ A [Nature News article](https://doi.org/10.1038/d41586-020-01685-y) by [Dalmeet 
 >
 > [![screenshot of Nature News article headline](/img/nature-news-2020.jpg)](https://doi.org/10.1038/d41586-020-01685-y)
 
-## 2019-11 | MUNIN conference presentation
+### 2019-11 | MUNIN conference presentation
 
 Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Publishing 2019](https://site.uit.no/muninconf/).
 
@@ -155,7 +157,7 @@ Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Pub
 
 ------
 
-# Citation and sharing
+## Citation and sharing
 
 To cite CODECHECK in scientific publications, please use the following citation/reference:
 
