@@ -1,12 +1,12 @@
 ---
 layout: page
-title: CODECHECK-NL Workshop for Geosciences
+title: CODECHECK-NL Workshop for Geosciences and Environmental Sciences
 permalink: /nl-workshop2/
 ---
 
-## CALL FOR PAPERS/PREPRINTS/CODE: Are you a researcher in geosciences interested in reproducible code and Open Science? We have the perfect opportunity for you! 
+## CALL FOR PAPERS/PREPRINTS/CODE: Are you a researcher in geosciences/environmental sciences interested in reproducible code and Open Science? We have the perfect opportunity for you! 
 
-As part of our NWO project [CHECK-NL](https://codecheck.org.uk/nl), **we are looking for researchers from the field of geosciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 26 September 2024** at the University of Twente.  A codecheck is a light-touch independent peer review to check that your code and data can generate the computational results in your paper or project (see more details [here](https://codecheck.org.uk/process/)).  
+As part of our NWO project [CHECK-NL](https://codecheck.org.uk/nl), **we are looking for researchers from the field of geosciences/environmental sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 26 September 2024** at the University of Twente.  A codecheck is a light-touch independent peer review to check that your code and data can generate the computational results in your paper or project (see more details [here](https://codecheck.org.uk/process/)).  
 
  
 
@@ -50,7 +50,7 @@ In each case, the code and data underlying the paper should be openly availabl
 ## What if I want to volunteer to be a codechecker instead?  
 
  
-If you are interested in learning more about the codecheck process and becoming a codechecker, please register on our [eventbrite page](https://www.eventbrite.nl/e/codecheck-workshop-for-the-geosciences-tickets-945474348227?aff=oddtdtcreator) to volunteer to become a codechecker at the workshop on 26th September. The event will be held in person at the University of Twente.
+If you are interested in learning more about the codecheck process and becoming a codechecker, please register on our [eventbrite page](https://www.eventbrite.nl/e/codecheck-workshop-for-the-geosciences-and-environmental-sciences-tickets-945474348227?aff=oddtdtcreator) to volunteer to become a codechecker at the workshop on 26th September. The event will be held in person at the University of Twente.
 
 ### Why would I volunteer your time to code check other people's work?  
 
