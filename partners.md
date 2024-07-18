@@ -52,8 +52,14 @@ The following journals have [completed](/register) at least one CODECHECK as par
 [![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience) [![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="200"}](https://gigabytejournal.com/)
 <br />See blog articles at <http://gigasciencejournal.com/blog/codecheck-certificate/> and <http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/>.
 
+🗂️ CODECHECKs for GigaScience: <https://codecheck.org.uk/register/venues/journal/GigaScience/>
+
+🗂️ CODECHECKs for GigaByte: <https://codecheck.org.uk/register/venues/journal/GigaByte/>
+
 [![Journal of Geographical Systems]({{ 'img/JGSY-logo.jpg' | relative_url }}){:width="200"}](https://www.springer.com/journal/10109)
 <br />See editorial at <https://link.springer.com/article/10.1007/s10109-021-00364-4>.
+
+🗂️ CODECHECKs for JGSY: <https://codecheck.org.uk/register/venues/journal/J_Geogr_Syst/>
 
 ## Conferences
 
@@ -62,6 +68,8 @@ The following journals have [completed](/register) at least one CODECHECK as par
 The [Reproducible AGILE initiative](https://reproducible-agile.github.io/) conducts reproducibility reviews [as part of full paper peer review](https://www.agile-giscience-series.net/review_process.html) for the Association of Geographic Information Laboratories in Europe's ([AGILE](https://agile-online.org/)) [annual conference series](https://agile-online.org/conference/).
 The reproducibility reviews fulfil the CODECHECK principles and therefore they are listed in the CODECHECK register.
 Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.org/10.17605/OSF.IO/CB7Z8).
+
+Find all codechecks conducted as part of the Reproducible AGILE Reproducibility Review in the 🗂️ CODECHECK Register: <https://codecheck.org.uk/register/venues/conference/AGILEGIS/>
 
 ## Projects
 
@@ -79,6 +87,12 @@ CODECHECK is a member in the [German Reproducibility Network](https://reproducib
 
 ## Funding
 
+[![Mozilla logo]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)
+
 The project was supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
 
-[![Mozilla logo]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)
+--------
+
+![NWO Logo](https://www.nwo.nl/themes/custom/nwo/assets/images/logo.svg?v=24)
+
+The project was supported by the NWO Open Science Fund from March 2024 to February 2025, see [NWO project description page](https://www.nwo.nl/en/projects/osf232063).
