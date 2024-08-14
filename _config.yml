@@ -67,5 +67,6 @@ exclude:
   - Makefile
   - logo
   - badge
+  - .git
 
 error_mode: strict

@@ -19,7 +19,7 @@ head_inline: |
          <ul id="check_list">
          </ul>
       </div>
-      <p>See the <a href="/register"><strong>CODECHECK register</strong></a> for all <span id="check_count"></span> completed certificates.</p>
+      <p>See the <a href="/register"><strong>CODECHECK register</strong></a> for all <span id="check_count"></span> completed certificates, <a href="/register/codecheckers/" title="List of all people contributing CODECHECKs">all codecheckers</a>, and <a href="/register/venues/" title="List of all CODECHECK venues, e.g., journals and conferences">all venues</a>.</p>
    </div>
 </div>
 
