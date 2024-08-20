@@ -18,9 +18,9 @@ Find all codechecks conducted as part of CODECHECK NL in the CODECHECK Register:
 
 ### Latest News
 
-- **SAVE THE DATE! 26 September 2024** Upcoming CodeCheckNL event at University of Twente focusing on geosciences.  Stay tuned for updates...
+- **SAVE THE DATE! 26 September 2024** Upcoming CodeCheckNL event at University of Twente focusing on geosciences: [UT workshop page](https://codecheck.org.uk/nl-workshop2/)
 
-- **First CODECHECK-NL event at TU Delft successfully concluded!** Read about it on our [workshop page](https://codecheck.org.uk/nl-workshop1/)
+- **First CODECHECK-NL event at TU Delft successfully concluded!** Read about it on our [TUD workshop page](https://codecheck.org.uk/nl-workshop1/)
 
 - **Reserve 30 May in your agenda for the first event  at the TU Delft** More info including how to register found [here](https://codecheck.org.uk/nl-workshop1/). For all questions on the events, send an e-mail to codechecknl@gmail.com. For questions on the project, please contact Frank Ostermann (f.o.ostermann@utwente.nl). For updates, watch this space or follow us on the channels listed below!
 
