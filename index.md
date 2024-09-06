@@ -37,10 +37,7 @@ CODECHECK is based on **five principles** which are described in detail in the [
 
 **If you want to get involved as a codechecker in the community, or if you want to apply the CODECHECK principles in your journal or conference, please take a look at the [Get Involved](/get-involved) page.**
 
-To **stay in touch** with the project, follow the [project PIs](team) on social media:
-
-- <https://fosstodon.org/@sje>
-- <https://mstdn.social/@nuest>
+To **stay in touch** with the project, follow us on social media at **<https://fediscience.org/@codecheck>**.
 
 ## News
 
