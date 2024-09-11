@@ -14,7 +14,7 @@ However, in traditional scientific publishing, computational methods are rarely 
 [Our project team](#meet-the-project-team) aims to check the computational workflows of at least 50 scientific articles for reproducibility, and we aim to reach an agreement with journal editors to establish such a check routinely in their review process.
 To kickstart both, we will organise roadshows at four locations to bring experienced and new code reviewers, authors, and editors together to implement codechecking in a sustainable way.
 
-Find all codechecks conducted as part of CODECHECK NL in the CODECHECK Register: <https://codecheck.org.uk/register/venues/community/codecheck_NL/>
+Find all codechecks conducted as part of CODECHECK NL in the CODECHECK Register: <https://codecheck.org.uk/register/venues/community/codecheck_nl/>
 
 ### Latest News
 
