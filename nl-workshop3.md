@@ -4,7 +4,9 @@ title: CODECHECK-NL Workshop for Social and Behavioural Sciences
 permalink: /nl-workshop3/
 ---
 
-## CALL FOR PAPERS/PRE-PRINTS/CODE: Are you from the social/behavioural sciences and interested in reproducible code and Open Science? We have the perfect opportunity for you!  
+## CALL FOR PAPERS/PRE-PRINTS/CODE: YOU can help increase reproducibility in the social sciences!
+
+**Are you from the social/behavioural sciences and interested in reproducible code and open science? We have the perfect opportunity for you!**
  
 As part of our NWO project [CHECK-NL](https://codecheck.org.uk/nl), **we are looking for researchers from the social and behavioural sciences at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.** A [codecheck](https://codecheck.org.uk/process/) is a light-touch independent peer review to check that your code and data can generate the computational results in your paper or project.  
 
@@ -38,7 +40,7 @@ You can register to participate in the workshop on our [eventbrite page](https:/
 -	You will gain hands-on experience in peer reviewing code 
 -	You will be contributing to more transparent science 
 
-*EUR PhD candiates are eligible for 1GS credit for participating in the workshop, contact e.klapwijk@essb.eur.nl for more information.*
+*PhD candiates at the Erasmus Graduate School for Social Sciences and the Humanities are eligible for 1 ECTS credit for participating in the workshop, contact e.klapwijk@essb.eur.nl for more information.*
 
 Interested but still have questions? Ask us! 
 Write to us at codechecknl@gmail.com, we are happy to answer any questions! 
