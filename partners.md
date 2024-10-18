@@ -52,14 +52,14 @@ The following journals have [completed](/register) at least one CODECHECK as par
 [![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience) [![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="200"}](https://gigabytejournal.com/)
 <br />See blog articles at <http://gigasciencejournal.com/blog/codecheck-certificate/> and <http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/>.
 
-🗂️ CODECHECKs for GigaScience: <https://codecheck.org.uk/register/venues/journal/gigascience/>
+🗂️ [CODECHECKs for GigaScience](https://codecheck.org.uk/register/venues/journals/gigascience/)
 
-🗂️ CODECHECKs for GigaByte: <https://codecheck.org.uk/register/venues/journal/gigabyte/>
+🗂️ [CODECHECKs for GigaByte](<https://codecheck.org.uk/register/venues/journals/gigabyte/)
 
 [![Journal of Geographical Systems]({{ 'img/JGSY-logo.jpg' | relative_url }}){:width="200"}](https://www.springer.com/journal/10109)
 <br />See editorial at <https://link.springer.com/article/10.1007/s10109-021-00364-4>.
 
-🗂️ CODECHECKs for JGSY: <https://codecheck.org.uk/register/venues/journal/j_geogr_syst/>
+🗂️ [CODECHECKs for JGSY](https://codecheck.org.uk/register/venues/journals/j_geogr_syst/)
 
 ## Conferences
 
@@ -69,7 +69,7 @@ The [Reproducible AGILE initiative](https://reproducible-agile.github.io/) condu
 The reproducibility reviews fulfil the CODECHECK principles and therefore they are listed in the CODECHECK register.
 Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.org/10.17605/OSF.IO/CB7Z8).
 
-Find all codechecks conducted as part of the Reproducible AGILE Reproducibility Review in the 🗂️ CODECHECK Register: <https://codecheck.org.uk/register/venues/conference/agilegis/>
+Take a look at the CODECHECK register for 🗂️ [all codechecks conducted as part of the Reproducible AGILE Reproducibility Review](https://codecheck.org.uk/register/venues/conferences/agilegis/)-
 
 ## Projects
 
@@ -95,4 +95,4 @@ The project was supported by a Mozilla Open Science Mini-Grant (see [official an
 
 ![NWO Logo](https://www.nwo.nl/themes/custom/nwo/assets/images/logo.svg?v=24)
 
-The project was supported by the NWO Open Science Fund from March 2024 to February 2025, see [NWO project description page](https://www.nwo.nl/en/projects/osf232063).
+The project was supported by the NWO Open Science Fund from March 2024 to February 2025, see [NWO project description page](https://www.nwo.nl/en/projects/osf232063) and details of [CHECK-NL](/nl).

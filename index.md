@@ -25,9 +25,9 @@ head_inline: |
 
 CODECHECK tackles one of the main challenges of computational research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
 The independent time-stamped runs conducted by codecheckers will award a _"certificate of executable computation"_ and increase availability, discovery and reproducibility of crucial artefacts for computational sciences.
-See [**the CODECHECK paper**](#2021-07--f1000research-paper-on-codecheck-published-after-reviews) for a full description of problems, solutions, and goals and take a look at the [GitHub organisation](https://github.com/codecheckers) for examples of codechecks and the CODECHECK infrastructure and tools.
+See [**the CODECHECK paper**](#2021-07--f1000research-paper-on-codecheck-published-after-reviews-) for a full description of problems, solutions, and goals and take a look at the [GitHub organisation](https://github.com/codecheckers) for examples of codechecks and the CODECHECK infrastructure and tools.
 
-CODECHECK is based on **five principles** which are described in detail in the [project description](/project) and [the paper](#2021-07--f1000research-paper-on-codecheck-published-after-reviews).
+CODECHECK is based on **five principles** which are described in detail in the [project description](/project) and [the paper](#2021-07--f1000research-paper-on-codecheck-published-after-reviews-).
 
 1. Codecheckers record but don’t investigate or fix.
 1. Communication between humans is key.
