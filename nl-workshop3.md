@@ -43,5 +43,5 @@ You can register to participate in the workshop on our [eventbrite page](https:/
 *PhD candiates at the Erasmus Graduate School for Social Sciences and the Humanities are eligible for 1.5 ECTS credit for participating in the workshop, see [this page](https://www.eur.nl/en/egsh/course/code-check-your-research) for more information.*
 
 Interested but still have questions? Ask us! 
-Write to us at codechecknl@gmail.com, we are happy to answer any questions! 
+Write to us at codechecknl@gmail.com, we are happy to answer any questions!  
  
