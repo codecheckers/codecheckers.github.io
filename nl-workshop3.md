@@ -40,7 +40,7 @@ You can register to participate in the workshop on our [eventbrite page](https:/
 -	You will gain hands-on experience in peer reviewing code 
 -	You will be contributing to more transparent science 
 
-*PhD candiates at the Erasmus Graduate School for Social Sciences and the Humanities are eligible for 1 ECTS credit for participating in the workshop, contact e.klapwijk@essb.eur.nl for more information.*
+*PhD candiates at the Erasmus Graduate School for Social Sciences and the Humanities are eligible for 1.5 ECTS credit for participating in the workshop, see [this page](https://www.eur.nl/en/egsh/course/code-check-your-research) for more information.*
 
 Interested but still have questions? Ask us! 
 Write to us at codechecknl@gmail.com, we are happy to answer any questions! 
