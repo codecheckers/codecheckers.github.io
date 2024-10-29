@@ -18,6 +18,10 @@ Find all codechecks conducted as part of CODECHECK NL in the CODECHECK Register:
 
 ### Latest News
 
+- **Sign up for our upcoming codecheck workshop in Rotterdam on 28th November 2024**, for the [social and behavioural sciences](https://codecheck.org.uk/nl-workshop3/)!
+  
+- **Read about our second workshop at UTwente** on the [workshop page](https://codecheck.org.uk/nl-workshop2/)!
+  
 - **SAVE THE DATE! 26 September 2024** Upcoming CodeCheckNL event at University of Twente focusing on geosciences: [UT workshop page](https://codecheck.org.uk/nl-workshop2/)
 
 - **First CODECHECK-NL event at TU Delft successfully concluded!** Read about it on our [TUD workshop page](https://codecheck.org.uk/nl-workshop1/)
