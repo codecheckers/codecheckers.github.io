@@ -76,6 +76,17 @@ The goal is to explore building a local CODECHECK community whose members may ch
 
 Follow us on YouTube: <https://www.youtube.com/@cdchck>
 
+### 2022-11 | Panel participation in "How to build, grow, and sustain reproducibility or open science initiatives"
+
+CODECHECK team member Daniel Nüst had the honour to participate in a panel discussion on November 23rd 2022.
+The German Reproducibility Network ([GRN](https://reproducibilitynetwork.de/)) organised the two-day event _"How to build, grow, and sustain reproducibility or open science initiatives: A virtual brainstorming event"_.
+Learn more about the evenet and this asynchronous unconference-style meeting format [on the website](https://www.bihealth.org/en/notices/how-to-build-grow-and-sustain-reproducibility-or-open-science-initiatives-a-virtual-brainstorming-event).
+The event was accompanied by a live and interactive  and the [panel discussion](https://www.bihealth.org/en/notices/how-to-build-grow-and-sustain-reproducibility-or-open-science-initiatives-panel-session) on the same topic.
+The panelists were representatives of the German Reproducibility Network (GRN) and actively involved in initiatives that focus on open science, open code, guidelines and research practices, as well as quality management, among other things.
+
+Daniel thanks the other panelists for the interesting conversation: Carsten Kettner, Céline Heinl, Clarissa F. D. Carneiro, and Maximilian Frank.
+We also thank the organization team from GRN steering group (Antonia Schrader, Tina Lonsdorf, Gordon Feld) and moderator Tracey Weissgerber from BIH QUEST Center @ Charité Berlin.
+
 ### 2022-09 | CODECHECK Hackathon @ OpenGeoHub Summer School 🏫
 
 [Markus](https://www.linkedin.com/in/markus-konkol-a3b244140) [Konkol](https://orcid.org/0000-0001-6651-0976) (<https://github.com/MarkusKonk>, <https://twitter.com/MarkusKonkol>), research software engineer at [52°North](https://52north.org/) and codechecker, organised a **CODECHECK hackathon** as part of the [OpenGeoHub summer school](https://opengeohub.org/summer-school/siegburg-2022/).
