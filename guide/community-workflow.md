@@ -106,7 +106,7 @@ In any case, the overall goal is to _leave the workflow repository in the same o
 
 Some further tips:
 
-- A familiarity with `make` is helpful to provide an easy entrypoint and build up useful code snippets for your CODECHECKs, see [https://the-turing-way.netlify.com/make/make.html](https://the-turing-way.netlify.com/make/make.html) and [https://swcarpentry.github.io/make-novice/reference](https://swcarpentry.github.io/make-novice/reference)
+- A familiarity with `make` is helpful to provide an easy entrypoint and build up useful code snippets for your CODECHECKs, see <https://book.the-turing-way.org/reproducible-research/make> and <https://swcarpentry.github.io/make-novice/reference>
 
 ## CODECHECK steps
 
