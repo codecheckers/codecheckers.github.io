@@ -9,7 +9,7 @@ Unlike the [CODECHECK configuration file](/spec/config/latest), which has a more
 Therefore, this page acts as a guidance for codecheckers and may evolve over time.
 
 **The CODECHECK bundle includes all files that the codechecker used to conduct the CODECHECK.**
-This may include a copy of the author's files, and any additional files that the codechecker created to assisst them in their codecheck.
+This may include a copy of the author's files, and any additional files that the codechecker created to assisst them in their CODECHECK.
 
 ## Computing environment documentation
 

@@ -83,7 +83,7 @@ When your workflow is ready to be CODECHECK, open an issue on the [CODECHECK reg
 
 After the publication of the CODECHECK certificate, add a reference to the certificate in your paper, e.g., in a section describing your workflow or in the acknowledgements:
 
-> _A CODECHECK certificate is available confirming that [all of the, a (significant) part of the, the] computations underlying this article could be independently executed: https://doi.org/[certificate DOI]._
+> _A CODECHECK certificate is available confirming that [all of the, a (significant) part of the, the] computations underlying this article could be independently executed: <https://doi.org/certificate-DOI>._
 
 ------
 
@@ -156,9 +156,11 @@ Some further tips:
 - If the check was conducted for a piece of software for the first time or resulted in important lessons learned, consider adding it to the list of examples below.
 - If possible, add the [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to the article or the original software repository, e.g., by sending a pull request. The badge should link directly to the Zenodo record _via the DOI_.
   The following snippet should work in Markdown:
-  ```
+  
+  ```md
   [![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/<DOI HERE>)
   ```
+
 - If the check material is published on `github.com/codecheckers`, add the [`codecheck` topic](https://github.com/search?q=topic%3Acodecheck+fork%3Atrue+org%3Acodecheckers&type=Repositories) to the project.
 
 Every CODECHECK is unique, just as the associated research article.
@@ -169,6 +171,12 @@ Reach out to fellow codecheckers in the [public CODECHECK discussion forum](http
 
 ## Codecheck editor tasks
 
+<!--
+TODO: UPDATE AS DISCUSSED IN <https://github.com/codecheckers/discussion/issues/21>
+
+update Zenodo metadata to include a link to the published paper
+-->
+
 When a new issue is assigned to a codecheck editor in the register, here are a few things you need to do.
 
 - **First checks**
@@ -177,12 +185,6 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
   - Make sure the author has completed the [required author tasks](#requirements).
 - **CODECHECK workflow**
   - Edit the first comment of the issue and add the next available _Certificate identifier_ in `YYYY-NNN` format by checking existing open issues with [`id assigned`](https://github.com/codecheckers/register/labels/id%20assigned) for the next available number; add the badge `id assigned` to the issue.
-  
-UPDATE AS DISCUSSED IN https://github.com/codecheckers/discussion/issues/21
-
-update Zenodo metadata to include a link to the published paper
-
-
   - [Find a codechecker](https://github.com/codecheckers/codecheckers/) and invite them by @-mentioning in the register issue. Remove the [`needs codechecker`](https://github.com/codecheckers/register/labels/needs%20codechecker) label when you found one. Good job so far!
   - Use the following labels to document the current state of the check: [`work in progress`](https://github.com/codecheckers/register/labels/work%20in%20progress), [`metadata pending`](https://github.com/codecheckers/register/labels/metadata%20pending)
   - Support the codechecker as needed (sent reminders, technical support, mediate between author and codechecker, et cetera); _all communication should happen within the GitHub issue on the register!_
@@ -227,7 +229,7 @@ Codechecker: [@sje30](https://github.com/sje30) and [@nuest](https://github.com/
 
 Report: [http://doi.org/10.5281/zenodo.3750741](http://doi.org/10.5281/zenodo.3750741)
 
-### GIScience/Geography/Geoinformatics 🌏🌎🌍 
+### GIScience/Geography/Geoinformatics 🌏🌎🌍
 
 #### [Brunsden & Comber, 2020](https://github.com/codecheckers/OpeningPractice)
 

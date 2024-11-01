@@ -99,7 +99,7 @@ Thanks, Markus, for spreading the word about CODECHECK and for introducing more 
 ### 2022-06 | AGILE Reproducibility Review 2022
 
 The collaboration between CODECHECK and the AGILE conference series continues!
-In 2022, the AGILE conference's [reproducibility committee]() conducted 16 reproductions of conference full papers.
+In 2022, the AGILE conference's [reproducibility committee](https://reproducible-agile.github.io/2022/#reproducibility-committee) conducted 16 reproductions of conference full papers.
 Take a look at the slides presented at the final conference day [here](https://doi.org/10.5281/zenodo.6625206).
 The reproducibility review took place after the scientific review.
 The reproducibility reports, the AGILE conference's  are published on OSF at <https://osf.io/r5w79/> and listed in the [CODECHECK register](https://codecheck.org.uk/register/).
@@ -161,7 +161,7 @@ Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Pub
 
 > Take a look at the [poster](https://septentrio.uit.no/index.php/SCS/article/view/4910/4893) and the [slides](https://septentrio.uit.no/index.php/SCS/article/view/4910/4900), or watch the [video recording](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000).
 >
-> [![](/img/munin-2019.jpg)](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000)
+> [![screenshot of livestream of the talk by Stephen Eglen at MUNIN 2019](/img/munin-2019.jpg)](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000)
 
 ------
 
@@ -188,7 +188,7 @@ To get or give a quick overview of the project, feel free to use or extend the [
 $(document).ready(function(){
     var checks = [];
     var stats = {};
-    
+
     $.when(
         $.ajax({
             type: "get",

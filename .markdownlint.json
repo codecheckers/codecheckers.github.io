@@ -1,0 +1,23 @@
+{
+    "default": true,
+    "MD033": {
+        "allowed_elements": [
+            "a",
+            "img",
+            "span",
+            "div",
+            "p",
+            "ul",
+            "li",
+            "h1",
+            "h4",
+            "em",
+            "strong",
+            "iframe",
+            "br",
+            "script"
+        ]
+    },
+    "MD013": false,
+    "MD041": false
+}
