@@ -41,4 +41,4 @@ We would be happy to list your journal of conference on our website after we hav
 ## As a developer or science communicator
 
 CODECHECK is a community effort, and your help is welcome across all tasks that the team faces.
-If you want to write code to assisst codecheckers to conduct more effective reviews or to streamline the CODECHECK review processes, or if you want to help presenting and sharing CODECHECK's vision and educate others on code executability checks - then _please get in touch with the [CODECHECK team](partners/#team) (see email links in footer)_.
+If you want to write code to assisst codecheckers to conduct more effective reviews or to streamline the CODECHECK review processes, or if you want to help presenting and sharing CODECHECK's vision and educate others on code executability checks - then _please get in touch with the [CODECHECK team](/partners/#team) (see email links in footer)_.

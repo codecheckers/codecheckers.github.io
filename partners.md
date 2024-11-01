@@ -37,7 +37,7 @@ _[Become a codechecker](/get-involved)!_
 
 - [Dr. Ben Marwick](https://faculty.washington.edu/bmarwick/) (University of Washington)
 - Dr. Misha Kapuchesy, CEO of [Genestack](https://genestack.com/) (Cambridge)
-- [eLife innovation](https://elifesciences.org/about/innovation) team, eLife Science Publications Ltd (Cambridge)
+- [eLife innovation](https://elifesciences.org/about/technology) team, eLife Science Publications Ltd (Cambridge)
 - [Dr. Nicolas Rougier](https://www.labri.fr/perso/nrougier/) (INRIA, Bordeaux)
 - [Dr. Konrad Kording](http://koerding.com/) (UPenn)
 - Dr. Scott Edmunds, Executive Editor at [GigaScience](https://academic.oup.com/gigascience)
@@ -54,7 +54,7 @@ The following journals have [completed](/register) at least one CODECHECK as par
 
 🗂️ [CODECHECKs for GigaScience](https://codecheck.org.uk/register/venues/journals/gigascience/)
 
-🗂️ [CODECHECKs for GigaByte](<https://codecheck.org.uk/register/venues/journals/gigabyte/)
+🗂️ [CODECHECKs for GigaByte](https://codecheck.org.uk/register/venues/journals/gigabyte/)
 
 [![Journal of Geographical Systems]({{ 'img/JGSY-logo.jpg' | relative_url }}){:width="200"}](https://www.springer.com/journal/10109)
 <br />See editorial at <https://link.springer.com/article/10.1007/s10109-021-00364-4>.
@@ -65,7 +65,7 @@ The following journals have [completed](/register) at least one CODECHECK as par
 
 [![Reproducible AGILE Logo]({{ 'img/reproducible-AGILE-logo-square.svg' | relative_url }}){:width="200"}](https://reproducible-agile.github.io/)
 
-The [Reproducible AGILE initiative](https://reproducible-agile.github.io/) conducts reproducibility reviews [as part of full paper peer review](https://www.agile-giscience-series.net/review_process.html) for the Association of Geographic Information Laboratories in Europe's ([AGILE](https://agile-online.org/)) [annual conference series](https://agile-online.org/conference/).
+The [Reproducible AGILE initiative](https://reproducible-agile.github.io/) conducts reproducibility reviews [as part of full paper peer review](https://www.agile-giscience-series.net/review_process.html) for the Association of Geographic Information Laboratories in Europe's ([AGILE](https://agile-gi.eu/)) [annual conference series](https://agile-gi.eu/conferences/).
 The reproducibility reviews fulfil the CODECHECK principles and therefore they are listed in the CODECHECK register.
 Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.org/10.17605/OSF.IO/CB7Z8).
 

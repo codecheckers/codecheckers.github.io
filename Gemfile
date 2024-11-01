@@ -26,3 +26,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "csv"
 gem "base64"
 gem "bigdecimal"
+
+# https://danielsieger.com/blog/2021/03/28/check-broken-links-jekyll.html
+# https://github.com/gjtorikian/html-proofer/blob/main/README.md
+gem "html-proofer"

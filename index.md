@@ -9,7 +9,7 @@ head_inline: |
 
 <div class="row banner">
    <div class="col-6 col-lg">
-      <img src="img/codecheck_logo.svg" width="100%" alt="CODECHECK logo" />
+      <img alt="CODECHECK logo" src="img/codecheck_logo.svg" width="100%" alt="CODECHECK logo" />
       <p class="text-secondary text-justify"><em>Independent execution of computations underlying research articles.</em></p>
    </div>
 
@@ -113,7 +113,7 @@ Learn more about the Reproducible AGILE initiative at <https://reproducible-agil
 The CODECHECK team is grateful about the continued interest from the research community on the topic of evaluating code and workflows as part of scholarly communication and peer review.
 
 Stephen gave a talk at the [**2022 Toronto Workshop on Reproducibility**](https://canssiontario.utoronto.ca/event/toronto-workshop-on-reproducibility/) organised by [Rohan Alexander](https://rohanalexander.com/).
-You can find the [slides online](https://sje30.github.io/talks/2022/codecheck22.html#1) and also watch the [**recording on YouTube**](https://www.youtube.com/watch?v=TgDgcqtsFvE) - very worth a look because of the great Q&A at the end!
+You can find the [slides online](https://sje30.github.io/talks/2022/codecheck22.html) and also watch the [**recording on YouTube**](https://www.youtube.com/watch?v=TgDgcqtsFvE) - very worth a look because of the great Q&A at the end!
 
 Stephen presented **CODECHECK: An Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility** ([slides](https://bit.ly/codecheck21)) in May 2021 at the [Reproducibility Tea Southhampton](https://reproducibilitea.org/journal-clubs/#Southampton).
 
@@ -157,11 +157,13 @@ A [Nature News article](https://doi.org/10.1038/d41586-020-01685-y) by [Dalmeet 
 
 ### 2019-11 | MUNIN conference presentation
 
-Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Publishing 2019](https://site.uit.no/muninconf/).
+Stephen Eglen presented CODECHECK at [The 14th Munin Conference on Scholarly Publishing 2019](https://site.uit.no/muninconf/) with the submission "CODECHECK: An open-science initiative to facilitate sharing of computer programs and results presented in scientific publications", see <https://doi.org/10.7557/5.4910>.
 
-> Take a look at the [poster](https://septentrio.uit.no/index.php/SCS/article/view/4910/4893) and the [slides](https://septentrio.uit.no/index.php/SCS/article/view/4910/4900), or watch the [video recording](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000).
->
-> [![screenshot of livestream of the talk by Stephen Eglen at MUNIN 2019](/img/munin-2019.jpg)](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000)
+Take a look at the [poster](https://septentrio.uit.no/index.php/SCS/article/view/4910/4893) and the [slides](https://septentrio.uit.no/index.php/SCS/article/view/4910/4900).
+
+<!-- or watch the [video recording](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000). -->
+
+> ![screenshot of livestream of the talk by Stephen Eglen at MUNIN 2019](/img/munin-2019.jpg)
 
 ------
 

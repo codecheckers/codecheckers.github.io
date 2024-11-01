@@ -35,7 +35,7 @@ It is worth taking a look around for such checklists for your discipline or meth
 From our experience, **documentation** is the key.
 A typical measure for a good level of documentation is to provide at least so much information as the author would themselves need after a longer period of time, e.g., 1 year, to run the analysis again.
 Any researcher, even if not familiar with the software stack, should be able to run the workflow and find out if the code works.
-Structured information about the computing environment, such as a [_colophon_](https://github.com/benmarwick/rrtools/blob/master/inst/templates/paper.Rmd#L105) or _"reproducibility receipt"_ in computational notebooks (see [this discussion on Twitter](https://twitter.com/MilesMcBain/status/1263272935197782016?s=09)) are very helpful.
+Structured information about the computing environment, such as a _colophon_ or _reproducibility receipt_ are very helpful, see the [CODECHECK bundle guide](/guide/bundle).
 
 Common sense shall be applied to decide about the suitable amount of data and to handle big datasets, sensitive datasets with privacy concerns, and long execution times.
 For example, data may be deposited depending on community practices in remote repositories, synthetic data may be used, subsets or preprocessed data may be included, or protected access to information may be provided (e.g. cloud-based data enclaves).
@@ -83,7 +83,7 @@ When your workflow is ready to be CODECHECK, open an issue on the [CODECHECK reg
 
 After the publication of the CODECHECK certificate, add a reference to the certificate in your paper, e.g., in a section describing your workflow or in the acknowledgements:
 
-> _A CODECHECK certificate is available confirming that [all of the, a (significant) part of the, the] computations underlying this article could be independently executed: <https://doi.org/certificate-DOI>._
+> _A CODECHECK certificate is available confirming that [all of the, a (significant) part of the, the] computations underlying this article could be independently executed: `DOI of the certificate here`.
 
 ------
 
@@ -194,7 +194,7 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
   - Ask the codechecker to add/update all required metadata in the `codecheck.yml` and updated the certificate report (especially the final DOI!), double-check the information in the metadata and the actual certificate; wait until the certificate is published with its own DOI.
   - Trigger a rebuild of the register by adding the CODECHECK to the `register.csv` file; you may add a `closes #N` statement in the commit message to close the isue.
   - Clear up the labels of the register issue - all labels except the [`community`](https://github.com/codecheckers/register/labels/community)/[`journal`](https://github.com/codecheckers/register/labels/journal)/[`conference/workshop`](https://github.com/codecheckers/register/labels/conference%2Fworkshop) should be removed.
-  - "Archive" the repository clone in the codecheckers organisation on GitHub/the cdchk organisation on GitLab ([instructions for GitHub](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories), [instructions for GitLab](https://docs.gitlab.com/ee/user/project/settings/#archiving-a-project))
+  - "Archive" the repository clone in the codecheckers organisation on GitHub/the cdchk organisation on GitLab ([instructions for GitHub](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories), [instructions for GitLab](https://docs.gitlab.com/ee/user/project/working_with_projects.html#archive-a-project))
   - Close the issue on the register.
 
 ------
