@@ -7,13 +7,12 @@ The following steps are required to complete a CODECHECK as part of a workshop o
 See also the [CODECHECK community workflow overview](/guide/community-workflow-overview) for a broader approach.
 Before you start, note that every CODECHECK is unique, just as the associated research article.
 Reach out to fellow codecheckers in the [public CODECHECK discussion forum](https://github.com/codecheckers/discussion/issues) if you face any problems, or use the [internal team discussion](https://github.com/orgs/codecheckers/teams/codecheckers) if you need to consult in private.
+You are probably doing fine even if you digress from this documentation.
 
-You are probably doing fine even if you digress vom this documentation.
+## Steps
 
-## Codechecker tasks - in-person workshop
-
-1. Authors create a pre-producible workflow: all data and code, plus a readme file detailing the content, a manifest file detailing the [output CODECHECK configuration file](/spec/config/1.0/), and a license file; this is ideally bundled in a single repository or archive file and accompanied by a (pre-published) paper
-1. Authors send their request for a CODECHECK to project e-mail address [codechecknl@gmail.com](mailto:codechecknl@gmail.com)
+1. **Authors** create a pre-producible workflow: all data and code, plus a readme file detailing the content, a manifest file detailing the [output CODECHECK configuration file](/spec/config/1.0/), and a license file; this is ideally bundled in a single repository or archive file and accompanied by a (pre-published) paper
+1. **Authors** send their request for a CODECHECK to project e-mail address [codechecknl@gmail.com](mailto:codechecknl@gmail.com)
 1. The CodecheckNL project team accepts the request for the workshop or advises to follow the normal community workflow (see above)
 1. During the workshop, codecheckers download materials or clone the a repository
 1. The workshop codecheckers create a new directory in their working environment where all new files go, and start documenting the ongoing codecheck; exact form of codechecking procedure and form of documentation vary greatly, but there are some tools, such as an R package to automate some steps, including a Rmd template; all of that is optional, as long as the final report contains the mandatory information
