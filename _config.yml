@@ -54,6 +54,7 @@ footer_icons:
 header_pages:
   - project.md
   - process.md
+  - guide/community-workflow-overview.md
   - partners.md
   - get-involved.md
 

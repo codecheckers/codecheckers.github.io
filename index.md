@@ -52,7 +52,7 @@ The British Neuroscience Association (BNA) have awarded the 2024 Team Credibilit
 
 We are happy to announce a one-year grant from the Dutch Research Council (NWO) to support Codecheck activities in the Netherlands.
 The project is led by Frank Ostermann (University of Twente) with colleagues from Delft and Groningen.
-[Further details](https://codecheck.org.uk/nl).
+[Further details](/nl/).
 
 ![NWO Logo](https://www.nwo.nl/themes/custom/nwo/assets/images/logo.svg?v=24)
 

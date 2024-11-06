@@ -1,7 +1,8 @@
 ---
 layout: page
 title: CODECHECK-NL Workshop for Geosciences and Environmental Sciences
-permalink: /nl-workshop2/
+redirect_from:
+  - /nl-workshop2/
 ---
 
 ## Update from UTwente: Small is beautiful (and reproducible)

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: CHECK-NL Workshop for Engineering Sciences
-permalink: /nl-workshop1/
+redirect_from:
+  - /nl-workshop1/
 ---
 
 ## UPDATE: We have successfully completed our first workshop! Read on...

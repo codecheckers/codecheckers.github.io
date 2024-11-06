@@ -44,6 +44,16 @@ footer {
   margin-bottom: 2rem;
 }
 
+#nav-menu a {
+  border-top: 5px solid #d0e7d9;
+  font-weight: bold;
+}
+
+#nav-menu a:hover {
+  border-top: 4px solid #008033;
+  color: #008033;
+}
+
 #site-footer {
   margin-top: 2rem;
 }

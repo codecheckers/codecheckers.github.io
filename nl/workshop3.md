@@ -1,7 +1,8 @@
 ---
 layout: page
 title: CODECHECK-NL Workshop for Social and Behavioural Sciences
-permalink: /nl-workshop3/
+redirect_from:
+  - /nl-workshop3/
 ---
 
 ## CALL FOR PAPERS/PRE-PRINTS/CODE: YOU can help increase reproducibility in the social sciences!
