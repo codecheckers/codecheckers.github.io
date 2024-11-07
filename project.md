@@ -29,7 +29,7 @@ The fact that such a check is conducted and the communication between codechecke
    <details>
    <summary>More about this principle...</summary>
    The value of performing a CODECHECK is comparable to that of a peer review, and it may require a similar amount of time. Therefore, the codechecker’s activity should be recorded, ideally in the published paper. The public record can be realised by publishing the certificate in a citable form (i.e., with a DOI), by listing codecheckers on the journal’s website or, ideally, by publishing the checks alongside peer review activities in public databases.
-   <em>Codechecks are an excellen opportunity to involve early career researchers (ECRs) or research software engineers (RSEs) in peer review.</em>
+   <em>Codechecks are an excellent opportunity to involve early career researchers (ECRs) or research software engineers (RSEs) in peer review.</em>
    </details>
 1. <span class="principle">Workflows must be auditable.</span>
    <details>

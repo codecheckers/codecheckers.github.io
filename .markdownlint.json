@@ -15,7 +15,9 @@
             "strong",
             "iframe",
             "br",
-            "script"
+            "script",
+            "details",
+            "summary"
         ]
     },
     "MD013": false,
