@@ -16,7 +16,7 @@ Now it's your turn.
 1. Accept codechecking invitation by commenting on the issue
 1. Create a repository in the CODECHECK GitHub organization, either by forking existing repository or creating new one and uploading materials
 1. Create a new directory in that repository where all new files will go
-1. Create a new document to write the CODECHECK certificate and *start documenting the ongoing codecheck now*
+1. Create a new document to write the CODECHECK certificate and _start documenting the ongoing codecheck now_
    The exact form of  a codechecking procedure and form of documentation vary greatly, but there are some tools, such as [an R package](https://github.com/codecheckers/codecheck) to automate some steps, including [an Rmd template](https://github.com/codecheckers/codecheck/blob/master/inst/extdata/templates/codecheck/codecheck.Rmd); all of that is optional, as long as the final certificate contains the mandatory information
 1. Open the manuscript and follow the instructions to reproduce a workflow
 1. During the CODECHECK, contact the authors in case of problems; keep in mind the general [CODECHECK principles](/project/#the-codecheck-principles), especially “the codechecker records but does not fix” – unless it is a very trivial bug like pathnames; the authors can provide updated versions of code and documentation; however, the entire procedure should not be much more time-intensive than a normal peer review of a paper and not involve more than a few code revisions; the codechecker can always stop the process after a reasonable effort and close the issue as not successfully reproduced.
@@ -103,4 +103,3 @@ Some further tips:
     ```md
     [![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/<DOI HERE>)
     ```
-

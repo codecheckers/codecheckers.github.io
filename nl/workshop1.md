@@ -5,7 +5,9 @@ redirect_from:
   - /nl-workshop1/
 ---
 
-## UPDATE: We have successfully completed our first workshop! Read on...
+\[[Go back to CHECK-NL main page](/nl/)\]
+
+## UPDATE: We have successfully completed our first workshop!
 
 <p align="center">
 <img src="https://github.com/codecheckers/codecheckers.github.io/assets/150461262/f91ed93a-2624-457d-bc2a-a01353891f51" alt="Delft workshop participants" width="50%" height = "50%">
@@ -48,7 +50,6 @@ If you cannot make this workshop, there will be further opportunities
 later in the year as we plan three more workshops around the
 Netherlands.
 
-
 ### What do I get if I submit my code?
 
 A codechecker will work with you during the session to check whether
@@ -65,7 +66,6 @@ reproducibility of your work.
 
 By participating, you contribute towards making science more open and
 transparent AND increase the visibility of your own research!
-
 
 ### Sounds good! What should I do?
 
