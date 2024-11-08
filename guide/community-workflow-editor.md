@@ -14,7 +14,7 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
 1. **First checks**
     - Briefly check the submitted repository - does the workflow look at all codecheckable?
     - Ensure that a preprint is linked or a real manuscript is published within the repository, or that a reference to a journal submission is provided to which you have contacts.
-    - Make sure the author has completed the [required author tasks](/guide/community-workflow-author#requirements).
+    - Make sure the author has completed the [required author tasks](/guide/community-workflow-author#2-requirements).
 1. **Manage CODECHECK workflow**
     - Edit the first comment of the issue and add the next available _Certificate identifier_ in `YYYY-NNN` format by checking existing open issues with [`id assigned`](https://github.com/codecheckers/register/labels/id%20assigned) for the next available number; add the badge `id assigned` to the issue.
     - [Find a codechecker](https://github.com/codecheckers/codecheckers/) and invite them by @-mentioning in the register issue. Remove the [`needs codechecker`](https://github.com/codecheckers/register/labels/needs%20codechecker) label when you found one who accepted the task. Good job so far!

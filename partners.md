@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 CODECHECK is a collaboration project lead by Stephen Eglen and Daniel Nüst together with [a community of codecheckers](/get-involved), collaborators in the scientific, academic publishing, and scholarly infrastructure communities, and a [codecheckers team](https://github.com/codecheckers/codecheckers/).
+We partner with people and organisations to advance scholarly communication with better reproducibility.
 
 ## Team
 
@@ -41,7 +42,8 @@ His main research interest is where people, geography, and computer science meet
 Citizen Science is where all these elements come together.
 Previous work include a PhD from the University of Zurich and (post-doctoral) researcher positions at the Joint Research Center of the European Commission as well as the Universities of Zurich and Hamburg on EU-funded projects.
 
-Frank contributes his experiences in reproducible research as a founding member of [Reproducible AGILE](https://reproducible-agile.github.io/) and his broad topical expertise - he connects CODECHECK with various disciplines and communities.
+Frank is PI of the [CHECK-NL](/nl/) project.
+He further contributes his experiences in reproducible research as a founding member of [Reproducible AGILE](https://reproducible-agile.github.io/) and his broad topical expertise - he connects CODECHECK with various disciplines and communities.
 
 ### Codecheckers
 
