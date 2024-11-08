@@ -28,6 +28,17 @@ He is also engaged in the Open Source and Open Science communities and has held 
 
 Daniel contributes his technical expertise in reproducible research & scholarly communication infrastructures and geospatial data science.
 
+### Frank Ostermann (senior codechecker)
+
+<https://orcid.org/0000-0002-9317-8291> \| <https://www.linkedin.com/pub/frank-ostermann/8/2a7/820>
+
+Frank is an Assistant Professor at the Faculty of Geo-Information Science and Earth Observation ([ITC](https://www.itc.nl/)), [University of Twente](https://people.utwente.nl/f.o.ostermann).
+His main research interest is where people, geography, and computer science meet: new modes of production and usage of geographic information (crowdsourced and volunteered), related technological and methodological developments (IoT sensors, machine learning), and the impacts on scientific practice (ethics of consent and privacy-preservation, open and reproducible research).
+Citizen Science is where all these elements come together.
+Previous work include a PhD from the University of Zurich and (post-doctoral) researcher positions at the Joint Research Center of the European Commission as well as the Universities of Zurich and Hamburg on EU-funded projects.
+
+Frank contributes his experiences in reproducible research as a founding member of [Reproducible AGILE](https://reproducible-agile.github.io/) and his broad topical expertise - he connects CODECHECK with various disciplines and communities.
+
 ### Codecheckers
 
 The [codecheckers team](https://github.com/codecheckers/codecheckers) does the hard work of conducting CODECHECKs.
