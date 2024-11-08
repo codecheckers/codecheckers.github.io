@@ -38,7 +38,7 @@ CODECHECK is based on **five principles** which are described in detail in the [
 The principles can be implemented in different [processes](/process/), one of which is the [CODECHECK community workflow](/guide/community-workflow-overview).
 **If you want to get involved as a codechecker in the community, or if you want to apply the CODECHECK principles in your journal or conference, please take a look at the [Get Involved](/get-involved) page.**
 
-To **stay in touch** with the project, follow us on social media at **<https://fediscience.org/@codecheck>**.
+To **stay in touch** with the project, follow us on social media at <img src="/img/icon-mastodon.svg" alt="Mastodon logo" style="margin-top: -3px;" /> **<https://fediscience.org/@codecheck>**.
 
 ## News
 
