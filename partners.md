@@ -11,19 +11,23 @@ CODECHECK is a collaboration project lead by Stephen Eglen and Daniel Nüst toge
 
 ## Team
 
-### Stephen Eglen (Co-PI)
+### Stephen Eglen (co-PI)
+
+<https://orcid.org/0000-0001-8607-8025> \| <https://sje30.github.io/>
 
 Stephen Eglen is a professor in Computational Neuroscience at the [University of Cambridge](https://www.cam.ac.uk/).
 He has over 20 years experience as a researcher in Computational Neuroscience, and has worked on several projects encouraging more code and data sharing in Neuroscience.
-Most recently this led to a trial project with the journal [Nature Neuroscience](https://www.nature.com/articles/nn.4579), and our guidelines for sharing in [Neuroscience](https://www.nature.com/articles/nn.4550).
+This led to a trial project with the journal [Nature Neuroscience](https://www.nature.com/articles/nn.4579), and our guidelines for sharing in [Neuroscience](https://www.nature.com/articles/nn.4550).
 Stephen is also a fellow of the Alan Turing Institute ([ATI](https://www.turing.ac.uk/)), based in the British Library, and a member of the [International Neuroinformatics Coordinating Facility](https://incf.org) which will provide logistical support e.g. on supercompute infrastructure.
 
 Stephen contributes his domain-specific expertise in computational neuroscience and Open Science.
 
-### Daniel Nüst (Co-PI)
+### Daniel Nüst (co-PI)
+
+<https://orcid.org/0000-0002-0024-5046> \| <https://nordholmen.net/>
 
 Daniel Nüst is a postdoctoral researcher and research software engineer ith the [Chair of Geoinformatics](https://tu-dresden.de/bu/umwelt/geo/geoinformatik/die-professur?set_language=en), TU Dresden, and at the Institute for Geoinformatics ([ifgi](https://www.uni-muenster.de/Geoinformatics/en/)), University of Münster.
-He develops tools for open and reproducible geoscientific research and is a proponent for open scholarship and reproducibility in the projects [NFDI4Earth](https://nfdi4earth.de/), _Opening Reproducible Research_ ([o2r](https://o2r.info)), and [OPTIMETA](https://projects.tib.eu/optimeta).
+He develops tools for open and reproducible geoscientific research and is a proponent for open scholarship and reproducibility in the projects [NFDI4Earth](https://nfdi4earth.de/), _Opening Reproducible Research_ ([o2r](https://o2r.info)), and [KOMET](https://projects.tib.eu/komet).
 He is also engaged in the Open Source and Open Science communities and has held workshops on Reproducible Research in [geosciences](https://vickysteeves.gitlab.io/repro-papers/), [GIScience](https://o2r.info/reproducible-agile/), and [digital humanities](https://zenodo.org/record/1299031).
 
 Daniel contributes his technical expertise in reproducible research & scholarly communication infrastructures and geospatial data science.
