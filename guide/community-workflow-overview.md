@@ -33,52 +33,55 @@ If you have any questions or concerns, or get stuck, please reach out to fellow 
 
 ## Examples
 
-**See the [CODECHECK register](/register) for a full list of codechecks, including direct links to the reports and register issues with background information.**
+See the [CODECHECK register](/register) for a full list of codechecks, including direct links to the reports and register issues.
+You can check there for more examples from different communities.
 
-### Neuroscience 🧠
+- Life Sciences 🧬🌿🧠
+  - [_ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data_](https://doi.org/10.1093/gigascience/giaa026)
 
-#### [Piccolo, 2020](https://github.com/codecheckers/Piccolo-2020)
+    CODECHECK Certificate 2020-001. <https://doi.org/10.5281/zenodo.3674056>
+  - [_Report 9: impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. March 16, 2020._](https://doi.org/10.25561/77482)
 
-Codechecker: [@sje30](https://github.com/sje30)
+    CODECHECK certificate 2020-010: <https://doi.org/10.5281/zenodo.3865491>
+  - [_Driftage: a multi-agent system for concept drift detection and an application on electromyography_](https://doi.org/10.1093/gigascience/giab030)
+    (Uses MyBinder)
 
-Report: [http://doi.org/10.5281/zenodo.3674056](http://doi.org/10.5281/zenodo.3674056)
+    CODECHECK certificate 2020-024: <https://doi.org/10.5281/zenodo.4964880>
+- GIScience/Geography/Geoinformatics 🌏🌎🌍
+  - [_Progress in the R ecosystem for representing and handling spatial data_](https://doi.org/10.1007/s10109-020-00336-0)
 
-Journal: GigaScience, see also [related blog post](http://gigasciencejournal.com/blog/codecheck-certificate/) reporting on this first CODECHECK for the journal.
+    CODECHECK certificate 2020-017: <https://doi.org/10.5281/zenodo.4003848>
+  - [_Geographically Weighted Regressions in educational planning_](https://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and-interventions)
+    (R and QGIS)
 
-#### [Hopfield, 1982](https://github.com/codecheckers/Hopfield-1982)
+    CODECHECK certificate 2022-001: <https://doi.org/10.5281/zenodo.6040066>
+  - [_Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets_](https://doi.org/10.5194/agile-giss-4-8-2023)
+    (web app, Jupyter notebook)
 
-A landmark paper from neuroscience, reproduced by [@sebwyh](https://github.com/sebwyh) with edits by [@nuest](https://github.com/nuest).
+    CODECHECk certificate 2023-008: <https://doi.org/10.17605/OSF.IO/AQGXR>
+  - [_Urban Sound Mapping for Wayfinding - A theoretical Approach and an empirical Study_](https://doi.org/10.5194/agile-giss-4-9-2023)
+    (R and QGIS)
 
-Codechecker: [@nuest](https://github.com/nuest)
+    CODECHECk certificate 2023-001: <https://doi.org/10.17605/OSF.IO/C7VX3>
+  - [_Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands_](https://doi.org/10.5194/agile-giss-5-6-2024)
+    (Python with Conda, data subset)
 
-Report: [https://doi.org/10.5281/zenodo.3741797](https://doi.org/10.5281/zenodo.3741797)
+    CODECHECk certificate 2024-013: <https://doi.org/10.17605/OSF.IO/TXGZV>
+  - [_The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna_](https://doi.org/10.5194/agile-giss-5-4-2024)
+    (Python, with requirements.txt by codechecker)
 
-#### [Hancock, 1991](https://github.com/codecheckers/Reproduction-Hancock)
+    CODECHECk certificate 2024-013: <https://doi.org/10.17605/OSF.IO/W42AD>
+  - [_Developing a city-specific walkability index through a participatory approach_](https://doi.org/10.5194/agile-giss-5-2-2024)
+    (mixed methods; QGIS and Python)
 
-A classical neuroscience paper.
+    CODECHECk certificate 2024-013: <https://doi.org/10.17605/OSF.IO/CSB7R>
+  - [_Knowledge-Based Identification of Urban Green Spaces: Allotments_](https://doi.org/10.5194/agile-giss-5-8-2024)
+    (R, proprietary GIS)
 
-Codechecker: [@sje30](https://github.com/sje30) and [@nuest](https://github.com/nuest)
+    CODECHECk certificate 2024-013: <https://doi.org/10.17605/OSF.IO/3NBJW>
+- Archaeology ⛏️🗿
+  - [_The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces_](https://doi.org/10.1016/j.jas.2020.105306)
 
-Report: [http://doi.org/10.5281/zenodo.3750741](http://doi.org/10.5281/zenodo.3750741)
-
-### GIScience/Geography/Geoinformatics 🌏🌎🌍
-
-#### [Brunsden & Comber, 2020](https://github.com/codecheckers/OpeningPractice)
-
-Paper on reproducibility in spatial data science.
-
-Codechecker: [@nuest](https://github.com/nuest)
-
-Report: [https://doi.org/10.5281/zenodo.3873153](https://doi.org/10.5281/zenodo.3873153)
-
-### Archaeology ⛏️
-
-Paper on spatial dependence in archaeological spaces.
-
-Codechecker: [@nuest](https://github.com/nuest)
-
-Report: [https://doi.org/10.5281/zenodo.4279275](https://doi.org/10.5281/zenodo.4279275)
-
-### _Your scientific dispipline here..._
-
-**[Get involved!](/get-involved)**
+    CODECHECK Certificate 2020-025. <https://doi.org/10.5281/zenodo.4279275>
+- _Your scientific dispipline here..._
+  - **[Get involved!](/get-involved)**
