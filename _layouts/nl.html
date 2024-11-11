@@ -1,0 +1,41 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <style>
+      #nav-header {
+          margin-bottom: 0;
+      }
+
+      #flag {
+        margin-bottom: 3em;
+        height: 3em;
+        width: 100%;
+        background: linear-gradient(to bottom, rgb(174,28,40) 0%, rgb(174,28,40) 33.33%, white 0, white 66.66%, rgb(33,70,139) 0);
+      }
+
+    </style>
+
+    {% include header.html %}
+
+    <div id="flag"></div>
+
+    <main aria-label="Content">
+      <div class="container">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+    {% include anchors.html %}
+
+  </body>
+
+</html>

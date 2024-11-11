@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: nl
 title: CODECHECK-NL Workshop for Social and Behavioural Sciences
 redirect_from:
   - /nl-workshop3/

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: nl
 title: CHECK-NL Workshop for Engineering Sciences
 redirect_from:
   - /nl-workshop1/

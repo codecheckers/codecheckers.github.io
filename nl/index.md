@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: nl
 title: CODECHECKing goes NL (CHECK-NL)
 permalink: /nl/
 ---

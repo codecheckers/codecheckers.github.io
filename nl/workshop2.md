@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: nl
 title: CODECHECK-NL Workshop for Geosciences and Environmental Sciences
 redirect_from:
   - /nl-workshop2/

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: nl
 title: CODECHECK community workflow for CHECK-NL
 ---
 
