@@ -42,6 +42,25 @@ To **stay in touch** with the project, follow us on social media at <img src="/i
 
 ## News
 
+### 2024-11 | CODECHECK at ASSA summer school in Eindhoven
+
+On the last day of the 🍁 [Autumn School Series in Acoustics](https://www.linkedin.com/company/assaeindhoven/) at [Eindhoven University of Technology](https://www.tue.nl/en/), the autum school team of [Maarten Hornikx](https://www.linkedin.com/in/maartenhornikx/) and [Huiqing Wang](https://www.linkedin.com/in/huiqing-wang-2596544a/) organized a track on _open research software in the computational acoustics_.
+
+This day is part of the [NWO](https://www.nwo.nl/en/) (Dutch Research Council) open science fund project [_Unlocking the impact potential of research software in acoustics_](https://www.nwo.nl/en/projects/osf231057), driven by the [TU/e Building Acoustics](https://building-acoustics.net/) team, which targets to to foster a culture change regarding good practices in open science regarding the development and dissemination of research software in acoustics.
+After a successful workshop in [Nantes](https://lnkd.in/em5HDJ6m), the team now targeted early career researchers.
+
+The day kicked off with talks about the potential and future of open research software, best practices in open research software, and instructions and guidelines for acceleration of sharing research software, by Maarten and Huiqing.
+
+One particular aspect of research software is related to reproducible research.
+In the afternoon, participants carried out a CODECHECK process, targeting the independent execution of computations underlying research articles.
+While the purpose of the afternoon was to experience running open research software developed by colleagues and getting experience with the process of codecheck, we have had great discussions on what we need in our community to bring research software further for the sake of quality, reproducibility, collaboration and impact of research.
+
+Outcomes of this workshop and the previous workshop will be shared, such that we indeed can take the right step forward in our community!
+
+🙏🏻 Thanks to Frank Ostermann, Daniel Nüst and Daniela Gawehns for the support from CODECHECK!
+
+(This news item was previously published [on LinkedIn](https://www.linkedin.com/posts/building-acoustics-tu-e_openscience-acoustics-reproducibility-activity-7261118766028144640-zLbM/).)
+
 ### 2024-04 | CODECHECK wins Team Credibility Prize 🏆
 
 The British Neuroscience Association (BNA) have awarded the 2024 Team Credibility Prize to CODECHECK for our work on reproducibility.
