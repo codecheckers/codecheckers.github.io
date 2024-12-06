@@ -182,7 +182,7 @@ To get or give a quick overview of the project, feel free to use or extend the [
     <em>"{{title}}"</em><br/>
     <strong><a href="{{link}}" title="CODECHECK report for paper {{title}}">{{link}}</a></strong>
     <br />
-    <span class="text-secondary"> Certificate #{{certificate}} | Type: {{type}} | {{datestring}}</span>
+    <span class="text-secondary">Certificate #{{certificate}} | {{type}} {{venue}} | {{datestring}}</span>
 </li>
 {% endraw %}
 </script>
@@ -205,7 +205,7 @@ $(document).ready(function(){
             }
         }),
     ).then( function(){
-       updateList(checks, 4, "#check_list", "#templateCheck");
+       updateList(checks, 5, "#check_list", "#templateCheck");
     });
 
     $.when(

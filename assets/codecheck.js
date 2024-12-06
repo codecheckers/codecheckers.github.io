@@ -6,9 +6,10 @@ parseChecks = function(checksData) {
             var view = {
                 date: new Date(value["Check date"]),
                 title: value["Title"],
-                certificate: value["Certificate"],
-                link: value["Report"],
-                type: value["Type"]
+                certificate: value["Certificate ID"],
+                link: value["Certificate Link"],
+                type: value["Type"],
+                venue: value["Venue"]
             };
             view.datestring = $.format.prettyDate(view.date);
             checks.push(view);
