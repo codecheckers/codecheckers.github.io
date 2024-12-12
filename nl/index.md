@@ -20,6 +20,10 @@ Thanks to these contributions by CHECK-NL, you can find all codechecks conducted
 
 ### Latest News
 
+- **Only ONE more workshop to go!** Don't miss your chance to attend the final workshop of the CHECK-NL project on **14 February** at Leiden University. More details on our [workshop page](https://codecheck.org.uk/nl/workshop4)
+  
+- **Our third workshop at Rotterdam was successfully concluded!!** Read about it on the [blog].(https://codecheck.org.uk/nl/workshop3)
+  
 - **Sign up for our upcoming codecheck workshop in Rotterdam on 28th November 2024**, for the [social and behavioural sciences](/nl/workshop3.html)!
   
 - **Read about our second workshop at UTwente** on the [workshop page](/nl/workshop2.html)!
