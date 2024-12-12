@@ -7,6 +7,22 @@ redirect_from:
 
 \[[Go back to CHECK-NL main page](/nl/)\]
 
+## Fun and fruitful: A successful workshop at Erasmus University Rotterdam!
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/49b7fe00-55d0-4f04-b571-5134128d98fe" alt="Rotterdam workshop participants" width="60%" height = "60%">
+</p>
+
+Our third CHECK-NL workshop on the social and behavioural sciences at Erasmus University Rotterdam was an engaging, supportive community event, made even better by our gracious host at EUR, Eduard Klapwijk, who kept us well fed, watered and caffeinated through the day, in addition to being active in the sessions as well. 
+
+The day began with an introduction from Stephen Eglen (co-founder CODECHECK), taking us through the concepts and steps of codecheck, and leading us through a live demo of a codecheck he had begun the previous evening on the train from London, which he successfully completed. Shortly thereafter, the three authors who had submitted their work to be codechecked briefly introduced their projects, and participants divided themselves up into three breakout groups, with two groups working with R and one with Python. All three groups completed successful codechecks, and also made some headway writing the certificates of executable computations. Have a look at the [CODECHECK Register](https://codecheck.org.uk/register/venues/communities/codecheck_nl/) to see the newly published certificates from our workshop!  
+
+The reflection session is always a lively and engaging way to wrap up to the workshop, and this one did not disappoint. The breakout groups recapped their experiences of codechecking, and authors reflected on how codechecking often helps them re-evaluate their own assumptions. Other reflections focussed on the challenges of performing codechecks with sensitive or confidential data, a situation that many in our audience were all too familiar with, being from the social and behavioural sciences. Incentivising and growing the codechecking community is always an interesting part of the reflection, and answers ranged from monetary compensation and making it a job, to fame and glory (if only!). 
+
+We ended the session with a well-deserved borrel, a satisfying end to a productive day! Would you also like to be rewarded with bitterballen after a day of coding? Join our next workshop on 14 February at Leiden University! Find out more on the [workshop page](https://codecheck.org.uk/nl/workshop4).
+
+--------------------------------------------------------------------------------------------
+
 ## CALL FOR PAPERS/PRE-PRINTS/CODE: YOU can help increase reproducibility in the social sciences!
 
 **Are you from the social/behavioural sciences and interested in reproducible code and open science? We have the perfect opportunity for you!**
