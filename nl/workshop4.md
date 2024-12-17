@@ -33,7 +33,7 @@ In each case, the code and data underlying the paper should be openly availabl
 
 ## What if I want to participate as a codechecker instead? 
 
-You can register to participate in the workshop on the [registration page], and join us as a codechecker on 14 February. The event will be held in person in Leiden (see event page for details).  
+You can register to participate in the workshop on the [registration page](https://www.universiteitleiden.nl/en/events/2025/02/codecheckatlucdh), and join us as a codechecker on 14 February. The event will be held in person in Leiden (see event page for details).  
 
 What you can expect during the workshop:
 - An introduction to CODECHECK and a live demo
