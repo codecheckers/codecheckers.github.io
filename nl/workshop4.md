@@ -22,7 +22,7 @@ By participating, you contribute towards making science more open and transparen
 
 ## Sounds good! What should I do?  
 
-Are you interested in participating in this event, and contributing to promoting code reproducibility? Send an email to codechecknl@gmail.com **by 24 January 2025** with a brief description of your paper/project, and links to your code and data. This could be code related to:  
+Are you interested in participating in this event, and contributing to promoting code reproducibility? Send an email to codechecknl@gmail.com **by 31 January 2025** with a brief description of your paper/project, and links to your code and data. This could be code related to:  
 -	A paper that you have recently published  
 -	A preprint that is publicly available  
 -	Code and results files that have been or will be deposited in a repository, preferably  GitHub or GitLab 
