@@ -18,23 +18,27 @@ In addition, the project funds improvements to the CODECHECK infrastructure by a
 You can find all developments within CHECK-NL [in these pull requests on GitHub](https://github.com/codecheckers/register/pulls?q=is%3Apr+label%3Acheck-nl+).
 Thanks to these contributions by CHECK-NL, you can find all codechecks conducted as part of CHECK-NL in the new community page at <https://codecheck.org.uk/register/venues/communities/codecheck_nl/>.
 
+### Contact
+
+For all questions on the events, send an e-mail to <mailto:codechecknl@gmail.com>.
+
+For questions on the project, please contact Frank Ostermann (<mailto:f.o.ostermann@utwente.nl>).
+
+For updates, watch this space or follow us on the channels listed below!
+
 ### Latest News
 
-- **Only ONE more workshop to go!** Don't miss your chance to attend the final workshop of the CHECK-NL project on **14 February** at Leiden University. More details on our [workshop page](https://codecheck.org.uk/nl/workshop4)
-  
-- **Our third workshop at Rotterdam was successfully concluded!!** Read about it on the [blog](https://codecheck.org.uk/nl/workshop3)
-  
-- **Sign up for our upcoming codecheck workshop in Rotterdam on 28th November 2024**, for the [social and behavioural sciences](/nl/workshop3.html)!
-  
-- **Read about our second workshop at UTwente** on the [workshop page](/nl/workshop2.html)!
-  
-- **SAVE THE DATE! 26 September 2024** Upcoming CodeCheckNL event at University of Twente focusing on geosciences: [UT workshop page](/nl/workshop2.html)
+- Join us at an **additional tutorial at AGILE 2025 conference**, see more information on the [event page](/nl/agilegis-2025.html).
 
-- **First CODECHECK-NL event at TU Delft successfully concluded!** Read about it on our [TUD workshop page](/nl/workshop1.html)
+- The final workshop of the CHECK-NL project took place on **14 February** at Leiden University. More details on our [workshop page](/nl/workshop4.html).
+  
+- **Our third workshop at Rotterdam was successfully concluded!!** Read about the event on social and behavioural on November 28th 2024 sciences in the [blog](/nl/workshop3.html).
 
-- **Reserve 30 May in your agenda for the first event  at the TU Delft** More info including how to register found [here](/nl/workshop1.html). For all questions on the events, send an e-mail to <mailto:codechecknl@gmail.com>. For questions on the project, please contact Frank Ostermann (<mailto:f.o.ostermann@utwente.nl>). For updates, watch this space or follow us on the channels listed below!
+- **Read about our second workshop at UTwente** on September 26th 3034 focusing on geosciences on the [workshop page](/nl/workshop2.html).
 
-### Meet the project team
+- **First CODECHECK-NL event at TU Delft successfully concluded!** Read about the event from May 30th 2024 on our [TUD workshop page](/nl/workshop1.html).
+
+### Project team
 
 Frank Ostermann (University of Twente, lead)
 [Mastodon](https://mstdn.social/@f_ostermann)

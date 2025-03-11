@@ -42,6 +42,13 @@ To **stay in touch** with the project, follow us on social media at <img src="/i
 
 ## News
 
+### 2025-03 | Tutorial at AGILE 2025 conference
+
+On **Tuesday, June 10, 2025** a half-day workshop and tutorial _"Open and reproducible research best practices: Codechecks, AGILE repro reviews, and reprohacks for your research"_ will take place in Dresden, Germany, as part of the [AGILE 2025 conference](https://agile-online.org/conference-2025).
+The event includes hands-on work in small groups to train codecheckers and is a continuation of the close collaboration between the [Reproducible AGILE initiative](https://reproducible-agile.github.io/) and CODECHECK, more specifically the [CHECK-NL](/nl/) project.
+
+Learn more at the event website: <https://codecheck.org.uk/nl/agilegis-2025.html>
+
 ### 2024-11 | CODECHECK at ASSA summer school in Eindhoven
 
 On the last day of the 🍁 [Autumn School Series in Acoustics](https://www.linkedin.com/company/assaeindhoven/) at [Eindhoven University of Technology](https://www.tue.nl/en/), the autum school team of [Maarten Hornikx](https://www.linkedin.com/in/maartenhornikx/) and [Huiqing Wang](https://www.linkedin.com/in/huiqing-wang-2596544a/) organized a track on _open research software in the computational acoustics_.
