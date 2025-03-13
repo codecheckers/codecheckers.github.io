@@ -49,6 +49,16 @@ The event includes hands-on work in small groups to train codecheckers and is a 
 
 Learn more at the event website: <https://codecheck.org.uk/nl/agilegis-2025.html>
 
+### 2025-01 | Blog post by Eduard Klapwijk on author's perspective
+
+What is the experience for authors in a CODECHECK?
+[Eduard Klapwijk](https://www.linkedin.com/in/eduardklapwijk/) (<https://orcid.org/0000-0002-8936-0365>), research data steward at Erasmus School of Social and Behavioural Sciences (ESSB), Erasmus University Rotterdam, and [eScience fellow](https://www.esciencecenter.nl/fellowship-programme/eduard-klapwijk/) answers it from his perspective.
+His experiences feed into the project _Implementing institutional reproducibility checks to promote good computational practices_ which he pursues as part of his fellowship - see the [ESSB Repro Checks website](https://eduardklap.github.io/repro-checks/) for more information.
+He describes his research workflow, the changes he made in the context of the community CODECHECK, and shares useful reflections for authors and the CODECHECK initiative.
+
+Read the blog [on the ESSB Repro Checks website](https://eduardklap.github.io/repro-checks/posts/2025-01-16-experience-getting-codechecked/) and on the [Netherlands eScience Center Medium page](https://medium.com/escience-center/my-experience-of-getting-codechecked-39cf612cfd35) and check out the [CODECHECK Certificate 2024-005](https://codecheck.org.uk/register/certs/2024-005/) by [Lukas Röseler](https://orcid.org/0000-0002-6446-1901).
+
+
 ### 2024-11 | CODECHECK at ASSA summer school in Eindhoven
 
 On the last day of the 🍁 [Autumn School Series in Acoustics](https://www.linkedin.com/company/assaeindhoven/) at [Eindhoven University of Technology](https://www.tue.nl/en/), the autum school team of [Maarten Hornikx](https://www.linkedin.com/in/maartenhornikx/) and [Huiqing Wang](https://www.linkedin.com/in/huiqing-wang-2596544a/) organized a track on _open research software in the computational acoustics_.
