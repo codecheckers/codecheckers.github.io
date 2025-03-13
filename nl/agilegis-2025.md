@@ -10,8 +10,6 @@ The workshop includes hands-on work in small groups to train codecheckers and is
 
 The **registration** is now open: <https://agile-gi.eu/conference-2025/fees-2025>
 
-Please in addition consider other workshops and tutorials: <https://agile-gi.eu/conference-2025/programme-2025/agile-workshops-2025>
-
 <p align="center">
 <a href="https://agile-gi.eu/conference-2025/" title="AGILE 2025 conference"><img src="https://agile-gi.eu/images/conferences/2025/documents/Pictures_mosaics/AGILE-2pics.jpg" alt="AGILE 2025 conference banner from conference website" width="100%"></a>
 </p>
