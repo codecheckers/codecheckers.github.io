@@ -202,16 +202,6 @@ Take a look at the [poster](https://septentrio.uit.no/index.php/SCS/article/view
 
 > ![screenshot of livestream of the talk by Stephen Eglen at MUNIN 2019](/img/munin-2019.jpg)
 
-------
-
-## Citation and sharing
-
-To cite CODECHECK in scientific publications, please use the following citation/reference:
-
-> _Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). [https://doi.org/10.7557/5.4910](https://doi.org/10.7557/5.4910)_
-
-To get or give a quick overview of the project, feel free to use or extend the [existing slide decks](https://github.com/codecheckers/slides).
-
 <script id="templateCheck" type="x-tmpl-mustache">
 {% raw %}
 <li>

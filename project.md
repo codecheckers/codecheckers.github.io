@@ -75,3 +75,13 @@ But building and running it requires considerable resources, and in itself the a
 We lowered the bar on the technical level and also on the procedural side, but we upped the stakes considerably in our ambition: work with real journals and their community of authors, editors, and reviewers.
 We distilled our approach into a set of [principles](#the-codecheck-principles), wrote [a paper](https://doi.org/10.12688/f1000research.51738.2), and built collaborations with publishers and conferences to demonstrate their feasibility.
 We also broadened our scope and are open to collaborations from all scientific disciplines, though we remain strongest in the communities represented by the project team members: neuroscience, biomedical resarch, data science, geospatial sciences.
+
+------
+
+## Citation and sharing
+
+To cite CODECHECK in scientific publications, please use the following citation/reference:
+
+> _Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). [https://doi.org/10.7557/5.4910](https://doi.org/10.7557/5.4910)_
+
+To get or give a quick overview of the project, feel free to use or extend the [existing slide decks](https://github.com/codecheckers/slides).

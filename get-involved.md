@@ -42,3 +42,13 @@ We would be happy to list your journal of conference on our website after we hav
 
 CODECHECK is a community effort, and your help is welcome across all tasks that the team faces.
 If you want to write code to assisst codecheckers to conduct more effective reviews or to streamline the CODECHECK review processes, or if you want to help presenting and sharing CODECHECK's vision and educate others on code executability checks - then _please get in touch with the [CODECHECK team](/partners/#team) (see email links in footer)_.
+
+------
+
+## Citation and sharing
+
+To cite CODECHECK in scientific publications, please use the following citation/reference:
+
+> _Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). [https://doi.org/10.7557/5.4910](https://doi.org/10.7557/5.4910)_
+
+To get or give a quick overview of the project, feel free to use or extend the [existing slide decks](https://github.com/codecheckers/slides).
