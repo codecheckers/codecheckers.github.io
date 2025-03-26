@@ -4,6 +4,20 @@ title: CODECHECK-NL Workshop for Digital Humanities
 permalink: /nl/workshop4
 ---
 
+## Last, but by no means least: Our workshop series concludes in Leiden
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/fa3325f1-ab9e-49f2-a752-1f4dc1235394" alt = "Leiden workshop participants" width="60%" height="60%">
+</p>
+
+On the 14th of February, code-lovers (Valentine's day, after all) from the Digital Humanities came together for our final workshop, hosted at the Leiden University Centre for Digital Humanities. Our day began with an introduction to CODECHECK from our PI, Frank Ostermann, who took participants through the steps involved in the process, and gave them a preview of what they could expect in the second half of the workshop. 
+
+After having enjoyed the excellent lunch catering, the participants split into two breakout groups, with each group working on a project to review during the afternoon.We also had two excellent presentations from external speakers: [Hans van Eyghen](https://reproducibilitynetwork.nl/author/hans/) from Tilburg University joined us in person to talk about replication in the humanities, and how it must go beyond code reproducibility. Later, [Ben Marwick](https://faculty.washington.edu/bmarwick/) joined us virtually from the University of Washington in Seattle towards the end of the day to talk about reproducibility practices in Archaeology, and some examples from journals in the field. Both talks sparked interesting and enlightening discussions.  
+
+As always, the reflection session with participants helped us understand how they viewed CODECHECK, how it can be rewarded, and what would incentivise them to CODECHECK in the future, or adopt these practices into their own research workflows. To that end, our project will have a final wrap up meeting with key stakeholders in some Dutch institutions, to talk through how we can carry the ideas of CODECHECK forward in the Netherlands, with some interesting initiatives already in the pipeline. Stay tuned for more news and output from us! 
+
+------------------------------------------------------------------------------------------
+
 ## CALL FOR PAPERS/PRE-PRINT/CODE: Contribute to improving reproducibility in the Digital Humanities!
 
 **Are you from the Digital Humanities and interested in reproducible code and open science? We have the perfect opportunity for you!**  
