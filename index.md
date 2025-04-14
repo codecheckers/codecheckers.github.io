@@ -42,6 +42,14 @@ To **stay in touch** with the project, follow us on social media at <img src="/i
 
 ## News
 
+### 2025-04 | CHECK-PUB project started
+
+TU Delft supports the development of a new building block for the CODECHECK initiative: a plugin for Open Journal Systems (OJS) to support the CODECHECK process in journals. In the CHECK-PUB project, we will develop a prototype of the plugin and look for journals to collaborate on real-world test scenarios.
+👉 Learn more about the project at [codecheck.org.uk/pub/](/pub/).
+
+📢 We are looking for an engaged student to work as a developer (student assistant, SHK) in the project team and lead the development of the OJS plugin prototype.
+Please see the job add at <https://tu-dresden.de/bu/umwelt/geo/geoinformatik/die-professur/news/job-vacancy-shk-codecheck?set_language=en>.
+
 ### 2025-03 | Tutorial at AGILE 2025 conference
 
 On **Tuesday, June 10, 2025** a half-day workshop and tutorial _"Open and reproducible research best practices: Codechecks, AGILE repro reviews, and reprohacks for your research"_ will take place in Dresden, Germany, as part of the [AGILE 2025 conference](https://agile-online.org/conference-2025).
