@@ -57,7 +57,6 @@ Through the role of codechecker, a community practice of giving feedback and ens
 
 In the future, the OJS Plugin maybe be ported to Open Preprint Systems (OPS) and may be the basis for more groundbreaking and advanced features, such as reviewing computational notebooks, integrating interactive features into OJS, or making an article's code and data machine-readable and actionable.
 
-
 ## Contributors
 
 Daniel Nüst (TU Dresden, PI) \| [Mastodon](https://mstdn.social/@nuest) \| [Home page](https://nordholmen.net/)
