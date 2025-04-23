@@ -80,7 +80,7 @@ Some further tips:
         - Is the data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
     1. Add **mandatory codechecker-contributed information** to the **`codecheck.yml`** file, see [spec](/spec/config/latest)
     1. Wait for the article DOI.
-1. **Deposit the CODECHECK report on _Zenodo_** using your own Zenodo account.
+1. **Deposit the CODECHECK report on _Zenodo_** using your own Zenodo account and following the [community curation policy](https://zenodo.org/communities/codecheck/curation-policy) (which is replicated here for convenience):
     - _Reserve a DOI_
         - Add the DOI to the `codecheck.yml` file.
         - Add the DOI to the `codecheck.pdf` CODECHECK report, which should include a full citation of itself.
@@ -89,16 +89,21 @@ Some further tips:
         - Optional: You can add any material to this record that you see fit, especially things that helped you with your reproduction, i.e., the [CODECHECK bundle](/guide/bundle).
     - _Communities_: Search for "codecheck" to add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck).
     - _Authors_: Add all codecheckers as authors.
-    - _Title_: `"CODECHECK Certificate YYYY-NNN"` (certificate number issued via the register ticket above).
+    - _Title_: `"CODECHECK Certificate YYYY-NNN"` (certificate number issued via the register ticket above, optionally you may add the submission's title).
     - _License_: Use `Creative Commons Attribution 4.0 International` if you only upload the CODECHECK report, otherwise use `Other (Open)` or `Other (Attribution)` and document the licensing of the different parts in an _Additional notes_ field.
     - _Description_: Copy the summary of the check here.
     - _Contributors_: Add the original authors as contributors (see Zendo Metadata form section "Contributors (optional)") with a suitable role (e.g., "Researcher").
+    - Add a _Relationship_ in metadata between the certificate and the original paper/submission.
+        - Relation: `Reviews` (= the certificate reviews the article)
+        - Identifier & Scheme: `the identifier` (ideally the article's DOI)
+        - Resource type: `Publication` (with clarification as fitting, e.g., `Publication / Journal article`)
+    - Add the certificate identifier as an _Alternative identifier_, e.g., <https://zenodo.org/records/14576035>
+        - With schema URL using `http://cdchck.science/register/certs/<CERT ID>`
+        - With schema Other using `cdchck.science/register/certs/<CERT ID>`
     - _Optionally_, add extra metadata as you see fit (fields such as _Version_, _Language_, _Keywords_).
         - Connect the Zenodo record to the GitHub repository with a _Relate/alternate identifier_.
         - Connect the Zenodo record to the article/preprint with a _Related/alternate identifier_.
-1. If the check was conducted for a piece of software for the first time or resulted in important lessons learned, please suggest it to the editor in the checks's GitHub issue.
-1. If the check material is published on `github.com/codecheckers`, add the [`codecheck` topic](https://github.com/search?q=topic%3Acodecheck+fork%3Atrue+org%3Acodecheckers&type=Repositories) to the project.
-1. If possible, add the [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to the software repository, e.g., by sending a pull request.
+1. If possible, coordinate with the original author(s) to add a [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to their repository, e.g., by sending a pull request on GitHub, a merge request on GitLab, or sending them an HTML snippet for their personal website.
     The badge should link directly to the Zenodo record _via the DOI_.
     The following snippet should work in Markdown:
 

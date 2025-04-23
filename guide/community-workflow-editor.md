@@ -23,8 +23,10 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
     - Ensure that a reference to the certificate is/will be added to the manuscript.
 1. **Certificate publication and register**
     - Wait until the article is published in a citable form.
-    - Ask the codechecker to update all required metadata in the `codecheck.yml` and update the certificate report (especially the final DOIs!); double-check the information in the metadata and the actual certificate; wait until the certificate is published with its own DOI.
-        - Alternatively, you may make edits to the metadata in the forked repository yourself, request write access to the OSF repository to edit the metadata, or handle edits via Zenodo yourself (metadata editing in CODECHECK community, or even at the stage of a shared draft of a Zenodo record).
+    - Ask the codechecker to update all required metadata in the `codecheck.yml` and to update the certificate report (especially the final DOIs!)
+    - Revisit the [CODECHECK community curation policy](https://zenodo.org/communities/codecheck/curation-policy) to make sure you follow the most updated guideline
+    - Double-check the information in the metadata and the actual certificate; wait until the certificate is published with its own DOI.
+    - Alternatively, you may make edits to the metadata in the forked repository yourself, request write access to the OSF repository to edit the metadata, or handle edits via Zenodo yourself (metadata editing in CODECHECK community, or even at the stage of a shared draft of a Zenodo record).
     - Trigger a rebuild of the register by adding the CODECHECK to the `register.csv` file; you may add a `closes #N` statement in the commit message to close the isue.
     - Clear up the labels of the register issue - all labels except the [`community`](https://github.com/codecheckers/register/labels/community)/[`journal`](https://github.com/codecheckers/register/labels/journal)/[`conference/workshop`](https://github.com/codecheckers/register/labels/conference%2Fworkshop) should be removed.
     - "Archive" the repository clone in the codecheckers organisation on GitHub/the cdchk organisation on GitLab ([instructions for GitHub](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories), [instructions for GitLab](https://docs.gitlab.com/ee/user/project/working_with_projects.html#archive-a-project))
