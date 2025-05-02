@@ -19,6 +19,7 @@ license:
   logo: /img/by-sa.svg
 
 # https://github.com/aterenin/minima-reboot/#adding-new-links-to-footer
+# Possible icon source: https://gitlab.com/gitlab-org/gitlab-svgs/-/tree/main/sprite_icons
 footer_icons:
   - username: github.com/codecheckers
     url: https://github.com/codecheckers/
@@ -41,6 +42,9 @@ footer_icons:
   - username: codecheck@fediscience.org
     url: https://fediscience.org/@codecheck
     icon: icon-mastodon.svg
+  - username: linkedin.com/company/codecheck/
+    url: https://www.linkedin.com/company/codecheck/
+    icon: icon-linkedin.svg
   - username: youtube.com/@cdchck
     url: https://www.youtube.com/@cdchck
     icon: icon-youtube.svg
