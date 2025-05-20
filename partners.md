@@ -12,6 +12,8 @@ We partner with people and organisations to advance scholarly communication with
 
 ## Team
 
+Contact the PIs and seniour codecheckers at [team@cdchck.science](mailto:team@cdchck.science).
+
 ### Stephen Eglen (co-PI)
 
 <https://orcid.org/0000-0001-8607-8025> \| <https://sje30.github.io/>
@@ -65,6 +67,13 @@ _[Become a codechecker](/get-involved)!_
 ## Journals
 
 The following journals have [completed](/register) at least one CODECHECK as part of a peer review process and reference the CODECHECK certificate from the paper.
+
+[![Lifecycle Journal logo]({{ 'img/lifecycle_logo.png' | relative_url }}){:width="200"}](https://lifecyclejournal.org/)
+
+🗂️ [CODECHECKs for Lifecycle Journal](https://codecheck.org.uk/register/venues/journals/gigascience/) 
+
+CODECHECK  is one of the [Evaluation Services](https://lifecyclejournal.org/evaluation-services/) of the journal for the initial period of 2025.
+Material for completed evaluations are collected in a GitHub project at <https://github.com/codecheckers/lifecycle-journal-codechecks>.
 
 [![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="200"}](https://academic.oup.com/gigascience) [![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="200"}](https://gigabytejournal.com/)
 <br />See blog articles at <http://gigasciencejournal.com/blog/codecheck-certificate/> and <http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/>.

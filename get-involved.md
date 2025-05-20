@@ -35,13 +35,23 @@ The badge should link directly to the CODECHECK report.
 
 The badge graphic and all documentation on this website are available under open licenses, see [this README](https://github.com/codecheckers/website/blob/master/README.md).
 
-The [CODECHECK team](/partners) would be glad to help you set up a process, if you have any questions.
+The [CODECHECK team](/partners) would be glad to help you set up a process, if you have any questions - see contacts information below.
 We would be happy to list your journal of conference on our website after we have gotten to know your implementation of a CODECHECK process and you have completed your first CODECHECK.
 
 ## As a developer or science communicator
 
 CODECHECK is a community effort, and your help is welcome across all tasks that the team faces.
-If you want to write code to assisst codecheckers to conduct more effective reviews or to streamline the CODECHECK review processes, or if you want to help presenting and sharing CODECHECK's vision and educate others on code executability checks - then _please get in touch with the [CODECHECK team](/partners/#team) (see email links in footer)_.
+If you want to write code to assisst codecheckers to conduct more effective reviews or to streamline the CODECHECK review processes, or if you want to help presenting and sharing CODECHECK's vision and educate others on code executability checks - then _please get in touch with the [CODECHECK team](/partners/) (see contact details below)_.
+
+## As a curious person or someone with a question - get in touch!
+
+Contact the PIs and seniour codecheckers at [team@cdchck.science](mailto:team@cdchck.science).
+Personal emails for the PIs are in the page footer.
+
+Contact us via social media:
+
+- <https://fediscience.org/@codecheck>
+- <https://www.linkedin.com/company/codecheck/>
 
 ------
 

@@ -21,6 +21,9 @@ license:
 # https://github.com/aterenin/minima-reboot/#adding-new-links-to-footer
 # Possible icon source: https://gitlab.com/gitlab-org/gitlab-svgs/-/tree/main/sprite_icons
 footer_icons:
+  - username: Team
+    url: mailto:team@cdchck.science
+    icon: icon-email.svg
   - username: github.com/codecheckers
     url: https://github.com/codecheckers/
     icon: icon-github.svg
