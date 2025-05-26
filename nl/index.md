@@ -28,6 +28,8 @@ For updates, watch this space or follow us on the channels listed below!
 
 ### Latest News
 
+- Our **event recipe** for running a local CODECHECK event is now published [on Zenodo](https://doi.org/10.5281/zenodo.15423186) and on the CODECHECK website [here](/guide/event-recipe)
+
 - Join us at an **additional tutorial at AGILE 2025 conference**, see more information on the [event page](/nl/agilegis-2025.html).
 
 - The final workshop of the CHECK-NL project took place on **14 February** at Leiden University. More details on our [workshop page](/nl/workshop4.html).

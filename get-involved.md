@@ -16,6 +16,7 @@ Please open an issue on the [codecheckers](https://github.com/codecheckers/codec
 You want to share the code underlying your research paper? **Congratulations** for the decision to practice Open Science and reproducible research!
 
 There are different ways for you to get involved, for example (a) submit a manuscript to a journal conducting CODECHECKs, (b) suggest a CODECHECK as part of your cover letter, or (c) submit your workflow to the [community review process](/guide/community-workflow) right away if you have published a preprint or submit to a journal with an open review.
+If you want to reference the CODECHECK project in your manuscript, please use the citation provided at the end of this page.
 
 ## As a reviewer or editor
 
@@ -42,6 +43,13 @@ We would be happy to list your journal of conference on our website after we hav
 
 CODECHECK is a community effort, and your help is welcome across all tasks that the team faces.
 If you want to write code to assisst codecheckers to conduct more effective reviews or to streamline the CODECHECK review processes, or if you want to help presenting and sharing CODECHECK's vision and educate others on code executability checks - then _please get in touch with the [CODECHECK team](/partners/) (see contact details below)_.
+
+## As an event organiser
+
+You would like to (co-)organise a CODECHECK event, such as a workshop or a codechecking exercise, to bring together codecheckers, authors, and editors?
+You want to introduce reproducibility checking into your community, maybe expand an existing event or series, such as a conference?
+_We got you covered!_
+Please check out our [event recipe](/guide/event-recipe) for a detailed guide on how to run a CODECHECK event.
 
 ## As a curious person or someone with a question - get in touch!
 

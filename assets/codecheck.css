@@ -120,6 +120,10 @@ blockquote p:first-of-type {
   ol {
     max-width: 80%;
   }
+
+  ul {
+    max-width: 80%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -128,6 +132,10 @@ blockquote p:first-of-type {
   }
 
   ol {
+    max-width: 60%;
+  }
+
+  ul {
     max-width: 60%;
   }
 }
