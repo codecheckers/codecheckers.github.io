@@ -79,8 +79,7 @@ code related to:
 
 - A preprint that is publicly available
 
-- Code and results files that have been or will be deposited in a
-repository, preferably GitHub or GitLab
+- Code and results files that have been or will be deposited in a repository, preferably GitHub or GitLab
 
 In each case, the code and data underlying the paper should be openly
 available, or you plan to make them available once the paper is
