@@ -11,7 +11,7 @@ The Dutch research organization *NWO* funds the project [CodeCHECKing goes NL](h
 Many research outputs rely on computational methods.
 Open Science principles ask for those methods and data to be shared and to be reproducible.
 However, in traditional scientific publishing, computational methods are rarely re-run during review.
-[Our project team](#meet-the-project-team) aims to check the computational workflows of at least 50 scientific articles for reproducibility, and we aim to reach an agreement with journal editors to establish such a check routinely in their review process.
+[Our project team](#project-team) aims to check the computational workflows of at least 50 scientific articles for reproducibility, and we aim to reach an agreement with journal editors to establish such a check routinely in their review process.
 To kickstart both, we will organise roadshows at four locations to bring experienced and new code reviewers, authors, and editors together to implement codechecking in a sustainable way.
 
 In addition, the project funds improvements to the CODECHECK infrastructure by adding new features to the [CODECHECK Register](/register/).
@@ -27,6 +27,8 @@ For questions on the project, please contact Frank Ostermann (<mailto:f.o.osterm
 For updates, watch this space or follow us on the channels listed below!
 
 ### Latest News
+
+- Our **final blog post** on the CHECK-NL project is now published! Read about our experiences and the future of CODECHECK in _[Advancing reproducibility and Open Science one workshop at a time - community-building in the Netherlands](/nl/advancing-reproducibility-and-open-science-one-workshop-at-a-time)_.
 
 - Our **event recipe** for running a local CODECHECK event is now published [on Zenodo](https://doi.org/10.5281/zenodo.15423186) and on the CODECHECK website [here](/guide/event-recipe)
 
