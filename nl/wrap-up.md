@@ -69,7 +69,7 @@ If published work gets checked, authors need to be very motivated to improve doc
 **Concrete outcomes:**
 
 * Successful community building in four different disciplines, with more than 60 participants overall, including many early career researchers; positive feedback
-* A published [workshop recipe](TODO TODO TODO) that facilitates others to organize similar workshops through a step-by-step best practice documentation.
+* A published [workshop recipe](/guide/event-recipe) that facilitates others to organize similar workshops through a step-by-step best practice documentation.
 * 15 track records of successful codechecks in the form of [published CODECHECK certificates](https://codecheck.org.uk/register/venues/communities/codecheck_nl/).
 * Codecheck-as-a-service now at 4TU, see <https://www.tudelft.nl/library/support/library-voor-onderzoekers/onderzoek-starten/dcc-nieuwe-website/services/reproducibility-check> and <https://codecheck.org.uk/register/venues/institutions/tu_delft_dcc/>, which likely will lead to additional codechecks in the future
 * [Updated and improved CODECHECK Registry](https://github.com/codecheckers/register/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aclosed+label%3Acheck-nl), which is easier to integrate in other infrastructures and now features pages for checks, for different venues such as communities or journals, and for individual codecheckers, see <https://codecheck.org.uk/register/>. These extensions help to make checks, their metadata and findings, more accessible and to showcase contributions to open reproducible research.
