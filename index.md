@@ -42,6 +42,14 @@ To **stay in touch** with the project, follow us on social media at <img src="/i
 
 ## News
 
+### 2025-06 | First check for OSF's Lifecycle Journal ♻️
+
+CODECHECK is one of the [Evaluation Services](https://lifecyclejournal.org/evaluation-services/) or a new journal started by the Open Science Framework (OSF), the Diamon Open Access Journal [**Lifecycle Journal**](https://lifecyclejournal.org/).
+We are excited to join this great initiative for reimagining scholarly publishing for the initial period of 2025 and look forward to working with the Lifecycle Journal team and the community.
+If you work in one of the [fields covered by the journal](https://lifecyclejournal.org/about/), please consider submitting your work to the journal and sharing a reproducible workflow with it!
+
+Find all CODECHECKs for the Lifecycle Journal at <https://codecheck.org.uk/register/venues/journals/lifecycle_journal/>.
+
 ### 2025-05 | CHECK-NL project completed 🇳🇱
 
 The [Codechecking-NL project](/nl/) team published a **final blog post** and presents their experiences and the future of the Dutch community - read _[Advancing reproducibility and Open Science one workshop at a time - community-building in the Netherlands](/nl/advancing-reproducibility-and-open-science-one-workshop-at-a-time)_.
