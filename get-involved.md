@@ -6,7 +6,7 @@ permalink: /get-involved/
 
 ## As a codechecker
 
-You are a scientist and want to help codechecking submissions?
+You are a researcher, developer, research software engineer, student, or data/software steward and want to help codechecking submissions?
 
 **Awesome!**
 Please open an issue on the [codecheckers](https://github.com/codecheckers/codecheckers) repository to be added to the [codecheckers team](https://github.com/codecheckers/codecheckers) **[using this link](https://github.com/codecheckers/codecheckers/issues/new?assignees=nuest&labels=registration&template=codechecker-registration.md&title=Register+as+codechecker)**.
