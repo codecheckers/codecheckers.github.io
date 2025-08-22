@@ -32,12 +32,18 @@ There is no formal process or certification.
 You can simply announce publicly that you conduct a code review adhereing to the CODECHECK principles, e.g. in a blog post.
 A link to the CODECHECK principles in your submission guidelines would probably be helpful for authors and reviewers.
 Please consider adding a <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> badge to the publication to highlight the fact that a CODECHECK was conducted.
-The badge should link directly to the CODECHECK report.
+The badge should link directly to the CODECHECK certificate.
 
 The badge graphic and all documentation on this website are available under open licenses, see [this README](https://github.com/codecheckers/website/blob/master/README.md).
 
 The [CODECHECK team](/partners) would be glad to help you set up a process, if you have any questions - see contacts information below.
 We would be happy to list your journal of conference on our website after we have gotten to know your implementation of a CODECHECK process and you have completed your first CODECHECK.
+
+## As a steward or service provider
+
+You are a data steward, a research software steward, or any other non-research staff that helps researchers to create more FAIR and reproducible research contributions?
+_Thank you for your service!_
+We have several organisations (see [this page with institutional CODECHECK workflows](/institutions/)) that have implemented CODECHECK workflows as a service offering for their researchers and would be happy to share their experiences with you, and learn how we can help to get you started, or how we can help you to improve your existing code checking workflows.
 
 ## As a developer or science communicator
 

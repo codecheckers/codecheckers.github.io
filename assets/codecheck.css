@@ -7,6 +7,11 @@ body {
   margin-top: 4rem;
 }
 
+.highlight {
+  color: #008033;
+  font-style: italic;
+}
+
 #content h2:after {
   content:' ';
   display: block;
