@@ -41,6 +41,15 @@ The principles can be implemented in different [processes](/process/), one of wh
 To **stay in touch** with the project, follow us on social media at <img src="/img/icon-mastodon.svg" alt="Mastodon logo" style="margin-top: -3px;" /> **<https://fediscience.org/@codecheck>**.
 
 ## News
+### 2025-07 | CODECHECK mentioned in OSIRIS report "10 Tales of Reproducibility" 🐉
+
+The OSIRIS project (Open Science to Increase Reproducibility in Science) is dedicated to reforming the Research and Innovation system, enhancing global acceptance, practice, and recognition of reproducibility in scientific research.
+In their report "Ten Tales of Reproducibility", they highlight the CODECHECKs at Amsterdam UMC as a community-driven effort to make reproducible research standar practice.
+They also shared the "tale 3" on [here on LinkedIn](https://www.linkedin.com/posts/osiris4r_tentalesofreproducibility-osiris-openscience-activity-7356232131167010818-gm7j).
+
+[![Screenshot of the CODECHECK pages of the OSIRIS report](/img/OSIRIS_CODECHECK-Tale-of-reproducibility.png){:width="300"}](/img/OSIRIS_CODECHECK-Tale-of-reproducibility.png)
+
+Read [the full report](https://osiris4r.eu/wp-content/uploads/2025/06/OSIRIS_PDF_FINAL-Ten-tales-of-reproducibility-A4-CMYK.pdf).
 
 ### 2025-06 | First check for OSF's Lifecycle Journal ♻️
 
