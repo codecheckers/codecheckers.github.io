@@ -41,6 +41,12 @@ The principles can be implemented in different [processes](/process/), one of wh
 To **stay in touch** with the project, follow us on social media at <img src="/img/icon-mastodon.svg" alt="Mastodon logo" style="margin-top: -3px;" /> **<https://fediscience.org/@codecheck>**.
 
 ## News
+
+### 2025-08 | Institutional CODECHECKs launched in the Netherlands 🏛️
+
+Two organisations in the Netherlands recently started offering CODECHECKs as an institutional service: the TU Delft Digital Competence Centre (DCC) together with 4TU.ResearchData and the Amsterdam University Medical Center (AUMC).
+Find out more on the new page for institutional CODECHECKs at <https://codecheck.org.uk/institutions> and read the blog post ["CODECHECK in Practice: How TU Delft and 4TU.ResearchData Are Making Reproducibility Happen"](https://community.data.4tu.nl/2025/07/09/codecheck-in-practice-how-tu-delft-and-4tu-researchdata-are-making-reproducibility-happen/) (see also [on LinkedIn](https://www.linkedin.com/posts/4tu-researchdata_codecheck-in-practice-how-tu-delft-and-4turesearchdata-activity-7348705634407596032-yrDE)) by the DCC team and the report ["Computational reproducibility at Amsterdam UMC"](https://doi.org/10.5281/zenodo.15097094) by the AUMC team, which includes experiences from their first few checks and their future plans.
+
 ### 2025-07 | CODECHECK mentioned in OSIRIS report "10 Tales of Reproducibility" 🐉
 
 The OSIRIS project (Open Science to Increase Reproducibility in Science) is dedicated to reforming the Research and Innovation system, enhancing global acceptance, practice, and recognition of reproducibility in scientific research.
