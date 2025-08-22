@@ -4,7 +4,7 @@ title: CODECHECK connections to Infrastructures for Open Publishing and Open Res
 permalink: /pub/
 ---
 
-*The Dutch university **TU Delft** funds the project CHECK-PUB from 2025 to 2026 to improve codechecking for independent journals based on Open Journal Systems (OJS).*
+*The **TU Delft Library** funds the project CHECK-PUB from 2025 to 2026 to improve codechecking for independent journals based on Open Journal Systems (OJS).*
 
 ## Summary
 
@@ -57,10 +57,22 @@ Through the role of codechecker, a community practice of giving feedback and ens
 
 In the future, the OJS Plugin maybe be ported to Open Preprint Systems (OPS) and may be the basis for more groundbreaking and advanced features, such as reviewing computational notebooks, integrating interactive features into OJS, or making an article's code and data machine-readable and actionable.
 
-## Contributors
+## Team
 
-Daniel Nüst (TU Dresden, PI) \| [Mastodon](https://mstdn.social/@nuest) \| [Home page](https://nordholmen.net/)
+Daniel Nüst (TU Dresden, PI) \| <> \| [Mastodon](https://mstdn.social/@nuest) \| [Home page](https://nordholmen.net/)
 
-Frank Ostermann (University of Twente, advisor) \| [Mastodon](https://mstdn.social/@f_ostermann) \| [Home page](https://research.utwente.nl/en/persons/frank-ostermann)
+Linus Hackel (TU Dresden, student developer) \| <https://orcid.org/0009-0000-0114-8005> \| [GitHub](https://github.com/dxL1nus)
 
-Stephen Eglen (University of Cambridge, advisor) \| [Mastodon](https://fosstodon.org/@sje) \| [Home page](https://sje30.github.io)
+Subhan Ali (TU Dresden, student developer) \| <https://orcid.org/0009-0003-7546-1717> \| [GitHub](https://github.com/Subhanaliweb)
+
+Frank Ostermann (University of Twente, advisor) \| <https://orcid.org/0000-0002-9317-8291> \| [Mastodon](https://mstdn.social/@f_ostermann) \| [Home page](https://research.utwente.nl/en/persons/frank-ostermann)
+
+Stephen Eglen (University of Cambridge, advisor) \| <https://orcid.org/0000-0001-8607-8025> \| [Mastodon](https://fosstodon.org/@sje) \| [Home page](https://sje30.github.io)
+
+------
+
+## Funding
+
+_Empowered by [TU Delft Library](https://www.tudelft.nl/en/library/)_
+
+![TU Delft logo](/img/TUDelft_logo_rgb.png){:width="300"}
