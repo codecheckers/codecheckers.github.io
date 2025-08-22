@@ -20,7 +20,7 @@ These time-stamped certificates will include key outputs, including figures and 
 Such certificates will help in the peer review process by showing reviewers that the code is available and works.
 We will work with several journals to design the system so that it can be used a pilot service by those journals.
 The level of reproducibility in CODECHECK will vary considerably.
-At a minimum, we propose one key figure or table from a paper needs to be regenerated from the code, rather than the entire research article. 
+At a minimum, we propose one key figure or table from a paper needs to be regenerated from the code, rather than the entire research article.
 
 The long-term vision is that our service will be used by journals in biomedicine (and beyond), with financial support from infrastructure grants and journals.
 We hope our system will encourage researchers to share data before publication, as it can confirm that an analysis works outside their lab.
@@ -35,7 +35,7 @@ Based on a hand-coded demonstrator for checking computations (<https://sje30.git
 Researchers can create a snapshot of a workflow executed as a Binder after comparing the results with the ones recorded in their scientific article.
 The snapshot comprises the used data, code (including configuration, parameters), and runtime environment.
 It will be saved to a public research data repository (i.e. [Zenodo](https://zenodo.org/)), allowing long-term access and scrutiny of open research by reviewers and readers.
-While the infrastructure behind BinderHub is generic, supporting many programming languages and domains, our examples will come from computational neuroscience. 
+While the infrastructure behind BinderHub is generic, supporting many programming languages and domains, our examples will come from computational neuroscience.
 This is simply to ensure we have the ability to understand the scientific approaches in papers and support common workflows from the domain.
 However, CODECHECK system should be widely applicable.
 
