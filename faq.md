@@ -68,7 +68,7 @@ The _files_ and _archives_ (a Docker image is a tarball of a directory system) w
 
 ## What's the correct way of writing CODECHECK?
 
-- CODECHECK process.
+- A CODECHECK process implementation, the so called CODECHECK workflow, describes what happens before and after a paper has been codechecked.
 - A codechecker codechecks an article and creates the CODECHECK bundle.
-- Codecheckers write CODECHECK reports.
-- The CODECHECK report is created by the codechecker during the codechecking process.
+- Codecheckers write CODECHECK certificate.
+- The CODECHECK certificate is created by the codechecker during the codechecking process.
