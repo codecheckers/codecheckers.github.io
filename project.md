@@ -3,6 +3,9 @@ layout: page
 title: Project
 permalink: /project/
 style: principles
+redirect_from:
+  - /about
+  - /about/
 ---
 
 ## About
@@ -14,10 +17,10 @@ The fact that such a check is conducted and the communication between codechecke
 
 ## The CODECHECK principles
 
-1. <span class="principle">Codecheckers record but don’t investigate or fix.</span>
+1. <span class="principle">Codecheckers record but don't investigate or fix.</span>
    <details>
    <summary>More about this principle...</summary>
-   The codechecker follows the author’s instructions to run the code. If instructions are unclear, or if code does not run, the codechecker tells the author. We believe that the job of the codechecker is not to fix these problems but simply to report them to the author and await a fix. The level of documentation required for third parties to reproduce a workflow is hard to get right, and too often this uncertainty leads researchers to give up and not document it at all. The conversation with a codechecker fixes this problem.
+   The codechecker follows the author's instructions to run the code. If instructions are unclear, or if code does not run, the codechecker tells the author. We believe that the job of the codechecker is not to fix these problems but simply to report them to the author and await a fix. The level of documentation required for third parties to reproduce a workflow is hard to get right, and too often this uncertainty leads researchers to give up and not document it at all. The conversation with a codechecker fixes this problem.
    <em>Codecheckers take the pictures at a crime scene, they do not hunt the criminal.</em>
    </details>
 1. <span class="principle">Communication between humans is key.</span>
@@ -28,13 +31,13 @@ The fact that such a check is conducted and the communication between codechecke
 1. <span class="principle">Credit is given to codecheckers.</span>
    <details>
    <summary>More about this principle...</summary>
-   The value of performing a CODECHECK is comparable to that of a peer review, and it may require a similar amount of time. Therefore, the codechecker’s activity should be recorded, ideally in the published paper. The public record can be realised by publishing the certificate in a citable form (i.e., with a DOI), by listing codecheckers on the journal’s website or, ideally, by publishing the checks alongside peer review activities in public databases.
+   The value of performing a CODECHECK is comparable to that of a peer review, and it may require a similar amount of time. Therefore, the codechecker's activity should be recorded, ideally in the published paper. The public record can be realised by publishing the certificate in a citable form (i.e., with a DOI), by listing codecheckers on the journal's website or, ideally, by publishing the checks alongside peer review activities in public databases.
    <em>Codechecks are an excellent opportunity to involve early career researchers (ECRs) or research software engineers (RSEs) in peer review.</em>
    </details>
 1. <span class="principle">Workflows must be auditable.</span>
    <details>
    <summary>More about this principle...</summary>
-   The codechecker should have sufficient material to validate the workflow outputs submitted by the authors. <a href="https://doi.org/10.1038/d41586-018-05256-0" title="Stark PB: Before reproducibility must come preproducibility. Nature. 2018; 557(7707): 613.">Stark</a> calls this "preproducibility" and the <a href="https://icerm.brown.edu/topical_workshops/tw12-5-rcem/icerm_report.pdf" title="Stodden V, Bailey DH, Borwein J, et al.: Setting the Default to Reproducible: Reproducibility in Computational and Experimental Mathematics. Technical report, The Institute for Computational and Experimental Research in Mathematics, 2013.">ICERM report</a> defines the level "Auditable Research" similarly. Communities can establish their own good practices or adapt generic concepts and practical tools, such as publishing all building blocks of science in a research compendium (cf. <a href="https://research-compendium.science/">https://research-compendium.science/</a>) or <a href="https://doi.org/10.22541/au.153922477.77361922" title="Barba LA: Praxis of Reproducible Computational Science. 2018.">repro-pack</a>. A completed check means that code could be executed at least once using the provided instructions, and, therefore, all code and data was given and could be investigated more deeply or extended in the future. Ideally, this is a “one click” step, but achieving this requires particular skills and a sufficient level of documentation for third parties. Furthermore, automation may lead to people gaming the system or reliance on technology, which can often hide important details. All such aspects can reduce the understandability of the material, so we estimate our approach to codechecking, done without automation and with open human communication, to be a simple way to ensure long-term transparency and usefulness. We acknowledge that <a href="https://twitter.com/khinsen/status/1242842759733665799" title="Konrad Hinsen (@khinsen) on Twitter: 'My crystal ball tells me that in the long run, bit-for-bit reproducibility will become the norm. Not because people realize it matters, but because it can be automatized. ´Good-enough´ reproducibility requires scientific judgment, so it's more expensive to ensure/check.'">others have argued</a> in favour of bitwise reproducibility because, in the long run, it can be automated, but until then we need CODECHECK’s approach.
+   The codechecker should have sufficient material to validate the workflow outputs submitted by the authors. <a href="https://doi.org/10.1038/d41586-018-05256-0" title="Stark PB: Before reproducibility must come preproducibility. Nature. 2018; 557(7707): 613.">Stark</a> calls this "preproducibility" and the <a href="https://icerm.brown.edu/topical_workshops/tw12-5-rcem/icerm_report.pdf" title="Stodden V, Bailey DH, Borwein J, et al.: Setting the Default to Reproducible: Reproducibility in Computational and Experimental Mathematics. Technical report, The Institute for Computational and Experimental Research in Mathematics, 2013.">ICERM report</a> defines the level "Auditable Research" similarly. Communities can establish their own good practices or adapt generic concepts and practical tools, such as publishing all building blocks of science in a research compendium (cf. <a href="https://research-compendium.science/">https://research-compendium.science/</a>) or <a href="https://doi.org/10.22541/au.153922477.77361922" title="Barba LA: Praxis of Reproducible Computational Science. 2018.">repro-pack</a>. A completed check means that code could be executed at least once using the provided instructions, and, therefore, all code and data was given and could be investigated more deeply or extended in the future. Ideally, this is a “one click” step, but achieving this requires particular skills and a sufficient level of documentation for third parties. Furthermore, automation may lead to people gaming the system or reliance on technology, which can often hide important details. All such aspects can reduce the understandability of the material, so we estimate our approach to codechecking, done without automation and with open human communication, to be a simple way to ensure long-term transparency and usefulness. We acknowledge that <a href="https://twitter.com/khinsen/status/1242842759733665799" title="Konrad Hinsen (@khinsen) on Twitter: 'My crystal ball tells me that in the long run, bit-for-bit reproducibility will become the norm. Not because people realize it matters, but because it can be automatized. ´Good-enough´ reproducibility requires scientific judgment, so it's more expensive to ensure/check.'">others have argued</a> in favour of bitwise reproducibility because, in the long run, it can be automated, but until then we need CODECHECK's approach.
    </details>
 1. <span class="principle">Open by default and transitional by disposition.</span>
    <details>
@@ -42,10 +45,9 @@ The fact that such a check is conducted and the communication between codechecke
    Unless there are strong reasons to the contrary (e.g., sensitive data on human subjects), all code and data, both from author and codechecker, will be made freely available when the certificate is published. Openness is not required for the paper itself, to accommodate journals in their transition to Open Access models. The code and data publication should follow community good practices. Ultimately we may find that CODECHECK activities are subsumed within peer review.
    </details>
 
-
 These basic principles ensure they are feasible to add in a scholarly communication process but still have a huge positive impact on the transparency and usefulness of the published material.
 They strike a **balance** between the ideals of auditable high-quality research software and the reality of publication pressure and only slowly changing academic evaluation practices.
-Of course, numerous requirements on openness/transparency (e.g. depositing the CODECHECK report publicly with a DOI), about software quality (tests, releases, documentation), on copyright/licensing, and regarding best practices for computer-based analyses (e.g. workflow management, data/software citation) are thinkable, but intentionally remain to be defined by implementations of the principles in each community of practice.
+Of course, numerous requirements on openness/transparency (e.g. depositing the CODECHECK certificate publicly with a DOI), about software quality (tests, releases, documentation), on copyright/licensing, and regarding best practices for computer-based analyses (e.g. workflow management, data/software citation) are thinkable, but intentionally remain to be defined by implementations of the principles in each community of practice.
 While the CODECHECK initiators strongly support of Open Science, a CODECHECK does not exclude research not falling into your definition of Open Science.
 
 These principles can be **implemented** in different ways.
@@ -60,7 +62,13 @@ In the future, we hope to update these principles and to work together with rese
 Our main objective is to increase the number of communities and publication platforms that include codechecking in their review processes: preprint servers, journals, or conferences, for example.
 We especially target the future of scholarly communication: independent scholar-led diamond Open Access journals.
 To make codechecking feasible for these journals and others, we are looking for funding for _CODECHECK editors_, for developing _training material and mentoring programmes_ together with [friendly projects from the Open Science community](/partners/#projects), and for building and providing _open and free supporting infrastructure_ for conducting checks.
-With these steps we will scale CODECHECK beyond the [existing list of awesome volunteer codecheckers](https://github.com/codecheckers/codecheckers/blob/master/codecheckers.csv) and [current partner journals and conferences](/partners).
+With these steps, we will scale CODECHECK beyond the [existing list of awesome volunteer codecheckers](https://github.com/codecheckers/codecheckers/blob/master/codecheckers.csv) and [current partner journals and conferences](/partners).
+
+Ongoing and past **projects** that are related to CODECHECK include:
+
+- [Mozilla project](/mozilla-project) - an early demonstrator for codechecking
+- [CHECK-NL](/nl) - establish a codechecking community in the Netherlands
+- [CHECK-PUB](/pub) - support codechecking in independent journals based on Open Journal Systems (OJS)
 
 ## Project history
 
@@ -85,3 +93,18 @@ To cite CODECHECK in scientific publications, please use the following citation/
 > _Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). [https://doi.org/10.7557/5.4910](https://doi.org/10.7557/5.4910)_
 
 To get or give a quick overview of the project, feel free to use or extend the [existing slide decks](https://github.com/codecheckers/slides).
+
+## Funding
+
+[![Mozilla logo]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)
+
+The project was supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
+
+------
+
+![NWO Logo](https://www.nwo.nl/themes/custom/nwo/assets/images/logo.svg?v=24)
+
+The project was supported by the NWO Open Science Fund from March 2024 to February 2025, see [NWO project description page](https://www.nwo.nl/en/projects/osf232063) and details of [CHECK-NL](/nl).
+
+------
+

@@ -114,15 +114,3 @@ Take a look at the CODECHECK register for 🗂️ [all codechecks conducted as p
 CODECHECK is a member in the [German Reproducibility Network](https://reproducibilitynetwork.de/).
 
 [![GRN logo]({{ 'img/RN_German_kurz.png' | relative_url }}){:width="200"}](https://reproducibilitynetwork.de/)
-
-## Funding
-
-[![Mozilla logo]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)
-
-The project was supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
-
---------
-
-![NWO Logo](https://www.nwo.nl/themes/custom/nwo/assets/images/logo.svg?v=24)
-
-The project was supported by the NWO Open Science Fund from March 2024 to February 2025, see [NWO project description page](https://www.nwo.nl/en/projects/osf232063) and details of [CHECK-NL](/nl).
