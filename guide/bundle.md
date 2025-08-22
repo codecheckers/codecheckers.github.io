@@ -24,7 +24,7 @@ This may include a copy of the author's files, and any additional files that the
 - Dockerfile and Docker image, see [Ten simple rules for writing Dockerfiles for reproducible data science](https://doi.org/10.1371/journal.pcbi.1008316)
 - ...
 
-## Codecheck report with R Markdown
+## Codecheck certificate with R Markdown
 
 R Markdown has some nice features that are helpful for writing a report.
 

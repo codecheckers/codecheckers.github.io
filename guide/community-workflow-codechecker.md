@@ -80,17 +80,17 @@ Some further tips:
         - Is the data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
     1. Add **mandatory codechecker-contributed information** to the **`codecheck.yml`** file, see [spec](/spec/config/latest)
     1. Wait for the article DOI.
-1. **Deposit the CODECHECK report on _Zenodo_** using your own Zenodo account and following the [community curation policy](https://zenodo.org/communities/codecheck/curation-policy) (which is replicated here for convenience):
+1. **Deposit the CODECHECK certificate on _Zenodo_** using your own Zenodo account and following the [community curation policy](https://zenodo.org/communities/codecheck/curation-policy) (which is replicated here for convenience):
     - _Reserve a DOI_
         - Add the DOI to the `codecheck.yml` file.
-        - Add the DOI to the `codecheck.pdf` CODECHECK report, which should include a full citation of itself.
+        - Add the DOI to the `codecheck.pdf` CODECHECK certificate, which should include a full citation of itself.
     - _Files_
         - `codecheck.pdf` (mandatory)
         - Optional: You can add any material to this record that you see fit, especially things that helped you with your reproduction, i.e., the [CODECHECK bundle](/guide/bundle).
     - _Communities_: Search for "codecheck" to add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck).
     - _Authors_: Add all codecheckers as authors.
     - _Title_: `"CODECHECK Certificate YYYY-NNN"` (certificate number issued via the register ticket above, optionally you may add the submission's title).
-    - _License_: Use `Creative Commons Attribution 4.0 International` if you only upload the CODECHECK report, otherwise use `Other (Open)` or `Other (Attribution)` and document the licensing of the different parts in an _Additional notes_ field.
+    - _License_: Use `Creative Commons Attribution 4.0 International` if you only upload the CODECHECK certificate, otherwise use `Other (Open)` or `Other (Attribution)` and document the licensing of the different parts in an _Additional notes_ field.
     - _Description_: Copy the summary of the check here.
     - _Contributors_: Add the original authors as contributors (see Zendo Metadata form section "Contributors (optional)") with a suitable role (e.g., "Researcher").
     - Add a _Relationship_ in metadata between the certificate and the original paper/submission.
