@@ -49,7 +49,7 @@ Find out more on the new page for institutional CODECHECKs at <https://codecheck
 
 ### 2025-07 | CODECHECK mentioned in OSIRIS report "10 Tales of Reproducibility" 🐉
 
-The OSIRIS project (Open Science to Increase Reproducibility in Science) is dedicated to reforming the Research and Innovation system, enhancing global acceptance, practice, and recognition of reproducibility in scientific research.
+The [OSIRIS project](https://osiris4r.eu/) (Open Science to Increase Reproducibility in Science) is dedicated to reforming the Research and Innovation system, enhancing global acceptance, practice, and recognition of reproducibility in scientific research.
 In their report "Ten Tales of Reproducibility", they highlight the CODECHECKs at Amsterdam UMC as a community-driven effort to make reproducible research standar practice.
 They also shared the "tale 3" on [here on LinkedIn](https://www.linkedin.com/posts/osiris4r_tentalesofreproducibility-osiris-openscience-activity-7356232131167010818-gm7j).
 
