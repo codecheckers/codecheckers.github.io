@@ -29,7 +29,7 @@ See [**the CODECHECK paper**](#2021-07--f1000research-paper-on-codecheck-publish
 
 CODECHECK is based on **five principles** which are described in detail in the [project description](/project) and [the paper](#2021-07--f1000research-paper-on-codecheck-published-after-reviews-).
 
-1. Codecheckers record but don’t investigate or fix.
+1. Codecheckers record but don't investigate or fix.
 1. Communication between humans is key.
 1. Credit is given to codecheckers.
 1. Workflows must be auditable.
@@ -68,11 +68,11 @@ No excuses anymore, you can now run your own CODECHECK event!
 
 ### 2025-04 | CHECK-PUB project started 🚀
 
-TU Delft supports the development of a new building block for the CODECHECK initiative: a plugin for Open Journal Systems (OJS) to support the CODECHECK process in journals. In the CHECK-PUB project, we will develop a prototype of the plugin and look for journals to collaborate on real-world test scenarios.
+TU Delft Library supports the development of a new building block for the CODECHECK initiative: a plugin for Open Journal Systems (OJS) to support the CODECHECK process in journals. In the CHECK-PUB project, we will develop a prototype of the plugin and look for journals to collaborate on real-world test scenarios.
 👉 Learn more about the project at [codecheck.org.uk/pub/](/pub/).
 
-📢 We are looking for an engaged student to work as a developer (student assistant, SHK) in the project team and lead the development of the OJS plugin prototype.
-Please see the job add at <https://tu-dresden.de/bu/umwelt/geo/geoinformatik/die-professur/news/job-vacancy-shk-codecheck?set_language=en>.
+<!--📢 We are looking for an engaged student to work as a developer (student assistant, SHK) in the project team and lead the development of the OJS plugin prototype.
+Please see the job add at <https://tu-dresden.de/bu/umwelt/geo/geoinformatik/die-professur/news/job-vacancy-shk-codecheck?set_language=en>.-->
 
 ### 2025-03 | Tutorial at AGILE 2025 conference 🧑‍🎓
 
@@ -236,10 +236,10 @@ Take a look at the [poster](https://septentrio.uit.no/index.php/SCS/article/view
 <script id="templateCheck" type="x-tmpl-mustache">
 {% raw %}
 <li>
-    <em>"{{title}}"</em><br/>
-    <strong><a href="{{link}}" title="CODECHECK report for paper {{title}}">{{link}}</a></strong>
+    Certificate {{certificate}} for <em>{{title}}</em><br/>
+    <strong><a href="{{link}}" title="CODECHECK certificate for paper '{{title}}'">{{link}}</a></strong>
     <br />
-    <span class="text-secondary">Certificate #{{certificate}} | {{type}} {{venue}} | {{datestring}}</span>
+    <span class="text-secondary">{{type}} | {{venue}} | {{datestring}}</span>
 </li>
 {% endraw %}
 </script>
