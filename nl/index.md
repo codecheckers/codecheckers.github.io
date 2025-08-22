@@ -6,7 +6,7 @@ permalink: /nl/
 
 ## CODECHECKing goes NL - strengthening open science through reproducible publications in the Netherlands (CHECK-NL)
 
-The Dutch research organization *NWO* funds the project [CodeCHECKing goes NL](https://www.nwo.nl/projecten/osf232063).
+The Dutch research organization *NWO* funds the project [CodeCHECKing goes NL](https://www.nwo.nl/projecten/osf232063) (March 2024 to February 2025).
 
 Many research outputs rely on computational methods.
 Open Science principles ask for those methods and data to be shared and to be reproducible.
