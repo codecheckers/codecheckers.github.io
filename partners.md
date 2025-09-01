@@ -101,16 +101,24 @@ Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.or
 
 Take a look at the CODECHECK register for 🗂️ [all codechecks conducted as part of the Reproducible AGILE Reproducibility Review](https://codecheck.org.uk/register/venues/conferences/agilegis/)-
 
+## Institutions
+
+See the page [**Institutional CODECHECKs**](/institutions/) for more information and find 🗂️ [all institutions and their checks in the CODECHECK register](https://codecheck.org.uk/register/venues/institutions/).
+
 ## Projects
+
+CODECHECK is a member in the [German Reproducibility Network](https://reproducibilitynetwork.de/).
+
+[![GRN logo]({{ 'img/RN_German_kurz.png' | relative_url }}){:width="200"}](https://reproducibilitynetwork.de/)
+
+<br />
 
 [ReproHack](https://www.reprohack.org/) is our collaboration partner for events and education.
 
 [![ReproHack logo]({{ 'img/reprohack_logo.png' | relative_url }}){:width="200"}](https://www.reprohack.org/)
 
+<br />
+
 [Open Science @ ITC](https://www.itc.nl/research/open-science/codecheck/) provides CODECHECKs for their members.
 
 [![ITC logo]({{ 'img/itc-logo@2x.png' | relative_url }}){:width="200"}](https://www.itc.nl/research/open-science/codecheck/)
-
-CODECHECK is a member in the [German Reproducibility Network](https://reproducibilitynetwork.de/).
-
-[![GRN logo]({{ 'img/RN_German_kurz.png' | relative_url }}){:width="200"}](https://reproducibilitynetwork.de/)
