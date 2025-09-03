@@ -39,6 +39,13 @@ Contact: [Merel Postema](mailto:m.c.postema@amsterdamumc.nl)
 
 More information: <https://www.amsterdamumc.org/en/research/support/services-support/data-management/research-software-management.htm>
 
+## ITC
+
+[Open Science @ ITC](https://www.itc.nl/research/open-science/codecheck/) provides CODECHECKs for their members.
+ITC is the [University of Twente](https://www.utwente.nl/en/)'s Faculty of Geo-Information Science and Earth Observation.
+
+[![ITC logo]({{ 'img/itc-logo@2x.png' | relative_url }}){:width="200"}](https://www.itc.nl/research/open-science/codecheck/)
+
 ------
 
 <br>

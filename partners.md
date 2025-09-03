@@ -116,9 +116,3 @@ CODECHECK is a member in the [German Reproducibility Network](https://reproducib
 [ReproHack](https://www.reprohack.org/) is our collaboration partner for events and education.
 
 [![ReproHack logo]({{ 'img/reprohack_logo.png' | relative_url }}){:width="200"}](https://www.reprohack.org/)
-
-<br />
-
-[Open Science @ ITC](https://www.itc.nl/research/open-science/codecheck/) provides CODECHECKs for their members.
-
-[![ITC logo]({{ 'img/itc-logo@2x.png' | relative_url }}){:width="200"}](https://www.itc.nl/research/open-science/codecheck/)
