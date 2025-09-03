@@ -51,11 +51,8 @@ footer_icons:
   - username: youtube.com/@cdchck
     url: https://www.youtube.com/@cdchck
     icon: icon-youtube.svg
-  - username: S. Eglen
-    url: mailto:sje30@cam.ac.uk
-    icon: icon-email.svg
-  - username: D. Nüst
-    url: mailto:daniel.nuest@tu-dresden.de
+  - username: Team
+    url: mailto:team@cdchck.science
     icon: icon-email.svg
 
 header_pages:
