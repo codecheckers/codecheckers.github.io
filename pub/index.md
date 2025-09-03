@@ -59,7 +59,7 @@ In the future, the OJS Plugin maybe be ported to Open Preprint Systems (OPS) and
 
 ## Team
 
-Daniel Nüst (TU Dresden, PI) \| <> \| [Mastodon](https://mstdn.social/@nuest) \| [Home page](https://nordholmen.net/)
+Daniel Nüst (TU Dresden, PI) \| <https://orcid.org/0000-0002-0024-5046> \| [Mastodon](https://mstdn.social/@nuest) \| [Home page](https://nordholmen.net/)
 
 Linus Hackel (TU Dresden, student developer) \| <https://orcid.org/0009-0000-0114-8005> \| [GitHub](https://github.com/dxL1nus)
 
@@ -73,6 +73,6 @@ Stephen Eglen (University of Cambridge, advisor) \| <https://orcid.org/0000-0001
 
 ## Funding
 
-_Empowered by [TU Delft Library](https://www.tudelft.nl/en/library/)_
+*Empowered by [TU Delft Library](https://www.tudelft.nl/en/library/)* (2025-2026)
 
 ![TU Delft logo](/img/TUDelft_logo_rgb.png){:width="300"}
