@@ -12,7 +12,7 @@ We partner with people and organisations to advance scholarly communication with
 
 ## Team
 
-Contact the PIs and seniour codecheckers at [team@cdchck.science](mailto:team@cdchck.science).
+Contact the PIs and senior codecheckers at [team@cdchck.science](mailto:team@cdchck.science).
 
 ### Stephen Eglen (co-PI)
 

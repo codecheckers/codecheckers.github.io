@@ -59,7 +59,7 @@ Please check out our [event recipe](/guide/event-recipe) for a detailed guide on
 
 ## As a curious person or someone with a question - get in touch!
 
-Contact the PIs and seniour codecheckers at [team@cdchck.science](mailto:team@cdchck.science).
+Contact the PIs and senior codecheckers at [team@cdchck.science](mailto:team@cdchck.science).
 Personal emails for the PIs are in the page footer.
 
 Contact us via social media:
