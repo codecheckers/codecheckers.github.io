@@ -21,7 +21,7 @@ We wrapped up the day with an interesting reflection session. Along with the aut
 
 ## CALL FOR PAPERS/PREPRINTS/CODE: Are you a researcher in geosciences/environmental sciences interested in reproducible code and Open Science? We have the perfect opportunity for you!
 
-As part of our NWO project [CHECK-NL](https://codecheck.org.uk/nl), **we are looking for researchers from the field of geosciences/environmental sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 26 September 2024** at the University of Twente.  A codecheck is a light-touch independent peer review to check that your code and data can generate the computational results in your paper or project (see more details [here](https://codecheck.org.uk/process/)).
+As part of our NWO project [CHECK-NL](https://codecheck.org.uk/nl), **we are looking for researchers from the field of geosciences/environmental sciences based at a Dutch knowledge institution or university who would like their papers or projects to be "codechecked" during a live, one-day code-checking workshop on 26 September 2024** at the University of Twente.  A codecheck is a light-touch independent peer review to check that your code and data can generate the computational results in your paper or project (see more details [here](https://codecheck.org.uk/process/)).
 
 You can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!). *Curious to know how it works? Read about our first [workshop in Delft](https://codecheck.org.uk/nl-workshop1/).*
 

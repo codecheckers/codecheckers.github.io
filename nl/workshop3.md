@@ -27,7 +27,7 @@ We ended the session with a well-deserved borrel, a satisfying end to a producti
 
 **Are you from the social/behavioural sciences and interested in reproducible code and open science? We have the perfect opportunity for you!**
 
-As part of our NWO project [CHECK-NL](https://codecheck.org.uk/nl), **we are looking for researchers from the social and behavioural sciences at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.** A [codecheck](https://codecheck.org.uk/process/) is a light-touch independent peer review to check that your code and data can generate the computational results in your paper or project.
+As part of our NWO project [CHECK-NL](https://codecheck.org.uk/nl), **we are looking for researchers from the social and behavioural sciences at a Dutch knowledge institution or university who would like their papers or projects to be "codechecked" during a live, one-day code-checking workshop on 28 November 2024.** A [codecheck](https://codecheck.org.uk/process/) is a light-touch independent peer review to check that your code and data can generate the computational results in your paper or project.
 
 You can participate (a) by submitting your own work to be checked, (b) as a codechecker (that is, a person reviewing code as a participant in the workshop), or (c) both, if you are up for it! Read on to see how…
 

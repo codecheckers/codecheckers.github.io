@@ -60,7 +60,7 @@ Participants got the chance to learn from other people's workflows and software 
 
 Another surprise was how difficult it still is to convince colleagues to submit their work to a reproducibility check.
 The social layer of this otherwise rather technical question is the biggest challenge for the project team and people working with reproducibility checks.
-The technological challenges are less exciting than the positive experiences and potential benefits, see e.g., [this blog post](https://blog.esciencecenter.nl/my-experience-of-getting-codechecked-39cf612cfd35) about an author's experience how it is to be “codechecked”.
+The technological challenges are less exciting than the positive experiences and potential benefits, see e.g., [this blog post](https://blog.esciencecenter.nl/my-experience-of-getting-codechecked-39cf612cfd35) about an author's experience how it is to be "codechecked".
 
 From discussions we distilled the notion that the best time to get a reproducibility check is at the preprint stage or during peer review - then people are still motivated to fix issues before the publication.
 Also, a certificate is a positive signal towards peer reviewers (at least that's what we hope).

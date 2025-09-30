@@ -15,7 +15,7 @@ redirect_from:
 
 On the 30th of May 2024, the CODECHECK-NL team organised its first roadshow event in Delft. The event marks the beginning of a series of four workshops to be conducted across the Netherlands, where we carry out live codechecks with authors and reviewers, while also training a new batch of codecheckers across universities in the Netherlands.
 
-The Delft event kicked off in the morning with 20 participants and members of the CODECHECK-NL team. We began with a short introduction to the  project and its scope by Frank Ostermann (PI for the project, based at the University of Twente), followed by an introduction to codechecking by Stephen Eglen, one of the founders of CODECHECK, and a computational neuroscientist based at the University of Cambridge. Stephen's presentation (which can be found [here](https://sje30.github.io/talks/2024/codecheck2024-02.html)) introduced the philosophy behind codecheck, and the importance of the concept of “good enough” in facilitating code reproducibility. The introduction was followed by a live demo codecheck, conducted on a project submitted by Filip Surma of Delft University of Technology. Curious to see what a CODECHECK certificate looks like? See Filip's certificate [here](https://zenodo.org/records/11403956).
+The Delft event kicked off in the morning with 20 participants and members of the CODECHECK-NL team. We began with a short introduction to the  project and its scope by Frank Ostermann (PI for the project, based at the University of Twente), followed by an introduction to codechecking by Stephen Eglen, one of the founders of CODECHECK, and a computational neuroscientist based at the University of Cambridge. Stephen's presentation (which can be found [here](https://sje30.github.io/talks/2024/codecheck2024-02.html)) introduced the philosophy behind codecheck, and the importance of the concept of "good enough" in facilitating code reproducibility. The introduction was followed by a live demo codecheck, conducted on a project submitted by Filip Surma of Delft University of Technology. Curious to see what a CODECHECK certificate looks like? See Filip's certificate [here](https://zenodo.org/records/11403956).
 
 Following lunch and the successful codecheck of Filip's project, in collaboration with the participants, in the afternoon we moved into breakout sessions, codechecking three more projects in smaller groups, with authors also present during the process. Three more successful codechecks later, participants had a much clearer picture of what codechecks are, how the process works, and how easy or difficult it can be to run or reuse someone else's code!
 
@@ -32,7 +32,7 @@ Do you find the topics of code reuse, reproducibility and learning a hands-on sk
 As part of our newly launched NWO project [CHECK-NL](https://codecheck.org.uk/nl/), **we are looking for
 researchers from the field of engineering at a Dutch knowledge
 institution or university who would like their papers or projects to
-be “codechecked” during a live, one-day code-checking workshop on 30th
+be "codechecked" during a live, one-day code-checking workshop on 30th
 May 2024**, at the X-building in TU Delft.  A codecheck is a light-touch independent peer review to
 check that your code and data can generate the computational results
 in your paper or project (see more details [here](https://codecheck.org.uk/process/)).
