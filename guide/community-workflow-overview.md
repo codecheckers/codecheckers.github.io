@@ -18,8 +18,8 @@ The community workflow is a concrete implementation of the abstract [CODECHECK p
 The community workflow documentation is split into three parts:
 
 - [CODECHECK community workflow for authors](/guide/community-workflow-author)
-- [CODECHECK community workflow for codecheckers](/guide/community-workflow-codechecker)
-  This perspective also has variants: a focused version, a more detailed version, and a version for [in-person workshop with CHECK-NL](/nl/workflow)
+- [CODECHECK community workflow for codecheckers](/guide/community-workflow-codechecker) <br>
+  This perspective has variants: a [short version](/guide/community-workflow-codechecker#codechecker-tasks---short-version), an [extended version](/guide/community-workflow-codechecker#codechecker-tasks---extended-version), and a version for [in-person workshop with CHECK-NL](/nl/workflow)
 - [CODECHECK community workflow for editors](/guide/community-workflow-editor)
 
 ## Support
