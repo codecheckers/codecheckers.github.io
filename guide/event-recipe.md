@@ -288,8 +288,8 @@ Hope to have encouraged you to go for it -- Success!
 5. The workshop **codecheckers** create a new directory in their
    working environment where all new files go, and start documenting
    the ongoing CODECHECK; exact form of codechecking procedure can vary
-   greatly; there are some optional tools, such as an R package that
-   includes an Rmd template for the report and automates some steps,
+   greatly; there are some optional tools, such as an R package or a Python project that
+   include an Rmd respectively a Jupyter notebook template for the report and automates some steps,
    and templates for word processors to use
 
 6. During a CODECHECK, the workshop **codecheckers** can ask the
