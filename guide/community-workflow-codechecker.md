@@ -94,7 +94,8 @@ Some further tips:
         - Add the DOI to the `codecheck.pdf` CODECHECK certificate, which should include a full citation of itself.
     - _Files_
         - `codecheck.pdf` (mandatory)
-        - Optional: You can add any material to this record that you see fit, especially things that helped you with your reproduction, i.e., the [CODECHECK bundle](/guide/bundle).
+        - Recommended: The source file of the certificate PDF, e.g., the `.Rmd` or `.docx` or `.odt` file, because it can help machine-readability and long-term accessibility
+        - Optional: You can add any material to this record that you see fit, especially things such as code or data that helped you with your reproduction, i.e., the [CODECHECK bundle](/guide/bundle).
     - _Communities_: Search for "codecheck" to add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck).
     - _Authors_: Add all codecheckers as authors.
     - _Title_: `"CODECHECK Certificate YYYY-NNN"` (certificate number issued via the register ticket above, optionally you may add the submission's title).
