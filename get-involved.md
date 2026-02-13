@@ -18,6 +18,15 @@ You want to share the code underlying your research paper? **Congratulations** f
 There are different ways for you to get involved, for example (a) submit a manuscript to a journal conducting CODECHECKs, (b) suggest a CODECHECK as part of your cover letter, or (c) submit your workflow to the [community review process](/guide/community-workflow) right away if you have published a preprint or submit to a journal with an open review.
 If you want to reference the CODECHECK project in your manuscript, please use the citation provided at the end of this page.
 
+Your work was codechecked? Good job!
+Please consider adding a [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to your repository or your personal website when you list your works.
+The badge should link directly to the Zenodo record using the DOI.
+The following snippet should work in Markdown:
+
+```md
+[![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/<DOI HERE>)
+```
+
 ## As a reviewer or editor
 
 If you are contributing to science as a reviewer of academic manuscripts or as a journal editor, you can initiate a CODECHECK for submitted articles if the author provides suitable information.
@@ -29,12 +38,13 @@ You are an editor or reviewer at a journal or conference and are interested to i
 
 **Great!**
 There is no formal process or certification.
-You can simply announce publicly that you conduct a code review adhereing to the CODECHECK principles, e.g. in a blog post.
+However, we are very interested in helping you to get started.
+You can simply announce publicly that you conduct a workflow review adhereing to the CODECHECK principles, e.g., in a blog post.
 A link to the CODECHECK principles in your submission guidelines would probably be helpful for authors and reviewers.
 Please consider adding a <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> badge to the publication to highlight the fact that a CODECHECK was conducted.
 The badge should link directly to the CODECHECK certificate.
 
-The badge graphic and all documentation on this website are available under open licenses, see [this README](https://github.com/codecheckers/website/blob/master/README.md).
+The badge graphic, the CODECHECK logo, and all documentation on this website are available under open licenses, see [this README](https://github.com/codecheckers/website/blob/master/README.md).
 
 The [CODECHECK team](/partners) would be glad to help you set up a process, if you have any questions - see contacts information below.
 We would be happy to list your journal of conference on our website after we have gotten to know your implementation of a CODECHECK process and you have completed your first CODECHECK.
