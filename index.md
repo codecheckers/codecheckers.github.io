@@ -42,6 +42,15 @@ To **stay in touch** with the project, follow us on social media at <img src="/i
 
 ## News
 
+### 2026-03 | Love Replications Week 2026 ❤️
+
+[![Love Replications Week Logo](https://forrt.org/LoveReplicationsWeek/logos/logo_lrw.png){:width="500"}](https://forrt.org/LoveReplicationsWeek/)
+
+CODECHECK is honoured to be part of the excellent programme of the first _Love Replications Week_ of 2026.
+Find the events curated by the great folks from [FORRT](https://forrt.org/) and [MüCOS](https://www.uni-muenster.de/MueCOS/en/index.html) at 🔗 **<https://forrt.org/LoveReplicationsWeek/>**.
+Don't miss to scroll down to the full programm and find interesting and educational events.
+On Tuesday, Daniel presented CODECHECK - find his slides on "How to get your reproducibility certificate with CODECHECK" on Zenodo: <https://doi.org/10.5281/zenodo.18849086>.
+
 ### 2025-08 | Institutional CODECHECKs launched in the Netherlands 🏛️
 
 Two organisations in the Netherlands recently started offering CODECHECKs as an institutional service: the TU Delft Digital Competence Centre (DCC) together with 4TU.ResearchData and the Amsterdam University Medical Center (AUMC).
