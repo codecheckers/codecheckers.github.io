@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /home/daniel/git/codecheck/codecheckers.github.io/*.md)",
+      "WebFetch(domain:codecheck.org.uk)",
+      "Bash(gh issue:*)",
+      "Bash(gh api:*)"
+    ]
+  }
+}
