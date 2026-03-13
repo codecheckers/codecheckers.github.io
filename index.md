@@ -19,7 +19,7 @@ head_inline: |
          <ul id="check_list">
          </ul>
       </div>
-      <p>See the <a href="/register"><strong>CODECHECK register</strong></a> for all <span id="check_count"></span> completed certificates, <a href="/register/codecheckers/" title="List of all people contributing CODECHECKs">all codecheckers</a>, and <a href="/register/venues/" title="List of all CODECHECK venues, e.g., journals and conferences">all venues</a>.</p>
+      <p>See the <a href="/register"><strong>CODECHECK register</strong></a> for all <span id="check_count"></span> completed certificates, <a href="/register/codecheckers/" title="List of all people contributing CODECHECKs">all <span id="codechecker_count"></span> codecheckers</a>, and <a href="/register/venues/" title="List of all CODECHECK venues, e.g., journals and conferences">all <span id="venue_count"></span> venues</a>.</p>
    </div>
 </div>
 
@@ -294,6 +294,24 @@ $(document).ready(function(){
         }),
     ).then( function(){
        updateCount(stats["cert_count"], "#check_count");
+    });
+
+    $.ajax({
+        type: "get",
+        url: "https://codecheck.org.uk/register/codecheckers/index.json",
+        dataType: "JSON",
+        success: function(data) {
+            updateCount(data.length, "#codechecker_count");
+        }
+    });
+
+    $.ajax({
+        type: "get",
+        url: "https://codecheck.org.uk/register/venues/index.json",
+        dataType: "JSON",
+        success: function(data) {
+            updateCount(data.length, "#venue_count");
+        }
     });
 });
 </script>
