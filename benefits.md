@@ -34,8 +34,9 @@ The process is guided by five core principles that are designed to be practical 
    Code and data associated with the CODECHECK certificate are made openly available unless there are strong reasons to the contrary (e.g., sensitive data).
    Importantly, this openness requirement applies to the computational materials, not the paper itself, so it is compatible with journals at any stage of the transition to Open Access.
 
-A CODECHECK does _not_ increase the workload for peer reviewers or the editorial team.
+A CODECHECK does *not* increase the overall workload for peer reviewers or the editorial team.
 The codechecker is a **separate role**, and the resulting certificate provides the editor with an additional, independent signal about the quality and transparency of the submission.
+
 The seperation of the expertise around the data and code into a seperate role even opens up **new resources** and can **simplify** matching suitable reviewers.
 First, consider **training early career researchers** and students as CODECHECKERs, or invite/hire research software engineers as experts.
 These students can eventually grow into experienced (scientific) reviewers with high value to your journal community.
