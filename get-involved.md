@@ -29,6 +29,8 @@ The following snippet should work in Markdown:
 
 ## As a reviewer or editor
 
+Take a look at the [**benefits** of a CODECHECK in a review process](/benefits).
+
 If you are contributing to science as a reviewer of academic manuscripts or as a journal editor, you can initiate a CODECHECK for submitted articles if the author provides suitable information.
 The [CODECHECK team](/partners) would be excited to help you start a conversation with your (fellow) journal editors on how you to best achieve that, i.e., if you conduct a [community CODECHECK](/guide/community-workflow), or if you want to set up a proper process at the journal (see below).
 
@@ -36,7 +38,9 @@ The [CODECHECK team](/partners) would be excited to help you start a conversatio
 
 You are an editor or reviewer at a journal or conference and are interested to introduce a CODECHECK?
 
-**Great!**
+Take a look at the [**benefits** of a CODECHECK in a review process](/benefits).
+
+Still interested? **Great!**
 There is no formal process or certification.
 However, we are very interested in helping you to get started.
 You can simply announce publicly that you conduct a workflow review adhereing to the CODECHECK principles, e.g., in a blog post.
