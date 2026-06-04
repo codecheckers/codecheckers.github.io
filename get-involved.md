@@ -15,8 +15,9 @@ Please open an issue on the [codecheckers](https://github.com/codecheckers/codec
 
 You want to share the code underlying your research paper? **Congratulations** for the decision to practice Open Science and reproducible research!
 
-There are different ways for you to get involved, for example (a) submit a manuscript to a journal conducting CODECHECKs, (b) suggest a CODECHECK as part of your cover letter (see [this template for a **letter to the editor**](/guide/templates/letter-editor)), or (c) submit your workflow to the [community review process](/guide/community-workflow) right away if you have published a preprint or submit to a journal with an open review.
-If you want to reference the CODECHECK project in your manuscript, please use the citation provided at the end of this page.
+There are different ways for you to get involved, for example (a) submit a manuscript to a journal conducting CODECHECKs, (b) suggest a CODECHECK as part of your cover letter (see [this template for a **letter to the editor**](/guide/templates/letter-editor)), or (c) submit your workflow to the [community review process](/guide/community-workflow) right away if you have published a preprint.
+You can also combine (b) and (c) by sharing a draft with a CODECHECK editor.
+Please be so kind to reference the CODECHECK project in your manuscript using the citation provided at the end of this page.
 
 Your work was codechecked? Good job!
 Please consider adding a [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to your repository or your personal website when you list your works.

@@ -71,7 +71,7 @@ A great way to learn what a good way to meaningfully package your research for o
 
 ### 5. Submission to CODECHECK
 
-When your workflow is ready to be codechecked, open an issue on the [CODECHECK register](https://github.com/codecheckers/register/issues/new/choose).
+When your workflow is ready to be codechecked, open an issue on the [CODECHECK register](https://github.com/codecheckers/register/issues/new/choose) or reach out the the [team](/partners).
 
 ### 6. During submission/preprint stage
 
