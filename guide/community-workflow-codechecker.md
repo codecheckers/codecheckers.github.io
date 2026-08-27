@@ -90,7 +90,7 @@ Some further tips:
     1. [Recommended] Submit the unpublished draft of the Zenodo record for the certificate (see next step) [for review](https://help.zenodo.org/docs/share/submit-for-review/) to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck/); this allows a [CODECHECK editor](/guide/community-workflow-editor) to give feedback before you continue with the deposition and avoids direct updates of documents that just received a DOI.
 1. **Deposit the CODECHECK certificate on _Zenodo_** using your own Zenodo account and following the [community curation policy](https://zenodo.org/communities/codecheck/curation-policy) (which is replicated here for convenience):
     - _Reserve a DOI_
-        - Add the DOI to the `codecheck.yml` file.
+        - Add the DOI to the `codecheck.yml` file. **Use the version-specific DOI, not the "concept DOI"**: Zenodo assigns every deposit both a DOI for that exact version and a concept DOI that always resolves to the *latest* version (see [Zenodo versioning](https://zenodo.org/help/versioning)); a certificate should point at an immutable, specific version, so always use the version-specific DOI reserved for this deposit. The `codecheck` R package's `validate_codecheck_yml()` and `validate_certificate_for_rendering()` will flag a concept DOI used by mistake.
         - Add the DOI to the `codecheck.pdf` CODECHECK certificate, which should include a full citation of itself.
     - _Files_
         - `codecheck.pdf` (mandatory)
