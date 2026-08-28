@@ -116,6 +116,18 @@ Some further tips:
     - _Optionally_, add extra metadata as you see fit (fields such as _Version_, _Language_, _Keywords_).
         - Connect the Zenodo record to the GitHub repository with a _Relate/alternate identifier_.
         - Connect the Zenodo record to the article/preprint with a _Related/alternate identifier_.
+1. **If you deposit on _ResearchEquals_ instead of Zenodo**, the same curation policy applies, but **ResearchEquals modules cannot be edited after publication** - not the metadata either.
+    Everything below must therefore be right _before_ you publish the module; afterwards the only remedy is publishing a new version with a new DOI.
+    - _References_: add the DOI of the checked article/preprint as a **reference of the module**.
+      This is the ResearchEquals counterpart of Zenodo's `Reviews` relation, and it is the field most easily forgotten, because unlike on Zenodo it **cannot be added later**.
+    - _Module type_: `Reproducibility Report`.
+    - _License_: `Creative Commons Attribution 4.0 International`.
+    - _Title_: `"CODECHECK Certificate YYYY-NNN"`, as for Zenodo.
+    - _Main file_: upload `codecheck.pdf` as the module's main file.
+      If you write the module in the ResearchEquals editor instead, embed the certificate PDF in it, so that the PDF stays retrievable.
+    - _Collection_: submit the module to the [CODECHECK collection](https://researchequals.com/collections/720ac28c-07a1-40c3-a098-c77443e5de96), the counterpart of the CODECHECK community on Zenodo.
+      Certificates for papers of the AGILE conference additionally belong in the [Reproducible AGILE collection](https://researchequals.com/collections/aad8e6af-bd94-47f3-b215-c68d31687c74).
+    - The `codecheck` R package audits published ResearchEquals certificates against these points with `check_researchequals_record()`, and the register render reports them for all entries.
 1. If possible, coordinate with the original author(s) to add a [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to their repository, e.g., by sending a pull request on GitHub, a merge request on GitLab, or sending them an HTML snippet for their personal website.
     The badge should link directly to the Zenodo record _via the DOI_.
     The following snippet should work in Markdown:
