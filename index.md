@@ -41,6 +41,19 @@ The principles can be implemented in different [processes](/process/), one of wh
 To **stay in touch** with the project, follow us on social media at <img src="/img/icon-mastodon.svg" alt="Mastodon logo" style="margin-top: -3px;" /> **<https://fediscience.org/@codecheck>** and <img src="/img/icon-linkedin.svg" alt="LinkedIn logo" style="margin-top: -3px;" /> **<https://www.linkedin.com/company/codecheck/>**.
 
 ## News
+### 2026-08 | CODECHECK talk at ACM REP '26 in Delft 🇳🇱
+
+At the [2026 ACM Conference on Reproducibility and Replicability (ACM REP '26)](https://acm-rep.github.io/2026/), which took place from 20 to 22 July 2026 at TU Delft, [Yasel Quintero](/register/persons/0009-0005-9240-7370/) presented the _Reproducibility Check_ service of the [TU Delft Digital Competence Centre (DCC)](https://www.tudelft.nl/en/digital-competence-centre).
+Together with [João Pedro Guimarães](/register/persons/0000-0002-6545-3102/) from the DCC and [Aleksandra Wilczyńska](/register/persons/0000-0001-9323-0267/) from [4TU.ResearchData](https://data.4tu.nl/), the team offers CODECHECKs to TU Delft researchers who deposit software and data with their publications.
+The talk shared experiences from the pilot phase that started in spring 2025: common challenges in reproducing computational studies, ways to engage researchers, and lessons learned from running the service - as well as the opportunities of building peer-based codechecking communities.
+
+📊 The slides are on Zenodo: _A Reproducibility Check Service for Computational Research_, <https://doi.org/10.5281/zenodo.21839539>.
+📖 The DCC also summarised [their contributions to ACM REP 2026](https://www.tudelft.nl/digital-competence-centre/news-dcc-contributes-to-acm-rep-2026); this news item is based on [Yasel's post on LinkedIn](https://www.linkedin.com/posts/yasel-quintero-20a795196_acmrep2026-tudelft-codecheck-share-7496110048054763520-yvBS/).
+
+A conference on reproducibility and replicability is a natural home for CODECHECK - what delights us here is _who_ took the project there.
+Not the original CODECHECK team, but an new institutional codechecking group: research support staff who have made codechecking part of the services of their university and who now bring their own experiences to the community and improve the way research is published.
+See all **9 institutional codechecks** conducted by the TU Delft DCC team [in the register](/register/venues/institutions/tu_delft_dcc/).
+Find out more about this way of working on our page on [institutional CODECHECKs](/institutions).
 
 ### 2026-03 | Love Replications Week 2026 ❤️
 
