@@ -41,6 +41,24 @@ The principles can be implemented in different [processes](/process/), one of wh
 To **stay in touch** with the project, follow us on social media at <img src="/img/icon-mastodon.svg" alt="Mastodon logo" style="margin-top: -3px;" /> **<https://fediscience.org/@codecheck>** and <img src="/img/icon-linkedin.svg" alt="LinkedIn logo" style="margin-top: -3px;" /> **<https://www.linkedin.com/company/codecheck/>**.
 
 ## News
+
+### 2026-09 | New pages in the CODECHECK register 🔎
+
+The [CODECHECK register](/register/) has grown well beyond a list of certificates.
+Four new pages let you explore the register from different angles:
+
+- 📄 **[Works](/register/works/)** - **124 checked works** (only with DOI), with their publication metadata and the related checks; just append the DOI to the `works/` endpoint and find certificates, also as JSON ([example](https://codecheck.org.uk/register/works/10.1038/s41598-021-85363-7/register.json)).
+- 🧑‍🔬 **[People](/register/persons/)** - the **295 people** who have authored or checked a work, with their ORCID iDs, works authored, and checks conducted. Show your contributions!
+- 🏛️ **[Organisations](/register/organisations/)** - the **69 organisations** affiliated with a work or a check.
+- 📊 **[Statistics](/register/statistics/)** - an overview of the register as a whole (see screenshot): currently **132 certificates**, **13 venues**, and **66 codecheckers** are presented with interactive charts and their development over time, e.g., numbers of certificates, checks by publication platform, and venues by type.
+{:.full-width}
+
+[![Screenshot of the CODECHECK register statistics page](/img/register-statistics-page.png){:width="500"}](/register/statistics/)
+
+And for the curious: the 🎲 button in the bottom right corner of the [register](/register/) takes you to a random certificate - a good way to get an impression of the diversity of codechecked works.
+
+All pages use persistent identifiers - DOIs, ORCID iDs, and ROR IDs - so that codechecks, the people who conduct them, and the institutions supporting them become findable and citable parts of the scholarly record.
+
 ### 2026-08 | CODECHECK talk at ACM REP '26 in Delft 🇳🇱
 
 At the [2026 ACM Conference on Reproducibility and Replicability (ACM REP '26)](https://acm-rep.github.io/2026/), which took place from 20 to 22 July 2026 at TU Delft, [Yasel Quintero](/register/persons/0009-0005-9240-7370/) presented the _Reproducibility Check_ service of the [TU Delft Digital Competence Centre (DCC)](https://www.tudelft.nl/en/digital-competence-centre).
