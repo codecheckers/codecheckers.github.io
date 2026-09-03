@@ -25,7 +25,7 @@ Do you find the topics of code reuse, reproducibility and learning a hands-on sk
 
 ---------------------------------------------------------------------------------------
 
-## Our call for papers for the Delft worksop
+## Our call for papers for the Delft workshop
 
 ### Are you a researcher in engineering interested in reproducible code and Open Science? We have the perfect opportunity for you!
 

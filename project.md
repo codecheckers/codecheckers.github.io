@@ -82,7 +82,7 @@ But building and running it requires considerable resources, and in itself the a
 [We](/partners/#team) realised that the human processes embedded in the way that research is published and reviewed need to change.
 We lowered the bar on the technical level and also on the procedural side, but we upped the stakes considerably in our ambition: work with real journals and their community of authors, editors, and reviewers.
 We distilled our approach into a set of [principles](#the-codecheck-principles), wrote [a paper](https://doi.org/10.12688/f1000research.51738.2), and built collaborations with publishers and conferences to demonstrate their feasibility.
-We also broadened our scope and are open to collaborations from all scientific disciplines, though we remain strongest in the communities represented by the project team members: neuroscience, biomedical resarch, data science, geospatial sciences.
+We also broadened our scope and are open to collaborations from all scientific disciplines, though we remain strongest in the communities represented by the project team members: neuroscience, biomedical research, data science, geospatial sciences.
 
 ------
 

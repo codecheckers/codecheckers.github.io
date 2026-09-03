@@ -28,7 +28,7 @@ A CODECHECK is an independent, light-weight verification that the computational 
 It is not a full code review or an assessment of scientific correctness; rather, it confirms that all materials are provided and that the workflow runs as documented.
 We encourage to provide the certificate to the handling editor and reviewers as part of their evaluation.
 
-**[Allways:]**
+**[Always:]**
 
 The CODECHECK initiative (https://codecheck.org.uk/) offers support for journals and editors who wish to arrange such a check.
 If the journal does not yet have an established CODECHECK process, the CODECHECK team can collaborate with you to conduct an independent community check for this submission.

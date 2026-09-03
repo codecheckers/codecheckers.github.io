@@ -20,7 +20,7 @@ Now it's your turn.
    the exact form of  a codechecking procedure and form of documentation vary greatly, but there are some tools, such as [an R package including an Rmd template](https://github.com/codecheckers/codecheck) and [a Python project including a Jupyter Notebook template](https://github.com/codecheckers/codecheck-py) to automate some steps; you may also use the word processor templates in [.odt](/guide/templates/CODECHECK_report_template.odt) and [.docx](/guide/templates/CODECHECK_report_template.docx) formats; all of that is optional, as long as the final certificate contains the mandatory information
 1. Open the manuscript and follow the instructions to reproduce the workflow
 1. During the CODECHECK, contact the authors in case of problems; keep in mind the general [CODECHECK principles](/project/#the-codecheck-principles), especially "the codechecker records but does not fix" – unless it is trivial change; the authors can provide updated versions of code and documentation; however, the entire procedure should not be much more time-intensive than a normal peer review of a paper and not involve more than a few code revisions; the codechecker can always stop the process after a reasonable effort and document on the issue as not successfully reproduced.
-1. Summarize the process and outcomes in your certificate and upload it as PDF to your project; add edited files and intemediary as well as output files as you see fit; the certifiate must at least contain the information on who checked what and how; the ambition should be to document for future self and other researchers; have a look at the available certificates.
+1. Summarize the process and outcomes in your certificate and upload it as PDF to your project; add edited files and intermediary as well as output files as you see fit; the certificate must at least contain the information on who checked what and how; the ambition should be to document for future self and other researchers; have a look at the available certificates.
 1. Notify the editor about the completion
 
 ------
@@ -31,7 +31,7 @@ Now it's your turn.
 
 The codechecker in general is not there to fix things, but to document how far they got.
 The result is either is a completed CODECHECK, or a documentation why the check was found impossible to complete (see _[principle 1](/)_).
-Codecheckers should give feedback to the author and definetely allow workflows to be fixed.
+Codecheckers should give feedback to the author and definitely allow workflows to be fixed.
 It is very hard to put a precise number on the amount of work you should put into a CODECHECK.
 You're not expected to spend more time on a CODECHECK than you would on peer-reviewing a manuscript.
 You should take advantage of the fact that you can _talk to the author_ and feel free to reach out early and often, when you think that issues can be resolved quickly.
@@ -52,7 +52,7 @@ Some further tips:
 
 1. Comment on the issue in the CODECHECK register repository to notify author and editor that you are accepting, and actually starting, the CODECHECK.
 1. Depending on where the code and data are, create a new project or fork the author's code repository, e.g., to the codecheckers organisation on [GitHub.com](https://github.com/codecheckers/) or [GitLab.com](https://gitlab.com/cdchck); supported repositories for a citable certificate: [Zenodo](https://zenodo.org/), [OSF](https://osf.io/), [ResearchEquals](https://www.researchequals.com/).
-   If there is no code repository, it is strongly recommended to create a new  code repository for the source code of your check which is the basis for publishing the certificate in a repository; usethe naming scheme `Lastname-YYYY` using the family name of the corresponding author.
+   If there is no code repository, it is strongly recommended to create a new  code repository for the source code of your check which is the basis for publishing the certificate in a repository; use the naming scheme `Lastname-YYYY` using the family name of the corresponding author.
    Please take care to follow the terms and conditions of the workspace's licenses; stop your CODECHECK if the licensing is unclear and contact the author to fix the documentation.
 1. [In case your forked] Create a directory `codecheck` to not interfere with original files.
    This is the _check directory_.
@@ -60,7 +60,7 @@ Some further tips:
    You can use `.codecheck` if `codecheck` exists in submission for some reason.
    _All files created by you and strictly related to the check should go into this directory._
    The exception are files that could be useful for the author and which you suggest the author may transfer into their own repository after the check (see "leave in a better condition" above).
-    1. [Optional] **Start a `Makefile` or a script** to re-run the workflow based on provided documentation, i.e., recreate all files listed in the manifest by runnign the command `make codecheck`.
+    1. [Optional] **Start a `Makefile` or a script** to re-run the workflow based on provided documentation, i.e., recreate all files listed in the manifest by running the command `make codecheck`.
       This Makefile target or script should run the whole or most suitable subset of the workflow and create the certificate.
       This may also be realised by putting in code chunks in a computational notebook, either independent of or as the basis for the CODECHECK certificate, e.g., R Markdown, Quarto, or Jupyter.
     1. [Optional] **More contents** of the check directory.
@@ -105,7 +105,7 @@ Some further tips:
     - _Title_: `"CODECHECK Certificate YYYY-NNN"` (certificate number issued via the register ticket above, optionally you may add the submission's title).
     - _License_: Use `Creative Commons Attribution 4.0 International` if you only upload the CODECHECK certificate, otherwise use `Other (Open)` or `Other (Attribution)` and document the licensing of the different parts in an _Additional notes_ field.
     - _Description_: Copy the summary of the check here.
-    - _Contributors_: Add the original authors as contributors (see Zendo Metadata form section "Contributors (optional)") with a suitable role (e.g., "Researcher").
+    - _Contributors_: Add the original authors as contributors (see Zenodo Metadata form section "Contributors (optional)") with a suitable role (e.g., "Researcher").
     - Add a _Relationship_ in metadata between the certificate and the original paper/submission.
         - Relation: `Reviews` (= the certificate reviews the article)
         - Identifier & Scheme: `the identifier` (ideally the article's DOI)

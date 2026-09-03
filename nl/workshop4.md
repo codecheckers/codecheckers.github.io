@@ -53,7 +53,7 @@ You can register to participate in the workshop on the [registration page](https
 What you can expect during the workshop:
 
 - An introduction to CODECHECK and a live demo
-- Beakout groups to CODECHECK a project yourself
+- Breakout groups to CODECHECK a project yourself
 - A reflection session to share with us what you thought of CODECHECK and the workshop
 - Coffee, lunch, and snacks!
 

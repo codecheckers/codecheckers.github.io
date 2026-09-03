@@ -33,7 +33,7 @@ Its aim is to support everyone who wants to try a CODECHECK workshop and build/s
 
 a.  Who is your audience: classroom (students, early career research training), research group, general or domain specific university audience? Part of a course or a curriculum, or broader target audience (university, or domain)?
 
-b.  Can you offer certificates for attendence/graduate school credits?
+b.  Can you offer certificates for attendance/graduate school credits?
 
 c.  Introduction to concepts of reproducibility and codechecking necessary, or advanced tips and skills?
 
@@ -161,7 +161,7 @@ submission window in a rolling review, now is the time to check the
 submissions whether they are suitable for a codecheck. If you are in
 doubt, don't hesitate to reach out to us for advice! Have a look at
 codecheck.org.uk/nl, however please note that the project Gmail address
-is NOT monitored anymore! Please use our regular work e-mail addressess.
+is NOT monitored anymore! Please use our regular work e-mail addresses.
 
 **About one to two weeks** before the workshop, send out a pre-workshop
 survey to learn more about the participants and possibly tailor the

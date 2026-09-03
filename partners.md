@@ -29,7 +29,7 @@ Stephen contributes his domain-specific expertise in computational neuroscience 
 
 <https://orcid.org/0000-0002-0024-5046> \| <https://nordholmen.net/>
 
-Daniel Nüst is a postdoctoral researcher and research software engineer ith the [Chair of Geoinformatics](https://tu-dresden.de/bu/umwelt/geo/geoinformatik/die-professur?set_language=en), TU Dresden, and at the Institute for Geoinformatics ([ifgi](https://www.uni-muenster.de/Geoinformatics/en/)), University of Münster.
+Daniel Nüst is a postdoctoral researcher and research software engineer with the [Chair of Geoinformatics](https://tu-dresden.de/bu/umwelt/geo/geoinformatik/die-professur?set_language=en), TU Dresden, and at the Institute for Geoinformatics ([ifgi](https://www.uni-muenster.de/Geoinformatics/en/)), University of Münster.
 He develops tools for open and reproducible geoscientific research and is a proponent for open scholarship and reproducibility in the projects [NFDI4Earth](https://nfdi4earth.de/), _Opening Reproducible Research_ ([o2r](https://o2r.info)), and [KOMET](https://projects.tib.eu/komet).
 He is also engaged in the Open Source and Open Science communities and has held workshops on Reproducible Research in [geosciences](https://vickysteeves.gitlab.io/repro-papers/), [GIScience](https://o2r.info/reproducible-agile/), and [digital humanities](https://zenodo.org/record/1299031).
 

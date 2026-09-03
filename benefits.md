@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Benefits of CODECHECK as part of peer reivew
+title: Benefits of CODECHECK as part of peer review
 permalink: /benefits/
 ---
 
@@ -37,12 +37,12 @@ The process is guided by five core principles that are designed to be practical 
 A CODECHECK does *not* increase the overall workload for peer reviewers or the editorial team.
 The codechecker is a **separate role**, and the resulting certificate provides the editor with an additional, independent signal about the quality and transparency of the submission.
 
-The seperation of the expertise around the data and code into a seperate role even opens up **new resources** and can **simplify** matching suitable reviewers.
+The separation of the expertise around the data and code into a separate role even opens up **new resources** and can **simplify** matching suitable reviewers.
 First, consider **training early career researchers** and students as CODECHECKERs, or invite/hire research software engineers as experts.
 These students can eventually grow into experienced (scientific) reviewers with high value to your journal community.
 We'd be interested to set up training and mentoring for such an additional pool of contributors together with your.
 Second, you can match methodological **expertise independently** of familiarity with tools, programming languages, or current availability.
-Your **requirements on anonymity** for the scientific review can even be handled seperately from the CODECHECK, enabling direct contacts for efficiency and keeping distance where each is more useful.
+Your **requirements on anonymity** for the scientific review can even be handled separately from the CODECHECK, enabling direct contacts for efficiency and keeping distance where each is more useful.
 Finally, you may place the CODECHECK **flexibly** in the process wherever it provides most value for your journal's or conference's review and publication model, from a staff-based smokescreen directly after submission to a post-publication additional merit.
 
 Journals and conferences across several disciplines have successfully integrated CODECHECKs into their workflows - the [the list of partners](/partners).

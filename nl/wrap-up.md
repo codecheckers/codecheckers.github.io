@@ -21,7 +21,7 @@ It is an extension of the thought that if we want to stand on the shoulder of gi
 And solid ground for computational workflows means good documentation that is understandable outside of the inner circle of the authors of a research article.
 
 A reproducibility check is about the question whether one can reproduce the reported results in the paper (i.e., the statistics, tables, figures, maps, or graphs) from the provided data, code, or other materials.
-The CHECK-NL project focuses on the computational reproducibility of published research and tries to answer the question of "Can someone else recreate the output on their hardware using the materials and documentation provided by the authors?".
+The CHECK-NL project focusses on the computational reproducibility of published research and tries to answer the question of "Can someone else recreate the output on their hardware using the materials and documentation provided by the authors?".
 We call this type of reproduction a CODECHECK.
 
 **Who did what?**
@@ -35,7 +35,7 @@ At the events, we also connected with representatives of a data repository, diam
 
 The four events in Delft, Enschede, Rotterdam and Leiden brought in a total of 40 researchers, many of whom opened up their own work to be assessed by others, together who codechecked 15 papers.
 The additional events in Eindhoven and Dresden introduced an international crowd to the CODECHECK principles.
-Each event had a different topic, focusing on different parts of the research landscape, which resulted in different challenges and learning opportunities at each event.
+Each event had a different topic, focussing on different parts of the research landscape, which resulted in different challenges and learning opportunities at each event.
 While the groups in Delft and Enschede mainly faced problems with computing environments, documentation, and high computational loads (too big for laptops or the workshop time), the group in Rotterdam raised the issue that reproducibility checks can be pretty dry at their core and may be almost trivial if only heavily summarized data can be shared.
 At the final event in Leiden, we brought linguists and digital humanists together.
 One of the questions raised was: how do we start a reproducibility crisis in the humanities? (Because maybe we need one to raise awareness about the important topic in this field?)

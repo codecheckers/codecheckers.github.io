@@ -38,7 +38,7 @@ For updates, watch this space or follow us on the channels listed below!
   
 - **Our third workshop at Rotterdam was successfully concluded!!** Read about the event on social and behavioural on November 28th 2024 sciences in the [blog](/nl/workshop3.html).
 
-- **Read about our second workshop at UTwente** on September 26th 3034 focusing on geosciences on the [workshop page](/nl/workshop2.html).
+- **Read about our second workshop at UTwente** on September 26th 3034 focussing on geosciences on the [workshop page](/nl/workshop2.html).
 
 - **First CODECHECK-NL event at TU Delft successfully concluded!** Read about the event from May 30th 2024 on our [TUD workshop page](/nl/workshop1.html).
 

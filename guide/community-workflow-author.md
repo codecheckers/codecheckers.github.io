@@ -87,4 +87,4 @@ See the [CODECHECK register](/register) for a full list of codechecks, including
 Take a look at existing checks for your discipline or community to get an impression on how CODECHECKs work.
 Selected examples are on the [workflow overview page](/guide/community-workflow-overview).
 
-_Is your scientific dispipline missing?_ Time to **[get involved!](/get-involved)**.
+_Is your scientific discipline missing?_ Time to **[get involved!](/get-involved)**.

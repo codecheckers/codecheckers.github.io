@@ -116,7 +116,7 @@ Find out more about this way of working on our page on [institutional CODECHECKs
 
 CODECHECK is honoured to be part of the excellent programme of the first _Love Replications Week_ of 2026.
 Find the events curated by the great folks from [FORRT](https://forrt.org/) and [MüCOS](https://www.uni-muenster.de/MueCOS/en/index.html) at 🔗 **<https://forrt.org/LoveReplicationsWeek/>**.
-Don't miss to scroll down to the full programm and find interesting and educational events.
+Don't miss to scroll down to the full programme and find interesting and educational events.
 On Tuesday, Daniel presented CODECHECK - find his slides on "How to get your reproducibility certificate with CODECHECK" on Zenodo: <https://doi.org/10.5281/zenodo.18849086>.
 
 ### 2025-08 | Institutional CODECHECKs launched in the Netherlands 🏛️
@@ -127,7 +127,7 @@ Find out more on the new page for institutional CODECHECKs at <https://codecheck
 ### 2025-07 | CODECHECK mentioned in OSIRIS report "10 Tales of Reproducibility" 🐉
 
 The [OSIRIS project](https://osiris4r.eu/) (Open Science to Increase Reproducibility in Science) is dedicated to reforming the Research and Innovation system, enhancing global acceptance, practice, and recognition of reproducibility in scientific research.
-In their report "Ten Tales of Reproducibility", they highlight the CODECHECKs at Amsterdam UMC as a community-driven effort to make reproducible research standar practice.
+In their report "Ten Tales of Reproducibility", they highlight the CODECHECKs at Amsterdam UMC as a community-driven effort to make reproducible research standard practice.
 They also shared the "tale 3" on [here on LinkedIn](https://www.linkedin.com/posts/osiris4r_tentalesofreproducibility-osiris-openscience-activity-7356232131167010818-gm7j).
 
 [![Screenshot of the CODECHECK pages of the OSIRIS report](/img/OSIRIS_CODECHECK-Tale-of-reproducibility.png){:width="300"}](/img/OSIRIS_CODECHECK-Tale-of-reproducibility.png)
@@ -136,7 +136,7 @@ Read [the full report](https://osiris4r.eu/wp-content/uploads/2025/06/OSIRIS_PDF
 
 ### 2025-06 | First check for OSF's Lifecycle Journal ♻️
 
-CODECHECK is one of the [Evaluation Services](https://lifecyclejournal.org/evaluation-services/) or a new journal started by the Open Science Framework (OSF), the Diamon Open Access Journal [**Lifecycle Journal**](https://lifecyclejournal.org/).
+CODECHECK is one of the [Evaluation Services](https://lifecyclejournal.org/evaluation-services/) or a new journal started by the Open Science Framework (OSF), the Diamond Open Access Journal [**Lifecycle Journal**](https://lifecyclejournal.org/).
 We are excited to join this great initiative for reimagining scholarly publishing for the initial period of 2025 and look forward to working with the Lifecycle Journal team and the community.
 If you work in one of the [fields covered by the journal](https://lifecyclejournal.org/about/), please consider submitting your work to the journal and sharing a reproducible workflow with it!
 
@@ -175,7 +175,7 @@ Read the blog [on the ESSB Repro Checks website](https://eduardklap.github.io/re
 
 ### 2024-11 | CODECHECK at ASSA summer school in Eindhoven 🔉
 
-On the last day of the 🍁 [Autumn School Series in Acoustics](https://www.linkedin.com/company/assaeindhoven/) at [Eindhoven University of Technology](https://www.tue.nl/en/), the autum school team of [Maarten Hornikx](https://www.linkedin.com/in/maartenhornikx/) and [Huiqing Wang](https://www.linkedin.com/in/huiqing-wang-2596544a/) organized a track on _open research software in the computational acoustics_.
+On the last day of the 🍁 [Autumn School Series in Acoustics](https://www.linkedin.com/company/assaeindhoven/) at [Eindhoven University of Technology](https://www.tue.nl/en/), the autumn school team of [Maarten Hornikx](https://www.linkedin.com/in/maartenhornikx/) and [Huiqing Wang](https://www.linkedin.com/in/huiqing-wang-2596544a/) organized a track on _open research software in the computational acoustics_.
 
 This day is part of the [NWO](https://www.nwo.nl/en/) (Dutch Research Council) open science fund project [_Unlocking the impact potential of research software in acoustics_](https://www.nwo.nl/en/projects/osf231057), driven by the [TU/e Building Acoustics](https://building-acoustics.net/) team, which targets to to foster a culture change regarding good practices in open science regarding the development and dissemination of research software in acoustics.
 After a successful workshop in [Nantes](https://lnkd.in/em5HDJ6m), the team now targeted early career researchers.
@@ -231,7 +231,7 @@ Follow us on YouTube: <https://www.youtube.com/@cdchck>
 
 CODECHECK team member Daniel Nüst had the honour to participate in a panel discussion on November 23rd 2022.
 The German Reproducibility Network ([GRN](https://reproducibilitynetwork.de/)) organised the two-day event _"How to build, grow, and sustain reproducibility or open science initiatives: A virtual brainstorming event"_.
-Learn more about the evenet and this asynchronous unconference-style meeting format [on the website](https://www.bihealth.org/en/notices/how-to-build-grow-and-sustain-reproducibility-or-open-science-initiatives-a-virtual-brainstorming-event).
+Learn more about the event and this asynchronous unconference-style meeting format [on the website](https://www.bihealth.org/en/notices/how-to-build-grow-and-sustain-reproducibility-or-open-science-initiatives-a-virtual-brainstorming-event).
 The event was accompanied by a live and interactive  and the [panel discussion](https://www.bihealth.org/en/notices/how-to-build-grow-and-sustain-reproducibility-or-open-science-initiatives-panel-session) on the same topic.
 The panelists were representatives of the German Reproducibility Network (GRN) and actively involved in initiatives that focus on open science, open code, guidelines and research practices, as well as quality management, among other things.
 
@@ -242,7 +242,7 @@ We also thank the organization team from GRN steering group (Antonia Schrader, T
 
 [Markus](https://www.linkedin.com/in/markus-konkol-a3b244140) [Konkol](https://orcid.org/0000-0001-6651-0976) (<https://github.com/MarkusKonk>, <https://twitter.com/MarkusKonkol>), research software engineer at [52°North](https://52north.org/) and codechecker, organised a **CODECHECK hackathon** as part of the [OpenGeoHub summer school](https://opengeohub.org/summer-school/siegburg-2022/).
 He reports on his experiences in a blog post in the 52°North blog at <https://blog.52north.org/2022/09/16/opengeohub-summer-school-facilitating-reproducibility-using-codecheck/>.
-It's great to see that codechecking is a suitable evening pastime activity and that participants took some nice learnigns away from the experience of codechecking.
+It's great to see that codechecking is a suitable evening pastime activity and that participants took some nice learnings away from the experience of codechecking.
 Check out the quotes in the blog post!
 
 Thanks, Markus, for spreading the word about CODECHECK and for introducing more developers and software-developing researchers of the need for their expertise during peer review.
@@ -266,7 +266,7 @@ The CODECHECK team is grateful about the continued interest from the research co
 Stephen gave a talk at the [**2022 Toronto Workshop on Reproducibility**](https://canssiontario.utoronto.ca/event/toronto-workshop-on-reproducibility/) organised by [Rohan Alexander](https://rohanalexander.com/).
 You can find the [slides online](https://sje30.github.io/talks/2022/codecheck22.html) and also watch the [**recording on YouTube**](https://www.youtube.com/watch?v=TgDgcqtsFvE) - very worth a look because of the great Q&A at the end!
 
-Stephen presented **CODECHECK: An Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility** ([slides](https://bit.ly/codecheck21)) in May 2021 at the [Reproducibility Tea Southhampton](https://reproducibilitea.org/journal-clubs/#Southampton).
+Stephen presented **CODECHECK: An Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility** ([slides](https://bit.ly/codecheck21)) in May 2021 at the [Reproducibility Tea Southampton](https://reproducibilitea.org/journal-clubs/#Southampton).
 
 Daniel gave the keynote at the [Collaborations Workshop 2022](https://software.ac.uk/cw22) (CW22) on April 4, 2022, organised by the Software Sustainability Institute ([SSI](https://software.ac.uk/)), UK entitled **Code execution during peer review** ([slides](https://bit.ly/cw22-keynote-daniel), [PDF](https://doi.org/10.6084/m9.figshare.19487573), [video](https://youtu.be/EHyEsZCDR1U?t=172)) and presented CODECHECK as well as the partnering initiative [Reproducible AGILE](https://reproducible-agile.github.io/).
 

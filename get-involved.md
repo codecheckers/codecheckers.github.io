@@ -44,7 +44,7 @@ Take a look at the [**benefits** of a CODECHECK in a review process](/benefits).
 Still interested? **Great!**
 There is no formal process or certification.
 However, we are very interested in helping you to get started.
-You can simply announce publicly that you conduct a workflow review adhereing to the CODECHECK principles, e.g., in a blog post.
+You can simply announce publicly that you conduct a workflow review adhering to the CODECHECK principles, e.g., in a blog post.
 A link to the CODECHECK principles in your submission guidelines would probably be helpful for authors and reviewers.
 Please consider adding a <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> badge to the publication to highlight the fact that a CODECHECK was conducted.
 The badge should link directly to the CODECHECK certificate.
@@ -63,7 +63,7 @@ We have several organisations (see [this page with institutional CODECHECK workf
 ## As a developer or science communicator
 
 CODECHECK is a community effort, and your help is welcome across all tasks that the team faces.
-If you want to write code to assisst codecheckers to conduct more effective reviews or to streamline the CODECHECK review processes, or if you want to help presenting and sharing CODECHECK's vision and educate others on code executability checks - then _please get in touch with the [CODECHECK team](/partners/) (see contact details below)_.
+If you want to write code to assist codecheckers to conduct more effective reviews or to streamline the CODECHECK review processes, or if you want to help presenting and sharing CODECHECK's vision and educate others on code executability checks - then _please get in touch with the [CODECHECK team](/partners/) (see contact details below)_.
 
 ## As an event organiser
 

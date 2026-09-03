@@ -58,30 +58,30 @@ You can check there for more examples from different communities.
   - [_Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets_](https://doi.org/10.5194/agile-giss-4-8-2023)
     (web app, Jupyter notebook)
 
-    CODECHECk certificate 2023-008: <https://doi.org/10.17605/OSF.IO/AQGXR>
+    CODECHECK certificate 2023-008: <https://doi.org/10.17605/OSF.IO/AQGXR>
   - [_Urban Sound Mapping for Wayfinding - A theoretical Approach and an empirical Study_](https://doi.org/10.5194/agile-giss-4-9-2023)
     (R and QGIS)
 
-    CODECHECk certificate 2023-001: <https://doi.org/10.17605/OSF.IO/C7VX3>
+    CODECHECK certificate 2023-001: <https://doi.org/10.17605/OSF.IO/C7VX3>
   - [_Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands_](https://doi.org/10.5194/agile-giss-5-6-2024)
     (Python with Conda, data subset)
 
-    CODECHECk certificate 2024-013: <https://doi.org/10.17605/OSF.IO/TXGZV>
+    CODECHECK certificate 2024-013: <https://doi.org/10.17605/OSF.IO/TXGZV>
   - [_The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna_](https://doi.org/10.5194/agile-giss-5-4-2024)
     (Python, with requirements.txt by codechecker)
 
-    CODECHECk certificate 2024-013: <https://doi.org/10.17605/OSF.IO/W42AD>
+    CODECHECK certificate 2024-013: <https://doi.org/10.17605/OSF.IO/W42AD>
   - [_Developing a city-specific walkability index through a participatory approach_](https://doi.org/10.5194/agile-giss-5-2-2024)
     (mixed methods; QGIS and Python)
 
-    CODECHECk certificate 2024-013: <https://doi.org/10.17605/OSF.IO/CSB7R>
+    CODECHECK certificate 2024-013: <https://doi.org/10.17605/OSF.IO/CSB7R>
   - [_Knowledge-Based Identification of Urban Green Spaces: Allotments_](https://doi.org/10.5194/agile-giss-5-8-2024)
     (R, proprietary GIS)
 
-    CODECHECk certificate 2024-013: <https://doi.org/10.17605/OSF.IO/3NBJW>
+    CODECHECK certificate 2024-013: <https://doi.org/10.17605/OSF.IO/3NBJW>
 - Archaeology ⛏️🗿
   - [_The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces_](https://doi.org/10.1016/j.jas.2020.105306)
 
     CODECHECK Certificate 2020-025. <https://doi.org/10.5281/zenodo.4279275>
-- _Your scientific dispipline here..._
+- _Your scientific discipline here..._
   - **[Get involved!](/get-involved)**

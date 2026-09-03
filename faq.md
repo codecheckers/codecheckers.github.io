@@ -9,7 +9,7 @@ permalink: /faq/
 **Yes.**
 
 - A little bit is more than nothing.
-- The lower the bar, the earlier in the process a CODECHECK can occure (e.g. pre-review)
+- The lower the bar, the earlier in the process a CODECHECK can occur (e.g. pre-review)
 - Exposure to reproducibility practices is key.
 - Nudging works.
 - Better get a certificate for small parts of the workflow than not doing any codechecking - not everything needs to be checked.
@@ -57,7 +57,7 @@ In this first implementation of the CODECHECK principles, we imagine an open pro
 
 The codechecker puts their name under the CODECHECK.
 That is more important than technical details, which will vary on a case by case basis.
-Codecheckers are encouraged to apply commonly used tools to assisst reproducibility, such as notebooks or containerisation, but are not required to do so.
+Codecheckers are encouraged to apply commonly used tools to assist reproducibility, such as notebooks or containerisation, but are not required to do so.
 
 ## What if Docker/`make`/_software X_ is not available anymore?
 

@@ -29,7 +29,7 @@ More information: <https://www.tudelft.nl/digital-competence-centre/services/rep
 ![Amsterdam UMC Logo](/img/Amsterdam-UMC_Logo.png){:width="600"}
 
 The Research Data Management (RDM) department of Amsterdam UMC currently offers CODECHECK as a pilot service.
-This service focuses on computational workflows in R and/or Python, based on pre-prints or manuscripts ready for submission.
+This service focusses on computational workflows in R and/or Python, based on pre-prints or manuscripts ready for submission.
 It is available to all research staff from Amsterdam UMC, including PhD candidates. While metadata should be made publicly available, we encourage researchers — in the interest of open science — to also make their data openly accessible whenever possible.
 CODECHECK requests can be made via ServiceNow, RDM Research Software Management.
 
