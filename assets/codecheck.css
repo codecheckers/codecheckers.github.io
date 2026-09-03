@@ -111,10 +111,17 @@ blockquote p:first-of-type {
   list-style: none;
   margin: 0;
   padding: 0;
+  /* override the global ul max-width so items use the full column width */
+  max-width: none;
 }
 
 #latest_checks ul li {
   margin: 0 0 0.8em 0;
+}
+
+/* opt-out of the global ol/ul max-width below, e.g. for lists in news items */
+.full-width {
+  max-width: none !important;
 }
 
 @media screen and (min-width: 400px) {

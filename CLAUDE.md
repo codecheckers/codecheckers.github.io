@@ -4,60 +4,94 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-CODECHECK project website (codecheck.org.uk) — a Jekyll-based static site for an academic initiative around independent execution of computations underlying scholarly research articles. Hosted via GitHub Pages from the `master` branch. The custom domain is configured via the `CNAME` file.
+CODECHECK project website (codecheck.org.uk) — a Jekyll static site for an academic initiative around independent execution of computations underlying scholarly research articles.
+
+The repository is named `codecheckers.github.io` on purpose: the site **must** be built by GitHub Pages from the `master` branch of the organisation site repo, because only then do other project repos render as subpages (e.g. <https://codecheck.org.uk/register> comes from a *different* repository). Do not propose moving the build to CI/a `gh-pages` branch. The custom domain lives in `CNAME`.
 
 ## Build & Development Commands
 
 ```bash
-# Local development with live reload (requires bundler)
-make preview        # runs jekyll clean + jekyll serve
+bundle install      # Ruby dependencies
 
-# Build the site
-make build          # runs jekyll clean + jekyll build
+make preview        # jekyll clean + jekyll serve (live reload, http://localhost:4000)
+make build          # jekyll clean + jekyll build
+make proof          # build + htmlproofer over _site (ignores /register, localhost)
+make checklinks     # build + Dockerised linaroits/linkcheck
 
-# Alternative: Docker-based development (Jekyll 4.2.0)
-docker compose up   # serves at http://localhost:4000
-
-# Validate HTML and links
-make proof          # builds then runs htmlproofer
-
-# Install Ruby dependencies
-bundle install
+docker compose up   # alternative dev server
 ```
+
+Note the version skew: local/GH Pages builds use Jekyll 3.10 (`Gemfile`), while `docker-compose.yml` pins the `jekyll/jekyll:4.2.0` image. Prefer `make preview` when behaviour differences matter.
+
+`error_mode: strict` in `_config.yml` means Liquid errors fail the build rather than rendering silently — always run `make build` after touching templates or front matter.
+
+`make proof` deliberately ignores `/register` because those pages are not part of this repository.
 
 ## Architecture
 
-- **Jekyll 3.10** with remote theme `aterenin/minima-reboot`
-- **Plugins**: jekyll-seo-tag, jekyll-redirect-from
-- **Markdown**: kramdown with GFM parser
-- **Frontend**: Bootstrap 4.1.3, jQuery, Mustache.js (for dynamic content on homepage)
-- **Config**: `_config.yml` — strict error mode enabled
+- **Jekyll 3.10**, kramdown with the GFM parser, plugins `jekyll-seo-tag`, `jekyll-remote-theme`, `jekyll-redirect-from`.
+- **Theme**: `remote_theme: aterenin/minima-reboot`. To override a theme file, run `bundle info minima-reboot` and copy the file into this repo at the same path.
+- **Frontend**: Bootstrap 4.1.3 + jQuery + Mustache.js, all **vendored** under `assets/js/` (the original CDN URLs are kept in HTML comments next to each `<script>` tag). No build step, no npm.
 
-### Key Directories
+### Navigation and content
 
-- `_layouts/` — custom layouts: `default.html`, `spec.html`, `nl.html`
-- `_includes/` — header, footer, head components, SVG social icons
-- `assets/` — CSS (`codecheck.css`, `bootstrap.min.css`), JS (`codecheck.js` loads dynamic register data)
-- `guide/` — detailed CODECHECK process documentation and templates
-- `nl/` — CHECK-NL Dutch project subsite (uses `nl` layout)
-- `pub/` — CHECK-PUB OJS plugin project page
-- `spec/` — specification content
-- `logo/`, `badges/`, `img/` — branding assets (excluded from Jekyll build via `_config.yml`)
+Top-level `.md` files are the content pages; the navigation is whatever `header_pages` in `_config.yml` lists (`project`, `process`, `workflows`, `partners`, `get-involved`). Other top-level pages (`faq.md`, `benefits.md`, `institutions.md`, `mozilla-project.md`) exist but are only reachable via in-page links.
 
-### Content Pages
+### Layouts
 
-Top-level Markdown files (`index.md`, `project.md`, `process.md`, `workflows.md`, `partners.md`, `get-involved.md`, `faq.md`) map to site navigation defined in `_config.yml` under `header_pages`.
+`_layouts/` holds three custom layouts on top of the theme's:
 
-### Dynamic Content
+- `default.html` — general pages
+- `spec.html` — versioned specification pages, renders `page.title` + `page.version` in a custom header
+- `nl.html` — CHECK-NL subsite, adds the Dutch flag banner styling
 
-`assets/codecheck.js` fetches CODECHECK register data from external sources and renders it on the homepage using Mustache templates.
+### Versioned specs
 
-## Markdown Linting
+`spec/config/*.md` are versioned documents. Each sets `layout: spec`, a `version`, an explicit `permalink` (e.g. `spec/config/1.0/`), and `redirect_from` aliases so that `spec/config/latest/` points at the current version. When publishing a new spec version, move the `latest`/major-version aliases from the old file to the new one.
 
-`.markdownlint.json` allows inline HTML elements (div, span, iframe, details, etc.), disables line length (MD013), first-line heading (MD041), and trailing punctuation in headings (MD026).
+### Dynamic register content
 
-## Branding
+The homepage shows live data from the separately hosted CODECHECK register. The `$.ajax` calls live **inline in `index.md`** (in a `<script>` block near the bottom), fetching:
 
-- CODECHECK green: `#008033`
-- Logo variants in `logo/` directory (SVG, PNG, hex sticker, B&W)
-- Badges in `badges/` directory
+- `https://codecheck.org.uk/register/featured.json` — latest checks
+- `https://codecheck.org.uk/register/stats.json` — check count
+- `https://codecheck.org.uk/register/codecheckers/index.json`
+- `https://codecheck.org.uk/register/venues/index.json`
+
+`assets/codecheck.js` only provides the helpers (`parseChecks`, `updateList`, `updateCount`) that turn that JSON into Mustache-rendered list items. Scripts are injected via the `head_inline` front matter key.
+
+Beware stale register URLs: the register is a separate site that gets restructured independently of this repo, so links here rot silently (`make proof` ignores `/register`). Verify with `curl -s -o /dev/null -w "%{http_code}" <url>` before citing a register path. Current pages are `/register/` (checks), `/register/venues/`, `/register/works/`, `/register/persons/` (nav label says "People"), `/register/organisations/`, and `/register/statistics/`.
+
+### Homepage news items
+
+`index.md` carries a reverse-chronological `## News` section; new entries go directly under the `## News` heading. Each is `### YYYY-MM | Short title <emoji>` followed by prose, one sentence per line (semantic linefeeds), with links written inline or as bare `<https://…>` autolinks.
+
+Concrete figures quoted in news items (check counts, codechecker counts, …) should be read from the live register rather than guessed — `https://codecheck.org.uk/register/stats.json` carries `cert_count`, `venue_count`, `codechecker_count` plus per-year breakdowns, and the `works`/`persons`/`organisations` pages each state their own total in the first line of body text.
+
+Screenshots accompanying news items live in `img/` and are embedded with kramdown attributes, e.g. `[![Alt text](/img/file.png){:width="500"}](/target)`. Capture them with headless Chrome and crop with ImageMagick:
+
+```bash
+google-chrome --headless --disable-gpu --hide-scrollbars --window-size=1280,1400 \
+  --virtual-time-budget=8000 --screenshot=shot.png <url>
+convert shot.png -crop 1280x1270+0+0 +repage -bordercolor '#cccccc' -border 1 img/name.png
+```
+
+### Guide
+
+`guide/` is the process documentation, with the community workflow split by role — `community-workflow-overview.md`, `-author.md`, `-codechecker.md`, `-editor.md` — plus `bundle.md`, `event-recipe.md`, and downloadable report templates in `guide/templates/` (`.odt`/`.docx`) and PDFs. Changes to one role's workflow usually need a matching edit in the overview and the other roles.
+
+### Subsites
+
+`nl/` (CHECK-NL, Dutch project, `nl` layout) and `pub/` (CHECK-PUB OJS plugin) are self-contained page sets.
+
+## Assets and branding
+
+`logo/`, `badges/`, and `img/` hold branding sources; `logo` and `badge` are excluded from the Jekyll build in `_config.yml`. CODECHECK green is `#008033`. Website figures are kept in a shared Google Drive folder linked from `README.md`.
+
+## Markdown linting
+
+`.markdownlint.json` permits inline HTML (`div`, `span`, `iframe`, `details`, …) and disables MD013 (line length), MD041 (first-line heading), and MD026 (trailing punctuation in headings). Content files freely mix HTML into Markdown; keep to that style.
+
+## Licensing
+
+Content is CC BY-SA 4.0; graphics in `logo/` and `badges/` are CC BY 4.0.

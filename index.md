@@ -10,7 +10,7 @@ head_inline: |
 <div class="row banner">
    <div class="col-6 col-lg">
       <img alt="CODECHECK logo" src="img/codecheck_logo.svg" width="100%" alt="CODECHECK logo" />
-      <p class="text-secondary text-justify"><em>Independent execution of computations underlying research articles.</em></p>
+      <p class="text-secondary text-center"><em>Independent execution of computations underlying research articles.</em></p>
    </div>
 
    <div class="col-12 col-lg">
@@ -19,7 +19,7 @@ head_inline: |
          <ul id="check_list">
          </ul>
       </div>
-      <p>See the <a href="/register"><strong>CODECHECK register</strong></a> for all <span id="check_count"></span> completed certificates, <a href="/register/codecheckers/" title="List of all people contributing CODECHECKs">all <span id="codechecker_count"></span> codecheckers</a>, and <a href="/register/venues/" title="List of all CODECHECK venues, e.g., journals and conferences">all <span id="venue_count"></span> venues</a>.</p>
+      <p>See the <a href="/register"><strong>CODECHECK register</strong></a> for all <span id="check_count"></span> completed certificates, <a href="/register/works/" title="List of all works that have been codechecked">works</a>, <a href="/register/persons/" title="List of all people who authored or checked a work">all <span id="person_count"></span> people</a>, and <a href="/register/venues/" title="List of all CODECHECK venues, e.g., journals and conferences">all <span id="venue_count"></span> venues</a>.</p>
    </div>
 </div>
 
@@ -38,7 +38,7 @@ CODECHECK is based on **five principles** which are described in detail in the [
 The principles can be implemented in different [processes](/process/), one of which is the [CODECHECK community workflow](/guide/community-workflow-overview).
 **If you want to get involved as a codechecker in the community, or if you want to apply the CODECHECK principles in your journal or conference, please take a look at the [Get Involved](/get-involved) page.**
 
-To **stay in touch** with the project, follow us on social media at <img src="/img/icon-mastodon.svg" alt="Mastodon logo" style="margin-top: -3px;" /> **<https://fediscience.org/@codecheck>**.
+To **stay in touch** with the project, follow us on social media at <img src="/img/icon-mastodon.svg" alt="Mastodon logo" style="margin-top: -3px;" /> **<https://fediscience.org/@codecheck>** and <img src="/img/icon-linkedin.svg" alt="LinkedIn logo" style="margin-top: -3px;" /> **<https://www.linkedin.com/company/codecheck/>**.
 
 ## News
 
@@ -298,10 +298,10 @@ $(document).ready(function(){
 
     $.ajax({
         type: "get",
-        url: "https://codecheck.org.uk/register/codecheckers/index.json",
+        url: "https://codecheck.org.uk/register/persons/index.json",
         dataType: "JSON",
         success: function(data) {
-            updateCount(data.length, "#codechecker_count");
+            updateCount(data.length, "#person_count");
         }
     });
 
