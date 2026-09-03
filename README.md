@@ -60,6 +60,32 @@ and open the website at <http://localhost>.
 
 More details at [`jekyll/jekyll` image documentation](https://github.com/envygeeks/jekyll-docker/blob/master/README.md).
 
+## Recurring news item: papers citing CODECHECK certificates
+
+A good source for news entries are **published articles that reference a CODECHECK
+certificate** in their text, e.g. the Wind Energy Science articles that state
+"This paper includes verified computational reproducibility, confirmed through an
+independent CODECHECK process".
+Searching for these is worth repeating roughly **once or twice a year**, collecting
+the new references since the previous round into one news item.
+
+How to search:
+
+- **Google Scholar** for `"CODECHECK certificate"` and variants - the only index
+  that searches publisher full texts, but it needs a real browser.
+- **Europe PMC** and **OpenAlex** full-text APIs, plus OpenAlex citations of the
+  certificate records themselves (certificates are indexed as works).
+- The **register** (`https://codecheck.org.uk/register/register.json`) lists every
+  check with its paper DOI, so recently checked papers can be inspected directly.
+
+Always verify a hit in the actual full text, and distinguish papers citing *their
+own* certificate from papers citing *someone else's* as an example.
+
+Local tooling for this lives in `.scholar/` (git-ignored, not part of the site):
+a Playwright-based Scholar client with a persistent browser profile, the API
+queries above, and a recipe for element-precise paragraph screenshots.
+See `.scholar/README.md`.
+
 ## License
 
 Except where otherwise this repository is licensed under a [Creative Commons Attribution Share-Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).

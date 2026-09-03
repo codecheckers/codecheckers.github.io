@@ -42,6 +42,43 @@ To **stay in touch** with the project, follow us on social media at <img src="/i
 
 ## News
 
+### 2026-09 | CODECHECK in the literature 📄
+
+Certificates are not an end in themselves - they become useful when they are cited.
+Over the past months several articles did exactly that, and others pointed their readers to the CODECHECK project as a whole.
+
+#### CODECHECK certificates cited in papers
+
+Two companion articles on leading-edge inflatable kites in [Wind Energy Science](https://www.wind-energy-science.net/) carry the same statement in their _Code and data availability_ section:
+
+[![Screenshot of the code and data availability statement in Poland et al. 2026, mentioning the independent CODECHECK process and linking the certificate](/img/wes-2026-codecheck-statement.png){:width="600"}](https://doi.org/10.5194/wes-11-911-2026)
+
+- Poland, van Spronsen, Gaunaa, and Schmehl: _Wind tunnel load measurements of a leading-edge inflatable kite rigid-scale model_, <https://doi.org/10.5194/wes-11-911-2026>, citing [certificate 2025-007](/register/certs/2025-007/).
+- Poland, Fritz, and Schmehl: _Flow field analysis of a leading-edge inflatable kite rigid-scale model using stereoscopic particle image velocimetry_, <https://doi.org/10.5194/wes-11-1461-2026>, citing [certificate 2026-001](/register/certs/2026-001/).
+{:.full-width}
+
+Both checks were conducted by Josip Grguric and [Yasel Quintero](/register/persons/0009-0005-9240-7370/) of the TU Delft DCC - the same team that [presented their Reproducibility Check service at ACM REP '26](#2026-08--codecheck-talk-at-acm-rep-26-in-delft-).
+
+In [iScience](https://www.cell.com/iscience/home), Tabandeh and Spitschan go one step further in _Photoreceptor-specific scene statistics reveal melanopic structure in natural environments_ (<https://doi.org/10.1016/j.isci.2026.116661>, [certificate 2026-019](/register/certs/2026-019/)).
+Besides stating in the data and code availability section that "the computational analyses were independently executed and assessed through CODECHECK", they list the certificate as a resource of its own in the article's _key resources table_, next to the data deposits and the software versions used.
+That table is part of Cell Press' [STAR Methods](https://www.elsevier.com/researcher/author/tools-and-resources/key-resources-table) and collects the resources needed to reproduce a paper - a fitting place for a codecheck.
+
+[![Screenshot of the key resources table in Tabandeh and Spitschan 2026, with a row for the CODECHECK certificate for computational reproducibility](/img/isci-2026-key-resources-table.png){:width="600"}](https://doi.org/10.1016/j.isci.2026.116661)
+
+And in the preprint _AbSolution and ENCORE: a proof-of-concept for automating computational reproducibility in interactive applications_ (<https://doi.org/10.64898/2026.05.16.724131>) by García-Valiente, Langton, and van Kampen, the CODECHECK even made it into the **abstract**: "Its reproducibility has been independently validated by the CODECHECK initiative."
+The check behind it is [certificate 2025-025](/register/certs/2025-025/), conducted by [Sam Langton](/register/persons/0000-0002-1322-1553/).
+
+#### CODECHECK mentioned as an initiative
+
+Other authors write about CODECHECK without having been codechecked themselves:
+
+- López-Moreno, Dolores-Cuenca, and Kim discuss post-publication code verification in _Standardization of Post-Publication Code Verification by Journals is Possible with the Support of the Community_ (<https://arxiv.org/abs/2601.07189>) and describe CODECHECK as "a platform that encourages independent replication of computations of research articles", using [certificate 2025-022](/register/certs/2025-022/) as their example of what a certificate contains.
+- Zagrodzka, Adams, and Beckerman put CODECHECK in the company of some large names in _Research Technical Professionals as Catalysts in Advancing Open Science_ (<https://doi.org/10.12688/f1000research.177665.1>): they see "national and international open science initiatives that promote openness and shared standards such as UNESCO's Recommendation on Open Science, the UK Reproducibility Network, Center for Open Science, and community efforts like CodeCheck and FORRT".
+{:.full-width}
+
+We are happy to see codechecks turn into citable, referenced parts of the scholarly record - exactly what the certificate DOIs are for.
+If you know of further articles referencing a CODECHECK certificate or the project, please [tell us](mailto:team@cdchck.science)!
+
 ### 2026-09 | New pages in the CODECHECK register 🔎
 
 The [CODECHECK register](/register/) has grown well beyond a list of certificates.
