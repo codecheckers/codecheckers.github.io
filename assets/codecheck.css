@@ -2,6 +2,28 @@ body {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
+/* Content images carry a fixed pixel width (kramdown `{:width="500"}`), which
+   on a phone is wider than the screen and makes the whole page scroll
+   sideways. Scale them down to the column instead; height:auto keeps the
+   aspect ratio, since the width attribute is set without a height. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Same for embedded players, which carry a fixed width="560" attribute. */
+iframe {
+  max-width: 100%;
+}
+
+/* A bare URL written as an autolink is one long unbreakable word and pushes
+   the page wider than a phone screen; let those break. Not scoped to a content
+   wrapper: the CHECK-NL layout has none. */
+a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
 #content h1, #content h2, #content h3, #content h4, #content h5 {
   color: #008033;
   margin-top: 4rem;
@@ -88,6 +110,26 @@ footer {
 #nav-menu a {
   border-top: 5px solid #d0e7d9;
   font-weight: bold;
+}
+
+/* Six items since the Register entry was added: tighten them so the menu still
+   fits on one line next to the site title. The content column is the same
+   width at every desktop size, so what breaks the line at 1200px is the body
+   font-size stepping up to 1.4em - the em value below keeps the menu at the
+   size it has just under that breakpoint. Below md the theme collapses the
+   menu into the burger, where none of this applies. */
+@media (min-width: 768px) {
+  #nav-menu a {
+    font-size: 0.95em;
+    padding-left: 0.35rem !important;
+    padding-right: 0.35rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #nav-menu a {
+    font-size: 0.8em;
+  }
 }
 
 #nav-menu a:hover {

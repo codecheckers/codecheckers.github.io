@@ -13,7 +13,13 @@ checklinks: build
 proof: build
 	bundle exec htmlproofer ./_site --enforce_https=false --ignore-status-codes 999,403,429 --ignore-urls localhost:4000,/register
 
+# report pages that scroll sideways at phone width, i.e. content cut off with
+# no way to reach it; PATHS and WIDTH override the defaults
+overflow: build
+	./test/overflow.py $(if $(WIDTH),--width $(WIDTH)) $(PATHS)
+
 # headless-Chrome screenshots of the built site at phone/tablet/desktop widths,
 # see test/screenshot.sh for options (paths, viewports, output directory)
 screenshots:
 	./test/screenshot.sh -b $(PATHS)
+.phony: screenshots, overflow

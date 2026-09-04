@@ -94,6 +94,12 @@ make screenshots PATHS="/ /faq/"       # other pages
 test/screenshot.sh -b -o shots -w 393x1600 /404.html   # full control
 ```
 
+`test/overflow.py` (`make overflow`, `make overflow WIDTH=768`) measures
+`documentElement.scrollWidth` against the viewport on each page and names the
+elements sticking out when one is too wide - fixed-width images, embedded
+players and bare-URL autolinks are the usual culprits, and `assets/codecheck.css`
+caps all three. A page that overflows drags the header and footer out with it.
+
 `test/screenshot.sh` builds (with `-b`), serves `_site/` on a free port with
 `python3 -m http.server`, shoots each path at each viewport and prints the PNG
 paths; without `-o` they go to a fresh `/tmp/codecheck-shots-*` directory. No

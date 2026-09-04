@@ -11,6 +11,12 @@
         </label>
 
         <div id="nav-menu" class="d-none d-md-block">
+          {%- comment -%}
+            The register is a separate site (the codecheckers/register repo)
+            served under /register/, so it is not one of site.pages and cannot
+            be listed in header_pages - hence this hand-written entry.
+          {%- endcomment -%}
+          <a class="text-dark ml-3 ml-md-0 p-2 d-block d-md-inline-block" href="{{ "/register/" | relative_url }}">Register</a>
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
