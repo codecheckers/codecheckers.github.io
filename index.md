@@ -8,7 +8,7 @@ head_inline: |
 ---
 
 <div class="row banner">
-   <div class="col-6 col-lg">
+   <div class="col-12 col-lg">
       <img alt="CODECHECK logo" src="img/codecheck_logo.svg" width="100%" alt="CODECHECK logo" />
       <p class="text-secondary text-center"><em>Independent execution of computations underlying research articles.</em></p>
    </div>

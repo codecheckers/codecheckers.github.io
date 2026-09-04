@@ -51,9 +51,6 @@ footer_icons:
   - username: youtube.com/@cdchck
     url: https://www.youtube.com/@cdchck
     icon: icon-youtube.svg
-  - username: Team
-    url: mailto:team@cdchck.science
-    icon: icon-email.svg
 
 header_pages:
   - project.md

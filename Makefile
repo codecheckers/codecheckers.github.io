@@ -12,3 +12,8 @@ checklinks: build
 
 proof: build
 	bundle exec htmlproofer ./_site --enforce_https=false --ignore-status-codes 999,403,429 --ignore-urls localhost:4000,/register
+
+# headless-Chrome screenshots of the built site at phone/tablet/desktop widths,
+# see test/screenshot.sh for options (paths, viewports, output directory)
+screenshots:
+	./test/screenshot.sh -b $(PATHS)

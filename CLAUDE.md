@@ -84,6 +84,52 @@ convert shot.png -crop 1280x1270+0+0 +repage -bordercolor '#cccccc' -border 1 im
 
 `nl/` (CHECK-NL, Dutch project, `nl` layout) and `pub/` (CHECK-PUB OJS plugin) are self-contained page sets.
 
+## Visual and responsive testing
+
+Layout regressions are checked by rendering the built site in headless Chrome:
+
+```bash
+make screenshots                       # home page at 393x851, 768x1024, 1280x900
+make screenshots PATHS="/ /faq/"       # other pages
+test/screenshot.sh -b -o shots -w 393x1600 /404.html   # full control
+```
+
+`test/screenshot.sh` builds (with `-b`), serves `_site/` on a free port with
+`python3 -m http.server`, shoots each path at each viewport and prints the PNG
+paths; without `-o` they go to a fresh `/tmp/codecheck-shots-*` directory. No
+npm, no Puppeteer - just `google-chrome --headless --screenshot`.
+
+- `393x851` is the CSS-pixel viewport of current Android phones incl. the
+  Fairphone FP4 (1080x2340 at DPR 2.75) - use it for the mobile check.
+- Chrome captures the **viewport**, not the full page, so to look at the footer
+  either shoot a short page (`/404.html`) or pass a tall viewport
+  (`-w 393x1600`).
+- The home page's "Latest CODECHECKs" list is fetched live from the register,
+  so screenshots of `/` need network access; an empty list means the AJAX call
+  failed, not a layout bug.
+
+**jsdom cannot do this job**: it parses HTML and runs scripts but implements no
+CSS cascade, no box model and no media queries (`getBoundingClientRect()`
+returns zeros), so responsive breakpoints are invisible to it. Use it only for
+DOM/JS logic (e.g. `assets/codecheck.js` helpers), never for layout.
+
+### Responsive layout conventions
+
+Grid columns need an explicit `col-12` for the stacked case (`col-12 col-lg`) -
+a bare `col`/`col-6` keeps sharing the row on phones and produces the cramped
+half-width columns this site had in the home page banner and the footer.
+
+- Home page banner: logo and the "Latest CODECHECKs" column split at `lg`
+  (992px); below that the logo spans the full width, capped at 400px and
+  centred by `assets/codecheck.css` behind
+  `@media screen and (max-width: 991.98px)`.
+- Footer (`_includes/footer.html`): **two columns at most**, from `md` on -
+  copyright/licence next to the links, description across the full width.
+  Three columns were tried and are too narrow for handles like
+  `linkedin.com/company/codecheck/`, which then overlap the next column.
+  The footer lists also opt out of the global `ul` max-width, which would
+  otherwise shift their centred content off the column centre.
+
 ## Assets and branding
 
 `logo/`, `badges/`, and `img/` hold branding sources; `logo` and `badge` are excluded from the Jekyll build in `_config.yml`. CODECHECK green is `#008033`. Website figures are kept in a shared Google Drive folder linked from `README.md`.

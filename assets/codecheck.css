@@ -40,8 +40,44 @@ body {
   margin-bottom: 3rem;
 }
 
+/* Below lg the "Latest CODECHECKs" column moves under the logo, so the logo
+   column spans the full width - keep the image itself from growing beyond a
+   sensible size and centre it. */
+@media screen and (max-width: 991.98px) {
+  .banner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
+
 footer {
   font-size: 90%;
+}
+
+/* the global ol/ul max-width would make the footer lists 80%/60% wide and
+   left-aligned, which shifts their centred content off the column centre */
+#site-footer ul {
+  max-width: none;
+}
+
+/* The footer never goes three columns: at that width the columns are too
+   narrow for the long handles and URLs. Two columns from md on (copyright
+   and links side by side, description below), one column on phones. */
+
+/* long URLs and handles must not push the footer wider than its column */
+#site-footer a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* justified text stretches badly in a narrow or stacked column */
+#site-footer .text-justify {
+  text-align: left !important;
+}
+
+#site-footer .row > [class^="col"] {
+  margin-top: 1rem;
 }
 
 #nav-header {
