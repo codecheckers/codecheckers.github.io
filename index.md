@@ -42,6 +42,27 @@ To **stay in touch** with the project, follow us on social media at <img src="/i
 
 ## News
 
+### 2026-09 | The register as linked data on Wikidata 🌐
+
+A certificate is more useful the easier it is to find, and the best place to be found is where everybody already looks.
+All **132 CODECHECK certificates** are therefore now items on [Wikidata](https://www.wikidata.org/), the free and open knowledge base behind Wikipedia and a growing part of the scholarly infrastructure.
+Each certificate is linked to the work it checks with the "review of" property ([P6977](https://www.wikidata.org/wiki/Property:P6977)), the same relation Wikidata uses for any other kind of review.
+Examples:
+
+- [CODECHECK Certificate 2020-001](https://www.wikidata.org/wiki/Q116702174) - our very first certificate, reviewing [ShinyLearner](https://www.wikidata.org/wiki/Q91579802) in _GigaScience_.
+- [CODECHECK Certificate 2025-007](https://www.wikidata.org/wiki/Q141269712) - the kite wind tunnel measurements whose article [cites its certificate](#2026-09--codecheck-in-the-literature-).
+- [CODECHECK Certificate 2026-019](https://www.wikidata.org/wiki/Q141269763) - the _iScience_ article that lists its codecheck in the key resources table.
+{:.full-width}
+
+Each item carries extensive metadata from the register and we tried to establish many links between register, Wikidata, and other resources.
+Now the codechecks are part of a knowledge graph, so one can run queries beyond what our current infrastructure offers, e.g. every certificate next to the work it reviews, in [one query](https://query-scholarly.wikidata.org/#SELECT%20%3Fcertificate%20%3FcertificateLabel%20%3Fwork%20%3FworkLabel%20WHERE%20%7B%0A%20%20%3Fcertificate%20wdt%3AP13046%20wd%3AQ116740071%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP6977%20%3Fwork%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D) (124 rows today - a work needs a DOI).
+
+Updates to Wikidata are integrated into a semi-automatic workflow as part of the register rendering: batches are prepared with code in the [`codecheck` R package](https://codecheck.org.uk/codecheck/) and pasted into [QuickStatements](https://quickstatements.toolforge.org/) by a person, published under their own account.
+For development and testing, we used our own instance at **<https://codecheck.wikibase.cloud>**, generously hosted by [Wikibase Cloud](https://www.wikibase.cloud/).
+It holds the same certificates plus the codecheckers and the venues, e.g. [certificate 2020-001](https://codecheck.wikibase.cloud/wiki/Item:Q89), the [work it reviews](https://codecheck.wikibase.cloud/wiki/Item:Q87), [Stephen J. Eglen](https://codecheck.wikibase.cloud/wiki/Item:Q18) and [GigaScience](https://codecheck.wikibase.cloud/wiki/Item:Q83).
+It also documents the model and the procedure: the [data model](https://codecheck.wikibase.cloud/wiki/Project:Data_model), all [certificates](https://codecheck.wikibase.cloud/wiki/Project:Certificates), and preview of the [export](https://codecheck.wikibase.cloud/wiki/Project:Wikidata_export).
+The full procedure is written up in the package vignette [_Export the register to Wikidata_](https://codecheck.org.uk/codecheck/articles/codecheck_wikidata.html), and the modelling decisions are discussed in [issue #50 of the register](https://github.com/codecheckers/register/issues/50) - comments and corrections on either are very welcome.
+
 ### 2026-09 | CODECHECK in the literature 📄
 
 Certificates are not an end in themselves - they become useful when they are cited.
