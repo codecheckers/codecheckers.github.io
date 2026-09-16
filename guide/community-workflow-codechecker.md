@@ -85,7 +85,7 @@ Some further tips:
         - Are used pieces of software and data properly CITED and publicly DEPOSITED und suitable LICENSES?
         - Are open formats (text-based etc.) used for input and output data?
         - Is the data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
-    1. Add **mandatory codechecker-contributed information** to the **`codecheck.yml`** file, see [spec](/spec/config/latest)
+    1. Add **mandatory codechecker-contributed information** to the **`codecheck.yml`** file, see [spec](/spec/config/latest), and validate the file with the `codecheck` R package: `codecheck::validate_codecheck_yml_rules("codecheck.yml")` reports every rule of the specification, including whether the ORCIDs and the paper's metadata match their ORCID and Crossref records
     1. [If applicable] Wait for the article DOI.
     1. [Recommended] Submit the unpublished draft of the Zenodo record for the certificate (see next step) [for review](https://help.zenodo.org/docs/share/submit-for-review/) to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck/); this allows a [CODECHECK editor](/guide/community-workflow-editor) to give feedback before you continue with the deposition and avoids direct updates of documents that just received a DOI.
 1. **Deposit the CODECHECK certificate on _Zenodo_** using your own Zenodo account and following the [community curation policy](https://zenodo.org/communities/codecheck/curation-policy) (which is replicated here for convenience):
