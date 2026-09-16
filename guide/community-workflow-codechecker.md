@@ -5,7 +5,7 @@ title: CODECHECK community workflow for codecheckers
 
 See also the [CODECHECK community workflow overview](/guide/community-workflow-overview) and [discuss your issues](https://github.com/orgs/codecheckers/discussions).
 This guide has two main parts - a _short community workflow list of steps_, and an _extended version_ which may be used as a reference.
-_Are you checking a paper with CHECK-NL?_ See their [workflow for in-person events}(/nl/workflow/).
+_Are you checking a paper with CHECK-NL?_ See their [workflow for in-person events](/nl/workflow/).
 
 ## Codechecker tasks - short version
 
