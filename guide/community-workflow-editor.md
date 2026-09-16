@@ -32,3 +32,15 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
     - "Archive" the repository clone in the codecheckers organisation on GitHub/the cdchck organisation on GitLab ([instructions for GitHub](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories), [instructions for GitLab](https://docs.gitlab.com/ee/user/project/working_with_projects.html#archive-a-project))
     - Close the issue on the register.
     - If a community check on a preprint is eventually mentioned in the published peer-reviewed article, you can update the reference DOI to the final paper, see [this example commit](https://github.com/codecheckers/leba-manuscript/commit/06e9a82da9a29a6edea1307ffbee050ee0a40cbb).
+
+## Automation with the Chekhov bot
+
+We are developing [Chekhov](https://github.com/codecheckers/chekhov), a bot that takes over repeated steps of this workflow, such as assigning codecheckers, validating the `codecheck.yml` early, and adding the certificate to the register.
+The bot is controlled by mentioning it in a comment on the register issue, and it is still in development: for now it only runs on the [testing register](https://github.com/codecheckers/testing-dev-register), not on the register itself.
+To see what it can do, comment
+
+```
+@chekhovbot help
+```
+
+Progress is tracked in [register#209](https://github.com/codecheckers/register/issues/209), where feedback is welcome.
