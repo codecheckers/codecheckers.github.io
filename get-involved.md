@@ -16,8 +16,9 @@ Please open an issue on the [codecheckers](https://github.com/codecheckers/codec
 You want to share the code underlying your research paper? **Congratulations** for the decision to practice Open Science and reproducible research!
 
 There are different ways for you to get involved, for example (a) submit a manuscript to a journal conducting CODECHECKs, (b) suggest a CODECHECK as part of your cover letter (see [this template for a **letter to the editor**](/guide/templates/letter-editor)), or (c) submit your workflow to the [community review process](/guide/community-workflow) right away if you have published a preprint.
-You can also combine (b) and (c) by sharing a draft with a CODECHECK editor.
-Please be so kind to reference the CODECHECK project in your manuscript using the citation provided at the end of this page.
+You can also combine (b) and (c) by sharing a draft or your work, or a preprint link, with a CODECHECK editor.
+For (c), your first step is to [**propose a new CODECHECK**](#propose-a-new-codecheck) by opening an issue on the CODECHECK register - see the [author guide](/guide/community-workflow-author) for how to prepare your workflow.
+In the eventual publication, please be so kind to reference the CODECHECK certificate and possibly also the project in your manuscript using the citation provided at the end of this page.
 
 Your work was codechecked? Good job!
 Please consider adding a [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to your repository or your personal website when you list your works.
@@ -28,12 +29,25 @@ The following snippet should work in Markdown:
 [![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/<DOI HERE>)
 ```
 
+## Propose a new CODECHECK
+
+You know of a paper whose code and data should be codechecked - your own, one you are reviewing or editing, or one your institution supports?
+New CODECHECKs start with an issue on the [CODECHECK register](https://github.com/codecheckers/register/issues).
+From the issue templates, your situation likely best matches a [**new community CODECHECK**](https://github.com/codecheckers/register/issues/new?template=new-community-codecheck.md), i.e., for papers or preprints to be checked by a volunteer codechecker in the [community workflow](/guide/community-workflow).
+<!--Because we use the issue and the connected metadata (title, labels) to manage our process, you are invited to use the [CODDECHECK Launch Pad](https://codecheck.org.uk/launch-pad/), a form that helps to fill in the required information.
+Note that for an unsolicited check you should leave the "Assign codecheckers" field empty and let the editors handle that - thanks!-->
+
+**Note**: The CODECHECK initiative is independent and driven by volunteers. This means that we have limited resources and it can take a while for us to respond to your proposal. Please understand that we may prioritise works based on our own experienes, the state of the work, existing collaborations, and available resources. For example, a published preprint or a privately shared PDF that is under submission at a journa we know both go a long way for us to better understand the state of a piece of research. Reach out to the [team](#as-a-curious-person-or-someone-with-a-question---get-in-touch) if you have any concerns about how your request is handled.
+
+If you are proposing somebody else's paper, please talk to the authors first - a CODECHECK works best when the authors are on board and can answer the codechecker's questions.
+Not sure which template fits, or no GitHub account? [Get in touch](#as-a-curious-person-or-someone-with-a-question---get-in-touch) and we will open the issue with you.
+
 ## As a reviewer or editor
 
 Take a look at the [**benefits** of a CODECHECK in a review process](/benefits).
 
 If you are contributing to science as a reviewer of academic manuscripts or as a journal editor, you can initiate a CODECHECK for submitted articles if the author provides suitable information.
-The [CODECHECK team](/partners) would be excited to help you start a conversation with your (fellow) journal editors on how you to best achieve that, i.e., if you conduct a [community CODECHECK](/guide/community-workflow), or if you want to set up a proper process at the journal (see below).
+The [CODECHECK team](/partners) would be excited to help you start a conversation with your (fellow) journal editors on how you to best achieve that, i.e., if you conduct a [community CODECHECK](/guide/community-workflow) (which you can [propose on the register](#propose-a-new-codecheck)), or if you want to set up a proper process at the journal (see below).
 
 ## As a journal, publisher, or conference
 
@@ -59,6 +73,7 @@ We would be happy to list your journal of conference on our website after we hav
 You are a data steward, a research software steward, or any other non-research staff that helps researchers to create more FAIR and reproducible research contributions?
 _Thank you for your service!_
 We have several organisations (see [this page with institutional CODECHECK workflows](/institutions/)) that have implemented CODECHECK workflows as a service offering for their researchers and would be happy to share their experiences with you, and learn how we can help to get you started, or how we can help you to improve your existing code checking workflows.
+Once your service is running, each check is registered with the [institutional CODECHECK issue template](https://github.com/codecheckers/register/issues/new?template=new-institutional-codecheck.md).
 
 ## As a developer or science communicator
 
