@@ -41,10 +41,25 @@ More information: <https://www.amsterdamumc.org/en/research/support/services-sup
 
 ## ITC
 
+[![ITC logo]({{ 'img/itc-logo@2x.png' | relative_url }}){:width="200"}](https://www.itc.nl/research/open-science/codecheck/)
+
 [Open Science @ ITC](https://www.itc.nl/research/open-science/codecheck/) provides CODECHECKs for their members.
 ITC is the [University of Twente](https://www.utwente.nl/en/)'s Faculty of Geo-Information Science and Earth Observation.
 
-[![ITC logo]({{ 'img/itc-logo@2x.png' | relative_url }}){:width="200"}](https://www.itc.nl/research/open-science/codecheck/)
+## University of Twente DCC
+
+![UT DCC Logo](/img/UT_DCC_BLACK_logo.png){:width="300"}
+
+To enhance the reproducibility of scientific publications by researchers at the University of Twente (UT), the [UT Digital Competence Centre](https://www.utwente.nl/en/dcc/) joins efforts with [4TU.ResearchData](https://data.4tu.nl/), [TU Delft DCC](https://www.tudelft.nl/digital-competence-centre/services/reproducibility-check), [OSC-Twente](https://www.openscience-twente.com/), and [CodeCheck](https://codecheck.org.uk/) to offer Reproducibility Checks. 
+
+We invite you to explore our website which, provides all the information to prepare and get your CODECHECK certificate. We encourage you to get in contact, even if you believe that your code is not ready, we will support you to get ready.
+
+Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/ut_dcc/>
+
+More information: <https://www.utwente.nl/en/dcc/reproducibility-check/>
+
+Contact: [software-stewards-lisa@utwente.nl](mailto:software-stewards-lisa@utwente.nl)
+
 
 ------
 
