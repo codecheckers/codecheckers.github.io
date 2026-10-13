@@ -5,7 +5,7 @@ permalink: /workflows/
 ---
 
 The [CODECHECK principles](/) can be implemented in different ways.
-A generic overview is provided in the [CODECHECK Process]({{ '/process' | absolute_url }}).
+A generic process and the dimensions along which implementations differ are described under [implementing CODECHECK]({{ '/benefits/#implementing-codecheck' | absolute_url }}).
 This process is realised in workflows listed here:
 
 - The **[CODECHECK community workflow]({{ '/guide/community-workflow-overview' | absolute_url }})**, which is used by the CODECHECK [team]({{ '/partners/#team' | absolute_url }}) to conduct checks for preprints or submitted manuscripts independent from journal collaborations.

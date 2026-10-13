@@ -50,7 +50,6 @@ PROBE = """<script>
 DEFAULT_PATHS = [
     "/",
     "/project/",
-    "/process/",
     "/workflows/",
     "/partners/",
     "/get-involved/",

@@ -51,7 +51,7 @@ Of course, numerous requirements on openness/transparency (e.g. depositing the C
 While the CODECHECK initiators strongly support of Open Science, a CODECHECK does not exclude research not falling into your definition of Open Science.
 
 These principles can be **implemented** in different ways.
-See the [process page](/process) for details about the stakeholders and dimensions of variations in CODECHECKs within a scholarly peer review.
+See [implementing CODECHECK](/benefits/#implementing-codecheck) on the benefits page for details about the stakeholders and dimensions of variations in CODECHECKs within a scholarly peer review.
 The [CODECHECK community workflow](/guide/community-workflow) describes a concrete realisation, including practical requirements and steps.
 
 Check out [**the CODECHECK paper**](https://doi.org/10.12688/f1000research.51738.2) and the [FAQ](/faq) page for more information.

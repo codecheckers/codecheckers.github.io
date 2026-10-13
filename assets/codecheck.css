@@ -197,8 +197,12 @@ blockquote p:first-of-type {
   margin: 0 0 0.8em 0;
 }
 
-/* opt-out of the global ol/ul max-width below, e.g. for lists in news items */
-.full-width {
+/* opt-out of the global ol/ul max-width below, e.g. for lists in news items;
+   nested lists opt out too, else their 60% of 60% squeezes them to a third
+   of the column (example list on the community workflow overview) */
+.full-width,
+.full-width ul,
+.full-width ol {
   max-width: none !important;
 }
 

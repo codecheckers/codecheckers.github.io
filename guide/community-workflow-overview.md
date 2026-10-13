@@ -13,7 +13,7 @@ redirect_from:
 
 The CODECHECK community workflow described here is the steps that codecheckers follow when conducting **independent CODECHECKs**, i.e., without an active collaboration with a journal or conference.
 The community workflow uses free to use infrastructure, in particular the [GitHub organisation codecheckers](https://github.com/codecheckers/) and [Zenodo](https://zenodo.org/communities/codecheck/) for depositing codecheck certificates.
-The community workflow is a concrete implementation of the abstract [CODECHECK process](/process) and follows the _[CODECHECK principles](/)_, although it may fall short of Rule 3, because the CODECHECKs are not yet properly registered as peer reviews in open research information databases.
+The community workflow is a concrete implementation of the abstract [CODECHECK process](/benefits/#implementing-codecheck) and follows the _[CODECHECK principles](/)_, although it may fall short of Rule 3, because the CODECHECKs are not yet properly registered as peer reviews in open research information databases.
 
 The community workflow documentation is split into three parts:
 

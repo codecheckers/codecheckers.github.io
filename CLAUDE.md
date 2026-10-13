@@ -35,7 +35,9 @@ Note the version skew: local/GH Pages builds use Jekyll 3.10 (`Gemfile`), while 
 
 ### Navigation and content
 
-Top-level `.md` files are the content pages; the navigation is whatever `header_pages` in `_config.yml` lists (`project`, `process`, `workflows`, `partners`, `get-involved`). Other top-level pages (`faq.md`, `benefits.md`, `institutions.md`, `mozilla-project.md`) exist but are only reachable via in-page links.
+Top-level `.md` files are the content pages; the navigation is whatever `header_pages` in `_config.yml` lists (`project`, `benefits`, `workflows`, `partners`, `get-involved`), labelled with each page's `nav_title` if set, else its `title` (`_includes/header.html`). Other top-level pages (`faq.md`, `institutions.md`, `mozilla-project.md`) exist but are only reachable via in-page links.
+
+`benefits.md` also holds what used to be the Process page (implementation dimensions and the figures from the CODECHECK paper); `process.md` is kept as a stub with `redirect_to: /benefits/#implementing-codecheck`, so link to that anchor directly.
 
 ### Layouts
 

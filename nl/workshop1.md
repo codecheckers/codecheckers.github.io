@@ -35,7 +35,7 @@ institution or university who would like their papers or projects to
 be "codechecked" during a live, one-day code-checking workshop on 30th
 May 2024**, at the X-building in TU Delft.  A codecheck is a light-touch independent peer review to
 check that your code and data can generate the computational results
-in your paper or project (see more details [here](https://codecheck.org.uk/process/)).
+in your paper or project (see more details [here](https://codecheck.org.uk/benefits/)).
 
 You can participate as a codechecker (a person reviewing code),
 or by submitting your own work to be checked (or both if you are up

@@ -4,7 +4,7 @@ title: Institutional CODECHECKs
 permalink: /institutions/
 ---
 
-One very effective implementation of a [CODECHECK Process]({{ '/process' | absolute_url }}) are workflows at research performing organisations and academic institutions.
+One very effective implementation of a [CODECHECK process]({{ '/benefits/#implementing-codecheck' | absolute_url }}) are workflows at research performing organisations and academic institutions.
 They allow to improve the reproducibility of research outputs in a trusted environment and even before submission to a journal.
 This page lists the institutions that have implemented CODECHECK workflows as a service offering for their researchers.
 

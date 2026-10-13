@@ -1,8 +1,11 @@
 ---
 layout: page
 title: Benefits of CODECHECK as part of peer review
+nav_title: Benefits
 permalink: /benefits/
 ---
+
+<p class="text-secondary"><em>Independent execution of computations underlying research articles.</em></p>
 
 *Learn more about CODECHECK in the published paper: Nüst, D. & Eglen, S. J. (2021). CODECHECK: an Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility. F1000Research, 10:253. <https://doi.org/10.12688/f1000research.51738.2>.*
 
@@ -33,6 +36,7 @@ The process is guided by five core principles that are designed to be practical 
 5. **Open by default and transitional by disposition.**
    Code and data associated with the CODECHECK certificate are made openly available unless there are strong reasons to the contrary (e.g., sensitive data).
    Importantly, this openness requirement applies to the computational materials, not the paper itself, so it is compatible with journals at any stage of the transition to Open Access.
+{:.full-width}
 
 A CODECHECK does *not* increase the overall workload for peer reviewers or the editorial team.
 The codechecker is a **separate role**, and the resulting certificate provides the editor with an additional, independent signal about the quality and transparency of the submission.
@@ -40,9 +44,29 @@ The codechecker is a **separate role**, and the resulting certificate provides t
 The separation of the expertise around the data and code into a separate role even opens up **new resources** and can **simplify** matching suitable reviewers.
 First, consider **training early career researchers** and students as CODECHECKERs, or invite/hire research software engineers as experts.
 These students can eventually grow into experienced (scientific) reviewers with high value to your journal community.
-We'd be interested to set up training and mentoring for such an additional pool of contributors together with your.
+We'd be interested to set up training and mentoring for such an additional pool of contributors together with you.
 Second, you can match methodological **expertise independently** of familiarity with tools, programming languages, or current availability.
 Your **requirements on anonymity** for the scientific review can even be handled separately from the CODECHECK, enabling direct contacts for efficiency and keeping distance where each is more useful.
 Finally, you may place the CODECHECK **flexibly** in the process wherever it provides most value for your journal's or conference's review and publication model, from a staff-based smokescreen directly after submission to a post-publication additional merit.
 
-Journals and conferences across several disciplines have successfully integrated CODECHECKs into their workflows - the [the list of partners](/partners).
+Journals and conferences across several disciplines have successfully integrated CODECHECKs into their workflows - see the [list of partners](/partners).
+
+## Implementing CODECHECK
+
+The [CODECHECK principles](/) can be implemented in different ways.
+The [CODECHECK paper](https://doi.org/10.12688/f1000research.51738.2) describes a generic workflow (see Figure&nbsp;2 below), discusses alternatives across a number of dimensions - _who_ does the check _when_, and with what _openness_ and _importance_ (see Figure&nbsp;3 below) - and reviews the different stakeholders and roles involved.
+The figure numbers below follow the paper; click a figure to see its full caption there.
+
+The [workflows](/workflows) page lists concrete implementations at journals, conferences, and institutions.
+One of them is the **[CODECHECK community workflow]({{ '/guide/community-workflow-overview' | absolute_url }})**, which is used by the CODECHECK [team]({{ '/partners/#team' | absolute_url }}) to conduct checks for preprints or submitted manuscripts **independent from journal collaborations**.
+
+Do you have ideas about how a CODECHECK workflow could work for your journal or conference? [_Let us know!_](/get-involved/#as-a-journal-publisher-or-conference)
+
+### Figure 2. The CODECHECK example process implementation
+
+[![CODECHECK example process](https://raw.githubusercontent.com/codecheckers/paper/master/figs/codecheck_overview.svg)](https://f1000research.com/articles/10-253/v2#f2)
+
+### Figure 3. The dimensions of implementing a CODECHECK process
+
+[![Dimensions of CODECHECK workflows](https://raw.githubusercontent.com/codecheckers/paper/master/figs/codecheck_dimensions.svg)](https://f1000research.com/articles/10-253/v2#f3)
+
