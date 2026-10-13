@@ -7,7 +7,7 @@ The following steps are required to complete a CODECHECK as part of a workshop o
 See also the [CODECHECK community workflow overview](/guide/community-workflow-overview) for more details, partly because that approach focusses on online collaboration.
 
 Before you start, note that every CODECHECK is unique, just as the associated research article.
-Reach out to fellow codecheckers in the [public CODECHECK discussion forum](https://github.com/codecheckers/discussion/issues) if you face any problems, or use the [internal team discussion](https://github.com/orgs/codecheckers/teams/codecheckers) if you need to consult in private.
+Reach out to fellow codecheckers in the [public CODECHECK discussion forum](https://github.com/orgs/codecheckers/discussions) if you face any problems, or use the [internal team discussion](https://github.com/orgs/codecheckers/teams/codecheckers) if you need to consult in private.
 You are probably doing fine even if you digress from this documentation!
 
 ## Steps
