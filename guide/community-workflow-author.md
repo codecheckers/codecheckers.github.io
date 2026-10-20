@@ -54,6 +54,7 @@ After the CODECHECK, authors may transfer the improvements and certificate back 
 
 Beyond the minimally required files to run a workflow, any additional configuration and information is extremely helpful, of course, and can greatly improve the smoothness of the CODECHECK process.
 Some hints as to what this can entail are given by the codechecker's tasks below - it is worth taking the checker's perspective to improve your submission.
+The [good practices and common pitfalls](#learning-from-examples) below show what helped and hindered codecheckers in past checks.
 
 Furthermore, the concept of a _research compendium_ to package all building blocks of a research project together is very useful.
 You can find examples and best practices for using research compendia on [https://research-compendium.science/](https://research-compendium.science/).
@@ -81,7 +82,79 @@ After the publication of the CODECHECK certificate, add a reference to the certi
 
 ------
 
-## Examples
+## Using AI coding assistants
+
+AI coding assistants are a great help to turn your analysis into a readily reproducible workflow, e.g., to write the README, declare and pin dependencies, replace hard-coded paths, or script manual steps.
+As Lorena A. Barba argues in [_Reproducibility in the Age of Agentic AI_](https://arxiv.org/abs/2609.11728v1), reproducible research practices are context engineering for AI coding agents: agents lower the cost of maintaining tests, instructions, and repository structure, while researchers remain responsible for verifying these artifacts.
+
+Some guidelines for working with an assistant on your submission:
+
+- **Write tests first, then refactor.**
+  Let the assistant first write tests that capture the current results, e.g., the key numbers and figures of your paper, and only then let it refactor the code: if the tests still pass afterwards, the refactoring did not change your results.
+- **Give it the right context.**
+  Point the assistant to this website as examples, documentation, and guidance, e.g., the [good practices and common pitfalls](#learning-from-examples) below, the [CODECHECK configuration file specification]({{ 'spec/config/latest' | absolute_url }}), and the [example certificates](/guide/community-workflow-overview#examples).
+- **Only accept changes you fully understand into your codebase.**
+  You remain responsible for your code and your results, and you should be able to answer the codechecker's questions about every part of the workflow.
+- **Check the result yourself.**
+  Before you submit, run the workflow from scratch in a fresh environment, just as a codechecker would.
+{:.full-width}
+
+## Learning from examples
+
+Codecheckers document in their certificates what made a check easy and where they struggled.
+The following practices and pitfalls are taken from the [selected examples](/guide/community-workflow-overview#examples) on the workflow overview page.
+
+### Good practices
+
+- **A README that lists inputs, scripts, and outputs, the order to run them, and the expected compute time.**
+  A README that states for each script which data it uses, whether it needs internet access, and which files it creates made checks "very straightforward".
+  Stating how long each step takes, and on what kind of hardware, lets the codechecker plan the check, run long steps in the background, or ask for a subset early.
+  See [2020-025](https://doi.org/10.5281/zenodo.4279275), [2020-017](https://doi.org/10.5281/zenodo.4003848).
+- **Outputs that are easy to compare.**
+  Saving each figure into a separate, transparently named file, setting a seed for random steps, and capturing the console output in a text file allowed a line-by-line comparison of the results.
+  See [2020-017](https://doi.org/10.5281/zenodo.4003848).
+- **A ready-to-run environment.**
+  A MyBinder link "made the work trivial to reproduce" in a few minutes, and a `docker-compose` file let a single command build and start a web application.
+  See [2020-024](https://doi.org/10.5281/zenodo.4964880), [2023-008](https://doi.org/10.17605/OSF.IO/AQGXR).
+- **A subset of the data or intermediate results for long computations.**
+  A small preprocessed subset of a dataset of over 100 GB allowed verifying the code; published intermediate results allowed checking all later steps although one step took 16 hours; provided result files allowed recreating all figures without days of model training.
+  See [2024-013](https://doi.org/10.17605/OSF.IO/TXGZV), [2024-012](https://doi.org/10.17605/OSF.IO/W42AD), [2020-001](https://doi.org/10.5281/zenodo.3674056).
+- **Documented manual steps.**
+  Steps that cannot be scripted, such as work in a graphical GIS, should be described so that someone else can repeat them, e.g., as a numbered list in the README file.
+  A screen recording can be an easier alternative to writing everything down: a video of the steps in QGIS allowed the codechecker to recreate the maps.
+  See [2022-001](https://doi.org/10.5281/zenodo.6040066).
+- **Sharing sensitive data responsibly.**
+  The authors obtained approval from their ethics committee to publish an anonymised dataset on Zenodo.
+  See [2023-008](https://doi.org/10.17605/OSF.IO/AQGXR).
+{:.full-width}
+
+### Common pitfalls
+
+- **Undeclared dependencies.**
+  Codecheckers had to work out which packages, and sometimes which system libraries, to install, or created the `requirements.txt` file themselves.
+  List all dependencies in a file that tools can read, such as `requirements.txt`, `environment.yml`, or an R `DESCRIPTION` file.
+  See [2020-001](https://doi.org/10.5281/zenodo.3674056), [2022-001](https://doi.org/10.5281/zenodo.6040066), [2024-012](https://doi.org/10.17605/OSF.IO/W42AD).
+- **Unpinned versions.**
+  A check close to the date of the analysis may work with whatever versions are current, but codecheckers recommend "additional layers of pinning versions", such as `renv` or a Dockerfile, and documenting the exact software and library versions and the computing environment.
+  See [2020-017](https://doi.org/10.5281/zenodo.4003848), [2024-008](https://doi.org/10.17605/OSF.IO/3NBJW).
+- **Hard-coded paths and missing directories.**
+  Several checks needed manual changes to file paths before the code would run, for example because the code assumed Windows-style path separators, and output directories had to be created by hand.
+  Use relative paths and let the code create the directories it writes to.
+  See [2022-001](https://doi.org/10.5281/zenodo.6040066), [2024-008](https://doi.org/10.17605/OSF.IO/3NBJW), [2024-009](https://doi.org/10.17605/OSF.IO/CSB7R), [2024-013](https://doi.org/10.17605/OSF.IO/TXGZV).
+- **No mapping from files to figures and tables.**
+  The documentation explained all files but not which parts of which files were used for which table, and aggregation steps were done by hand in spreadsheets.
+  Document which data and scripts produce each figure and table, and script the aggregation steps.
+  See [2023-001](https://doi.org/10.17605/OSF.IO/C7VX3).
+- **Undocumented or manual preprocessing.**
+  A modified library used for preprocessing was neither shared nor described, and data integration done manually in QGIS meant that only part of a workflow could be checked.
+  See [2024-013](https://doi.org/10.17605/OSF.IO/TXGZV), [2024-009](https://doi.org/10.17605/OSF.IO/CSB7R).
+- **Missing practical details.**
+  A README did not include the default login credentials of a web application, another was not updated after the materials changed, and one step needed about 24 GB of memory and crashed repeatedly on a machine with 16 GB.
+  Document the expected run time and hardware requirements, such as memory or a GPU.
+  See [2023-008](https://doi.org/10.17605/OSF.IO/AQGXR), [2024-012](https://doi.org/10.17605/OSF.IO/W42AD), [2024-008](https://doi.org/10.17605/OSF.IO/3NBJW).
+{:.full-width}
+
+### More examples
 
 See the [CODECHECK register](/register) for a full list of codechecks, including direct links to the certificates.
 Take a look at existing checks for your discipline or community to get an impression on how CODECHECKs work.
