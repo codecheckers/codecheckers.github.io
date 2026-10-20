@@ -39,13 +39,6 @@ Contact: [Merel Postema](mailto:m.c.postema@amsterdamumc.nl)
 
 More information: <https://www.amsterdamumc.org/en/research/support/services-support/data-management/research-software-management.htm>
 
-## ITC
-
-[![ITC logo]({{ 'img/itc-logo@2x.png' | relative_url }}){:width="200"}](https://www.itc.nl/research/open-science/codecheck/)
-
-[Open Science @ ITC](https://www.itc.nl/research/open-science/codecheck/) provides CODECHECKs for their members.
-ITC is the [University of Twente](https://www.utwente.nl/en/)'s Faculty of Geo-Information Science and Earth Observation.
-
 ## University of Twente DCC
 
 ![UT DCC Logo](/img/UT_DCC_BLACK_logo.png){:width="300"}
@@ -59,6 +52,19 @@ Certificates in the register: <https://codecheck.org.uk/register/venues/institut
 More information: <https://www.utwente.nl/en/dcc/reproducibility-check/>
 
 Contact: [software-stewards-lisa@utwente.nl](mailto:software-stewards-lisa@utwente.nl)
+
+<br>
+
+------
+
+## Former institutions
+
+### ITC
+
+[![ITC logo]({{ 'img/itc-logo@2x.png' | relative_url }}){:width="200"}](https://web.archive.org/web/20220926223457/https://www.itc.nl/research/open-science/codecheck/)
+
+[Open Science @ ITC](https://web.archive.org/web/20220926223457/https://www.itc.nl/research/open-science/codecheck/) provided CODECHECKs for their members.
+ITC is the [University of Twente](https://www.utwente.nl/en/)'s Faculty of Geo-Information Science and Earth Observation. The checks at ITC were discontinued in 2023.
 
 
 ------
