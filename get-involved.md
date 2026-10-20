@@ -49,6 +49,9 @@ Take a look at the [**benefits** of a CODECHECK in a review process](/benefits).
 If you are contributing to science as a reviewer of academic manuscripts or as a journal editor, you can initiate a CODECHECK for submitted articles if the author provides suitable information.
 The [CODECHECK team](/partners) would be excited to help you start a conversation with your (fellow) journal editors on how you to best achieve that, i.e., if you conduct a [community CODECHECK](/guide/community-workflow) (which you can [propose on the register](#propose-a-new-codecheck)), or if you want to set up a proper process at the journal (see below).
 
+Would you like to support community CODECHECKs as a volunteer CODECHECK editor, i.e., to assign and mentor codecheckers and to publish certificates?
+Take a look at the [workflow for CODECHECK editors](/guide/community-workflow-editor) and [get in touch](#as-a-curious-person-or-someone-with-a-question---get-in-touch).
+
 ## As a journal, publisher, or conference
 
 You are an editor or reviewer at a journal or conference and are interested to introduce a CODECHECK?
@@ -58,15 +61,27 @@ Take a look at the [**benefits** of a CODECHECK in a review process](/benefits).
 Still interested? **Great!**
 There is no formal process or certification.
 However, we are very interested in helping you to get started.
-You can simply announce publicly that you conduct a workflow review adhering to the CODECHECK principles, e.g., in a blog post.
-A link to the CODECHECK principles in your submission guidelines would probably be helpful for authors and reviewers.
-Please consider adding a <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> badge to the publication to highlight the fact that a CODECHECK was conducted.
-The badge should link directly to the CODECHECK certificate.
+Every venue implements the [CODECHECK principles](/) a little differently.
+The section on [implementing CODECHECK](/benefits/#implementing-codecheck) describes the dimensions along which implementations differ, and the existing [workflows](/workflows) show how other journals, conferences, and institutions have answered them.
+Before you start, it helps to think about the following questions:
+
+- _Who_ conducts the checks - reviewers, editorial staff, a dedicated reproducibility committee, or volunteer codecheckers from the community?
+- _When_ in the editorial process does the check happen - before peer review, in parallel to it, or after acceptance?
+- _Which_ submissions are checked - all of them, those whose authors opt in, or a selection?
+- How _open_ is the check - are the certificate and the codechecker's name published, and can codecheckers and authors talk directly?
+- How _important_ is the outcome - is a successful CODECHECK a requirement for publication, or an additional signal for editors and readers?
+
+You don't need to have all the answers yet!
+If you are interested in CODECHECKs at your venue, please [**get in touch with the CODECHECK team**](#as-a-curious-person-or-someone-with-a-question---get-in-touch).
+We are happy to talk through these questions with you, share our experiences, and help you plan your first checks.
+The [example process figure](/benefits/#figure-2-the-codecheck-example-process-implementation) on the benefits page shows one way a CODECHECK process can fit into peer review, and the [community workflow](/guide/community-workflow-overview) describes the tasks of [authors](/guide/community-workflow-author), [codecheckers](/guide/community-workflow-codechecker), and [CODECHECK editors](/guide/community-workflow-editor) in one concrete implementation.
+
+Once your process is in place, let your authors and reviewers know about it.
+For example, you can announce publicly that you conduct workflow reviews adhering to the CODECHECK principles, e.g., in a blog post or editorial, and link to the principles and your process in your submission guidelines.
+For every completed check, please consider adding a <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> badge to the publication to highlight the fact that a CODECHECK was conducted; the badge should link directly to the CODECHECK certificate.
+After your first CODECHECK, we would be happy to list your journal or conference on our [partners page](/partners).
 
 The badge graphic, the CODECHECK logo, and all documentation on this website are available under open licenses, see [this README](https://github.com/codecheckers/website/blob/master/README.md).
-
-The [CODECHECK team](/partners) would be glad to help you set up a process, if you have any questions - see contacts information below.
-We would be happy to list your journal of conference on our website after we have gotten to know your implementation of a CODECHECK process and you have completed your first CODECHECK.
 
 ## As a steward or service provider
 
