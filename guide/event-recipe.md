@@ -309,6 +309,6 @@ Hope to have encouraged you to go for it -- Success!
 8. The **workshop team** checks the bundle and report, and together
    with the workshop codecheckers, revise where necessary; once ready,
    either the **workshop team** or a corresponding **codechecker**
-   upload the file on Zenodo or OSF.
+   upload the file on Zenodo.
 
 9. The **workshop team** adds the new CODECHECK to the register in a new issue using this link: <https://github.com/codecheckers/register/issues/new?template=new-community-codecheck.md>.
