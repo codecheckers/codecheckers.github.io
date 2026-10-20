@@ -198,8 +198,6 @@ So far, we have learned the following:
   Authors can use AI coding assistants to prepare their workflows, see [using AI coding assistants](/guide/community-workflow-author#using-ai-coding-assistants) in the author guide.
 {:.full-width}
 
-<!-- TODO from the notes: "potential for ..." - complete or remove -->
-
 ## Relevant for institutional efforts
 
 Some institutions offer CODECHECKs as a service for their researchers, see the [institutional workflows](/institutions/).

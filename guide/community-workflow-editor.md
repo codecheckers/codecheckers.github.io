@@ -36,13 +36,31 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
 1. **Certificate publication and register**
     - Wait until the article is published in a citable form.
     - Ask the codechecker to update all required metadata in the `codecheck.yml` and to update the certificate report (especially the final DOIs!)
-    - Revisit the [CODECHECK community curation policy](https://zenodo.org/communities/codecheck/curation-policy) to make sure you follow the most updated guideline
+    - Review the Zenodo record against the [CODECHECK community curation policy](https://zenodo.org/communities/codecheck/curation-policy), which is the most up-to-date list of the required metadata, e.g., the title `CODECHECK Certificate YYYY-NNN`, a CC-BY 4.0 licence for the certificate, a `Reviews` relation to the checked paper, and the register landing page as an alternative identifier.
+      The best moment is while the record is still a draft submitted to the community, because you can then request changes before the DOI is final.
     - Double-check the information in the metadata and the actual certificate; wait until the certificate is published with its own DOI.
     - Alternatively, you may make edits to the metadata in the forked repository yourself, or handle edits via Zenodo yourself (metadata editing in CODECHECK community, or even at the stage of a shared draft of a Zenodo record).
-    - Add the CODECHECK as a new row to the [`register.csv`](https://github.com/codecheckers/register/blob/master/register.csv) file and commit it to the `master` branch; you may add a `closes #N` statement in the commit message to close the issue.
+      A published record belongs to the codechecker's Zenodo account; to edit it, ask the codechecker for edit access (on the record page: **Share** → **People** → **Add people** → **Can edit**).
+      Note that a new version of a Zenodo record starts from the metadata of the first version, so curation edits must be repeated on it.
+    - If the certificate is published on [ResearchEquals](https://www.researchequals.com/) instead, review everything _before_ the codechecker publishes the module:
+      ResearchEquals modules cannot be edited after publication, not even their metadata, and the only remedy is a new version with a new DOI.
+      Check especially that the DOI of the checked paper is added as a reference of the module, see the [codechecker guide](/guide/community-workflow-codechecker#codechecker-tasks---extended-version) for the full list.
+    - Add the CODECHECK as a new row at the end of the [`register.csv`](https://github.com/codecheckers/register/blob/master/register.csv) file, with the columns `Certificate,Repository,Type,Venue,Issue,Wikidata` (see the [register README](https://github.com/codecheckers/register#editing-the-register) for all details):
+        - `Certificate`: the identifier, e.g., `2026-001`;
+        - `Repository`: where the `codecheck.yml` file is published, e.g., `github::codecheckers/Piccolo-2020`, `gitlab::cdchck/<name>`, or `zenodo::<record ID>`; append `|<path>` if the file is not in the repository root;
+        - `Type`: `community`, `journal`, `conference`, or `institution`;
+        - `Venue`: a `name` from [`venues.csv`](https://github.com/codecheckers/register/blob/master/venues.csv), e.g., `codecheck` or `preprint` for community checks, or the journal's short name;
+        - `Issue`: the number of the register issue;
+        - `Wikidata`: leave it empty, it is filled in when the certificate is exported to Wikidata.
+    - A new venue needs a row in [`venues.csv`](https://github.com/codecheckers/register/blob/master/venues.csv) first (at least `name`, `longname`, and `label`), and a register issue label named after it, unless it is the only venue of its type.
+      The labels of the issue must match the row, i.e., one type label equal to `Type` and a venue label for the `Venue`.
+    - Validate the new row with `codecheck::validate_register_rules()` from the [`codecheck` R package](https://github.com/codecheckers/codecheck), then commit `register.csv` to the `master` branch with a commit message such as `add 2026-001, closes #N`, which also closes the issue.
       A GitHub Action then renders the register automatically - check the new certificate page at `https://codecheck.org.uk/register/certs/<YYYY-NNN>/` once it has finished.
     - "Archive" the repository clone in the codecheckers organisation on GitHub/the cdchck organisation on GitLab ([instructions for GitHub](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-archiving-repositories), [instructions for GitLab](https://docs.gitlab.com/ee/user/project/working_with_projects.html#archive-a-project))
-    - Close the issue on the register.
+    - Post two closing comments on the register issue, so that authors and codecheckers can find the results (see [register#196](https://github.com/codecheckers/register/issues/196) for an example):
+      first the citation of the certificate, e.g., `Family, I. (YYYY). CODECHECK Certificate YYYY-NNN. CODECHECK Community on Zenodo. https://doi.org/10.5281/zenodo.NNNNNNN`, preceded by a short note on any curation changes you made to the record;
+      then the link to the certificate landing page, e.g., `Here is the certificate landing page in the register: https://codecheck.org.uk/register/certs/YYYY-NNN/`.
+      Close the issue, if the commit did not already do so; the labels stay as they are.
     - If a community check on a preprint is eventually mentioned in the published peer-reviewed article, you can update the reference DOI to the final paper, see [this example commit](https://github.com/codecheckers/leba-manuscript/commit/06e9a82da9a29a6edea1307ffbee050ee0a40cbb).
 {:.full-width}
 
