@@ -11,6 +11,8 @@ It complements, but does not replace, the [workflow for codecheckers](/guide/com
 
 We like to compare a CODECHECK to a craft: you learn it by doing it, with a mentor at your side, more than by reading about it.
 So don't worry if not everything below makes sense right away - it will after your first check, and you can always ask.
+Your CODECHECK editor is your go-to person for any question.
+Sometimes the answer is a link to the documentation, sometimes a short conversation - and quite often your check raises a question nobody has asked before, which is part of the fun for both of you.
 
 ## Onboarding topics
 
@@ -32,6 +34,20 @@ A CODECHECK involves three roles:
 - the **CODECHECK editor** assigns codecheckers, mentors them, and looks after the publication of the certificate and its integration into the register ([editor guide](/guide/community-workflow-editor)).
 {:.full-width}
 
+### Staying in touch with your CODECHECK editor
+
+We manage the process in the [issues of the CODECHECK register](https://github.com/codecheckers/register/issues) on GitHub.
+The CODECHECK editor keeps the information in the issue of your check up to date.
+You are welcome to post updates there and to mention the editor in a comment.
+If you don't hear back within a day or so, write an email - GitHub notifications do get lost.
+
+### Where your check comes from
+
+Many checks are proposed by authors in the community workflow, e.g., for a published preprint.
+Others come from a collaboration with a journal or a conference.
+For example, CODECHECK is one of the evaluation services of the [Lifecycle Journal](https://lifecyclejournal.org/), where authors decide which evaluations to take up before they create the version of record.
+For such checks, you can usually follow the community workflow and start from the public preprint; the CODECHECK editor takes care of the metadata that the venue needs.
+
 ### What a CODECHECK is - and what it is not
 
 A CODECHECK tests whether the _instructions_ provided by the authors lead to the _results_ the authors report.
@@ -43,8 +59,22 @@ The results do not have to match to the last pixel.
 Figures can look slightly different because of a different operating system, screen, or graphics driver.
 What matters is that the figures show the same data, and that you record the differences you notice.
 
-Keep the [CODECHECK principles](/project/#the-codecheck-principles) in mind, especially the first one: **codecheckers record but do not fix**.
+Keep the [CODECHECK principles](/project/#the-codecheck-principles) in mind, especially the first one: **codecheckers record but don't investigate or fix**.
 You capture the current state of the workflow and report problems back to the authors.
+
+Think of the regular safety inspection of a car:
+the inspector does not care whether the seats are comfortable or how fast the car goes, but checks that it starts and that the brakes work.
+In the same way, you take the authors' documentation, turn the key, and see whether the engine starts.
+Whether the method is a good idea or the assumptions are right is a question for the scientific reviewers.
+
+This may sound like a low bar, but it is valuable:
+nobody knows yet whether the work you check will turn out to be important.
+If it does, the CODECHECK has preserved the state of the materials, and others can come back later and take a closer look at the details.
+A CODECHECK is not about catching cheaters - we don't expect that, and authors are usually happy that somebody looks at their work and answer questions quickly and in detail.
+
+Partially successful checks are fine.
+You may recreate figures 1 to 3 but not 4 and 5, because they rely on sensitive data, or only the last step of a long pipeline, because training the model took the authors weeks.
+That still documents the work and builds trust, as long as the certificate summary says clearly what was checked and what wasn't.
 
 ### The `codecheck.yml` file
 
@@ -52,6 +82,9 @@ The [CODECHECK configuration file](/spec/config/latest) captures the metadata of
 Ideally, the authors create a first version of the file with their information.
 In practice, most of the time the codechecker creates it.
 AI coding assistants do this job very well: point the assistant to the specification and the preprint, and let it fill in the metadata, including the tedious lookup of the authors' ORCIDs.
+If you use the R Markdown, Quarto, or Jupyter template, the certificate reads the metadata from `codecheck.yml`, so you enter it only once, and the template checks the file for you.
+These checks are work in progress, so let the CODECHECK editor know about error messages you don't understand.
+If you don't use a template, focus on the certificate first - the CODECHECK editor edits `codecheck.yml` files all the time and is happy to help.
 Check the result and validate the file with `codecheck::validate_codecheck_yml_rules("codecheck.yml")` from the [`codecheck` R package](https://github.com/codecheckers/codecheck).
 
 ### Time horizons
@@ -64,6 +97,7 @@ There is no fixed time budget for a CODECHECK, but these numbers help to set exp
 - **Active time** is similar to a peer review, around two to three hours.
 - **Computation time** should fit into a working day.
   A run overnight is fine, too, if you tested the workflow with a smaller configuration before.
+  If a computation you started in the morning sits at a few percent at lunchtime, abort it.
   If the workflow needs much longer, or a GPU or an HPC cluster, ask the authors for a subset of the data, a configuration that runs on a CPU, and the matching reference results.
   Recreating the results for the subset is a successful CODECHECK, as long as the certificate summary states this limitation.
 - **The gray area of fixing things**: if a single hard-coded path stands between you and the next step, fixing it yourself is faster than writing an email - go ahead and record the change.
@@ -77,6 +111,8 @@ See also the [prerequisites](/guide/community-workflow-codechecker#prerequisites
 You can talk directly to the authors, and you should do so early and often.
 Email is the lowest bar and works for everyone.
 Some authors are happy to work in GitHub issues or pull requests, and you can link to those in the certificate, but we don't require it.
+If the authors are active on GitHub, you can also mention them in the register issue.
+Feel free to copy the CODECHECK editor into your emails to the authors, but you don't have to.
 We want to impose as little technology on the authors as possible:
 a researcher who submits a few Python scripts and a CSV file as supplemental material, and has never used Git, is just as welcome as a fully containerised workflow with archived code and data.
 
@@ -86,24 +122,39 @@ The certificate documents _who_ checked _what_ and _how_.
 Think of it as a reminder for your future self: what would you need to re-run the check in two years?
 You don't need to document every step - references to the README or the authors' instructions are enough, and you can name the commands you ran.
 Write down the things that made you think, tinker, or search.
+If the README is clear and everything works, the certificate can be really short, e.g., "I executed the steps in the README as advertised and the results look the same."
+
+It helps to open the certificate template right at the start and use it as a notebook while you work.
+When a step fails, copy the command and the error message into the certificate.
+Also copy commands that you had to adapt, e.g., because the authors used Windows and you use Linux - you will not remember them a year later.
+If you write the certificate as R Markdown or Quarto, you can keep private notes in comments in the source file.
 
 A typical certificate has:
 
 - a **summary** of two or three sentences, e.g., "The workflow was well prepared, I could run all commands with only minor warnings, and the results look the same.";
 - the **outcomes**, i.e., the files from the manifest you recreated; if you want to do an excellent job, show the original and the reproduced figures side by side;
-- **recommendations** for the authors, e.g., to state the expected execution time of each step in the README - authors know it by heart, codecheckers need to know it beforehand.
+- **recommendations** for the authors, e.g., to state the hardware they used and the expected execution time of each step in the README - authors know it by heart, codecheckers need to know it beforehand, to decide whether to get a coffee or to let it run overnight;
+  or to add a licence, because a repository without one can't legally be reused - it's one sentence to write, authors learn something about copyright, and the check can go on.
 {:.full-width}
+
+If you can't tell which files the paper is based on, e.g., because there are three versions of a script and a folder named "final", ask the authors right away to clarify it in the README.
+You don't need to read the whole paper to find out; skimming it for the description of the code is enough.
+
+Strike a balance between your own expectations as a developer and the experience of the authors.
+Many researchers have no strong coding background, and we want to welcome them.
+Don't comment on formatting or style; if you see a simple improvement, e.g., downloading the data in the script instead of asking readers to download it by hand, write it down as a recommendation instead of implementing it yourself.
 
 Keep a **feedback list** and update it, don't delete from it:
 when the authors fix an item, strike it through and add "fixed by the authors".
 This short story of questions and fixes shows the positive impact of the check.
 
-There are [templates](/guide/community-workflow-codechecker#codechecker-tasks---extended-version) for word processors, R Markdown, and Jupyter, but you don't have to use them.
+There are [templates](/guide/community-workflow-codechecker#codechecker-tasks---extended-version) for word processors, R Markdown, Quarto, and Jupyter, but you don't have to use them.
+In the end, we need a PDF file; if you wrote the certificate in a notebook, publish its source file, too, as a more machine-readable version.
 For inspiration, look at the [example certificates](/guide/community-workflow-overview#examples) and at the [good practices and common pitfalls](/guide/community-workflow-author#learning-from-examples) we have collected from them.
 
 ### Sharing the draft with the authors
 
-Share the draft of the certificate with the authors before you publish it.
+Share the first draft of the certificate with the CODECHECK editor, who can give you feedback, and then with the authors.
 Authors often take up the feedback right away - out of ten items, nine may be fixed the next day.
 This means you will have to update the certificate before publication, which is some extra work.
 But it is rewarding work: the original research got better because you checked it.
@@ -111,12 +162,15 @@ But it is rewarding work: the original research got better because you checked i
 ### Publication
 
 The certificate is published with a DOI, usually in the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck/); the [codechecker guide](/guide/community-workflow-codechecker#codechecker-tasks---extended-version) describes the metadata to fill in.
-We recommend to submit the draft record for review to the community, so that a CODECHECK editor can give feedback before the DOI is final.
+You can also publish on [ResearchEquals](https://www.researchequals.com/); OSF is no longer an option, because it maintains the existing records but no new ones can be created.
+Don't click "publish" on Zenodo too quickly: submit the draft record for review to the community instead, so that a CODECHECK editor can check the metadata with you before the DOI is final.
+Fixing a record after publication is a hassle.
+Files you created during the check, e.g., a small script that solved a problem, can go into the certificate deposit, too.
 
 The `codecheck.yml` file must be published somewhere, too.
 Most often, it lives in a fork of the authors' repository in the [codecheckers organisation on GitHub](https://github.com/codecheckers/) or the [cdchck group on GitLab](https://gitlab.com/cdchck).
 The fork is a snapshot under our control, because original repositories can be renamed or removed.
-If the code is not on GitHub or GitLab, the file can also be published together with the certificate, e.g., on Zenodo.
+If the code is not on GitHub or GitLab, e.g., in a data repository that can't be forked, the file can also be published together with the certificate, e.g., on Zenodo.
 
 ### After publication: what the CODECHECK editor does
 
@@ -133,9 +187,13 @@ So far, we have learned the following:
 - **AI is a big help with metadata**, e.g., to fill in the `codecheck.yml` file or to verify that all ORCIDs are correct.
 - **Coding agents tend to run off and fix things.**
   Asked to look at a workflow, an agent may start writing a Dockerfile and refactoring the code without being told to.
-  Give the agent the right context, in particular the CODECHECK principles: we investigate, we don't fix.
+  Give the agent the right context, e.g., our [assistant guide for CODECHECKs](https://github.com/codecheckers/assistant/blob/master/ASSISTANT.md), a ready-to-use context file that explains the role of the assistant and the CODECHECK principles: codecheckers record but don't investigate or fix.
 - **Don't accept any change that you don't understand.**
   A human has to verify every change, and a human codechecker signs off on the certificate.
+- **Run the commands yourself.**
+  An assistant can work through a README and run the commands, but you should run them as well and see that the outcome is what the assistant reported.
+- **Be transparent.**
+  Describe in the certificate how you used AI, and feel free to try things out - we are all still learning what works.
 - **A well-prepared workflow is easier to check - for humans and for AI.**
   Authors can use AI coding assistants to prepare their workflows, see [using AI coding assistants](/guide/community-workflow-author#using-ai-coding-assistants) in the author guide.
 {:.full-width}
