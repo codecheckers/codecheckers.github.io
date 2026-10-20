@@ -5,7 +5,7 @@ title: CODECHECK community workflow for codecheckers
 
 See also the [CODECHECK community workflow overview](/guide/community-workflow-overview) and [discuss your issues](https://github.com/orgs/codecheckers/discussions).
 This guide has two main parts - a _short community workflow list of steps_, and an _extended version_ which may be used as a reference.
-_Are you checking a paper with CHECK-NL?_ See their [workflow for in-person events](/nl/workflow/).
+_Are you checking a paper with CHECK-NL?_ See their [workflow for in-person events](/nl/workflow).
 
 ## Codechecker tasks - short version
 
@@ -17,11 +17,12 @@ Now it's your turn.
 1. Create a project in an online repository, either by forking existing code repository or creating new project
 1. [In case you forked] Create a directory `codecheck` where your files will go
 1. Create a new document to write the CODECHECK certificate and _start documenting the ongoing codecheck now with everything relevant that you do_;
-   the exact form of  a codechecking procedure and form of documentation vary greatly, but there are some tools, such as [an R package including an Rmd template](https://github.com/codecheckers/codecheck) and [a Python project including a Jupyter Notebook template](https://github.com/codecheckers/codecheck-py) to automate some steps; you may also use the word processor templates in [.odt](/guide/templates/CODECHECK_report_template.odt) and [.docx](/guide/templates/CODECHECK_report_template.docx) formats; all of that is optional, as long as the final certificate contains the mandatory information
+   the exact form of  a codechecking procedure and form of documentation vary greatly, but there are some tools, such as [an R package including R Markdown and Quarto templates](https://github.com/codecheckers/codecheck) and [a Python project including a Jupyter Notebook template](https://github.com/codecheckers/codecheck-py) to automate some steps; you may also use the word processor templates in [.odt](/guide/templates/CODECHECK_report_template.odt) and [.docx](/guide/templates/CODECHECK_report_template.docx) formats; all of that is optional, as long as the final certificate contains the mandatory information
 1. Open the manuscript and follow the instructions to reproduce the workflow
 1. During the CODECHECK, contact the authors in case of problems; keep in mind the general [CODECHECK principles](/project/#the-codecheck-principles), especially "the codechecker records but does not fix" – unless it is trivial change; the authors can provide updated versions of code and documentation; however, the entire procedure should not be much more time-intensive than a normal peer review of a paper and not involve more than a few code revisions; the codechecker can always stop the process after a reasonable effort and document on the issue as not successfully reproduced.
 1. Summarize the process and outcomes in your certificate and upload it as PDF to your project; add edited files and intermediary as well as output files as you see fit; the certificate must at least contain the information on who checked what and how; the ambition should be to document for future self and other researchers; have a look at the available certificates.
 1. Notify the editor about the completion
+{:.full-width}
 
 ------
 
@@ -47,13 +48,15 @@ Some further tips:
 - Every CODECHECK is unique, just as the associated research article. If this guide feels like it doesn't work for your case, you are likely still on the right track.
 - Reach out to fellow codecheckers in the [public discussion forum](https://github.com/orgs/codecheckers/discussions) if you face any problems.
 - A familiarity with `make` is helpful to provide an easy entrypoint and build up useful code snippets for your CODECHECKs, see <https://book.the-turing-way.org/reproducible-research/make> and <https://swcarpentry.github.io/make-novice/reference>
+{:.full-width}
 
 ### CODECHECK steps
 
 1. Comment on the issue in the CODECHECK register repository to notify author and editor that you are accepting, and actually starting, the CODECHECK.
-1. Depending on where the code and data are, create a new project or fork the author's code repository, e.g., to the codecheckers organisation on [GitHub.com](https://github.com/codecheckers/) or [GitLab.com](https://gitlab.com/cdchck); supported repositories for a citable certificate: [Zenodo](https://zenodo.org/), [OSF](https://osf.io/), [ResearchEquals](https://www.researchequals.com/).
+1. Depending on where the code and data are, create a new project or fork the author's code repository, e.g., to the codecheckers organisation on [GitHub.com](https://github.com/codecheckers/) or [GitLab.com](https://gitlab.com/cdchck); supported repositories for a citable certificate: [Zenodo](https://zenodo.org/), [ResearchEquals](https://www.researchequals.com/).
+   OSF is no longer an option: it maintains the existing records, including earlier CODECHECK certificates, but no new ones can be created.
    If there is no code repository, it is strongly recommended to create a new  code repository for the source code of your check which is the basis for publishing the certificate in a repository; use the naming scheme `Lastname-YYYY` using the family name of the corresponding author.
-   Please take care to follow the terms and conditions of the workspace's licenses; stop your CODECHECK if the licensing is unclear and contact the author to fix the documentation.
+   Please take care to follow the terms and conditions of the workspace's licenses; if the licensing is unclear or a license is missing, point it out in your feedback to the authors, but you can proceed with the check.
 1. [In case your forked] Create a directory `codecheck` to not interfere with original files.
    This is the _check directory_.
    If you start a project from scratch, the _project root_ is likely to be your _check directory_.
@@ -71,13 +74,13 @@ Some further tips:
       The certificate should cover at least _WHO_ (you, but maybe with support from others?) checked _WHAT_, and _HOW_.
       There are not strict requirements on the form, but you're welcome to use one of our **templates**:
         - Word processor templates in [.odt](/guide/templates/CODECHECK_report_template.odt) and [.docx](/guide/templates/CODECHECK_report_template.docx) formats,
-        - [.Rmd template from our R package](https://github.com/codecheckers/codecheck/blob/master/inst/extdata/templates/codecheck/) including some automation for validation and uploading, and
+        - [R Markdown (`.Rmd`) and Quarto (`.qmd`) templates from our R package](https://github.com/codecheckers/codecheck/blob/master/inst/extdata/templates/codecheck/) including some automation for validation and uploading, and
         - [a Python project including a Jupyter Notebook template](https://github.com/codecheckers/codecheck-py) including some automation for validation and uploading.
       Imagine the certificate as a _reminder for future you_ so you will be to re-check the workflow in two years time - what help would you need to do that?
       There is no need to document every step in detail if it is trivial to you today, but do put down the things that required you to think/tinker/research.
       This level of detail makes it likely enough that others can follow your steps, and ensures that you could provide more details if need be in the future.
       Include a _full citation of the certificate_, because your CODECHECK is a valuable contribution to science (see below for reserving the DOI).
-      Take a look at the [example CODECHECKs](/guide/community-workflow-overview#examples) for existing certificates to serve as context.
+      Take a look at the [example CODECHECKs](/guide/community-workflow-overview#examples) for existing certificates to serve as context, and at the [common pitfalls](/guide/community-workflow-author#common-pitfalls) that are worth recording in a certificate.
     1. [Optional] **Add more certificate sections** depending on interest, time, and skills:
         - Do the generated outputs match the ones in the original manuscript? Are the differences relevant or not?
         - Are there any parts of the workflow where the author could improve the code?
@@ -135,3 +138,4 @@ Some further tips:
     ```md
     [![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/<DOI HERE>)
     ```
+{:.full-width}
