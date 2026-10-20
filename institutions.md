@@ -66,6 +66,8 @@ Contact: [software-stewards-lisa@utwente.nl](mailto:software-stewards-lisa@utwen
 [Open Science @ ITC](https://web.archive.org/web/20220926223457/https://www.itc.nl/research/open-science/codecheck/) provided CODECHECKs for their members.
 ITC is the [University of Twente](https://www.utwente.nl/en/)'s Faculty of Geo-Information Science and Earth Observation. The checks at ITC were discontinued in 2023.
 
+Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/open_science_at_itc/>
+
 
 ------
 
