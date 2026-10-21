@@ -137,6 +137,11 @@ A typical certificate has:
   or to add a licence, because a repository without one can't legally be reused - it's one sentence to write, authors learn something about copyright, and the check can go on.
 {:.full-width}
 
+Where this information lives depends on the template.
+The computational notebook templates (R Markdown or Quarto) read part of the certificate from the `codecheck.yml` file:
+you enter the summary there, and the manifest is used to insert the outputs into the certificate automatically.
+In a word processor document, nothing is linked, so you have to keep the summary and the list of outputs in sync with `codecheck.yml` by hand.
+
 If you can't tell which files the paper is based on, e.g., because there are three versions of a script and a folder named "final", ask the authors right away to clarify it in the README.
 You don't need to read the whole paper to find out; skimming it for the description of the code is enough.
 
