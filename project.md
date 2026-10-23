@@ -70,7 +70,7 @@ The [projects](#projects) below are steps in that direction.
 
 Ongoing and past projects that are related to CODECHECK, newest first:
 
-- [Software quality indicators in CODECHECK](/indicators/) - identify the factors that cause issues during a CODECHECK, based on institutional checks at Amsterdam UMC and TU Delft; funded by the NWO programme "Research on open science" ([grant](https://doi.org/10.61686/UDEAC59432)), two years from 2026
+- [Software quality indicators in CODECHECK](/indicators/) - identify the factors that cause issues during a CODECHECK, based on institutional checks at Amsterdam UMC and TU Delft; funded by the NWO programme "Research on open science" ([grant](https://doi.org/10.61686/UDEAC59432)), September 2026 to September 2028
 - [CHECK-PUB](/pub) - support codechecking in independent journals based on Open Journal Systems (OJS); funded by TU Delft Library, 2025 to 2026
 - [CHECK-NL](/nl) - establish a codechecking community in the Netherlands; funded by the [NWO Open Science Fund](https://www.nwo.nl/en/projects/osf232063), March 2024 to February 2025
 - [Mozilla project](/mozilla-project) - an early demonstrator for codechecking; funded by a Mozilla Open Science Mini-Grant ([announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)), February 2019 to May 2020
