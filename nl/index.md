@@ -67,3 +67,9 @@ Stephen Eglen (University of Cambridge, CODECHECK)
 
 Daniel Nüst (TU Dresden, CODECHECK)
 [Home page](https://nordholmen.net/)
+
+## Funding
+
+![NWO Logo](https://www.nwo.nl/themes/custom/nwo/assets/images/logo.svg?v=24)
+
+The project was supported by the NWO Open Science Fund from March 2024 to February 2025, see [NWO project description page](https://www.nwo.nl/en/projects/osf232063).

@@ -24,6 +24,8 @@ Contact: [Aleksandra Wilczynska](mailto:A.E.Wilczynska@tudelft.nl)
 
 More information: <https://www.tudelft.nl/digital-competence-centre/services/reproducibility-check>
 
+Together, Amsterdam UMC and the TU Delft DCC study which factors cause issues during their CODECHECKs in the NWO-funded project [_Advancing reproducible research by assessing core software quality indicators in CODECHECK_](/indicators/).
+
 ## Amsterdam University Medical Centers (Amsterdam UMC)
 
 ![Amsterdam UMC Logo](/img/Amsterdam-UMC_Logo.png){:width="600"}
@@ -38,6 +40,8 @@ Certificates in the register: <https://codecheck.org.uk/register/venues/institut
 Contact: [Merel Postema](mailto:m.c.postema@amsterdamumc.nl)
 
 More information: <https://www.amsterdamumc.org/en/research/support/services-support/data-management/research-software-management.htm>
+
+Together, Amsterdam UMC and the TU Delft DCC study which factors cause issues during their CODECHECKs in the NWO-funded project [_Advancing reproducible research by assessing core software quality indicators in CODECHECK_](/indicators/).
 
 ## University of Twente DCC
 

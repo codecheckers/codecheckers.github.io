@@ -64,11 +64,17 @@ We especially target the future of scholarly communication: independent scholar-
 To make codechecking feasible for these journals and others, we are looking for funding for _CODECHECK editors_, for developing _training material and mentoring programmes_ together with [friendly projects from the Open Science community](/partners/#projects), and for building and providing _open and free supporting infrastructure_ for conducting checks.
 With these steps, we will scale CODECHECK beyond the [existing list of awesome volunteer codecheckers](https://github.com/codecheckers/codecheckers/blob/master/codecheckers.csv) and [current partner journals and conferences](/partners).
 
-Ongoing and past **projects** that are related to CODECHECK include:
+The [projects](#projects) below are steps in that direction.
 
-- [Mozilla project](/mozilla-project) - an early demonstrator for codechecking
-- [CHECK-NL](/nl) - establish a codechecking community in the Netherlands
-- [CHECK-PUB](/pub) - support codechecking in independent journals based on Open Journal Systems (OJS)
+## Projects
+
+Ongoing and past projects that are related to CODECHECK, newest first:
+
+- [Software quality indicators in CODECHECK](/indicators/) - identify the factors that cause issues during a CODECHECK, based on institutional checks at Amsterdam UMC and TU Delft; funded by the NWO programme "Research on open science" ([grant](https://doi.org/10.61686/UDEAC59432)), two years from 2026
+- [CHECK-PUB](/pub) - support codechecking in independent journals based on Open Journal Systems (OJS); funded by TU Delft Library, 2025 to 2026
+- [CHECK-NL](/nl) - establish a codechecking community in the Netherlands; funded by the [NWO Open Science Fund](https://www.nwo.nl/en/projects/osf232063), March 2024 to February 2025
+- [Mozilla project](/mozilla-project) - an early demonstrator for codechecking; funded by a Mozilla Open Science Mini-Grant ([announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)), February 2019 to May 2020
+{:.full-width}
 
 ## Project history
 
@@ -93,18 +99,3 @@ To cite CODECHECK in scientific publications, please use the following citation/
 > _Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate the sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). [https://doi.org/10.7557/5.4910](https://doi.org/10.7557/5.4910)_
 
 To get or give a quick overview of the project, feel free to use or extend the [existing slide decks](https://github.com/codecheckers/slides).
-
-## Funding
-
-[![Mozilla logo]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)
-
-The project was supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
-
-------
-
-![NWO Logo](https://www.nwo.nl/themes/custom/nwo/assets/images/logo.svg?v=24)
-
-The project was supported by the NWO Open Science Fund from March 2024 to February 2025, see [NWO project description page](https://www.nwo.nl/en/projects/osf232063) and details of [CHECK-NL](/nl).
-
-------
-

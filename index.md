@@ -42,6 +42,13 @@ To **stay in touch** with the project, follow us on social media at <img src="/i
 
 ## News
 
+### 2026-10 | Research project on what makes CODECHECKs fail 🔬
+
+The Dutch Research Council (NWO) funds a two-year project in its programme "Research on open science" that builds on institutional CODECHECKs.
+[Merel Postema](/register/persons/0000-0002-1536-7062/) and [Thomas Pronk](https://orcid.org/0000-0001-9334-7190) from Amsterdam UMC and [João Guimarães](/register/persons/0000-0002-6545-3102/) and [Yasel Quintero](/register/persons/0009-0005-9240-7370/) from TU Delft will document the issues they encounter in about 60 CODECHECKs and classify them into failure modes, such as missing dependencies, unavailable data, or outputs that don't match the paper.
+The most frequent failure modes are targets for training, support services, and policies that improve reproducibility.
+Find out more on the [project page](/indicators/), in the [project proposal](https://doi.org/10.5281/zenodo.22123712), and on the [poster](https://doi.org/10.5281/zenodo.23476687) presented at the TU Delft Open Science event.
+
 ### 2026-09 | The register as linked data on Wikidata 🌐
 
 A certificate is more useful the easier it is to find, and the best place to be found is where everybody already looks.

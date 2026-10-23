@@ -49,3 +49,9 @@ We aim to achieve the following outputs by the end of the project:
 - Collaboration with existing stakeholders and projects from the scholarly publishing and reproducible research communities
 
 [Learn more about the team](/team) behind CODECHECK and follow us for updates (see social media links below).
+
+## Funding
+
+[![Mozilla logo]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)
+
+The project was supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
