@@ -107,6 +107,32 @@ footer {
   margin-bottom: 2rem;
 }
 
+/* Home link: logo plus site title; the logo is as tall as the text (alt="" because the title follows) */
+#site-title {
+  color: #008033;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+#site-title:hover {
+  text-decoration: none;
+}
+
+#site-title img {
+  height: 1em;
+  width: 1em;
+  margin-right: 0.35em;
+  vertical-align: -0.1em;
+}
+
+/* From md on the menu shares the line with the title; on narrow tablets the
+   logo and the bold font would push "Get Involved" onto a second line. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #site-title {
+    font-size: 1.2rem;
+  }
+}
+
 #nav-menu a {
   border-top: 5px solid #d0e7d9;
   font-weight: bold;
