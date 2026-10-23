@@ -20,6 +20,18 @@ layout: compress
         background: linear-gradient(to bottom, rgb(174,28,40) 0%, rgb(174,28,40) 33.33%, white 0, white 66.66%, rgb(33,70,139) 0);
       }
 
+      /* grey counterpart of the green lines below #content headings in assets/codecheck.css */
+      main h2:after, main h3:after {
+        content: ' ';
+        display: block;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+      }
+
+      main h3:after {
+        border-radius: 2px;
+      }
+
     </style>
 
     {% include header.html %}
