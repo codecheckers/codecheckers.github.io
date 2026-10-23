@@ -82,6 +82,24 @@ convert shot.png -crop 1280x1270+0+0 +repage -bordercolor '#cccccc' -border 1 im
 
 `guide/` is the process documentation, with the community workflow split by role — `community-workflow-overview.md`, `-author.md`, `-codechecker.md`, `-editor.md` — plus `bundle.md`, `event-recipe.md`, and downloadable report templates in `guide/templates/` (`.odt`/`.docx`) and PDFs. Changes to one role's workflow usually need a matching edit in the overview and the other roles.
 
+`community-workflow-onboarding.md` lists the topics of the onboarding call a CODECHECK editor has with a new codechecker, ordered as the codechecker meets them during a check (roles → what a check is → first steps → time → communication → certificate → `codecheck.yml` → draft → publication → AI), followed by a section for institutional codecheckers. External links point at `#ai-in-codechecking`, so keep that heading.
+
+#### Onboarding call transcriptions
+
+<!-- Source: own rule, added 2026-10-23; based on the transcriptions of onboarding calls in October 2026. -->
+
+The page is maintained from recordings of real onboarding calls (the editor's side), kept **outside the repo** in `~/Documents/CODECHECK/2026-10_Recordings-Transcriptions-Onboarding/`, each transcript saved next to its recording as `<recording name>.transcript.txt`. The recordings are private: never commit them or the transcripts, and never send the audio to a transcription service.
+
+Transcribe locally with faster-whisper in a uv venv in the scratchpad (`uv pip install faster-whisper`): model `large-v3-turbo`, `device="cpu"`, `compute_type="int8"`, `BatchedInferencePipeline(...).transcribe(audio, language="en", batch_size=8, beam_size=5)`, writing one `[hh:mm:ss] text` line per segment. Decode the audio with system ffmpeg into a 16 kHz mono float array instead of faster-whisper's own PyAV decoding (which failed with a `metadata_errors` TypeError), and filter it on the way: `-af highpass=f=80,dynaudnorm=f=250:g=15` - one recording had a loud rumble below 60 Hz and quiet remote speakers that made Whisper skip whole minutes. Transcribe a 5-minute sample (`ffmpeg -t 300`) first and read it; if it has gaps, look at a spectrogram (`-lavfi showspectrumpic`). The full run takes about 0.6x real time on 12 cores, so run it in the background. Expect mis-heard names ("Kojek", "Carto" for CODECHECK, Quarto).
+
+Turning a transcript into documentation changes:
+
+- Go through the transcript topic by topic and compare each with the page: new advice, more precise wording (rules of thumb, concrete examples), different order, and contradictions with the page or the role guides.
+- Fold new points into the existing sections rather than appending; remove what is now said twice. The goal is a shorter, more precise page, not a longer one - compare word counts before and after.
+- Generalise: no names, institutions, or details of the checked work from the call; turn the specific case into an example ("six of eight tables", "an empty README").
+- Check every claim against `community-workflow-codechecker.md` and the editor guide (e.g. where to publish, licensing, forking) and fix whichever is wrong in both places; ask the user when the call contradicts the guides.
+- Publication details are often deferred to a later conversation in the call, so don't drop topics from the page just because a call skipped them.
+
 ### Subsites
 
 `nl/` (CHECK-NL, Dutch project, `nl` layout) and `pub/` (CHECK-PUB OJS plugin) are self-contained page sets.
@@ -149,3 +167,13 @@ half-width columns this site had in the home page banner and the footer.
 ## Licensing
 
 Content is CC BY-SA 4.0; graphics in `logo/` and `badges/` are CC BY 4.0.
+
+## Global rules
+
+<!-- Source: own rule, added 2026-10-23; see ~/.claude/CLAUDE.md, rule G0.2. -->
+
+This applies only if a user-level `~/.claude/CLAUDE.md` exists; otherwise
+ignore this section. That file holds rules for all projects, with IDs such as
+G1.1. Whenever one of them changes what you do, say so in your reply and name
+the rule, e.g. "I found X. I did not do Y but suggest Z, following global rule
+G1.1."
