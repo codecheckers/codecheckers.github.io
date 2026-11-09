@@ -11,6 +11,9 @@ You are a researcher, developer, research software engineer, student, or data/so
 **Awesome!**
 Please open an issue on the [codecheckers](https://github.com/codecheckers/codecheckers) repository to be added to the [codecheckers team](https://github.com/codecheckers/codecheckers) **[using this link](https://github.com/codecheckers/codecheckers/issues/new?assignees=nuest&labels=registration&template=codechecker-registration.md&title=Register+as+codechecker)**.
 
+Note that our bot [`@chekhovbot`](https://github.com/codecheckers/chekhov) may join your issue to help with the process steps such as verification or inviting you to the right team. Try the first post and comment `@chekhovbot include check` for it to look again.
+A CODECHECK editor then adds you: you get an invitation to the CODECHECK organisation on GitHub, which you can accept from the email or at <https://github.com/orgs/codecheckers/invitation>, and a welcome on your issue once you are on the list.
+
 ## As an author
 
 You want to share the code underlying your research paper? **Congratulations** for the decision to practice Open Science and reproducible research!

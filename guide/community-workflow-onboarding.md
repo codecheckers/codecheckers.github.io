@@ -223,6 +223,7 @@ Over time, institutions can run the process themselves, i.e., open the register 
 Institutional codecheckers are listed separately from the volunteers in the [codecheckers repository](https://github.com/codecheckers/codecheckers#institutional-codecheckers), with a mapping of GitHub handle, ORCID, and institution so that we can connect the certificates correctly.
 We don't contact institutional codecheckers with requests for volunteer checks.
 You are of course welcome to also sign up as a volunteer, and then be listed twice.
+When you do, the bot's answer to your registration notes that you are in the institutional team or list already; that is expected, and holds nothing up.
 
 **Your institution in the register.**
 The register lists the certificates of each institution on its own page under [venues](/register/venues/).

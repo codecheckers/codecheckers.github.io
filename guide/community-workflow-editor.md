@@ -67,12 +67,31 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
 
 ## Automation with the Chekhov bot
 
-We are developing [Chekhov](https://github.com/codecheckers/chekhov), a bot that takes over repeated steps of this workflow, such as assigning codecheckers, validating the `codecheck.yml` early, and adding the certificate to the register.
-The bot is controlled by mentioning it in a comment on the register issue, and it is still in development: for now it only runs on the [testing register](https://github.com/codecheckers/testing-dev-register), not on the register itself.
-To see what it can do, comment
+[Chekhov](https://github.com/codecheckers/chekhov) is a bot that takes over repeated steps of this workflow.
+It is controlled by mentioning it on the first line of a comment, one command per comment, and works on two repositories:
+
+- on the **[register](https://github.com/codecheckers/register/issues)**, where it validates the `codecheck.yml` early, helps find and assign codecheckers, tracks where a check stands, opens the pull request adding the certificate to the register, and announces it;
+- on the **[codecheckers repository](https://github.com/codecheckers/codecheckers/issues)**, where people register as codecheckers.
+
+To see what it can do on an issue, comment
 
 ```
-@chekhovbot help
+@chekhovbot commands
 ```
 
-Progress is tracked in [register#209](https://github.com/codecheckers/register/issues/209), where feedback is welcome.
+### New codecheckers
+
+When somebody opens a registration, the bot answers with what their row still needs: the handle against the issue's author, the ORCID, a way to reach them besides GitHub (an email on the ORCID record when they wrote `see ORCID page`), the early-career columns, and whether they are listed or in a team already.
+When the registration is complete:
+
+1. Comment `@chekhovbot include` on the registration.
+   The bot opens a pull request adding the row to `codecheckers.csv` and asks you to review it - or whom the bot's settings name, never the registrant - and it checks the organisation: somebody outside it is asked of the organisation's owners, an invitation not yet accepted is said, and a member is put in the codecheckers team.
+2. Review the pull request and merge it; the bot never merges, because a person confirms an ORCID and a contact address.
+3. Once the row is merged and the person is in the team, the bot posts the welcome and closes the issue - the next night, or at once when you comment `@chekhovbot include` again.
+
+Anything personal - a first name, an event in common, an answer to their question - is your own, separate comment: the bot posts fixed text only.
+`@chekhovbot include open @handle` opens a registration for somebody who has joined the organisation without filing one, and the bot does the same by itself when a codechecker it asked the owners to invite accepts.
+The nightly run reminds the owners of an invitation not sent and of a pull request waiting a week, and tells the person once about an invitation waiting for them.
+
+The [registration runbook](https://github.com/codecheckers/codecheckers/blob/master/registration-runbook.md) describes what the bot checks, and the procedure by hand.
+Progress and feedback: [register#209](https://github.com/codecheckers/register/issues/209) for the register, [chekhov#49](https://github.com/codecheckers/chekhov/issues/49) for registrations.
