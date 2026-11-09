@@ -93,7 +93,9 @@ Some further tips:
     1. [Recommended] Submit the unpublished draft of the Zenodo record for the certificate (see next step) [for review](https://help.zenodo.org/docs/share/submit-for-review/) to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck/); this allows a [CODECHECK editor](/guide/community-workflow-editor) to give feedback before you continue with the deposition and avoids direct updates of documents that just received a DOI.
 1. **Deposit the CODECHECK certificate on _Zenodo_** using your own Zenodo account and following the [community curation policy](https://zenodo.org/communities/codecheck/curation-policy) (which is replicated here for convenience):
     - _Reserve a DOI_
-        - Add the DOI to the `codecheck.yml` file. **Use the version-specific DOI, not the "concept DOI", and make sure it is the latest version**:
+        - Add the DOI to the `codecheck.yml` file as the `report` field, written as a resolvable URL, e.g., `report: https://doi.org/10.5281/zenodo.NNNNNNN`.
+          Do not use the shorthand the register uses for repositories, such as `zenodo::NNNNNNN` - it only works in the register's own table and does not resolve anywhere else.
+        - **Use the version-specific DOI, not the "concept DOI", and make sure it is the latest version**:
             - Zenodo assigns every deposit two kinds of identifier: a DOI for that exact, immutable version, and a "concept DOI" shared by all versions of the deposit that always resolves to whichever version is currently *latest* (see [Zenodo versioning](https://zenodo.org/help/versioning)). A certificate should point at a specific, unchanging record, so it must always use the version-specific DOI, never the concept DOI.
             - This matters because a concept DOI is a moving target: if you ever publish a new version of the deposit (to fix a typo, add a file, correct metadata), the concept DOI will start resolving to that new version instead, silently changing what a reader sees when they follow the certificate's report DOI - even though the certificate itself was never updated to say so.
             - The version-specific DOI does not have that problem by itself, but it can still go stale in a different way: if you later publish a *new version* of the record (under the same concept DOI), the old version-specific DOI keeps resolving to the version you originally checked, while Zenodo, the CODECHECK register, and anyone landing on the concept DOI will now show the newer version instead. The certificate's own metadata (title, description, files) then no longer matches what people encounter first, which undermines the transparency a permanent identifier is supposed to guarantee. If the underlying report record has to change after your certificate was issued, prefer performing a fresh CODECHECK check against the new version's metadata over leaving the certificate pointing at a superseded one.
@@ -104,11 +106,11 @@ Some further tips:
         - Recommended: The source file of the certificate PDF, e.g., the `.Rmd` or `.docx` or `.odt` file, because it can help machine-readability and long-term accessibility
         - Optional: You can add any material to this record that you see fit, especially things such as code or data that helped you with your reproduction, i.e., the [CODECHECK bundle](/guide/bundle).
     - _Communities_: Search for "codecheck" to add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck).
-    - _Authors_: Add all codecheckers as authors.
+    - _Authors_: Add all codecheckers as authors, and only them: the codechecker(s) are the sole authors of the certificate.
+      Do not add the authors of the original work as authors or contributors; they get their credit through the citation of their work in the certificate and through the _Relationship_ to it (see below).
     - _Title_: `"CODECHECK Certificate YYYY-NNN"` (certificate number issued via the register ticket above, optionally you may add the submission's title).
     - _License_: Use `Creative Commons Attribution 4.0 International` if you only upload the CODECHECK certificate, otherwise use `Other (Open)` or `Other (Attribution)` and document the licensing of the different parts in an _Additional notes_ field.
     - _Description_: Copy the summary of the check here.
-    - _Contributors_: Add the original authors as contributors (see Zenodo Metadata form section "Contributors (optional)") with a suitable role (e.g., "Researcher").
     - Add a _Relationship_ in metadata between the certificate and the original paper/submission.
         - Relation: `Reviews` (= the certificate reviews the article)
         - Identifier & Scheme: `the identifier` (ideally the article's DOI)
@@ -124,6 +126,8 @@ Some further tips:
     - _References_: add the DOI of the checked article/preprint as a **reference of the module**.
       This is the ResearchEquals counterpart of Zenodo's `Reviews` relation, and it is the field most easily forgotten, because unlike on Zenodo it **cannot be added later**.
     - _Module type_: `Reproducibility Report`.
+    - _`report` in `codecheck.yml`_: the module's DOI as a resolvable URL, `https://doi.org/10.53962/...`, as for Zenodo.
+    - _Authors_: only the codechecker(s), as for Zenodo; the original work is credited through the reference to it (see above).
     - _License_: `Creative Commons Attribution 4.0 International`.
     - _Title_: `"CODECHECK Certificate YYYY-NNN"`, as for Zenodo.
     - _Main file_: upload `codecheck.pdf` as the module's main file.
