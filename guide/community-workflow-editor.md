@@ -38,8 +38,9 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
     - Wait until the article is published in a citable form.
     - Ask the codechecker to update all required metadata in the `codecheck.yml` and to update the certificate report (especially the final DOIs!)
     - Review the Zenodo record against the [CODECHECK community curation policy](https://zenodo.org/communities/codecheck/curation-policy), which is the most up-to-date list of the required metadata, e.g., the title `CODECHECK Certificate YYYY-NNN`, only the codechecker(s) as authors (the original authors are credited via the citation of and relation to their work, not as authors or contributors), a CC-BY 4.0 licence for the certificate, a `Reviews` relation to the checked paper, and the register landing page as an alternative identifier.
-      The best moment is while the record is still a draft submitted to the community, because you can then request changes before the DOI is final.
-    - Double-check the information in the metadata and the actual certificate; wait until the certificate is published with its own DOI.
+      Codecheckers [submit the draft record for review](https://help.zenodo.org/docs/share/submit-for-review/) to the CODECHECK community instead of publishing it, so the review happens while the DOI is not yet final: you find the request under the community's requests (as a community curator), can comment on it to give feedback, and can curate the metadata and files of the draft directly.
+    - Double-check the information in the metadata and the actual certificate, then **accept** the review request, which publishes the record with its own DOI.
+      If a codechecker published the record directly instead, curate it as described in the next point.
     - Alternatively, you may make edits to the metadata in the forked repository yourself, or handle edits via Zenodo yourself (metadata editing in CODECHECK community, or even at the stage of a shared draft of a Zenodo record).
       A published record belongs to the codechecker's Zenodo account; to edit it, ask the codechecker for edit access (on the record page: **Share** → **People** → **Add people** → **Can edit**).
       Note that a new version of a Zenodo record starts from the metadata of the first version, so curation edits must be repeated on it.

@@ -159,7 +159,7 @@ The onboarding call often leaves this topic for later, when your certificate is 
 
 The certificate is published with a DOI, usually in the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck/); the [codechecker guide](/guide/community-workflow-codechecker#codechecker-tasks---extended-version) describes the metadata to fill in.
 You can also publish on [ResearchEquals](https://www.researchequals.com/); OSF is no longer an option, because it maintains the existing records but no new ones can be created.
-Don't click "publish" on Zenodo too quickly: submit the draft record for review to the community instead, so that a CODECHECK editor can check the metadata with you before the DOI is final.
+Don't click "publish" on Zenodo: [submit the draft record for review](https://help.zenodo.org/docs/share/submit-for-review/) to the community instead, so that a CODECHECK editor can check and curate the metadata with you before the DOI is final; the editor then publishes the record.
 Fixing a record after publication is a hassle.
 Files you created during the check, e.g., a small script that solved a problem, can go into the certificate deposit, too.
 

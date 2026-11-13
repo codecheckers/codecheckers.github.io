@@ -21,6 +21,7 @@ Now it's your turn.
 1. Open the manuscript and follow the instructions to reproduce the workflow
 1. During the CODECHECK, contact the authors in case of problems; keep in mind the general [CODECHECK principles](/project/#the-codecheck-principles), especially "the codechecker records but does not fix" – unless it is trivial change; the authors can provide updated versions of code and documentation; however, the entire procedure should not be much more time-intensive than a normal peer review of a paper and not involve more than a few code revisions; the codechecker can always stop the process after a reasonable effort and document on the issue as not successfully reproduced.
 1. Summarize the process and outcomes in your certificate and upload it as PDF to your project; add edited files and intermediary as well as output files as you see fit; the certificate must at least contain the information on who checked what and how; the ambition should be to document for future self and other researchers; have a look at the available certificates.
+1. Deposit the certificate on Zenodo and **[submit it for review](https://help.zenodo.org/docs/share/submit-for-review/)** to the [CODECHECK community](https://zenodo.org/communities/codecheck/) - do not publish it yourself; a CODECHECK editor reviews the record and publishes it
 1. Notify the editor about the completion
 {:.full-width}
 
@@ -90,8 +91,7 @@ Some further tips:
         - Is the data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
     1. Add **mandatory codechecker-contributed information** to the **`codecheck.yml`** file, see [spec](/spec/config/latest), and validate the file with the `codecheck` R package: `codecheck::validate_codecheck_yml_rules("codecheck.yml")` reports every rule of the specification, including whether the ORCIDs and the paper's metadata match their ORCID and Crossref records
     1. [If applicable] Wait for the article DOI.
-    1. [Recommended] Submit the unpublished draft of the Zenodo record for the certificate (see next step) [for review](https://help.zenodo.org/docs/share/submit-for-review/) to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck/); this allows a [CODECHECK editor](/guide/community-workflow-editor) to give feedback before you continue with the deposition and avoids direct updates of documents that just received a DOI.
-1. **Deposit the CODECHECK certificate on _Zenodo_** using your own Zenodo account and following the [community curation policy](https://zenodo.org/communities/codecheck/curation-policy) (which is replicated here for convenience):
+1. **Deposit the CODECHECK certificate on _Zenodo_ and submit it for review** using your own Zenodo account and following the [community curation policy](https://zenodo.org/communities/codecheck/curation-policy) (which is replicated here for convenience):
     - _Reserve a DOI_
         - Add the DOI to the `codecheck.yml` file as the `report` field, written as a resolvable URL, e.g., `report: https://doi.org/10.5281/zenodo.NNNNNNN`.
           Do not use the shorthand the register uses for repositories, such as `zenodo::NNNNNNN` - it only works in the register's own table and does not resolve anywhere else.
@@ -105,7 +105,7 @@ Some further tips:
         - `codecheck.pdf` (mandatory)
         - Recommended: The source file of the certificate PDF, e.g., the `.Rmd` or `.docx` or `.odt` file, because it can help machine-readability and long-term accessibility
         - Optional: You can add any material to this record that you see fit, especially things such as code or data that helped you with your reproduction, i.e., the [CODECHECK bundle](/guide/bundle).
-    - _Communities_: Search for "codecheck" to add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck).
+    - _Communities_: Select the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck) for the record, either in the deposit form or by starting the upload with **New upload** on the community page.
     - _Authors_: Add all codecheckers as authors, and only them: the codechecker(s) are the sole authors of the certificate.
       Do not add the authors of the original work as authors or contributors; they get their credit through the citation of their work in the certificate and through the _Relationship_ to it (see below).
     - _Title_: `"CODECHECK Certificate YYYY-NNN"` (certificate number issued via the register ticket above, optionally you may add the submission's title).
@@ -121,6 +121,11 @@ Some further tips:
     - _Optionally_, add extra metadata as you see fit (fields such as _Version_, _Language_, _Keywords_).
         - Connect the Zenodo record to the GitHub repository with a _Relate/alternate identifier_.
         - Connect the Zenodo record to the article/preprint with a _Related/alternate identifier_.
+    - _Submit for review, do not publish_: finish the deposit with **Submit for review** instead of **Publish** (see [Zenodo's guide to submitting a record for review](https://help.zenodo.org/docs/share/submit-for-review/)).
+      In the dialog, confirm that the community curators may view and edit the record and that it is published as soon as they accept it, and optionally leave a message for the editor.
+        - A [CODECHECK editor](/guide/community-workflow-editor), as curator of the Zenodo community, reviews the draft, may give feedback in the comments of the review request or curate the metadata directly, and eventually accepts the request, which publishes the record.
+        - This way, mistakes are fixed while the record is still a draft, before its DOI is final - fixing a published record means a new version or editing metadata after the fact.
+        - You can still edit the draft while it is under review; reply to the editor's comments on the review request page.
 1. **If you deposit on _ResearchEquals_ instead of Zenodo**, the same curation policy applies, but **ResearchEquals modules cannot be edited after publication** - not the metadata either.
     Everything below must therefore be right _before_ you publish the module; afterwards the only remedy is publishing a new version with a new DOI.
     - _References_: add the DOI of the checked article/preprint as a **reference of the module**.
