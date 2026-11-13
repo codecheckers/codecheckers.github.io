@@ -9,7 +9,7 @@ _Are you checking a paper with CHECK-NL?_ See their [workflow for in-person even
 
 ## Codechecker tasks - short version
 
-Before you start, an author created a pre-producible workflow: all data and code, plus a README file detailing the content, a manifest file detailing the output [in the CODECHECK configuration file specification](https://codecheck.org.uk/spec/config/1.0/), and a license file; this is ideally bundled in a single repository or archive file and accompanied by a (pre-published) paper.
+Before you start, an author created a pre-producible workflow: all data and code, plus a README file detailing the content, a manifest file detailing the output [in the CODECHECK configuration file specification](https://codecheck.org.uk/spec/config/2.0/), and a license file; this is ideally bundled in a single repository or archive file and accompanied by a (pre-published) paper.
 The author or editor then created a new issue in the [CODECHECK register](https://github.com/codecheckers/register/issues/) to start a new community CODECHECK.
 Now it's your turn.
 
