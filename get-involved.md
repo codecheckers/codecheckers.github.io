@@ -29,7 +29,7 @@ The badge should link directly to the Zenodo record using the DOI.
 The following snippet should work in Markdown:
 
 ```md
-[![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/<DOI HERE>)
+[![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/10.5281/zenodo.NNNNNNN)
 ```
 
 ## Propose a new CODECHECK
