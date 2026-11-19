@@ -11,7 +11,7 @@ checklinks: build
 	docker run --rm -it -v /etc/passwd:/etc/passwd:ro -v /etc/group:/etc/group:ro -u "$(id -u)":"$(id -g)" -v `pwd`:/srv linaroits/linkcheck --skip-path `/_includes`
 
 proof: build
-	bundle exec htmlproofer ./_site --enforce_https=false --ignore-status-codes 999,403,429 --ignore-urls localhost:4000,/register
+	bundle exec htmlproofer ./_site --enforce-https=false --ignore-status-codes 999,403,429 --ignore-urls localhost:4000,/register
 
 # report pages that scroll sideways at phone width, i.e. content cut off with
 # no way to reach it; PATHS and WIDTH override the defaults
