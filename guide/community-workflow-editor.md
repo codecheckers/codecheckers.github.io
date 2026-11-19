@@ -32,7 +32,7 @@ When a new issue is assigned to a codecheck editor in the register, here are a f
     - [Find a codechecker](https://github.com/codecheckers/codecheckers/) and invite them by @-mentioning in the register issue. Remove the [`needs codechecker`](https://github.com/codecheckers/register/labels/needs%20codechecker) label when you found one who accepted the task. Good job so far!
     - Onboarding calls with new codecheckers: if the codechecker has not done a CODECHECK before, offer them an onboarding call before they start; the [onboarding page](/guide/community-workflow-onboarding) lists the topics to cover.
     - Use the following labels to document the current state of the check: [`work in progress`](https://github.com/codecheckers/register/labels/work%20in%20progress), [`metadata pending`](https://github.com/codecheckers/register/labels/metadata%20pending)
-    - Support the codechecker as needed (send reminders, technical support, mediate between author and codechecker, et cetera); _all communication should happen within the GitHub issue on the register_ unless there are sensitive information to share.
+    - Support the codechecker as needed (send reminders, technical support, mediate between author and codechecker, et cetera); _all communication should happen within the GitHub issue on the register_ unless there are sensitive information to share; point codecheckers to the [email templates](/guide/templates/emails-to-authors) for writing to authors.
     - Ensure that a reference to the certificate is/will be added to the manuscript.
 1. **Certificate publication and register**
     - Wait until the article is published in a citable form.

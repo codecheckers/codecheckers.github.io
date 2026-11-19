@@ -107,7 +107,7 @@ See also the [prerequisites](/guide/community-workflow-codechecker#prerequisites
 ### Communication
 
 You can talk directly to the authors, and you should do so early and often.
-Email is the lowest bar and the most reliable way to reach researchers.
+Email is the lowest bar and the most reliable way to reach researchers; the [email templates](/guide/templates/emails-to-authors) cover the usual occasions, from the first contact to the published certificate.
 Some authors are happy to work in GitHub issues or pull requests, and you can link to those in the certificate, but we don't require it - we want to impose as little technology on the authors as possible.
 
 We manage the process in the [issues of the CODECHECK register](https://github.com/codecheckers/register/issues) on GitHub, where the CODECHECK editor keeps the information about your check up to date.

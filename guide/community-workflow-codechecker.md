@@ -19,7 +19,7 @@ Now it's your turn.
 1. Create a new document to write the CODECHECK certificate and _start documenting the ongoing codecheck now with everything relevant that you do_;
    the exact form of  a codechecking procedure and form of documentation vary greatly, but there are some tools, such as [an R package including R Markdown and Quarto templates](https://github.com/codecheckers/codecheck) and [a Python project including a Jupyter Notebook template](https://github.com/codecheckers/codecheck-py) to automate some steps; you may also use the word processor templates in [.odt](/guide/templates/CODECHECK_report_template.odt) and [.docx](/guide/templates/CODECHECK_report_template.docx) formats; all of that is optional, as long as the final certificate contains the mandatory information
 1. Open the manuscript and follow the instructions to reproduce the workflow
-1. During the CODECHECK, contact the authors in case of problems; keep in mind the general [CODECHECK principles](/project/#the-codecheck-principles), especially "the codechecker records but does not fix" – unless it is trivial change; the authors can provide updated versions of code and documentation; however, the entire procedure should not be much more time-intensive than a normal peer review of a paper and not involve more than a few code revisions; the codechecker can always stop the process after a reasonable effort and document on the issue as not successfully reproduced.
+1. During the CODECHECK, contact the authors in case of problems (see the [email templates](/guide/templates/emails-to-authors)); keep in mind the general [CODECHECK principles](/project/#the-codecheck-principles), especially "the codechecker records but does not fix" – unless it is trivial change; the authors can provide updated versions of code and documentation; however, the entire procedure should not be much more time-intensive than a normal peer review of a paper and not involve more than a few code revisions; the codechecker can always stop the process after a reasonable effort and document on the issue as not successfully reproduced.
 1. Summarize the process and outcomes in your certificate and upload it as PDF to your project; add edited files and intermediary as well as output files as you see fit; the certificate must at least contain the information on who checked what and how; the ambition should be to document for future self and other researchers; have a look at the available certificates.
 1. Deposit the certificate on Zenodo and **[submit it for review](https://help.zenodo.org/docs/share/submit-for-review/)** to the [CODECHECK community](https://zenodo.org/communities/codecheck/) - do not publish it yourself; a CODECHECK editor reviews the record and publishes it
 1. Notify the editor about the completion
@@ -54,6 +54,7 @@ Some further tips:
 ### CODECHECK steps
 
 1. Comment on the issue in the CODECHECK register repository to notify author and editor that you are accepting, and actually starting, the CODECHECK.
+   Introduce yourself to the authors by email, see the [email templates](/guide/templates/emails-to-authors#first-contact).
 1. Depending on where the code and data are, create a new project or fork the author's code repository, e.g., to the codecheckers organisation on [GitHub.com](https://github.com/codecheckers/) or [GitLab.com](https://gitlab.com/cdchck); supported repositories for a citable certificate: [Zenodo](https://zenodo.org/), [ResearchEquals](https://www.researchequals.com/).
    OSF is no longer an option: it maintains the existing records, including earlier CODECHECK certificates, but no new ones can be created.
    If there is no code repository, it is strongly recommended to create a new  code repository for the source code of your check which is the basis for publishing the certificate in a repository; use the naming scheme `Lastname-YYYY` using the family name of the corresponding author.
@@ -141,7 +142,7 @@ Some further tips:
       Certificates for papers of the AGILE conference additionally belong in the [Reproducible AGILE collection](https://researchequals.com/collections/aad8e6af-bd94-47f3-b215-c68d31687c74).
     - The `codecheck` R package audits published ResearchEquals certificates against these points with `check_researchequals_record()`, and the register render reports them for all entries.
 1. If possible, coordinate with the original author(s) to add a [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> to their repository, e.g., by sending a pull request on GitHub, a merge request on GitLab, or sending them an HTML snippet for their personal website.
-    The badge should link directly to the Zenodo record _via the DOI_.
+    The badge should link directly to the Zenodo record _via the DOI_; the [email announcing the certificate](/guide/templates/emails-to-authors#certificate-published) includes it.
     The following snippet should work in Markdown:
 
     ```md
