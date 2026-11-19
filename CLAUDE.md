@@ -16,6 +16,7 @@ bundle install      # Ruby dependencies
 make preview        # jekyll clean + jekyll serve (live reload, http://localhost:4000)
 make build          # jekyll clean + jekyll build
 make proof          # build + htmlproofer over _site (ignores /register, localhost)
+make test           # build + test/email_templates.py + test/overflow.py (also run in CI)
 make checklinks     # build + Dockerised linaroits/linkcheck
 
 docker compose up   # alternative dev server
@@ -164,6 +165,14 @@ half-width columns this site had in the home page banner and the footer.
   `linkedin.com/company/codecheck/`, which then overlap the next column.
   The footer lists also opt out of the global `ul` max-width, which would
   otherwise shift their centred content off the column centre.
+
+## Tests
+
+<!-- Source: own rule, added 2026-11-19. -->
+
+`make test` runs all tests on the built site; `.github/workflows/test.yml` runs it on every push to `master` and on pull requests. GitHub Pages builds and publishes the site separately, so a failing test does not stop the pages from being rendered - check the Actions tab.
+
+`test/email_templates.py` (`make test-email`) injects `test/email-templates.test.js` into the built email template pages and runs it in headless Chrome: every `mailto:` link against the text shown, unit tests of the `CodecheckIssue` parser, and tests of the form, lookup, saving, restoring (`?restore`) and reset. `jQuery.ajax` is replaced by a stub answering from fixtures (`null` answers 404, a URL without a fixture fails), so the tests need no network and do not use up the GitHub API limit. Add a test there for every change to `assets/email-templates.js`, and check that it fails without the change. `test/headless.py` holds what both browser tests share: serving `_site/` with a script injected, reading the result from the page title, running pages in parallel.
 
 ## Assets and branding
 

@@ -18,8 +18,16 @@ proof: build
 overflow: build
 	./test/overflow.py $(if $(WIDTH),--width $(WIDTH)) $(PATHS)
 
+# the email template pages: mailto: links against the text, and
+# assets/email-templates.js in headless Chrome, without network access
+test-email: build
+	./test/email_templates.py
+
+# all tests, also run by .github/workflows/test.yml
+test: test-email overflow
+
 # headless-Chrome screenshots of the built site at phone/tablet/desktop widths,
 # see test/screenshot.sh for options (paths, viewports, output directory)
 screenshots:
 	./test/screenshot.sh -b $(PATHS)
-.phony: screenshots, overflow
+.PHONY: preview build checklinks proof overflow test-email test screenshots

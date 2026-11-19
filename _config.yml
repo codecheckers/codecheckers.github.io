@@ -68,6 +68,10 @@ exclude:
   - travis.sh
   - .travis.yml
   - Makefile
+  - test
+  # the defaults that this list replaces; CI installs the gems into vendor/bundle
+  - vendor
+  - node_modules
   - logo
   - badge
   - .git
