@@ -137,6 +137,11 @@ npm, no Puppeteer - just `google-chrome --headless --screenshot`.
 - The home page's "Latest CODECHECKs" list is fetched live from the register,
   so screenshots of `/` need network access; an empty list means the AJAX call
   failed, not a layout bug.
+- `test/overflow.py` does not use the live register: it rewrites the four
+  register URLs of the home page to a fixed copy in `test/fixtures/register/`
+  (served at `/__fixtures__/`), so CI does not fail because of a new check with
+  a long title. It stops with an error if `index.md` no longer requests these
+  URLs; refresh the copy by downloading the files again.
 
 **jsdom cannot do this job**: it parses HTML and runs scripts but implements no
 CSS cascade, no box model and no media queries (`getBoundingClientRect()`

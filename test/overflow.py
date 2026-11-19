@@ -14,17 +14,15 @@ any page overflows.
 """
 
 import argparse
-import functools
-import http.server
-import re
-import subprocess
-import shutil
+import os
 import sys
-import threading
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from headless import SITE, find_chrome, map_parallel, page_title, serve_site  # noqa: E402
 
 # Reports the page width and, when it overflows, the widest elements sticking
 # out past the viewport - the culprit is usually one image or table.
-PROBE = """<script>
+PROBE = r"""<script>
 (function () {
   var doc = document.documentElement;
   var limit = doc.clientWidth;
@@ -47,6 +45,15 @@ PROBE = """<script>
 })();
 </script>"""
 
+# The home page shows live data from the register; the test uses a fixed copy
+# in test/fixtures/register/ instead, so its result does not change with the
+# register. To update it, download the four files again (persons/index.json
+# only needs the right number of entries).
+REGISTER_FIXTURES = [
+    (b'url: "https://codecheck.org.uk/register/' + name, b'url: "/__fixtures__/register/' + name)
+    for name in (b"featured.json", b"stats.json", b"persons/index.json", b"venues/index.json")
+]
+
 DEFAULT_PATHS = [
     "/",
     "/project/",
@@ -62,68 +69,33 @@ DEFAULT_PATHS = [
 ]
 
 
-class Handler(http.server.SimpleHTTPRequestHandler):
-    def send_head(self):  # inject the probe into HTML responses
-        import os
-
-        path = self.translate_path(self.path)
-        if os.path.isdir(path):
-            path = os.path.join(path, "index.html")
-        if not path.endswith(".html"):
-            return super().send_head()
-        try:
-            body = open(path, "rb").read() + PROBE.encode()
-        except OSError:
-            return super().send_head()
-        self.send_response(200)
-        self.send_header("Content-Type", "text/html")
-        self.send_header("Content-Length", str(len(body)))
-        self.end_headers()
-        import io
-
-        return io.BytesIO(body)
-
-    def log_message(self, *args):
-        pass
-
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--width", type=int, default=393, help="viewport width in CSS px")
     ap.add_argument("paths", nargs="*", default=DEFAULT_PATHS)
     args = ap.parse_args()
 
-    chrome = next(
-        (c for c in ("google-chrome", "chromium", "chromium-browser") if shutil.which(c)),
-        None,
-    )
-    if not chrome:
-        sys.exit("no chrome/chromium found")
-
-    server = http.server.ThreadingHTTPServer(
-        ("127.0.0.1", 0),
-        functools.partial(Handler, directory="_site"),
-    )
-    threading.Thread(target=server.serve_forever, daemon=True).start()
-    port = server.server_address[1]
+    chrome = find_chrome()
+    # without the rewrite the home page would quietly measure live data again
+    if "/" in args.paths:
+        with open(os.path.join(SITE, "index.html"), "rb") as f:
+            home = f.read()
+        lost = [old.decode() for old, _ in REGISTER_FIXTURES if old not in home]
+        if lost:
+            sys.exit("the home page no longer requests " + ", ".join(lost) +
+                     " - update REGISTER_FIXTURES in test/overflow.py")
+    flags = (f"--window-size={args.width},851", "--virtual-time-budget=8000")
+    with serve_site(PROBE.encode(), rewrite=REGISTER_FIXTURES) as base:
+        probes = map_parallel(lambda path: page_title(chrome, base + path, "PROBE:", flags), args.paths)
 
     failed = False
-    for path in args.paths:
-        dom = subprocess.run(
-            [
-                chrome, "--headless", "--disable-gpu", "--no-sandbox",
-                f"--window-size={args.width},851", "--virtual-time-budget=8000",
-                "--dump-dom", f"http://127.0.0.1:{port}{path}",
-            ],
-            capture_output=True, text=True,
-        ).stdout
-        match = re.search(r"PROBE:(\d+):(\d+):([^<]*)", dom)
-        if not match:
+    for path, probe in zip(args.paths, probes):
+        parts = probe.split(":", 2) if probe else []
+        if len(parts) != 3:
             print(f"?? {path}: could not measure")
             failed = True
             continue
-        scroll, client = int(match.group(1)), int(match.group(2))
-        blame = match.group(3).strip()
+        scroll, client, blame = int(parts[0]), int(parts[1]), parts[2].strip()
         # Chrome's --dump-dom ignores --window-size, so compare the numbers the
         # page itself reports rather than the requested width.
         ok = scroll <= client
@@ -132,7 +104,6 @@ def main():
         if blame:
             print(f"   widest elements past the edge: {blame}")
 
-    server.shutdown()
     sys.exit(1 if failed else 0)
 
 

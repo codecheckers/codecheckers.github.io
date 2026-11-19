@@ -12,3 +12,4 @@ guide/CODECHECK-event-recipe.pdf
 logo/codecheck_hex-sticker_*.png
 
 .scholar/
+__pycache__/
