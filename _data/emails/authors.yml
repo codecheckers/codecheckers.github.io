@@ -5,7 +5,8 @@
 # assets/email-templates.js).
 #
 # - Placeholders are [Title Case] in square brackets; list the recurring ones
-#   under `fields` to get an input in the "Fill in the placeholders" panel.
+#   under `fields` to get an input in the "Fill in the placeholders" panel
+#   (without `fields`, the page has no panel).
 #   `from` names what the register issue lookup fills the field with
 #   (title, certificate, doi, codechecker, editor). `lookup: issue` marks the
 #   field that takes the register issue URL, number, or certificate ID and

@@ -1,0 +1,40 @@
+# Letter from authors to a journal editor, suggesting a CODECHECK.
+# Single source for the text shown on /guide/templates/letter-editor and for
+# the mailto: links of its "Open in email software" buttons; see
+# _data/emails/authors.yml for the conventions. No `fields`, so no
+# placeholder form: the letters are rarely used, and nothing could be filled
+# in automatically.
+
+greeting: |-
+  Dear Editor,
+
+  Thank you for considering our manuscript "[Title]" (Manuscript ID: [Manuscript ID]) for publication in [Journal name].
+
+closing: |-
+  The CODECHECK initiative (https://codecheck.org.uk/) supports journals and editors who wish to arrange such a check. If the journal does not yet have an established CODECHECK process, the CODECHECK team can conduct an independent community check for this submission; the team can be reached at team@cdchck.science. More information on CODECHECK from a journal and editor perspective is at https://codecheck.org.uk/benefits/.
+
+  We believe that a CODECHECK strengthens the review of our manuscript and demonstrates the journal's commitment to computational reproducibility. We are happy to provide further information or to coordinate directly with a codechecker if you decide to proceed.
+
+  Thank you for your consideration.
+
+  Sincerely,
+  [Your name(s)]
+
+templates:
+  - id: check-completed
+    title: A CODECHECK has been completed
+    when: Your workflow has already been checked, e.g., based on a preprint.
+    subject: "Submission \"[Title]\" ([Manuscript ID]): CODECHECK certificate"
+    body: |-
+      Our manuscript is accompanied by a CODECHECK certificate (https://doi.org/[Certificate DOI]), which independently confirms that the computational workflow underlying our results can be executed successfully. The check was carried out by [Codechecker name] and is registered in the CODECHECK register at https://codecheck.org.uk/register/certs/[Certificate ID]/.
+
+      We encourage the handling editor and the reviewers to consult the certificate as part of their evaluation: it documents that our code, data, and instructions are sufficient to reproduce the key outputs reported in the paper.
+
+  - id: check-proposed
+    title: Proposing a CODECHECK for the review
+    when: No check has been done yet, and you suggest one as part of the review process.
+    subject: "Submission \"[Title]\" ([Manuscript ID]): suggestion for a CODECHECK"
+    body: |-
+      Our submission includes all code and data needed to reproduce the computational results presented in the paper [or: we are prepared to share all code and data required for reproduction / our submission cites all code and data, published in suitable repositories]. We would like to suggest that a CODECHECK is conducted as part of the review process.
+
+      A CODECHECK is an independent, light-weight verification that the computational workflow underlying a paper can be executed and produces the reported outputs. It is not a full code review or an assessment of scientific correctness; rather, it confirms that all materials are provided and that the workflow runs as documented. The certificate can then be provided to the handling editor and the reviewers as part of their evaluation.

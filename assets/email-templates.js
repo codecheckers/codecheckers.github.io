@@ -246,6 +246,16 @@ var CodecheckIssue = (function () {
 })();
 
 $(function () {
+    // the copy buttons, also on pages without the placeholder form
+    if (navigator.clipboard) {
+        $('.email-copy').removeAttr('hidden').on('click', function () {
+            var $button = $(this);
+            navigator.clipboard.writeText($button.closest('.email-template').find('.email-body').text())
+                .then(function () { $button.text('Copied'); },
+                      function () { $button.text('Copy failed'); });
+        });
+    }
+
     var $fields = $('.email-fields');
     if (!$fields.length) return;
     var API = 'https://api.github.com/repos/codecheckers/register/issues/';
@@ -552,13 +562,4 @@ $(function () {
             : $.trim($issue.val()) ? $issue : $certificate;
         lookup($from.val());
     });
-
-    if (navigator.clipboard) {
-        $('.email-copy').removeAttr('hidden').on('click', function () {
-            var $button = $(this);
-            navigator.clipboard.writeText($button.closest('.email-template').find('.email-body').text())
-                .then(function () { $button.text('Copied'); },
-                      function () { $button.text('Copy failed'); });
-        });
-    }
 });

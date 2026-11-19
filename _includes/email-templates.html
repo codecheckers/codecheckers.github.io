@@ -10,6 +10,7 @@ HTML compression collapses newlines in attributes, but not inside <pre>).
 {%- assign data = site.data.emails[include.set] -%}
 <script src="/assets/js/jquery.min.js"></script><!-- https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js -->
 <script src="/assets/email-templates.js"></script>
+{%- if data.fields %}
 <div class="email-fields" data-set="{{ include.set }}"{% if data.editors %} data-editors="{{ data.editors | join: ' ' }}"{% endif %} hidden>
 <p class="email-fields-title"><strong>Fill in the placeholders</strong></p>
 <form class="email-fields-form" onsubmit="return false;">
@@ -35,6 +36,7 @@ HTML compression collapses newlines in attributes, but not inside <pre>).
 <p class="small text-secondary">What you enter is used in all templates below and saved in this browser only, so it is still there when you come back; "Reset all fields" empties the fields and deletes the saved values. Fields you leave empty keep their placeholder.</p>
 </div>
 </div>
+{%- endif %}
 {% for t in data.templates %}
 {%- capture body %}{% if data.greeting %}{{ data.greeting }}
 
