@@ -1,0 +1,2 @@
+{%- comment %}One input of the "Fill in the placeholders" form, see email-templates.html.{% endcomment -%}
+<label>[{{ include.field.name }}] <input type="text" class="form-control form-control-sm" data-placeholder="[{{ include.field.name }}]"{% if include.field.lookup == "issue" %} data-lookup="issue"{% endif %}{% if include.field.from %} data-from="{{ include.field.from }}"{% endif %}{% if include.field.hint %} placeholder="{{ include.field.hint }}"{% endif %}></label>

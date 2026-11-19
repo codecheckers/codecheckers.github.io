@@ -1,0 +1,62 @@
+{% comment %}
+Renders all email templates of one data file in _data/emails/, e.g.
+  {% include email-templates.html set="authors" %}
+The visible text and the mailto: link are both built from the same data at
+build time, so the buttons work without JavaScript; assets/email-templates.js
+adds the placeholder form (hidden without JavaScript) and the copy buttons, reading the original text
+from .email-subject and .email-body (not from data- attributes: the site's
+HTML compression collapses newlines in attributes, but not inside <pre>).
+{% endcomment %}
+{%- assign data = site.data.emails[include.set] -%}
+<script src="/assets/js/jquery.min.js"></script><!-- https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js -->
+<script src="/assets/email-templates.js"></script>
+<div class="email-fields" data-set="{{ include.set }}"{% if data.editors %} data-editors="{{ data.editors | join: ' ' }}"{% endif %} hidden>
+<p class="email-fields-title"><strong>Fill in the placeholders</strong></p>
+<form class="email-fields-form" onsubmit="return false;">
+{%- assign lookup_fields = data.fields | where_exp: "f", "f.lookup" %}
+{%- if lookup_fields.size > 0 %}
+<div class="email-lookup">
+{%- for field in lookup_fields %}
+{%- include email-field.html field=field %}
+{%- endfor %}
+<button type="button" class="btn btn-outline-success btn-sm email-lookup-button">Fill in from register</button>
+<p class="small text-secondary email-lookup-status" aria-live="polite">Enter the register issue (URL or number) or the certificate ID: the public issue on GitHub and, for published certificates, the register entry fill in the fields below. Check the result before you send.</p>
+</div>
+{%- endif %}
+{%- for field in data.fields %}
+{%- unless field.lookup %}
+{%- include email-field.html field=field %}
+{%- endunless %}
+{%- endfor %}
+</form>
+<div class="email-fields-footer">
+<button type="button" class="btn btn-danger email-reset">Reset all fields</button>
+<span class="email-restored alert alert-info small" hidden></span>
+<p class="small text-secondary">What you enter is used in all templates below and saved in this browser only, so it is still there when you come back; "Reset all fields" empties the fields and deletes the saved values. Fields you leave empty keep their placeholder.</p>
+</div>
+</div>
+{% for t in data.templates %}
+{%- capture body %}{% if data.greeting %}{{ data.greeting }}
+
+{% endif %}{{ t.body }}{% if data.closing %}
+
+{{ data.closing }}{% endif %}{% endcapture -%}
+<div class="email-template" id="{{ t.id }}">
+<h3>{{ t.title }}</h3>
+<p>{{ t.when }}</p>
+{%- if data.cc %}
+<p><strong>CC:</strong> <span class="email-cc">{{ data.cc | escape }}</span></p>
+{%- endif %}
+<p><strong>Subject:</strong> <span class="email-subject">{{ t.subject | escape }}</span></p>
+<pre class="email-body">{{ body | escape }}</pre>
+{%- comment %}
+data-proofer-ignore: the mailto: links have no recipient on purpose, and
+html-proofer 4.4.3 reports them as "contains no email address", and its CLI
+option --ignore-empty-mailto=true had no effect (the option works through the
+Ruby API). Related upstream issue: https://github.com/gjtorikian/html-proofer/issues/742
+TODO: file an upstream issue for 4.4.3 and link it here.
+{% endcomment %}
+<p><a class="btn btn-success btn-sm email-open" data-proofer-ignore href="mailto:?subject={{ t.subject | cgi_escape | replace: '+', '%20' }}&amp;body={{ body | cgi_escape | replace: '+', '%20' }}">Open in email software</a>
+<button type="button" class="btn btn-outline-secondary btn-sm email-copy" hidden>Copy text</button></p>
+</div>
+{% endfor %}

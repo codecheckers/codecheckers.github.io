@@ -1,0 +1,120 @@
+# Emails from a codechecker to the authors of the checked work.
+# Single source for the text shown on /guide/templates/emails-to-authors and
+# for the mailto: links of its "Open in email software" buttons
+# (rendered by _includes/email-templates.html, placeholders filled in by
+# assets/email-templates.js).
+#
+# - Placeholders are [Title Case] in square brackets; list the recurring ones
+#   under `fields` to get an input in the "Fill in the placeholders" panel.
+#   `from` names what the register issue lookup fills the field with
+#   (title, certificate, doi, codechecker, editor). `lookup: issue` marks the
+#   field that takes the register issue URL, number, or certificate ID and
+#   offers the lookup; `lookup: row` puts another field on the same first row.
+#   `hint` is shown in the empty input.
+# - Write each paragraph of a body as ONE line: mail clients reflow text.
+# - Plain text only, no Markdown: mailto bodies arrive as plain text.
+# - Keep each body below ~1200 characters, some mail clients cut off long mailto: links.
+#
+# Adapted from the Reproducible AGILE review templates,
+# https://reproducible-agile.github.io/reviews-2026/#email-templates-for-contacting-authors (CC BY 4.0)
+
+fields:
+  - name: Register issue URL
+    lookup: issue
+    hint: "URL, #NNN, or certificate ID"
+  - name: Certificate ID
+    from: certificate
+    lookup: row
+    hint: YYYY-NNN
+  - name: Title
+    from: title
+  - name: Certificate DOI
+    from: doi
+  - name: Your name
+    from: codechecker
+  - name: Editor email
+    from: editor
+
+# Added as CC by "Open in email software" once it holds an email address.
+cc: "[Editor email]"
+
+# GitHub handles of the CODECHECK editors (members of the codecheckers/editors
+# team, which is not visible without logging in): the lookup takes an
+# assignee or commenter on this list as the editor, if the bot record names none.
+editors: [nuest, sje30, foost]
+
+# `greeting` is put before and `closing` after every body.
+greeting: "Dear authors,"
+
+closing: |-
+  Best regards,
+  [Your name]
+
+templates:
+  - id: first-contact
+    title: Starting the check
+    when: Your first email, when you accept the check. Write to all authors.
+    subject: "CODECHECK [Certificate ID]: \"[Title]\" - starting the check"
+    body: |-
+      I am the codechecker for your work "[Title]" and I am starting the CODECHECK now. The check is tracked in the CODECHECK register: [Register issue URL]
+
+      A CODECHECK (https://codecheck.org.uk) is an independent run of the computations behind your paper: I follow your instructions, try to recreate the results reported in the paper, and document what I did in a certificate. It does not judge the science. I record problems rather than fix them, so I will contact you when I get stuck, and you can update code or documentation if need be.
+
+      I will use the material provided at [URL of code and data] as a starting point. Please let me know if there is a better starting point for the reproduction or additional information that I should be aware of.
+
+      You will see a draft of the certificate before it is published with a DOI. Please reply to all, so that your co-authors and the CODECHECK editor in copy stay informed.
+
+  - id: missing-materials
+    title: Asking for missing materials
+    when: Code, data, or documentation needed for the check are missing, or the data cannot be shared.
+    subject: "CODECHECK [Certificate ID]: \"[Title]\" - materials needed"
+    body: |-
+      Thank you for submitting "[Title]" for a CODECHECK ([Register issue URL]). To run the check, I need the following:
+
+      - [Missing item, e.g., the input data, a README with the order in which to run the scripts, the required packages and their versions]
+
+      Could you add these by [deadline, e.g., two weeks from now], so that the check can be completed before [publication / the review deadline]? The author guide explains what a submission needs: https://codecheck.org.uk/guide/community-workflow-author
+
+      [Optional: You write that the data cannot be shared because of [reason]. A check is still possible with a synthetic dataset or a subset with the same structure, together with the full code. Could you provide one? The certificate will state clearly which data was used.]
+
+      Please let me know if anything is unclear.
+
+  - id: problem-report
+    title: Reporting a problem
+    when: You are stuck. Attach the current draft of the certificate, which documents the details - your first email of this kind often goes out within the first half hour.
+    subject: "CODECHECK [Certificate ID]: \"[Title]\" - question about [step]"
+    body: |-
+      While working on the CODECHECK of "[Title]", I ran into a problem at [step, e.g., step 3 of the README, or script name]: [one-sentence summary, e.g., the script stops because a package is missing, or Figure 2 shows a different range than the paper].
+
+      Attached is the current draft of the certificate. It documents the steps I took, my computing environment, the full error messages, and what I tried so far.
+
+      Could you [one concrete question, e.g., tell me which version of package X you used]? If you update your repository, please send me the new commit.
+
+  - id: draft-for-feedback
+    title: Sharing the certificate draft
+    when: Your draft is done and the CODECHECK editor has seen it. Attach the PDF.
+    subject: "CODECHECK [Certificate ID]: \"[Title]\" - certificate draft for your feedback"
+    body: |-
+      I have completed the CODECHECK of "[Title]", and attached is a draft of the certificate. In short: [one-sentence summary, e.g., I could run the full workflow and recreate all figures and tables].
+
+      Please point out factual errors or misunderstandings within [one week]. The certificate documents what I did and found, so it does not need your approval, but I am happy to discuss anything you see differently.
+
+      [Optional: The certificate also includes feedback and suggestions for improving your materials, see section [section name]. If you make any changes based on this feedback, I would appreciate a short notice, so that I can mention them in the certificate.]
+
+      [Optional: Together with the certificate, I would like to publish [files, e.g., my Makefile and the outputs I generated] on Zenodo, with the original sources and licences noted in the certificate. Please let me know if you have concerns.]
+
+      A CODECHECK editor reviews the certificate before it is published with a DOI. [Optional: To link the certificate to your paper, we will wait for the paper's DOI.]
+
+  - id: certificate-published
+    title: Certificate published
+    when: The CODECHECK editor has published the certificate.
+    subject: "CODECHECK [Certificate ID]: \"[Title]\" - certificate published"
+    body: |-
+      The CODECHECK certificate for "[Title]" is now published: https://doi.org/[Certificate DOI]
+      It is also listed in the CODECHECK register: https://codecheck.org.uk/register/certs/[Certificate ID]/
+
+      Thank you for preparing your materials and for your help during the check - your work is now easier to reuse and to build on.
+
+      Please cite the certificate in your paper, e.g., in the code and data availability statement, and add the CODE WORKS badge to the documentation of your work, e.g., using this Markdown snippet in a repository README:
+
+      [![CODECHECK](https://codecheck.org.uk/img/codeworks-badge.svg)](https://doi.org/[Certificate DOI])

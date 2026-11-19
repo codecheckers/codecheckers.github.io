@@ -275,3 +275,75 @@ blockquote p:first-of-type {
   text-decoration: none !important; /* do not underline */
   opacity: 1;
 }
+
+/* email templates, _includes/email-templates.html */
+/* all buttons of the templates 20% larger than Bootstrap's (1rem, sm 0.875rem) */
+.email-fields .btn,
+.email-template .btn {
+  font-size: 1.2rem;
+  padding: 0.45rem 0.9rem;
+}
+
+.email-fields .btn-sm,
+.email-template .btn-sm {
+  font-size: 1.05rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.email-body {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.email-fields {
+  margin: 2rem 0 2.5rem;
+}
+
+.email-fields-title {
+  margin-bottom: 0.25rem;
+}
+
+/* rows that wrap: the form, its first row (register issue and certificate
+   ID, then the lookup button), and the footer with the Reset button */
+.email-fields-form,
+.email-lookup,
+.email-fields-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.email-fields-form {
+  margin-top: 0.5rem;
+}
+
+.email-fields-form label {
+  flex: 1 1 14rem;
+}
+
+.email-lookup {
+  flex: 1 1 100%;
+  align-items: flex-end;
+}
+
+.email-lookup .email-lookup-button {
+  margin-bottom: 0.5rem;
+}
+
+.email-fields-footer {
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+/* full-width lines below a row */
+.email-lookup .email-lookup-status,
+.email-fields-footer p {
+  flex: 1 1 100%;
+  margin: 0;
+}
+
+/* "Restored from this browser" note next to the Reset button (alert-info) */
+.email-restored {
+  margin: 0;
+  padding: 0.4em 0.6em;
+}
