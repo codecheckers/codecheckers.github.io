@@ -174,6 +174,12 @@ half-width columns this site had in the home page banner and the footer.
 
 `test/email_templates.py` (`make test-email`) injects `test/email-templates.test.js` into the built email template pages and runs it in headless Chrome: every `mailto:` link against the text shown, unit tests of the `CodecheckIssue` parser, and tests of the form, lookup, saving, restoring (`?restore`) and reset. `jQuery.ajax` is replaced by a stub answering from fixtures (`null` answers 404, a URL without a fixture fails), so the tests need no network and do not use up the GitHub API limit. Add a test there for every change to `assets/email-templates.js`, and check that it fails without the change. `test/headless.py` holds what both browser tests share: serving `_site/` with a script injected, reading the result from the page title, running pages in parallel.
 
+## Code review
+
+<!-- Source: own rule, added 2026-11-19. -->
+
+The site is no longer only Markdown and templates: `assets/*.js` (homepage register widgets, the email templates' lookup, form and storage code), the Liquid includes and layouts, `test/` and the `Makefile` are code. Whenever a change touches one of the repository's own code files (not vendored files under `assets/js/`, and not content-only `.md` or `_data/` edits), run `/simplify` and then `/code-review` on the change before reporting it as done, fix or report what they find, and then rerun the checks (`make build`, the affected tests).
+
 ## Assets and branding
 
 `logo/`, `badges/`, and `img/` hold branding sources; `logo` and `badge` are excluded from the Jekyll build in `_config.yml`. CODECHECK green is `#008033`. Website figures are kept in a shared Google Drive folder linked from `README.md`.
