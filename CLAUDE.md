@@ -18,6 +18,7 @@ make build          # jekyll clean + jekyll build
 make proof          # build + htmlproofer over _site (ignores /register, localhost)
 make test           # build + test/email_templates.py + test/overflow.py (also run in CI)
 make checklinks     # build + Dockerised linaroits/linkcheck
+make archive        # ask the Wayback Machine to capture every page of the live sitemap.xml (tools/archive.py)
 
 docker compose up   # alternative dev server on :4000, ruby:3.3 image + Gemfile.lock (see README)
 ```
@@ -28,7 +29,7 @@ docker compose up   # alternative dev server on :4000, ruby:3.3 image + Gemfile.
 
 ## Architecture
 
-- **Jekyll 3.10**, kramdown with the GFM parser, plugins `jekyll-seo-tag`, `jekyll-remote-theme`, `jekyll-redirect-from`.
+- **Jekyll 3.10**, kramdown with the GFM parser, plugins `jekyll-seo-tag`, `jekyll-remote-theme`, `jekyll-redirect-from`, `jekyll-sitemap` (writes `sitemap.xml` and `robots.txt`).
 - **Theme**: `remote_theme: aterenin/minima-reboot`. To override a theme file, run `bundle info minima-reboot` and copy the file into this repo at the same path.
 - **Frontend**: Bootstrap 4.1.3 + jQuery + Mustache.js, all **vendored** under `assets/js/` (the original CDN URLs are kept in HTML comments next to each `<script>` tag). No build step, no npm.
 

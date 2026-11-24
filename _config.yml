@@ -12,6 +12,7 @@ remote_theme: aterenin/minima-reboot
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 license:
   text: CC BY-SA 4.0
@@ -69,6 +70,7 @@ exclude:
   - .travis.yml
   - Makefile
   - test
+  - tools
   # the defaults that this list replaces; CI installs the gems into vendor/bundle
   - vendor
   - node_modules

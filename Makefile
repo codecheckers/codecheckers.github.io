@@ -36,8 +36,14 @@ test-email: build
 # all tests, also run by .github/workflows/test.yml
 test: test-email overflow
 
+# ask the Wayback Machine to capture every page in the published sitemap (not
+# the register); IA_ACCESS_KEY/IA_SECRET_KEY allow more captures, DELAY sets the
+# seconds between them, ARGS=--dry-run only lists the pages
+archive:
+	./tools/archive.py $(if $(DELAY),--delay $(DELAY)) $(ARGS)
+
 # headless-Chrome screenshots of the built site at phone/tablet/desktop widths,
 # see test/screenshot.sh for options (paths, viewports, output directory)
 screenshots:
 	./test/screenshot.sh -b $(PATHS)
-.PHONY: preview build checklinks proof overflow test-email test screenshots
+.PHONY: preview build checklinks proof overflow test-email test screenshots archive

@@ -74,6 +74,20 @@ make build
 make test      # the tests that also run in CI
 ```
 
+### Archive the website
+
+```bash
+make archive                  # all published pages, one every 10 seconds
+make archive ARGS=--dry-run   # only list the pages
+make archive DELAY=30         # slower, if the Wayback Machine answers 429
+```
+
+asks the Internet Archive's [Wayback Machine](https://web.archive.org/) to capture every page of the published site (not the register), using "Save Page Now".
+The list of pages is the published sitemap, <https://codecheck.org.uk/sitemap.xml>, which the `jekyll-sitemap` plugin writes: pages and PDFs, without redirect pages.
+To preview the list from a local build, run `make build`, then `make archive ARGS="--dry-run --sitemap _site/sitemap.xml"`.
+Anonymous requests are rate-limited more strictly; with S3-style keys from <https://archive.org/account/s3.php> in `IA_ACCESS_KEY` and `IA_SECRET_KEY`, the authenticated API is used.
+Run it after larger changes to the website, so that the archived copies stay current.
+
 ### Preview with Docker
 
 Without a local Ruby, run
