@@ -103,6 +103,16 @@ Take a look at the CODECHECK register for 🗂️ [all codechecks conducted as p
 
 ## Institutions
 
+Research institutions offer CODECHECKs as a service for their researchers.
+
+<div class="partner-logos">
+  <a href="{{ '/institutions/#4turesearchdata-and-tu-delft-digital-competence-centre' | relative_url }}"><img src="{{ 'img/4TUResearchData-logo.png' | relative_url }}" loading="lazy" alt="4TU.ResearchData"></a>
+  <a href="{{ '/institutions/#4turesearchdata-and-tu-delft-digital-competence-centre' | relative_url }}"><img src="{{ 'img/TUDelft_logo_rgb.png' | relative_url }}" loading="lazy" alt="TU Delft Digital Competence Centre"></a>
+  <a href="{{ '/institutions/#amsterdam-university-medical-centers-amsterdam-umc' | relative_url }}"><img src="{{ 'img/Amsterdam-UMC_Logo.png' | relative_url }}" loading="lazy" alt="Amsterdam UMC"></a>
+  <a href="{{ '/institutions/#ds3' | relative_url }}"><img src="{{ 'img/ds3-logo.png' | relative_url }}" loading="lazy" alt="Lower Saxony Digital Science Support Space (DS³)"></a>
+  <a href="{{ '/institutions/#university-of-twente-dcc' | relative_url }}"><img src="{{ 'img/UT_DCC_BLACK_logo.png' | relative_url }}" loading="lazy" alt="University of Twente DCC"></a>
+</div>
+
 See the page [**Institutional CODECHECKs**](/institutions/) for more information and find 🗂️ [all institutions and their checks in the CODECHECK register](https://codecheck.org.uk/register/venues/institutions/).
 
 ## Projects

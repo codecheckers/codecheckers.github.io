@@ -347,3 +347,20 @@ blockquote p:first-of-type {
   margin: 0;
   padding: 0.4em 0.6em;
 }
+
+/* Row of small institution logos on the partners page, each linking to its
+   entry on /institutions/. A fixed height (not width) keeps wide wordmarks and
+   squarish logos visually alike; the global img rule sets height:auto, so the
+   height has to be set here rather than as an attribute. */
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 2rem;
+  margin: 1.5rem 0;
+}
+
+.partner-logos img {
+  height: 40px;
+  width: auto;
+}

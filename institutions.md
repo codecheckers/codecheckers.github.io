@@ -18,11 +18,13 @@ In accordance with CODECHECK principles, authors are expected to provide openly 
 Using this information, the DCC conducts the CODECHECK and contacts authors if clarification is needed.
 Once the CODECHECK is successfully completed and a certificate is issued, a "Code Works" badge is added to the software publication's landing page at 4TU.ResearchData (see [example](https://doi.org/10.4121/e64c61d3-deb5-4aad-af60-92d92755781f.v3)), along with a link to the associated certificate publication.
 
-Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/tu_delft_dcc/>
+⏳ Checks in progress: [open TU Delft DCC issues in the register](https://github.com/codecheckers/register/issues?q=is%3Aopen%20label%3A%22TU%20Delft%20DCC%22)
 
-Contact: [Aleksandra Wilczynska](mailto:A.E.Wilczynska@tudelft.nl)
+🗂️ Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/tu_delft_dcc/>
 
-More information: <https://www.tudelft.nl/digital-competence-centre/services/reproducibility-check>
+ℹ️ More information: <https://www.tudelft.nl/digital-competence-centre/services/reproducibility-check>
+
+✉️ Contact: [Aleksandra Wilczynska](mailto:A.E.Wilczynska@tudelft.nl)
 
 Together, Amsterdam UMC and the TU Delft DCC study which factors cause issues during their CODECHECKs in the NWO-funded project [_Advancing reproducible research by assessing core software quality indicators in CODECHECK_](/indicators/).
 
@@ -35,13 +37,32 @@ This service focusses on computational workflows in R and/or Python, based on pr
 It is available to all research staff from Amsterdam UMC, including PhD candidates. While metadata should be made publicly available, we encourage researchers — in the interest of open science — to also make their data openly accessible whenever possible.
 CODECHECK requests can be made via ServiceNow, RDM Research Software Management.
 
-Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/aumc/>
+⏳ Checks in progress: [open Amsterdam UMC issues in the register](https://github.com/codecheckers/register/issues?q=is%3Aopen%20label%3A%22AUMC%22)
 
-Contact: [Merel Postema](mailto:m.c.postema@amsterdamumc.nl)
+🗂️ Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/aumc/>
 
-More information: <https://www.amsterdamumc.org/en/research/support/services-support/data-management/research-software-management.htm>
+ℹ️ More information: <https://www.amsterdamumc.org/en/research/support/services-support/data-management/research-software-management.htm>
+
+✉️ Contact: [Merel Postema](mailto:m.c.postema@amsterdamumc.nl)
 
 Together, Amsterdam UMC and the TU Delft DCC study which factors cause issues during their CODECHECKs in the NWO-funded project [_Advancing reproducible research by assessing core software quality indicators in CODECHECK_](/indicators/).
+
+## Lower Saxony Digital Science Support Space (DS³)
+{: #ds3}
+
+[![DS³ Logo](/img/ds3-logo.png){:width="300"}](https://ds3-nds.de/en/)
+
+The [Lower Saxony Digital Science Support Space](https://ds3-nds.de/en/) (DS³) is a joint project of universities and higher education institutions in Lower Saxony, Germany, offering consulting, training, and code reviews in research software engineering, AI methods, and high-performance computing.
+The services, including CODECHECKs, are available to researchers at all universities in Lower Saxony.
+As one of its code reviews, DS³ offers a reproducibility review in partnership with CODECHECK: a standardised workflow for reproducing the results of a published or submitted paper.
+
+⏳ Checks in progress: [open DS³ issues in the register](https://github.com/codecheckers/register/issues?q=is%3Aopen%20label%3A%22DS3%22)
+
+🗂️ Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/ds3/> (_pending - no certificates published yet_)
+
+ℹ️ More information: <https://ds3-nds.de/en/services/>
+
+✉️ Contact: [Matrix chat](https://matrix.to/#/#support:matrix.tu-bs.de) or [dss-lab@tu-braunschweig.de](mailto:dss-lab@tu-braunschweig.de)
 
 ## University of Twente DCC
 
@@ -51,11 +72,13 @@ To enhance the reproducibility of scientific publications by researchers at the 
 
 We invite you to explore our website which, provides all the information to prepare and get your CODECHECK certificate. We encourage you to get in contact, even if you believe that your code is not ready, we will support you to get ready.
 
-Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/ut_dcc/>
+⏳ Checks in progress: [open UT DCC issues in the register](https://github.com/codecheckers/register/issues?q=is%3Aopen%20label%3A%22UT%20DCC%22)
 
-More information: <https://www.utwente.nl/en/dcc/reproducibility-check/>
+🗂️ Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/ut_dcc/> (_pending - no certificates published yet_)
 
-Contact: [software-stewards-lisa@utwente.nl](mailto:software-stewards-lisa@utwente.nl)
+ℹ️ More information: <https://www.utwente.nl/en/dcc/reproducibility-check/>
+
+✉️ Contact: [software-stewards-lisa@utwente.nl](mailto:software-stewards-lisa@utwente.nl)
 
 <br>
 
@@ -70,7 +93,7 @@ Contact: [software-stewards-lisa@utwente.nl](mailto:software-stewards-lisa@utwen
 [Open Science @ ITC](https://web.archive.org/web/20220926223457/https://www.itc.nl/research/open-science/codecheck/) provided CODECHECKs for their members.
 ITC is the [University of Twente](https://www.utwente.nl/en/)'s Faculty of Geo-Information Science and Earth Observation. The checks at ITC were discontinued in 2023.
 
-Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/open_science_at_itc/>
+🗂️ Certificates in the register: <https://codecheck.org.uk/register/venues/institutions/open_science_at_itc/>
 
 
 ------
