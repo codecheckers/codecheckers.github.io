@@ -1,10 +1,25 @@
-version: "3.9"
+# Local preview without a Ruby installation: `docker compose up`, then open
+# http://localhost:4000. Uses the Ruby version of CI (.github/workflows/test.yml)
+# and installs the gems from Gemfile.lock, so it builds with the same Jekyll 3.10
+# as `make preview` and GitHub Pages. The jekyll/jekyll images bundle an old
+# Bundler that cannot install the current lockfile.
 services:
   jekyll:
-    image: "jekyll/jekyll:4.2.0"
-    command: jekyll serve
-    network_mode: 'host'
+    image: ruby:3.3
+    working_dir: /srv/jekyll
+    # run as your user, so that _site/ and .jekyll-cache/ stay yours;
+    # set HOST_UID/HOST_GID in the environment if they are not 1000
+    user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
+    environment:
+      HOME: /tmp
+    command: sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0"
     ports:
       - "4000:4000"
     volumes:
       - .:/srv/jekyll
+      # keeps the installed gems between runs; /usr/local/bundle is
+      # world-writable in the ruby image, so the volume is writable for that user
+      - bundle:/usr/local/bundle
+
+volumes:
+  bundle:

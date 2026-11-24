@@ -74,19 +74,18 @@ make build
 make test      # the tests that also run in CI
 ```
 
-### Build with Docker
+### Preview with Docker
 
-Run
+Without a local Ruby, run
 
 ```bash
 docker compose up
 ```
 
-and open the website at <http://localhost>.
-
-**Note:** this is currently broken. The image ships Jekyll 4.2 and an old Bundler (2.2), which cannot install the gems in `Gemfile.lock` (`Your bundle is locked to nokogiri (1.19.7-x86_64-linux) ... that version can no longer be found`); use the local build above.
-
-More details at [`jekyll/jekyll` image documentation](https://github.com/envygeeks/jekyll-docker/blob/master/README.md).
+and open the website at <http://localhost:4000>.
+It uses the `ruby:3.3` image (the Ruby of CI), installs the gems from `Gemfile.lock` on the first start (into the `bundle` volume, so later starts are quick) and runs `jekyll serve` with the same Jekyll 3.10 as `make preview` and GitHub Pages.
+The container runs as user and group 1000, so `_site/` stays yours; if your IDs differ, run `HOST_UID=$(id -u) HOST_GID=$(id -g) docker compose up`.
+After a change to `Gemfile.lock`, restart the container to install the new gems.
 
 ## Recurring news item: papers citing CODECHECK certificates
 

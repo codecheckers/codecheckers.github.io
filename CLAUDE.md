@@ -19,10 +19,8 @@ make proof          # build + htmlproofer over _site (ignores /register, localho
 make test           # build + test/email_templates.py + test/overflow.py (also run in CI)
 make checklinks     # build + Dockerised linaroits/linkcheck
 
-docker compose up   # alternative dev server, currently broken: the image cannot install Gemfile.lock (see README)
+docker compose up   # alternative dev server on :4000, ruby:3.3 image + Gemfile.lock (see README)
 ```
-
-Note the version skew: local/GH Pages builds use Jekyll 3.10 (`Gemfile`), while `docker-compose.yml` pins the `jekyll/jekyll:4.2.0` image. Prefer `make preview` when behaviour differences matter.
 
 `error_mode: strict` in `_config.yml` means Liquid errors fail the build rather than rendering silently — always run `make build` after touching templates or front matter.
 
