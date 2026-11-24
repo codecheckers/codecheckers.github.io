@@ -10,8 +10,16 @@ build:
 checklinks: build
 	docker run --rm -it -v /etc/passwd:/etc/passwd:ro -v /etc/group:/etc/group:ro -u "$(id -u)":"$(id -g)" -v `pwd`:/srv linaroits/linkcheck --skip-path `/_includes`
 
+# --ignore-urls skips the register, which is not part of this repository;
+# html-proofer 5 matches a plain string against the whole URL, hence the regex.
+# --swap-urls drops the fragment of Wikidata query and matrix.to links: it is
+# read by JavaScript, not an anchor in the page. html-proofer 5 checks it as
+# one anyway; for the Wikidata link (a whole SPARQL query) it crashes with
+# "Nokogiri::XML::XPath::SyntaxError: Invalid predicate". Workaround suggested
+# upstream in https://github.com/gjtorikian/html-proofer/issues/810
 proof: build
-	bundle exec htmlproofer ./_site --enforce-https=false --ignore-status-codes 999,403,429 --ignore-urls localhost:4000,/register
+	bundle exec htmlproofer ./_site --no-enforce-https --ignore-status-codes 999,403,429 --ignore-urls 'localhost:4000,/^(https://codecheck\.org\.uk)?\/register(\/|$$)/' \
+		--swap-urls 'query-scholarly\.wikidata\.org/#.*:query-scholarly.wikidata.org/,matrix\.to/#.*:matrix.to/'
 
 # report pages that scroll sideways at phone width, i.e. content cut off with
 # no way to reach it; PATHS and WIDTH override the defaults

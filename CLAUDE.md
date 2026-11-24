@@ -11,7 +11,7 @@ The repository is named `codecheckers.github.io` on purpose: the site **must** b
 ## Build & Development Commands
 
 ```bash
-bundle install      # Ruby dependencies
+bundle install      # Ruby dependencies; needs ruby-dev + build-essential, and BUNDLE_PATH=~/.local/share/bundle with a system Ruby (see README)
 
 make preview        # jekyll clean + jekyll serve (live reload, http://localhost:4000)
 make build          # jekyll clean + jekyll build
@@ -19,7 +19,7 @@ make proof          # build + htmlproofer over _site (ignores /register, localho
 make test           # build + test/email_templates.py + test/overflow.py (also run in CI)
 make checklinks     # build + Dockerised linaroits/linkcheck
 
-docker compose up   # alternative dev server
+docker compose up   # alternative dev server, currently broken: the image cannot install Gemfile.lock (see README)
 ```
 
 Note the version skew: local/GH Pages builds use Jekyll 3.10 (`Gemfile`), while `docker-compose.yml` pins the `jekyll/jekyll:4.2.0` image. Prefer `make preview` when behaviour differences matter.

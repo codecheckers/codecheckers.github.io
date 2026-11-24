@@ -36,16 +36,42 @@ If you want to override a file from the `minima-reboot` template, run `bundle in
 
 Prerequisites:
 
-- `ruby` and `ruby-dev`
+- `ruby` (3.3, as in CI) and `ruby-dev` - the headers are needed to compile the native extensions of gems such as `bigdecimal` and `strscan`; without them `bundle install` fails with `mkmf.rb can't find header files for ruby`
+- a C compiler and `make` (Debian/Ubuntu: `build-essential`)
 - gem `bundler`
+- for the tests (`make test`, `make screenshots`): `python3` (standard library only) and Google Chrome or Chromium
+- for `make checklinks`: Docker
 
-### Preview and build locally
+On Debian/Ubuntu:
+
+```bash
+sudo apt install ruby ruby-dev build-essential
+```
+
+### Install the gems
+
+```bash
+bundle install
+```
+
+With a system Ruby, the default gem directory (e.g. `/var/lib/gems`) is not writable for normal users and `bundle install` stops with a `Bundler::PermissionError`.
+Install the gems into your home directory instead:
+
+```bash
+export BUNDLE_PATH=~/.local/share/bundle
+bundle install
+```
+
+and keep `BUNDLE_PATH` set for the `make` commands below.
+
+### Preview, build, and test locally
 
 Use one of
 
 ```bash
-make preview
+make preview   # http://localhost:4000 with live reload
 make build
+make test      # the tests that also run in CI
 ```
 
 ### Build with Docker
@@ -57,6 +83,8 @@ docker compose up
 ```
 
 and open the website at <http://localhost>.
+
+**Note:** this is currently broken. The image ships Jekyll 4.2 and an old Bundler (2.2), which cannot install the gems in `Gemfile.lock` (`Your bundle is locked to nokogiri (1.19.7-x86_64-linux) ... that version can no longer be found`); use the local build above.
 
 More details at [`jekyll/jekyll` image documentation](https://github.com/envygeeks/jekyll-docker/blob/master/README.md).
 
