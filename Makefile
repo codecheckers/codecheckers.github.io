@@ -12,13 +12,15 @@ checklinks: build
 
 # --ignore-urls skips the register, which is not part of this repository;
 # html-proofer 5 matches a plain string against the whole URL, hence the regex.
+# It also skips eLife and UNESCO IIEP, which answer automated requests with 406
+# or not at all, but work in a browser.
 # --swap-urls drops the fragment of Wikidata query and matrix.to links: it is
 # read by JavaScript, not an anchor in the page. html-proofer 5 checks it as
 # one anyway; for the Wikidata link (a whole SPARQL query) it crashes with
 # "Nokogiri::XML::XPath::SyntaxError: Invalid predicate". Workaround suggested
 # upstream in https://github.com/gjtorikian/html-proofer/issues/810
 proof: build
-	bundle exec htmlproofer ./_site --no-enforce-https --ignore-status-codes 999,403,429 --ignore-urls 'localhost:4000,/^(https://codecheck\.org\.uk)?\/register(\/|$$)/' \
+	bundle exec htmlproofer ./_site --no-enforce-https --ignore-status-codes 999,403,429 --ignore-urls 'localhost:4000,/^(https://codecheck\.org\.uk)?\/register(\/|$$)/,/^https://(elifesciences\.org|www\.iiep\.unesco\.org)\//' \
 		--swap-urls 'query-scholarly\.wikidata\.org/#.*:query-scholarly.wikidata.org/,matrix\.to/#.*:matrix.to/'
 
 # report pages that scroll sideways at phone width, i.e. content cut off with

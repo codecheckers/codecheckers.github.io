@@ -304,7 +304,7 @@ Hope to have encouraged you to go for it -- Success!
    or repository; the report should at least contain the information on
    _who_ checked _what_ and _how_ with _which outcomes_; document for
    future self and other researchers; have a look at the available
-   reports; most contain also optional information (compare [CODECHECK community workflow guide](https://codecheck.org.uk/guide/community-workflow#codecheck-steps))
+   reports; most contain also optional information (compare [CODECHECK community workflow guide](https://codecheck.org.uk/guide/community-workflow-codechecker#codecheck-steps))
 
 8. The **workshop team** checks the bundle and report, and together
    with the workshop codecheckers, revise where necessary; once ready,

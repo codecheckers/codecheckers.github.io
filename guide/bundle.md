@@ -13,7 +13,7 @@ This may include a copy of the author's files, and any additional files that the
 
 ## Computing environment documentation
 
-- Binder's [_REES_ specification](https://repo2docker.readthedocs.io/en/latest/config_files.html#config-files), for example by creating one or several of the following files or tools:
+- Binder's [_REES_ specification](https://repo2docker.readthedocs.io/en/latest/config_files/), for example by creating one or several of the following files or tools:
   - `Dockerfile`
   - Binder
   - `environment.yml`

@@ -61,7 +61,7 @@ _[Become a codechecker](/get-involved)!_
 - [Dr. Konrad Kording](http://koerding.com/) (UPenn)
 - Dr. Scott Edmunds, Executive Editor at [GigaScience](https://academic.oup.com/gigascience)
 - [Opening Reproducible Research](https://o2r.info) project (University of Münster)
-- [Dr. Antonio Páez](https://www.science.mcmaster.ca/ees/component/comprofiler/userprofile/paezha.html), Editor-in-Chief at [Journal of Geographical Systems](https://www.springer.com/journal/10109) (McMaster University, Hamilton, Canada)
+- [Dr. Antonio Páez](https://web.archive.org/web/20230213174955/https://www.science.mcmaster.ca/ees/component/comprofiler/userprofile/paezha.html), Editor-in-Chief at [Journal of Geographical Systems](https://www.springer.com/journal/10109) (McMaster University, Hamilton, Canada)
 - [Dr. Jeremy Cohen](https://www.imperial.ac.uk/people/jeremy.cohen) (Imperial College London)
 
 ## Journals
@@ -78,7 +78,7 @@ Material for completed evaluations are collected in a GitHub project at <https:/
 <br />
 
 [![GigaScience logo]({{ 'img/gigascience_logo.svg' | relative_url }}){:width="150"}](https://academic.oup.com/gigascience) [![GigaByte logo]({{ 'img/gigabyte_logo.svg' | relative_url }}){:width="150"}](https://gigabytejournal.com/)
-<br />See blog articles at <http://gigasciencejournal.com/blog/codecheck-certificate/> and <http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/>.
+<br />See blog articles at <https://web.archive.org/web/20241102045342/http://gigasciencejournal.com/blog/codecheck-certificate/> and <https://web.archive.org/web/20251126112642/https://gigasciencejournal.com/blog/frictionless-data-interactive-figures/>.
 
 🗂️ [CODECHECKs for GigaScience](https://codecheck.org.uk/register/venues/journals/gigascience/)
 
@@ -95,7 +95,7 @@ Material for completed evaluations are collected in a GitHub project at <https:/
 
 [![Reproducible AGILE Logo]({{ 'img/reproducible-AGILE-logo-square.svg' | relative_url }}){:width="200"}](https://reproducible-agile.github.io/)
 
-The [Reproducible AGILE initiative](https://reproducible-agile.github.io/) conducts reproducibility reviews [as part of full paper peer review](https://www.agile-giscience-series.net/review_process.html) for the Association of Geographic Information Laboratories in Europe's ([AGILE](https://agile-gi.eu/)) [annual conference series](https://agile-gi.eu/conferences/).
+The [Reproducible AGILE initiative](https://reproducible-agile.github.io/) conducts reproducibility reviews [as part of full paper peer review](https://www.agile-giscience-series.net/review_process.html) for the Association of Geographic Information Laboratories in Europe's ([AGILE](https://agile-gi.eu/)) [annual conference series](https://agile-gi.eu/past-conferences).
 The reproducibility reviews fulfil the CODECHECK principles and therefore they are listed in the CODECHECK register.
 Be sure to check out their [Guidelines for Authors and Reviewers](https://doi.org/10.17605/OSF.IO/CB7Z8).
 

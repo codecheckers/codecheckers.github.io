@@ -8,7 +8,7 @@ title: "AGILE pre-conference tutorial on 'Open and reproducible research best pr
 On **Tuesday, June 10, 2025** the half-day workshop and tutorial "Open and reproducible research best practices: Codechecks, AGILE repro reviews, and reprohacks for your research" will take place in Dresden, Germany, as part of the [AGILE 2025 conference](https://agile-online.org/conference-2025).
 The workshop includes hands-on work in small groups to train codecheckers and is a continuation of the close collaboration between the [Reproducible AGILE initiative](https://reproducible-agile.github.io/) and CODECHECK.
 
-The **registration** is now open: <https://agile-gi.eu/conference-2025/fees-2025>
+The **registration** is now open: <https://web.archive.org/web/20250715194450/https://agile-gi.eu/conference-2025/fees-2025>
 
 <p align="center">
 <a href="https://agile-gi.eu/conference-2025/" title="AGILE 2025 conference"><img src="https://agile-gi.eu/images/conferences/2025/documents/Pictures_mosaics/AGILE-2pics.jpg" alt="AGILE 2025 conference banner from conference website" width="100%"></a>
@@ -31,7 +31,7 @@ In case the submitted code was accompanied by a published (pre-)print, any succe
 
 Frank Ostermann (University of Twente, leading AGILE member) \| [Mastodon](https://mstdn.social/@f_ostermann) \| [LinkedIn](https://www.linkedin.com/in/foost/) \| [Home page](https://research.utwente.nl/en/persons/frank-ostermann) \| Contact: <f.o.ostermann@utwente.nl>
 
-Carlos Granell (Universitat Jaume I, contributing AGILE member) \| [LinkedIn](https://www.linkedin.com/in/cgranell/) \| [Home page](https://www3.uji.es/~canut/)
+Carlos Granell (Universitat Jaume I, contributing AGILE member) \| [LinkedIn](https://www.linkedin.com/in/cgranell/)
 
 Daniel Nüst (TU Dresden, contributing AGILE member) \| [Mastodon](https://mstdn.social/@nuest) \| [LinkedIn](https://www.linkedin.com/in/danielnuest/) \| [Home page](https://nordholmen.net/)
 

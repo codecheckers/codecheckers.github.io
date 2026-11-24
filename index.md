@@ -140,10 +140,10 @@ Find out more about this way of working on our page on [institutional CODECHECKs
 
 ### 2026-03 | Love Replications Week 2026 ❤️
 
-[![Love Replications Week Logo](https://forrt.org/LoveReplicationsWeek/logos/logo_lrw.png){:width="500"}](https://forrt.org/LoveReplicationsWeek/)
+[![Love Replications Week Logo](/img/forrt-love-replications-week-logo.png){:width="500"}](https://forrt.org/love-replications-week/)
 
 CODECHECK is honoured to be part of the excellent programme of the first _Love Replications Week_ of 2026.
-Find the events curated by the great folks from [FORRT](https://forrt.org/) and [MüCOS](https://www.uni-muenster.de/MueCOS/en/index.html) at 🔗 **<https://forrt.org/LoveReplicationsWeek/>**.
+Find the events curated by the great folks from [FORRT](https://forrt.org/) and [MüCOS](https://www.uni-muenster.de/MueCOS/en/index.html) at 🔗 **<https://forrt.org/love-replications-week/>**.
 Don't miss to scroll down to the full programme and find interesting and educational events.
 On Tuesday, Daniel presented CODECHECK - find his slides on "How to get your reproducibility certificate with CODECHECK" on Zenodo: <https://doi.org/10.5281/zenodo.18849086>.
 
@@ -223,7 +223,7 @@ Outcomes of this workshop and the previous workshop will be shared, such that we
 ### 2024-04 | CODECHECK wins Team Credibility Prize 🏆
 
 The British Neuroscience Association (BNA) have awarded the 2024 Team Credibility Prize to CODECHECK for our work on reproducibility.
-[Further details](https://www.bna.org.uk/mediacentre/news/credibility-prize-2024/).
+[Further details](https://www.bna.org.uk/membership/awards-prizes/credibility-in-neuroscience.html).
 
 ![BNA Team Credibility Prize](/img/bna-team-credibility-prize.png)
 
@@ -268,7 +268,7 @@ We also thank the organization team from GRN steering group (Antonia Schrader, T
 
 ### 2022-09 | CODECHECK Hackathon @ OpenGeoHub Summer School 🏫
 
-[Markus](https://www.linkedin.com/in/markus-konkol-a3b244140) [Konkol](https://orcid.org/0000-0001-6651-0976) (<https://github.com/MarkusKonk>, <https://twitter.com/MarkusKonkol>), research software engineer at [52°North](https://52north.org/) and codechecker, organised a **CODECHECK hackathon** as part of the [OpenGeoHub summer school](https://opengeohub.org/summer-school/siegburg-2022/).
+[Markus](https://www.linkedin.com/in/markus-konkol-a3b244140) [Konkol](https://orcid.org/0000-0001-6651-0976) (<https://github.com/MarkusKonk>), research software engineer at [52°North](https://52north.org/) and codechecker, organised a **CODECHECK hackathon** as part of the [OpenGeoHub summer school](https://web.archive.org/web/20251106211742/https://opengeohub.org/summer-school/siegburg-2022/).
 He reports on his experiences in a blog post in the 52°North blog at <https://blog.52north.org/2022/09/16/opengeohub-summer-school-facilitating-reproducibility-using-codecheck/>.
 It's great to see that codechecking is a suitable evening pastime activity and that participants took some nice learnings away from the experience of codechecking.
 Check out the quotes in the blog post!
@@ -292,9 +292,9 @@ Learn more about the Reproducible AGILE initiative at <https://reproducible-agil
 The CODECHECK team is grateful about the continued interest from the research community on the topic of evaluating code and workflows as part of scholarly communication and peer review.
 
 Stephen gave a talk at the [**2022 Toronto Workshop on Reproducibility**](https://canssiontario.utoronto.ca/event/toronto-workshop-on-reproducibility/) organised by [Rohan Alexander](https://rohanalexander.com/).
-You can find the [slides online](https://sje30.github.io/talks/2022/codecheck22.html) and also watch the [**recording on YouTube**](https://www.youtube.com/watch?v=TgDgcqtsFvE) - very worth a look because of the great Q&A at the end!
+You can find the [slides online](https://web.archive.org/web/20240719064045/https://sje30.github.io/talks/2022/codecheck22.html) and also watch the [**recording on YouTube**](https://www.youtube.com/watch?v=TgDgcqtsFvE) - very worth a look because of the great Q&A at the end!
 
-Stephen presented **CODECHECK: An Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility** ([slides](https://bit.ly/codecheck21)) in May 2021 at the [Reproducibility Tea Southampton](https://reproducibilitea.org/journal-clubs/#Southampton).
+Stephen presented **CODECHECK: An Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility** ([slides](https://github.com/codecheckers/slides/blob/master/2021-05_Southampton/codecheck21.pdf)) in May 2021 at the [Reproducibility Tea Southampton](https://reproducibilitea.org/journal-clubs/#Southampton).
 
 Daniel gave the keynote at the [Collaborations Workshop 2022](https://software.ac.uk/cw22) (CW22) on April 4, 2022, organised by the Software Sustainability Institute ([SSI](https://software.ac.uk/)), UK entitled **Code execution during peer review** ([slides](https://bit.ly/cw22-keynote-daniel), [PDF](https://doi.org/10.6084/m9.figshare.19487573), [video](https://youtu.be/EHyEsZCDR1U?t=172)) and presented CODECHECK as well as the partnering initiative [Reproducible AGILE](https://reproducible-agile.github.io/).
 
@@ -307,12 +307,12 @@ We are grateful for the two reviewers, [Nicolas P. Rougier](https://orcid.org/00
 >
 > [![screenshot title page of F1000Research paper after peer review](/img/f1000research-paper-2021.jpg)](https://doi.org/10.12688/f1000research.51738.2)
 
-The F1000 blog also features the article with a little Q&A: [https://blog.f1000.com/2021/09/27/codecheck](https://blog.f1000.com/2021/09/27/codecheck).
-Thanks [Jessica](https://blog.f1000.com/author/jessicatruschel/) for making that happen!
+The F1000 blog also features the article with a little Q&A: [https://web.archive.org/web/20260310080119/https://blog.f1000.com/2021/09/27/codecheck/](https://web.archive.org/web/20260310080119/https://blog.f1000.com/2021/09/27/codecheck/).
+Thanks [Jessica](https://web.archive.org/web/20260424032357/https://blog.f1000.com/author/jessicatruschel/) for making that happen!
 
 ### 2021-04 | CODECHECK @ ITC ✅
 
-CODECHECK supporter [Markus Konkol](https://twitter.com/MarkusKonkol) has built a CODECHECK process for all researchers at the University of Twente's Faculty of Geo-Information Science and Earth Observation ([ITC](https://www.itc.nl)).
+CODECHECK supporter [Markus Konkol](https://orcid.org/0000-0001-6651-0976) has built a CODECHECK process for all researchers at the University of Twente's Faculty of Geo-Information Science and Earth Observation ([ITC](https://www.itc.nl)).
 He offers his expertise to codecheck manuscripts and underlying source code and data before submission or preprint publication, so even if the information is still not publicly shared.
 His reports will then go public on Zenodo when the paper comes out, just like a regular CODECHECK, and can support the article's claims.
 If timed right, authors can even link to the certificate before submission.
@@ -328,7 +328,7 @@ A preprint about CODECHECK was published at [F1000Research](https://f1000researc
 
 ### 2020-06 | Nature News article 📰
 
-A [Nature News article](https://doi.org/10.1038/d41586-020-01685-y) by [Dalmeet Singh Chawla](https://www.dalmeets.com/) discussed [the recent CODECHECK `#2020-010`](https://doi.org/10.5281/zenodo.3865491) of a simulation study, including some quotes by CODECHECK Co-PI Stephen J. Eglen and fellow Open Science and Open Software experts [Neil Chue Hong](https://twitter.com/npch) ([Software Sustainability Institute](https://www.software.ac.uk), UK) and [Konrad Hinsen](https://khinsen.net/) (CNRS, France).
+A [Nature News article](https://doi.org/10.1038/d41586-020-01685-y) by [Dalmeet Singh Chawla](https://web.archive.org/web/20250513060511/https://www.dalmeets.com/) discussed [the recent CODECHECK `#2020-010`](https://doi.org/10.5281/zenodo.3865491) of a simulation study, including some quotes by CODECHECK Co-PI Stephen J. Eglen and fellow Open Science and Open Software experts [Neil Chue Hong](https://twitter.com/npch) ([Software Sustainability Institute](https://www.software.ac.uk), UK) and [Konrad Hinsen](https://khinsen.net/) (CNRS, France).
 
 > Singh Chawla, D. (2020). **Critiqued coronavirus simulation gets thumbs up from code-checking efforts**. Nature. [https://doi.org/10.1038/d41586-020-01685-y](https://doi.org/10.1038/d41586-020-01685-y)
 >

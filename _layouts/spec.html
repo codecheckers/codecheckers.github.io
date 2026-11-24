@@ -10,7 +10,7 @@ layout: compress
 
     <header id="nav-header" class="border-dark border-left-0 border-right-0">
       <div id="spec-header" class="container position-relative d-flex justify-content-between align-items-center">
-        <a class="h3 m-0 text-dark" href="{{ page_url }}"><strong>{{ page.title | escape }}</strong><br/>version {{ page.version }}</a>
+        <a class="h3 m-0 text-dark" href="{{ page.url | relative_url }}"><strong>{{ page.title | escape }}</strong><br/>version {{ page.version }}</a>
 
         <div id="spec-logo" class="text-right navbar-light">
           <a href="{{ '/' | relative_url }}" title="project home page"><img alt="CODECHECK logo" src="{{ 'img/codecheck_logo.svg' | relative_url }}" title="CODECHECK logo" /></a>

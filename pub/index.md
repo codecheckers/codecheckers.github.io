@@ -63,7 +63,7 @@ Daniel Nüst (TU Dresden, PI) \| <https://orcid.org/0000-0002-0024-5046> \| [Mas
 
 Linus Hackel (TU Dresden, student developer) \| <https://orcid.org/0009-0000-0114-8005> \| [GitHub](https://github.com/dxL1nus)
 
-Subhan Ali (TU Dresden, student developer) \| <https://orcid.org/0009-0003-7546-1717> \| [GitHub](https://github.com/Subhanaliweb)
+Subhan Ali (TU Dresden, student developer) \| <https://orcid.org/0009-0003-7546-1717>
 
 Frank Ostermann (University of Twente, advisor) \| <https://orcid.org/0000-0002-9317-8291> \| [Mastodon](https://mstdn.social/@f_ostermann) \| [Home page](https://research.utwente.nl/en/persons/frank-ostermann)
 
