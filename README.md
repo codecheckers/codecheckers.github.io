@@ -129,6 +129,9 @@ See `.scholar/README.md`.
 
 ## License
 
-Except where otherwise this repository is licensed under a [Creative Commons Attribution Share-Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+Except where noted otherwise, this repository is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
+Content published before 2026-11-27 was licensed under a [Creative Commons Attribution Share-Alike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0).
 
-![CC-BY-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)
+The data of the [CODECHECK Register](https://codecheck.org.uk/register/) is dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), see the [register repository](https://github.com/codecheckers/register#license).
+
+![CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)

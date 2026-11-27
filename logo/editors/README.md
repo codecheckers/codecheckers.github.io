@@ -25,7 +25,7 @@ A checklist board stands in for the head above a shoulder silhouette: the editor
 
 The check-mark outline is CODECHECK's own, taken unmodified from
 `logo/codecheck_logo_template-hash.svg` in <https://github.com/codecheckers/codecheckers.github.io>.
-That repository's graphics are CC BY 4.0 (repository content CC BY-SA 4.0), so reuse requires
+That repository's content, including its graphics, is CC BY 4.0, so reuse requires
 attribution to the CODECHECK project. All added geometry (board, clip, shoulders, rows) is original.
 
 This is not a trademark clearance. Before adopting as an official CODECHECK mark, confirm with the

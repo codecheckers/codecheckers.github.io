@@ -189,7 +189,9 @@ The site is no longer only Markdown and templates: `assets/*.js` (homepage regis
 
 ## Licensing
 
-Content is CC BY-SA 4.0; graphics in `logo/` and `badges/` are CC BY 4.0.
+<!-- own rule, updated 2026-11-27: website relicensed from CC BY-SA 4.0 to CC BY 4.0 -->
+
+Content, including the graphics in `logo/` and `badges/`, is CC BY 4.0.
 
 ## Global rules
 
